@@ -1,0 +1,62 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.4723809523809524 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "nasalization" 
+        xmin = 0 
+        xmax = 0.4723809523809524 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.029854697639424433 
+            text = "" 
+        intervals [2]:
+            xmin = 0.029854697639424433 
+            xmax = 0.29610747906666274 
+            text = "" 
+        intervals [3]:
+            xmin = 0.29610747906666274 
+            xmax = 0.4723809523809524 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "nclosure" 
+        xmin = 0 
+        xmax = 0.4723809523809524 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.029854697639424433 
+            text = "" 
+        intervals [2]:
+            xmin = 0.029854697639424433 
+            xmax = 0.1307109133632131 
+            text = "" 
+        intervals [3]:
+            xmin = 0.1307109133632131 
+            xmax = 0.4723809523809524 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "oclosure" 
+        xmin = 0 
+        xmax = 0.4723809523809524 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1307109133632131 
+            text = "" 
+        intervals [2]:
+            xmin = 0.1307109133632131 
+            xmax = 0.29610747906666274 
+            text = "" 
+        intervals [3]:
+            xmin = 0.29610747906666274 
+            xmax = 0.4723809523809524 
+            text = "" 

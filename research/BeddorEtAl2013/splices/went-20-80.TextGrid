@@ -1,0 +1,62 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.4054421768707483 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "V" 
+        xmin = 0 
+        xmax = 0.4054421768707483 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0926599558742416 
+            text = "" 
+        intervals [2]:
+            xmin = 0.0926599558742416 
+            xmax = 0.19834981316470252 
+            text = "" 
+        intervals [3]:
+            xmin = 0.19834981316470252 
+            xmax = 0.4054421768707483 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "L-splice" 
+        xmin = 0 
+        xmax = 0.4054421768707483 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.0926599558742416 
+            text = "" 
+        intervals [2]:
+            xmin = 0.0926599558742416 
+            xmax = 0.11294009278173385 
+            text = "" 
+        intervals [3]:
+            xmin = 0.11294009278173385 
+            xmax = 0.4054421768707483 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "R-splice" 
+        xmin = 0 
+        xmax = 0.4054421768707483 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.11294009278173385 
+            text = "" 
+        intervals [2]:
+            xmin = 0.11294009278173385 
+            xmax = 0.19834981316470252 
+            text = "" 
+        intervals [3]:
+            xmin = 0.19834981316470252 
+            xmax = 0.4054421768707483 
+            text = "" 
