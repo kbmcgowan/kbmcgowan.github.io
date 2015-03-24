@@ -1,0 +1,9 @@
+# jekyll stuff
+.sass-cache
+_site
+
+# R stuff
+*-Ex.R
+.Rdata
+.Rhistory
+.Rproj.user/
