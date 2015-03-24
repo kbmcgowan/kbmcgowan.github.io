@@ -2,11 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Kevin B. McGowan: repeated FFT</title>
+    <title>Kevin B. McGowan: publishable spectrogram</title>
     <link href="../../css/simple.css" rel="stylesheet" type="text/css" />
-    <link href="interlinear.css" rel="stylesheet" type="text/css" media="screen" />
 
-    <meta name="keywords" content="graduate student, phonetician, linguist, phonologist, computational linguistics, speech synthesis, coarticulation" />
+    <meta name="keywords" content="phonetician, linguist, phonologist, computational linguistics, speech synthesis, coarticulation" />
     <meta name="description" content="Linguistics Graduate Student, husband, father, and geek." />
     <meta name="google-site-verification" content="GrZZuW6K4i14QCXoRaDHkiLayrY0EGXeteNT3pVraNs" />
     <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css' />
@@ -69,21 +68,20 @@
 
 <div class="singlecolumn">
 <div class="box">
-	<p class="byline"><small>Last updated: January 20, 2013</small></p>
-	<h2> repeatedFFT.praat ( <a href="repeatedFFT.praat">download</a> )</h2>
+	<p class="byline"><small>Last updated: March 24, 2015</small></p>
+	<h2> mk_sgram.praat ( <a href="mk_sgram.praat">download</a> )</h2>
 
     <p>
-	This Praat editor script will draw a series of 6 FFT spectra starting
-	from a cursor in the edit window.  Use <tt>Add to dynamic
-	menu...</tt> from the <tt>File</tt> menu to add to, say, the
-	<tt>Spectrum</tt> menu.  Useful for nasalization, diphthongs,
-	and a thousand other purposes.
+	Don't take a scren shot of that spectrogram! Use this script
+	to create a publication-quality spectrogram from a selected
+	wav file.  Suitable for adding as an object window button
+	in Praat.
     </p>
 
-    <img alt="example output" src="praat.png"/><br/>
+    <img alt="example output" src="example.png"/><br/>
 
     <textarea rows="77" cols="80" style="margin-left: 40px;">
-<!--#include file="repeatedFFT.praat" -->
+<!--#include file="mk_sgram.praat" -->
     </textarea>
 
 </div> <!-- end left column -->
