@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Kevin B. McGowan: CSS Interlinears</title>
+    <link href="../../css/simple.css" rel="stylesheet" type="text/css" />
+    <link href="interlinear.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <meta name="keywords" content="graduate student, phonetician, linguist, phonologist, computational linguistics, speech synthesis, coarticulation" />
+    <meta name="description" content="Linguistics Graduate Student, husband, father, and geek." />
+    <meta name="google-site-verification" content="GrZZuW6K4i14QCXoRaDHkiLayrY0EGXeteNT3pVraNs" />
+    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Voces' rel='stylesheet' type='text/css' />
+    <script type="text/javascript" src="http://www-personal.umich.edu/~clunis/clunis.js" > </script>
+    <!-- jQuery library - I get it from Google API's --> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script> 
+    <!-- jQuery UI widget factory --> 
+    <script src="../js/jquery.ui.widget.js" type="text/javascript"></script> 
+    
+    <!-- Smooth Div Scroll 1.0 - minified for faster loading--> 
+    <script src="../js/jquery.smoothDivScroll-1.0-min.js" type="text/javascript"></script> 
+
+    <script type="text/javascript"> 
+	    $(function() {
+		    $("div#makeMeScrollable").smoothDivScroll({ autoScroll: "onstart", 
+			autoScrollDirection: "backandforth",
+			autoScrollStep: 1,
+			autoScrollInterval: 1000,
+			hotSpotsVisibleTime: 5,
+			startAtElementId: "first",
+			visibleHotSpots: "always" });
+	    });
+    </script> 
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4867161-4']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+
+<body>
+
+
+<div id="header">
+	<div id="logo">
+		<h1><a href="../">Kevin&nbsp;B.&nbsp;McGowan</a></h1>
+		<h2><span id="addr"> i do not enjoy spam </span></h2>
+	</div>
+	<!-- end div#logo -->
+	<div id="menu">
+		<ul>
+			<li><a href="../../">home</a></li>
+			<li><a href="../../research/">research</a></li>
+			<li><a href="../../teaching/">teaching</a></li>
+			<li class="active"><a href="../../stuff/">stuff</a></li>
+			<li><a href="../../cv/">cv</a></li>
+		</ul>
+	</div>
+	<!-- end div#menu -->
+</div>
+
+
+<div class="columns">
+
+<div class="singlecolumn">
+<div class="box">
+    <div class="onecolumn">
+	<h2> CSS Interlinears </h2>
+
+	<p class="byline"><small>Last updated: September 23, 2008</small></p>
+
+	<p>CSS should make the creation and sharing of <a href="http://www.eva.mpg.de/lingua/resources/glossing-rules.php">standard interlinear glosses/translations</a> easy;  so far it does not.  The best I've been able to find via google is <a href="">this Bible translation site</a>, but text entry is absolutely unacceptable:</p>
+
+<pre>
+&lt;h1>John 3:16&lt;/h1>
+&lt;div class="unit">&lt;p class="gk">οὕτως&lt;/p>
+&lt;p class="en">such&lt;/p>&lt;/div>
+&lt;div class="unit">&lt;p class="gk">γὰρ&lt;/p>
+&lt;p class="en">for&lt;/p>&lt;/div>
+&lt;div class="unit">&lt;p class="gk">ἠγάπησεν&lt;/p>
+&lt;p class="en">loved&lt;/p>&lt;/div>
+</pre>
+
+						<p>Notice that any sense of these translated words having some pairwise (let alone phrasal, clause, or sentence!) structure is completely shrouded in the cumbersome and obtrusive markup (this would also be a huge pain to type).  The output is admittely <strong>really</strong> nice and allows one to do some cool things with javascript, but the text is essentially unusable in this form.  If I wanted 4,000,000 tags per document I'd use XML/XSLT (p.s. yuck). </p>
+
+						<p>What we really want is something that looks more like the entry one uses in gb4e.sty glosses in a LaTeX document:</p>
+
+<pre>
+\begin{exe} 
+\ex 
+\gll Wenn jemand in die W\"uste zieht ... \\ 
+If someone in the desert draws and lives ... \\ 
+\trans ‘if one retreats to the desert and ... ’ 
+\end{exe} 
+</pre>
+
+						<p>gb4e/LaTeX handles making words that are glosses of one another line up in the display.  In short, the goal is separation of content from display and that's the entire bloody point of CSS, right?</p>
+
+				</div>
+					<div class="post">
+						<h1 class="title">Usable Solution</h1>
+						<p class="byline"><small>Last updated: February 28, 2009</small></p>
+						<div class="entry">
+			    <p>What I'd really like is text entry like this:</p>
+
+<pre>
+&lt;div class="interlinear">
+    &lt;p class="source">T&aacute; ceol agam. &lt;/p>
+    &lt;p class="gloss">to be-PRS music-M.PL at-1SG&lt;/p>
+    &lt;p class="target">I am musical&lt;/p>
+&lt;/div>
+</pre>
+
+			    <p>In addition to the problem that CSS is basically incapable of doing any kind of interesting text alignment, this example introduces the complication of aligning multiple words to a single word.  What I have so far is text entry using the CSS inline-table attribute like this:</p>
+
+<pre>
+&lt;div class="interlinear">
+    &lt;p class="gloss">
+	&lt;div class="gll">T&aacute;&lt;br />to be-PRS&lt;/div>
+	&lt;div class="gll">ceol&lt;br />music-M.PL&lt;/div>
+	&lt;div class="gll">agam&lt;br />at-1SG&lt;/div>
+    &lt;/p>
+    &lt;p class="translation">I am musical&lt;/p>
+&lt;/div>
+</pre>
+
+			    <p>which, I think, still totally sucks.  There's less markup than the Bible-thumper version so it's <em>slightly</em> better, but it's still not very good.  Two good things, though, are that the CSS is obvious, simple and standard (<a href="interlinear.css">interlinear.css</a>) and the output is nice:</p>
+
+			    <ol class="interlinear">
+			    <li> Irish
+				<p class="gloss">
+				    <div class="gll">T&aacute;<br />to be-PRS</div>
+				    <div class="gll">ceol<br />music-M.PL</div>
+				    <div class="gll">agam<br />at-1SG</div>
+				</p>
+				<p class="translation">I am musical</p>
+			    </li>
+
+			    <li> Latin
+				<p class="gloss">
+				    <div class="gll">In <br /> in </div>
+				    <div class="gll">nomine <br /> name </div>
+				    <div class="gll">Patris <br /> Father </div>
+				    <div class="gll">et <br /> and </div>
+				    <div class="gll">Filii <br /> Son </div>
+				    <div class="gll">et <br /> and </div>
+				    <div class="gll">Spiritus <br /> Spirit </div>
+				    <div class="gll">Sancti <br /> Holy </div>
+				</p>
+				<p class="translation">In the name of the Father, the Son and the Holy Spirit.</p>
+			    </li>
+
+			    <li> Classical Japanese (Ariwara no Narihira courtesy E. Alpert)
+				<p class="gloss">
+			            <div class="gll">tsuki<br /> moon</div>
+			            <div class="gll">ya<br /> Q</div>
+			            <div class="gll">aranu<br /> is-NEG</div>
+			            <div class="gll">haru<br /> spring</div>
+			            <div class="gll">ya<br /> Q</div>
+			            <div class="gll">mukashi<br /> long.ago</div>
+			            <div class="gll">no<br /> GEN</div>
+			            <div class="gll">haru<br /> spring</div>
+			            <div class="gll">naranu<br /> COP-NEG</div>
+				</p>
+				<p class="glt">&ldquo;Isn't this the moon? And isn't spring the way it used to be?&rdquo;</p>
+			    </li>
+			    </ol>
+
+			    <p>I have a little javascript hack that will assemble these inline-table divs at run time from the first type of HTML.  This allows me to write markup in the style I want but it's gross and still doesn't facilitate searching.  I'll update this page when I come up with something better (or you could e-mail me if you have a better idea).
+                        </div>
+                    </div>
+
+						</div>
+
+</div> <!-- end left column -->
+</div> <!-- end columns -->
+
+<p>&nbsp;</p>
+
+</body>
+</html>

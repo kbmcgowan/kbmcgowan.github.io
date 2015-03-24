@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Kevin B. McGowan: LaTeX sine waves</title>
+    <link href="../../css/simple.css" rel="stylesheet" type="text/css" />
+    <link href="interlinear.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <meta name="keywords" content="graduate student, phonetician, linguist, phonologist, computational linguistics, speech synthesis, coarticulation" />
+    <meta name="description" content="Linguistics Graduate Student, husband, father, and geek." />
+    <meta name="google-site-verification" content="GrZZuW6K4i14QCXoRaDHkiLayrY0EGXeteNT3pVraNs" />
+    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Voces' rel='stylesheet' type='text/css' />
+    <script type="text/javascript" src="http://www-personal.umich.edu/~clunis/clunis.js" > </script>
+    <!-- jQuery library - I get it from Google API's --> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script> 
+    <!-- jQuery UI widget factory --> 
+    <script src="../js/jquery.ui.widget.js" type="text/javascript"></script> 
+    
+    <!-- Smooth Div Scroll 1.0 - minified for faster loading--> 
+    <script src="../js/jquery.smoothDivScroll-1.0-min.js" type="text/javascript"></script> 
+
+    <script type="text/javascript"> 
+	    $(function() {
+		    $("div#makeMeScrollable").smoothDivScroll({ autoScroll: "onstart", 
+			autoScrollDirection: "backandforth",
+			autoScrollStep: 1,
+			autoScrollInterval: 1000,
+			hotSpotsVisibleTime: 5,
+			startAtElementId: "first",
+			visibleHotSpots: "always" });
+	    });
+    </script> 
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4867161-4']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+
+<body>
+
+
+<div id="header">
+	<div id="logo">
+		<h1><a href="../">Kevin&nbsp;B.&nbsp;McGowan</a></h1>
+		<h2>Postdoctoral Scholar, Linguistics</h2>
+	</div>
+	<!-- end div#logo -->
+	<div id="menu">
+		<ul>
+			<li><a href="../../">home</a></li>
+			<li><a href="../../research/">research</a></li>
+			<li><a href="../../teaching/">teaching</a></li>
+			<li class="active"><a href="../../stuff/">stuff</a></li>
+			<li><a href="../../cv/">cv</a></li>
+		</ul>
+	</div>
+	<!-- end div#menu -->
+</div>
+
+
+<div class="columns">
+
+<div class="singlecolumn">
+<div class="box">
+	<p class="byline"><small>Last updated: October 9, 2012</small></p>
+	<h2> LaTeX sine waves </h2>
+
+    <p>
+    I needed to be able to generate a number of figures for a phonetics
+    homework assignment showing an arbitrary number of component sine
+    waves and the complex wave you get if you sum them.
+    </p>
+
+    <p><a href="http://www.texample.net/tikz/">Ti<i>k</i>Z</a> and <a href="http://www.gnuplot.info/">gnuplot</a> to the very enjoyable and useful rescue!  The only tricky part is that Tikz wants to call gnuplot to plot the functions.  I don't let LaTeX execute arbitrary commands (for obvious reasons), but tikz generates intermediate &lt;filename&gt;.gnuplot files so I just had to add a line to execute these with gnuplot to the makefile for my homework assignment.
+    </p>
+
+
+
+    <p>
+    So far I've resisted the urge to turn this into a new command, but playing with these was so useful that I'm probably going to write a little web application before teaching phonetics again next year.
+    </p>
+
+    <p>
+	<b>Example one:</b> and the code to create it.
+    </p>
+
+    <img src="waveform2.png"/>
+    <textarea rows="22" cols="80" style="margin-left: 40px;">
+\begin{tikzpicture}[domain = 0:16, samples = 1000]
+	%\draw[very thin, color = gray, step=1] (0,-2.75) grid(16,2.75);
+
+	% zero crossing
+	\draw[dotted] (0,0) -- (16,0);
+	
+	% y axis and tick marks
+	\draw (0,3) -- (0,-3) node[below] {$amplitude$};
+	\draw (-.25,3) -- (.25,3) node at (-.5,3) {3};
+	\draw (-.25,2) -- (.25,2) node at (-.5,2) {2};
+	\draw (-.25,1) -- (.25,1) node at (-.5,1) {1};
+	\draw (-.25,0) -- (.25,0) node at (-.5,0) {0};
+	\draw (-.25,-1) -- (.25,-1) node at (-.5,-1) {-1};
+	\draw (-.25,-2) -- (.25,-2) node at (-.5,-2) {-2};
+	\draw (-.25,-3) -- (.25,-3) node at (-.5,-3) {-3};
+	
+	% give some sense of time...
+	\draw (15.2,3) -- (15.2,-3) node[below] {$.01s$};
+	
+    \draw[very thick, dashed] plot[id=a] function{sin(2.75 * x)};
+    \draw[thick] plot[id=b] function{1.25 * sin(5 * x)};
+    \draw[very thick, color = blue] plot[id=c] function{sin(2.75 * x) + 1.25 * sin( 5 * x)};
+\end{tikzpicture}
+    </textarea>
+
+    <p>&nbsp;</p>
+    <p>
+	<b>Example two:</b> and the code to create it.
+    </p>
+    <img src="waveform1.png"/>
+    <textarea rows="22" cols="80" style="margin-left: 40px;">
+\begin{tikzpicture}[domain = 0:16, samples = 2000]
+	%\draw[very thin, color = gray, step=1] (0,-2.75) grid(16,2.75);
+
+	% zero crossing
+	\draw[dotted] (0,0) -- (16,0);
+	
+	\draw (0,3) -- (0,-3) node[below] {$amplitude$};
+	\draw (-.25,3) -- (.25,3) node at (-.5,3) {3};
+	\draw (-.25,2) -- (.25,2) node at (-.5,2) {2};
+	\draw (-.25,1) -- (.25,1) node at (-.5,1) {1};
+	\draw (-.25,0) -- (.25,0) node at (-.5,0) {0};
+	\draw (-.25,-1) -- (.25,-1) node at (-.5,-1) {-1};
+	\draw (-.25,-2) -- (.25,-2) node at (-.5,-2) {-2};
+	\draw (-.25,-3) -- (.25,-3) node at (-.5,-3) {-3};
+	
+	\draw (6.25,3) -- (6.25,-3) node[below] {$4ms$};
+	
+    \draw[very thick] plot[id=foo] function{sin(3*x)};
+    \draw[thick, dashed] plot[id=bar] function{2 * sin(x + 0.125)};
+    \draw[very thick, color = blue] plot[id=baz] function{sin(3*x) + 2 * sin(x + 0.125)};
+\end{tikzpicture}
+    </textarea>
+
+</div> <!-- end left column -->
+
+</div> <!-- end columns -->
+
+<p>&nbsp;</p>
+
+</body>
+</html>

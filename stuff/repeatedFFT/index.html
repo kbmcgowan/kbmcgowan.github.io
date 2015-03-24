@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Kevin B. McGowan: LaTeX sine waves</title>
+    <link href="../../css/simple.css" rel="stylesheet" type="text/css" />
+    <link href="interlinear.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <meta name="keywords" content="graduate student, phonetician, linguist, phonologist, computational linguistics, speech synthesis, coarticulation" />
+    <meta name="description" content="Linguistics Graduate Student, husband, father, and geek." />
+    <meta name="google-site-verification" content="GrZZuW6K4i14QCXoRaDHkiLayrY0EGXeteNT3pVraNs" />
+    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Voces' rel='stylesheet' type='text/css' />
+    <script type="text/javascript" src="http://www-personal.umich.edu/~clunis/clunis.js" > </script>
+    <!-- jQuery library - I get it from Google API's --> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script> 
+    <!-- jQuery UI widget factory --> 
+    <script src="../js/jquery.ui.widget.js" type="text/javascript"></script> 
+    
+    <!-- Smooth Div Scroll 1.0 - minified for faster loading--> 
+    <script src="../js/jquery.smoothDivScroll-1.0-min.js" type="text/javascript"></script> 
+
+    <script type="text/javascript"> 
+	    $(function() {
+		    $("div#makeMeScrollable").smoothDivScroll({ autoScroll: "onstart", 
+			autoScrollDirection: "backandforth",
+			autoScrollStep: 1,
+			autoScrollInterval: 1000,
+			hotSpotsVisibleTime: 5,
+			startAtElementId: "first",
+			visibleHotSpots: "always" });
+	    });
+    </script> 
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4867161-4']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+
+<body>
+
+
+<div id="header">
+	<div id="logo">
+		<h1><a href="../">Kevin&nbsp;B.&nbsp;McGowan</a></h1>
+		<h2>[ˈkʰɛ.vɨn məˈgɑ.wɨn] </h2>
+	</div>
+	<!-- end div#logo -->
+	<div id="menu">
+		<ul>
+			<li><a href="/~clunis/">home</a></li>
+			<li><a href="/~clunis/research/">research</a></li>
+			<li><a href="/~clunis/teaching/">teaching</a></li>
+			<li class="active"><a href="/~clunis/stuff/">stuff</a></li>
+			<li><a href="/~clunis/cv/">cv</a></li>
+		</ul>
+	</div>
+	<!-- end div#menu -->
+</div>
+
+
+<div class="columns">
+
+<div class="singlecolumn">
+<div class="box">
+	<p class="byline"><small>Last updated: January 20, 2013</small></p>
+	<h2> repeatedFFT.praat ( <a href="repeatedFFT.praat">download</a> )</h2>
+
+    <p>
+	This Praat editor script will draw a series of 6 FFT spectra starting
+	from a cursor in the edit window.  Use <tt>Add to dynamic
+	menu...</tt> from the <tt>File</tt> menu to add to, say, the
+	<tt>Spectrum</tt> menu.  Useful for nasalization, diphthongs,
+	and a thousand other purposes.
+    </p>
+
+    <img alt="example output" src="praat.png"/><br/>
+
+    <textarea rows="77" cols="80" style="margin-left: 40px;">
+<!--#include file="repeatedFFT.praat" -->
+    </textarea>
+
+</div> <!-- end left column -->
+
+</div> <!-- end columns -->
+
+<p>&nbsp;</p>
+
+</body>
+</html>
