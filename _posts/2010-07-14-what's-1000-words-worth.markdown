@@ -44,6 +44,6 @@ then, in R:
 ![13k](/blog/assets/lj/2008-07-02-fg3-th.jpg)
 ![15k](/blog/assets/lj/2008-07-02-fg5-th.jpg)
 
-Still, [here are all the many, many google image hits for 'entropy' pictures that are 128 x 128 pixels](http://images.google.com/images?as_q=entropy&hl=en&btnG=Google+Search&as_epq=&as_oq=&as_eq=&as_sitesearch=&as_st=y&tbs=isch:1,isz:ex,iszw:128,iszh:128).  Many of these are are in the roughly 11k range. hrm... Sadly, I've lost interest, now, and am not going to repeat my stupid experiment using random selections from google image search.
+Still, [here are all the many, many google image hits for 'entropy' pictures that are 128 x 128 pixels](http://images.google.com/images?as_q=entropy&hl=en&btnG=Google+Search&as_epq=&as_oq=&as_eq=&as_sitesearch=&as_st=y&tbs=isch:1,isz:ex,iszw:128,iszh:128).  Many of these are are in the roughly 11k range. 
 
 Happy Bastille Day.
