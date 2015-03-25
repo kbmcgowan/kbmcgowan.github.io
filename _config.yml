@@ -10,3 +10,5 @@ github_username:  kbmcgowan
 
 markdown: kramdown
 highlighter: pygments
+
+permalink: /blog/:year/:month/:day/:title.html

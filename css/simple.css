@@ -513,6 +513,10 @@ h3 {
     font: normal 25px Quicksand, Georgia, Geneva, Tahoma, sans-serif;
 }
 
+.post-list {
+    list-style-type: none;
+}
+
 .title {
     font-variant: small-caps;
     font: normal 26px Quicksand, Georgia, Geneva, Tahoma, sans-serif;

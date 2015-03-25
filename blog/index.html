@@ -3,7 +3,8 @@ layout: default
 title: blog
 ---
 
-<div class="columns">
+
+<div class="scrolling-columns">
 
 <div class="singlecolumn">
 <div class="box">
@@ -16,11 +17,12 @@ title: blog
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="byline">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <h2 class="title">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+	{{ post.excerpt }}
       </li>
     {% endfor %}
   </ul>
