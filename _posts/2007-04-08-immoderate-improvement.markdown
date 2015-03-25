@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "immoderate improvement"
+date:   2007-04-08 15:11:16
+categories: perl celex
+---
+
+I needed to calculate the number of consonant bigrams in English monomorphemic words from CELEX. The hash 'bigrams' contains the 30^2 possible consonant clusters given the DISC transcriptions, the transcription has already had stress and syllabification stripped from it. The first version of the code did it this way:
+
+    foreach my $bg ( keys( %bigrams )) {
+        $bigrams{ $bg }++ while ( $PhonStrsDISC =~ /$bg/g );
+    }
+
+that loop looks for 900 unique strings, globally, in each of about 12,000 words and time looks like this:
+
+    real    0m58.995s
+    user    0m58.254s
+    sys     0m0.221s
+
+the second version does it this way:
+
+    my @phones = split( //, $PhonStrsDISC );
+    for ( my $i = 0; $i < $#phones; $i++ ) {
+        my $bg = $phones[ $i ] . $phones [ $i + 1 ];
+        $bigrams{ $bg }++ if ( exists( $bigrams{ $bg } ));
+    }
+
+I get exactly the same output. The time differences?!?!
+
+    real    0m0.730s
+    user    0m0.706s
+    sys     0m0.026s
+
+moral of the story: if you're going to be an idiot, at least be a
+moderately efficient idiot. What I find ironic here is that the
+first pass is about as idiomatic as perl comes whiles the second
+is slightly less perlish (apart from the heavy reliance on split()
+and hashes, I mean). Normally I think of these well-worn perl idioms
+as trading accessibility to outsiders for speed.
