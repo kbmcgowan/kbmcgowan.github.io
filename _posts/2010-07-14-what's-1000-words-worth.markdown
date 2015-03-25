@@ -15,11 +15,11 @@ for i in {1..500}; do
 done
 {% endhighlight %}
 
-nbsp;
+&nbsp;
 
 then, in R:
 
-nbsp;
+&nbsp;
 
 {% highlight rconsole %}
 > sizes <- read.table("~/sizes.dat", header=TRUE)
