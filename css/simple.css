@@ -39,10 +39,15 @@ html {
 }
 
 body {
-	font-family: "Open Sans", Geneva, Tahoma, sans-serif;
-	font-size: 15px;
+    margin: 0 auto;
+    width: 100%;
+	font-family: "Poly", Georgia, serif;
+    font-size: 18px;
 	font-variant-ligatures: common-ligatures;
 	color: black;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 ol, ul {
@@ -58,8 +63,8 @@ p {
 }
 
 a {
-	text-decoration: none;
-	color: #314159;
+    text-decoration: none;
+    color: #314159;
 }
 
 a:hover {
@@ -178,7 +183,7 @@ div.scrollableArea
 	margin: 0 auto;
 	width: 600px;
 	height: 70px;
-	font: normal 22px Quicksand, Georgia, Geneva, Tahoma, sans-serif;
+	font: normal 22px 'Poly', Georgia, serif;
 }
  
 #menu ul {
@@ -254,13 +259,13 @@ div.scrollableArea
 #logo h1 {
 	margin: 0;
 	padding: 0;
-	font: normal 38px Quicksand, Georgia, Geneva, sans-serif;
+	font: normal 38px 'Poly', Georgia, sans-serif;
 	text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
 }
  
 #logo h2 {
 	margin: -2px 0 0 0;
-	font: normal 14px Voces, Georgia, Geneva, sans-serif;
+	font: normal 14px Voces, Georgia, sans-serif;
 	letter-spacing: 2px;
 	font-weight: normal;
 	text-align: left;
@@ -293,18 +298,16 @@ div.scrollableArea
 .box h2 {
     color:#820000;
     margin-bottom: 1em;
-    font-variant: small-caps;
     letter-spacing: 2px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: normal;
 }
 
 .box h3 {
     color:#820000;
     margin-bottom: 1em;
-    font-variant: small-caps;
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
 }
 
@@ -381,7 +384,7 @@ p, blockquote, ul, ol {
 
 #search input {
     float: left;
-    font: 15px "Open Sans", Geneva, Tahoma, sans-serif;
+    font: 15px "Poly", Georgia, serif;
     padding: 2px 2px;
 }
 
@@ -403,7 +406,7 @@ p, blockquote, ul, ol {
 /* Sidebar */
 
 #sidebar {
-    font-size: 14px;
+    font-size: 18px;
     color: black;
     width: 230px; /* width doesn't inherit properly when position: fixed */
 }
@@ -472,7 +475,7 @@ dd {
 }
 dt {
     clear: both;
-    font: normal 14px  "Open Sans", Geneva, Tahoma, sans-serif;
+    font: normal 18px  "Poly", Georgia, serif;
 }
 
 .post li {
@@ -481,7 +484,7 @@ dt {
 }
 
 .button {
-    font-size: 15px;
+    font-size: 18px;
     background: #820000;
     color: white;
     background: rgb( 82, 00, 00 );
@@ -501,16 +504,28 @@ dt {
     text-shadow: none;
 }
 
-h1 {
-    font: normal 29px Quicksand, Georgia, Geneva, Tahoma, sans-serif;
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Poly', Georgia, serif;
+  font-weight:normal;
+  color:#040404;
+  margin: 1.618em 0 0.7em 0;
+  /*-webkit-font-smoothing: antialiased;*/
+  text-rendering: optimizelegibility;
 }
+h1,h2 { font-size: 250%; }
+h3 { font-size: 200%; }
 
-h2 {
-    font: normal 27px Quicksand, Georgia, Geneva, Tahoma, sans-serif;
-}
+h4, h5, h6 { margin:1em 0 -0.2em 0; }
+h4 { font-size: 150%; }
+h5, h6 { font-size: 130%; }
 
-h3 {
-    font: normal 25px Quicksand, Georgia, Geneva, Tahoma, sans-serif;
+.post {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Poly', Georgia, serif;
+    font-size: 18px;
+    font-variant-ligatures: common-ligatures;
+    color: black;
 }
 
 .post-list {
@@ -518,13 +533,11 @@ h3 {
 }
 
 .title {
-    font-variant: small-caps;
-    font: normal 26px Quicksand, Georgia, Geneva, Tahoma, sans-serif;
+    font: normal 32px 'Poly', Georgia, serif;
 }
 
 .subtitle {
-    font: normal 22px Quicksand, Georgia, Geneva, Tahoma, sans-serif;
-    font-variant: small-caps;
+    font: normal 22px 'Poly', Georgia, serif;
     text-align: right;
 }
 
@@ -559,12 +572,13 @@ h3 {
 #infographic {
     width: 80%;
     margin: 0 auto;
-    font-family: Quicksand, Geneva, Tahoma, sans-serif;
+    font-family: 'Poly', Georgia, serif;
     font-size: 22px;
     font-variant-ligatures: common-ligatures;
     color: black;
     position: relative;
 }
+
 
 /* shitty monitors are shitty */
 @media only screen and (max-width:768px){
@@ -581,15 +595,15 @@ h3 {
 }
 
 #infographic h1 {
-    font: normal 52px Quicksand, Georgia, Geneva, Tahoma, sans-serif;
+    font: normal 52px 'Poly', Georgia, serif;
 }
 
 #infographic h2 {
-    font: normal 45px Quicksand, Georgia, Geneva, Tahoma, sans-serif;
+    font: normal 45px 'Poly', Georgia, serif;
 }
 
 #infographic h3 {
-    font: normal 32px Quicksand, Georgia, Geneva, Tahoma, sans-serif;
+    font: normal 32px 'Poly', Georgia, serif;
 }
 
 
@@ -732,3 +746,16 @@ top: 60%;
     text-decoration: underline;
     color: #ffffff;
 }
+
+pre, code, tt {
+  /*-webkit-font-smoothing: subpixel-antialiased;*/
+  /*font-family: 'M+ 1mn', 'Consolas', monospace;*/
+  font-family: 'Ubuntu Mono', 'Consolas', monospace;
+  font-weight:300;
+  font-size: 12px;
+}
+
+hr { height:1px; border:none; background-color:#ddd; }
+
+pre { border: 1px black dashed; font-size: 18px; background-color: #efefef; padding: 10px; }
+

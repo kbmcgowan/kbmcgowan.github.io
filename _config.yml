@@ -12,3 +12,9 @@ markdown: kramdown
 highlighter: pygments
 
 permalink: /blog/:year/:month/:day/:title.html
+
+gems:
+  - jekyll-sitemap
+
+paginate: 7
+paginate_path: "/blog/page:num/"

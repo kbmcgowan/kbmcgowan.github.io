@@ -19,10 +19,12 @@ title: blog
       <li>
         <span class="byline">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2 class="title">
+        <h2>
           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+	<div class="rectangle-border" style="border:3px dotted #0B486B;">
 	{{ post.excerpt }}
+	</div>
       </li>
     {% endfor %}
   </ul>
