@@ -181,7 +181,7 @@ div.scrollableArea
 #menu {
 	float: right;
 	margin: 0 auto;
-	width: 540px;
+	width: 420px;
 	height: 70px;
 	font: normal 22px 'Poly', Georgia, serif;
 }
@@ -241,7 +241,7 @@ div.scrollableArea
  
 #header {
 	margin: 0 auto;
-	width: 95%;
+	width: 85%;
 	height: 80px;
 }
  
@@ -249,7 +249,7 @@ div.scrollableArea
  
 #logo {
 	float: left;
-	width: 300px;
+	width: 320px;
 	height: 76px;
 	margin: 0px;
 	padding: 10px 0px 0px 0px;
@@ -292,7 +292,7 @@ div.scrollableArea
     background-color: white;
     padding: 1em;
     margin: 20px;
-    border:0px solid #cccccc;
+    border:0px dashed #dfdfdf;
 }
 
 .box h2 {
