@@ -22,3 +22,11 @@ The audio you hear is "ba ba ba", the video you see is of the same
 vocal tract producing "ga ga ga", most commonly the percept listeners
 experience is of a somewhat odd "da da da".
 
+{% highlight tex %}
+@article{mcgurk1976hearing,
+  title={Hearing lips and seeing voices},
+  author={McGurk, Harry and MacDonald, John},
+  year={1976},
+  publisher={Nature Publishing Group}
+}
+{% endhighlight %}
