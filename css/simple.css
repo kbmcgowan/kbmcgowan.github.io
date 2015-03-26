@@ -249,11 +249,12 @@ div.scrollableArea
  
 #logo {
 	float: left;
-	width: 320px;
+	width: 280px;
 	height: 76px;
 	margin: 0px;
 	padding: 10px 0px 0px 0px;
 	text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+	/*border:1px dashed #dfdfdf; */
 }
  
 #logo h1 {
@@ -292,7 +293,7 @@ div.scrollableArea
     background-color: white;
     padding: 1em;
     margin: 20px;
-    border:0px dashed #dfdfdf;
+    /* border:1px dashed #dfdfdf; */
 }
 
 .box h2 {
