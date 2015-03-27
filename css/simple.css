@@ -227,7 +227,6 @@ div.scrollableArea
 
 
 #menu a:hover {
-        /*border-bottom-right-radius:2em;
         border-bottom-left-radius:2em; */
         text-decoration: underline;
 	color: #000000;
@@ -291,15 +290,15 @@ div.scrollableArea
 
 .box {
     background-color: white;
-    padding: 1em;
+    padding: .25em;
     margin: 20px;
     /* border:1px dashed #dfdfdf; */
 }
 
 .box h1, .box h2, .box h3 {
+    margin-top:0px;
     color:#0B486B;
     margin-bottom: 1em;
-    letter-spacing: 2px;
     font-weight: normal;
 }
 .box h1 { font-size: 200%; }
