@@ -297,7 +297,8 @@ div.scrollableArea
 }
 
 .box h2 {
-    color:#820000;
+    /* color:#820000; */
+    color:#0B486B;
     margin-bottom: 1em;
     letter-spacing: 2px;
     font-size: 22px;
@@ -305,7 +306,7 @@ div.scrollableArea
 }
 
 .box h3 {
-    color:#820000;
+    color:#0B486B;
     margin-bottom: 1em;
     letter-spacing: 2px;
     font-size: 18px;
@@ -485,10 +486,10 @@ dt {
 }
 
 .button {
-    font-size: 18px;
-    background: #820000;
+    font-size: 16px;
+    background: #0B486B;
     color: white;
-    background: rgb( 82, 00, 00 );
+    background: rgb( 11, 72, 107 );
     display: inline-block;
     margin-bottom: 0px;
     padding-top: 2px;
@@ -499,7 +500,7 @@ dt {
 }
 
 .button:hover {
-    background: rgb( 132, 00, 00 );
+    background: rgb( 16, 108, 160 );
     color: white;
     text-decoration: none;
     text-shadow: none;
