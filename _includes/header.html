@@ -59,14 +59,13 @@
 	<!-- end div#logo -->
 	<div id="menu">
 		<ul>
-			<li{% unless page.title %} class="active"{% endunless %}><a href="/">home</a></li>
-			<li{% if page.title == "research" %} class="active"{% endif %}><a href="/research/">research</a></li>
-			<li{% if page.title == "teaching" %} class="active"{% endif %}><a href="/teaching/">teaching</a></li>
-			<li{% if page.title == "blog" %} class="active"{% endif %}><a href="/blog/">blog</a></li>
+			<li{% if page.url == "/index.html" %} class="active"{% endif %}><a href="/">home</a></li>
+			<li{% if page.url contains "/research/" %} class="active"{% endif %}><a href="/research/">research</a></li>
+			<li{% if page.url contains "/teaching/" %} class="active"{% endif %}><a href="/teaching/">teaching</a></li>
+			<li{% if page.url contains "/blog/" %} class="active"{% endif %}><a href="/blog/">blog</a></li>
 			<li{% if page.title == "cv" %} class="active"{% endif %}><a href="/cv/">cv</a></li>
 		</ul>
 	</div>
 	<!-- end div#menu -->
 </div>
-
 

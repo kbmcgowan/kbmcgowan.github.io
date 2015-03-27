@@ -11,6 +11,10 @@
 
     <div class="post">
     {{ content }}
+
+    &nbsp;
+
+    <sub><sup>posted in: {{ page.categories | array_to_sentence_string }}</sup></sub> </br>
     </div>
 
 {% include footer.html %}
