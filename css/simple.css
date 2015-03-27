@@ -296,23 +296,15 @@ div.scrollableArea
     /* border:1px dashed #dfdfdf; */
 }
 
-.box h2 {
-    /* color:#820000; */
+.box h1, .box h2, .box h3 {
     color:#0B486B;
     margin-bottom: 1em;
     letter-spacing: 2px;
-    font-size: 22px;
     font-weight: normal;
 }
-
-.box h3 {
-    color:#0B486B;
-    margin-bottom: 1em;
-    letter-spacing: 2px;
-    font-size: 18px;
-    font-weight: normal;
-}
-
+.box h1 { font-size: 200%; }
+.box h2 { font-size: 125%; }
+.box h3 { font-size: 100%; }
 
 .columns {
     width: 950px;
@@ -511,15 +503,12 @@ h1,h2,h3,h4,h5,h6 {
   font-weight:normal;
   color:#040404;
   margin: 1.618em 0 0.7em 0;
-  /*-webkit-font-smoothing: antialiased;*/
+  -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
 }
-h1,h2 { font-size: 250%; }
-h3 { font-size: 200%; }
-
-h4, h5, h6 { margin:1em 0 -0.2em 0; }
-h4 { font-size: 150%; }
-h5, h6 { font-size: 130%; }
+h1 { font-size: 200%; }
+h2 { font-size: 125%; }
+h3 { font-size: 100%; }
 
 .post {
     width: 80%;
