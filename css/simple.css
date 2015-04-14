@@ -457,6 +457,15 @@ img {
     margin: 20px;
 }
 
+img.icon {
+    border: 0px;
+    margin: 0px;
+    margin-right: 5px;
+    vertical-align: middle;
+    height: 18px;
+}
+
+
 dl {
     margin-left: 20px;
 }
