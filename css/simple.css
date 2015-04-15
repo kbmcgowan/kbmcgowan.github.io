@@ -401,7 +401,7 @@ p, blockquote, ul, ol {
 #sidebar {
     font-size: 18px;
     color: black;
-    width: 230px; /* width doesn't inherit properly when position: fixed */
+    width: 240px; /* width doesn't inherit properly when position: fixed */
 }
 
 #sidebar ul {
