@@ -239,9 +239,11 @@ div.scrollableArea
 /* Header */
  
 #header {
-	margin: 0 auto;
-	width: 85%;
-	height: 80px;
+    width: 950px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    padding: 1em;
 }
  
 /* Logo */
