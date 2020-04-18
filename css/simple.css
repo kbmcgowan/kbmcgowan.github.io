@@ -184,7 +184,6 @@ div.scrollableArea
 	width: 440px;
 	height: 70px;
 	font: normal 22px 'Poly', Georgia, serif;
-	border:1px dashed #dfdfdf;
 }
  
 #menu ul {
@@ -196,6 +195,7 @@ div.scrollableArea
 	margin-left: 0px;
 	margin-right: 0px;
 	padding-right: 0px;
+	border:1px dashed #000000;
 	/*text-shadow: 4px 4px 3px rgba(0,0,0,0.1);*/ 
 }
  
@@ -218,6 +218,7 @@ div.scrollableArea
 	font-size: 22px;
 	font-weight: normal;
 	color: black;
+	border:1px dashed #ee3333;
 }
  
 #menu .active a {
