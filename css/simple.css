@@ -247,6 +247,7 @@ div.scrollableArea
     display: block;
     margin: 0 auto;
     padding: 1em;
+    border:1px dashed #000000;
 }
  
 /* Logo */
@@ -258,7 +259,7 @@ div.scrollableArea
 	margin: 0px;
 	padding: 10px 0px 0px 0px;
 	/*text-shadow: 4px 4px 3px rgba(0,0,0,0.1); */
-	/*border:1px dashed #dfdfdf; */
+	border:1px dashed #dfdfdf;
 }
  
 #logo h1 {
@@ -266,6 +267,7 @@ div.scrollableArea
 	padding: 0;
 	font: normal 38px 'Poly', Georgia, sans-serif;
 	/*text-shadow: 4px 4px 3px rgba(0,0,0,0.1); */
+    border:1px dashed #cceecc;
 }
  
 #logo h2 {
@@ -276,6 +278,7 @@ div.scrollableArea
 	text-align: left;
 	color: black;
 	/*text-shadow: 4px 4px 3px rgba(0,0,0,0.1); */
+    border:1px dashed #ccccee;
 }
  
 #logo h2 a {
