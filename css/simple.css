@@ -181,7 +181,7 @@ div.scrollableArea
 #menu {
 	float: right;
 	margin: 0 auto;
-	width: 400px;
+	width: 440px;
 	height: 70px;
 	font: normal 22px 'Poly', Georgia, serif;
 }
@@ -208,7 +208,7 @@ div.scrollableArea
 	float: left;
 	height: 45px;
 	margin-right: 1px;
-	padding: 30px 15px 0px 15px;
+	padding: 30px 10px 0px 10px;
 	letter-spacing: -1px;
 	text-decoration: none;
 	text-align: center;
@@ -220,7 +220,7 @@ div.scrollableArea
  
 #menu .active a {
 	color: black;
-	padding: 35px 15px 0px 15px;
+	padding: 30px 10px 0px 10px;
 	font-weight: normal;
         text-decoration: underline;
 }
