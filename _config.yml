@@ -19,4 +19,4 @@ gems:
 paginate: 7
 paginate_path: "/blog/page:num/"
 
-theme: jekyll-theme-tactile
+theme: moonwalk
