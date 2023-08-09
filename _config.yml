@@ -1,11 +1,10 @@
 # Site settings
 title: Kevin B. McGowan
-email: kbmcgowan@stanford.edu
+email: kbmcgowan@uky.edu
 description: linguist, phonetician, nerd
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://kbmcgowan.github.io" # the base hostname & protocol for your site
 
-twitter_username: kbmcgowan
 github_username:  kbmcgowan
 
 markdown: kramdown
