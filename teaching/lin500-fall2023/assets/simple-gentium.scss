@@ -1,0 +1,16 @@
+/*-- scss:defaults --*/
+
+@import url(https://fonts.googleapis.com/css?family=Gentium+Plus:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+// fonts
+$font-family-sans-serif: Gentium Plus, serif !default;
+
+// colors
+$body-bg: #fff !default;
+$body-color: #000 !default;
+$link-color: #00008b !default;
+$selection-bg: rgba(0, 0, 0, 0.99);
+
+// headings
+$presentation-heading-font: "Gentium Plus", serif !default;
