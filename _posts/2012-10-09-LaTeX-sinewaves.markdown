@@ -20,7 +20,7 @@ assignment.
 
 **Example one:** and the code to create it.
 
-<img src="/blog/assets/waveform2.png"/>
+<img src="/stuff/assets/waveform2.png"/>
 
 {% highlight latex %}
 \begin{tikzpicture}[domain = 0:16, samples = 1000]
@@ -51,7 +51,7 @@ assignment.
 
 **Example two:** and the code to create it.
 
-<img src="/blog/assets/waveform1.png"/>
+<img src="/stuff/assets/waveform1.png"/>
 
 {% highlight latex %}
 \begin{tikzpicture}[domain = 0:16, samples = 2000]
