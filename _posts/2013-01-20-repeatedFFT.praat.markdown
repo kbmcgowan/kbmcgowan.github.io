@@ -11,7 +11,7 @@ from the <tt>File</tt> menu to add to, say, the <tt>Spectrum</tt>
 menu.  Useful for nasalization, diphthongs, and a thousand other
 purposes.
 
-<img alt="example output" src="/blog/assets/repeatedFFT.png"/><br/>
+<img alt="example output" src="/stuff/assets/repeatedFFT.png"/><br/>
 
 {% gist kbmcgowan/d8018703428f700f7da6 %}
 
