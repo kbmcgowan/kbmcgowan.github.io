@@ -19,6 +19,6 @@ paginate: 7
 paginate_path: "/blog/page:num/"
 
 #theme: jekyll-theme-tactile
-remote_theme: pages-themes/leap-day@v0.2.0
+remote_theme: alshedivat/al-folio
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
