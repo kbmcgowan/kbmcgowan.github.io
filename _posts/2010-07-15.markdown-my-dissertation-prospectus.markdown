@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "in a nutshell"
+date:   2010-07-15 15:11:16
+categories: dissertation
+---
+
+in a nutshell. My prospectus defense is on June 24th. From there
+it's about another year until I'm done and have to find a job.
+
+![wordcloud](/blog/assets/lj/prospectus.png)
+

@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Open Source OCR on MacOS"
+date:   2020-04-15 17:21:16
+categories: macos sucks
+---
+
+MacOS Catalina (10.15) broke many things on my computer, but the
+one that has wasted the most of my time so far while I try to make
+old PDFs available to vision-impaired students is the fact that
+Apple broke Adobe Acrobat Pro and the nasty Creative Cloud license
+manager that goes with it.  I lost most of a day trying to get all
+that closed source nastiness working again before deciding to solve
+the problem the way I always should have, with open source software.
+This little script uses <a href="https://www.ghostscript.com/">ghostscript</a> and <a href="https://github.com/tesseract-ocr/tesseract">tesseract</a> to turn an image pdf into an OCRd version of
+that pdf.
+
+
+{% gist kbmcgowan/6ab3977e1abf3e6d3f3c4b91de9cf8a6 %}
