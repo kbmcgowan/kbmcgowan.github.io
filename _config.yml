@@ -1,24 +1,56 @@
-# Site settings
+# Basic Information 
 title: Kevin B. McGowan
+position: Associate Professor
+affiliation: University of Kentucky
 email: kbmcgowan@uky.edu
-description: linguist, phonetician, nerd
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://kbmcgowan.github.io" # the base hostname & protocol for your site
 
-github_username:  kbmcgowan
+# Search Engine Optimization (SEO)
+# The following information is used to improve the website traffic from search engines, e.g., Google.
+keywords: phonetics, speech perception, linguistics, english with an accent 3e
+description: linguist, phonetician, musician
+canonical: http://kbmcgowan.github.io/
 
-markdown: kramdown
-highlighter: rouge
+# Links 
+# If you don't need one of them, you may delete the corresponding line.
+google_scholar: https://scholar.google.com/citations?user=lLc4BXYAAAAJ&hl=en
+cv_link: assets/files/McGowanCV.pdf
+github_link: https://github.com/kbmcgowan/
+twitter: https://bsky.app/profile/kbmcgowan.bsky.social
 
-permalink: /blog/:year/:month/:day/:title.html
+# Images (e.g., your profile picture and your website's favicon) 
+# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
+avatar: ./assets/img/raven.jpg
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon.png
 
-gems:
-  - jekyll-sitemap
+# Footnote
+# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
+enable_footnote: false
 
-paginate: 7
-paginate_path: "/blog/page:num/"
+# Auto Dark Mode
+# You may use the option to disable the automatic dark theme
+auto_dark_mode: true
 
-theme: jekyll-theme-tactile
-#remote_theme: alshedivat/al-folio
-#plugins:
-#- jekyll-remote-theme # add this line to the plugins list if you already have one
+# Font
+# You can use this option to choose between Serif or Sans Serif fonts.
+font: "Serif" # or "Sans Serif"
+
+# Google Analytics ID
+# Please remove this if you don't use Google Analytics
+#google_analytics: UA-111540567-4
+
+# Use this project as a remote theme for GitHub Pages
+# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+remote_theme: yaoyao-liu/minimal-light
+
+# The following files will be removed from the generated website.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - README_zh_Hans.md
+  - README_zh_Hant.md
+  - README_de.md
+  - LICENSE
+  - minimal-light.gemspec
+  - html_source_file/
