@@ -1,9 +1,9 @@
 # Site settings
 title: Kevin B. McGowan
-email: kbmcgowan@uky.edu
+email: kbmcgowan@vowel.space
 description: linguist, phonetician, nerd
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://kbmcgowan.github.io" # the base hostname & protocol for your site
+url: "https://vowel.space" # the base hostname & protocol for your site
 
 github_username:  kbmcgowan
 
