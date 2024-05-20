@@ -7,3 +7,5 @@ _site
 .Rdata
 .Rhistory
 .Rproj.user/
+
+/.quarto/
