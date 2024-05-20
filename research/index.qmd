@@ -1,0 +1,148 @@
+---
+title: "research"
+format:
+    html:
+      css: infographic.css
+---
+
+<div style="width: 100%;" class="scrolling-columns">
+<div id="infographic">
+
+<div class="rectangle-border inverted-text" style="border-color: #335AA4; background:#335AA4; margin-top: 50px;">
+"The thing about speech is, it varies." (Remirez, in press). But for a number of historical and disciplinary reasons (see McGowan, in press), it feels normal for people in my field to talk about how listeners are "confronted with" tremendous variation in speech or to think about and write about variation as a big problem that listeners have to solve.  I think this is a real shame.
+</div>
+
+<div>
+<p class="bubble" style="margin-top: 20px;">
+Hi! My research takes the position that listeners are sensitive to patterns of covariation in speech and that knowing (more on 'knowing' later) these subtle patterns is part of what it means to truly know a language.</p>
+
+<img alt="a cartoon of Kevin by M.C. Nee" src="images/kevinCartoon.png" style="margin-left:70px; z-index: 10;" />
+</div>
+
+<div class="rectangle-border inverted-text" style="border-color: #335AA4; background:#335AA4; margin-top: 20px;">
+Why?  Because speech is social. When we speak, we communicate not only our ideas, but also numerous social cues about who we are, where we come from, what we think you already know, who we think is listening, and many other details...
+</div>
+
+<div style="position: relative;">
+
+<p class="rectangle-border" style="float: left; width: 280px; margin-top: 50px; margin-left: 150px; border-color: #3B8686;">
+    Which is great because if people sound the way
+    we expect them to, we're able to understand them better
+    (<a href="http://las.sagepub.com/content/early/2015/02/03/0023830914565191.abstract">McGowan, 2015</a>; <a href="LSA2012.svg" target="_blank">2012 LSA presentation</a>)
+</p>
+
+  <img style="float: right;" width="468px" src="images/McGowan2014-faceByExperience.png" alt="proportion accurate transcriptions by visual stimulus and listener experience level"/>
+
+  <img src="images/TTasian.png" style="width: 50px; position: absolute; top: 210px; right: 100px;" alt="Asian woman"/>
+  <img src="images/TTsilhouette.png" style="width: 50px; position: absolute; top: 210px; right: 50px;" alt="simple silhouette"/>
+  <img src="images/TTcaucasian.png" style="width: 50px; position: absolute; top: 210px; right: 0px;" alt="Caucasian woman"/>
+</div>
+
+<div style="clear: both;">
+<p class="rectangle-border" style="float: right; margin-top: 75px; margin-right: 100px; width: 375px; border-color: #3B8686; clear: both;">
+    This is true even when our expectations are based on stereotypes rather
+    than authentic experience (McGowan, 2017)!
+</p>
+
+<img style="position: relative; top: 0px; float: left;" width="490px" src="images/McGowan2014-authenticityDetection.png" alt="proportion `is authentic' ratings to authentic and imitated Chinese-accented English"/>
+</div>
+
+<div style="clear: both;">
+
+<div class="rectangle-border inverted-text" style="border-color: #335AA4; background:#335AA4; margin-top: 20px; clear: both;">
+In <a href="http://journal.frontiersin.org/Journal/10.3389/fpsyg.2013.01015/abstract">Sumner, Kim, King, and McGowan (2014)</a> we propose a model (below) of how the linguistic and the social aspects of speech interact to support perception.
+</div>
+
+<img style="display: block; margin-left: auto; margin-right: auto;" width="650px" src="images/SumnerEtAl2014-dualRoute.jpg" alt="Sumner et al. 2014, proposed dual route approach to speech perception"/>
+</div>
+
+<div class="rectangle-border inverted-text" style="border-color: #335AA4; background:#335AA4; margin-top: 20px;">
+In this model, we propose that listeners process both phonetically cued social information and phonetically cued linguistic information prior to word recognition and that these dual routes can <em>interact</em> to guide and facilitate perception.
+</div>
+
+<img style="width: 400px; float: left;" src="images/McGowanBabel2014-first.png">
+<p class="rectangle-border" style="float: right; width: 400px;">
+For example, when [Anna Babel](https://sppo.osu.edu/people/babel.6) and I told Bolivian listeners to expect Quechua-accented Spanish, they perceived vowels completely differently than if they were told to anticipate a Spanish accent (<a href="https://www.cambridge.org/core/journals/language-in-society/article/abs/perceiving-isnt-believing-divergence-in-levels-of-sociolinguistic-awareness/E7498CECBC34889456FC3E168DCA0794">McGowan and Babel, 2020</a>)
+</p>
+
+<p class="rectangle-border" style="float: left; width: 375px; border-color: #3B8686;"> This suggests that <b>experienced listeners have detailed knowledge of phonetically-cued social information</b> &mdash;so expecting the variation consistent with a particular social category can change the way we perceive vowels. Social information isn't noise to be thrown away, it is an essential part of the signal.
+</p>
+
+<img style="width: 400px; float: right;" src="images/McGowanBabel2014-second.png">
+
+<br style="clear: both;">
+
+<p class="rectangle-border inverted-text" style="border-color: darkorange; background: darkorange; margin-top: -10px;" > So here's that word <em>know</em> again! Knowledge is not the same thing as <em>awareness</em>. We told listeners they'd changed speakers (from Quechua to Spanish or vice versa) and while they gave every indication of believing the switch their low level perceptual behavior stayed the same! </p>
+
+<!-- put Laycock & McGowan in press HERE -->
+
+<div style="clear: both;">
+
+<img src="images/kevinCartoon.png" style="float: left; z-index: 100;"/>
+
+<blockquote style="float:left; width: 300px; margin-left: 30px; text-align: center;" class="rightbubble">
+    So does all this knowledge and sensitivity only apply to social variation?
+</blockquote>
+</div>
+
+<p class="rectangle-border" style="clear: both;"> First, some quick background on how sounds like [p], [t], and [k] differ from sounds like [b], [d], and [g] at the beginning of English words like <em>pit</em> and <em>bit</em>.  What word is this native American English speaker saying? Does it sound like 'pit' or 'bit' to you? <br /> <audio controls style="margin-top: 20px; margin-left: auto; margin-right: auto; clear: both;"> <source src="images/pit-noAspiration.wav" type="audio/wav"> <source src="images/pit-noAspiration.mp3" type="audio/mp3"> Your browser does not support the audio element. </audio>
+</p>
+
+<div style="position: relative;">
+<img width="450px" src="images/pit-bit.png" alt="spectrograms of [p&#618;t] and [b&#618;t]"/>
+
+<span style="width: 480px; position: absolute; top: 60px; left: 460px; float: left;"> The image to the left is a spectrogram (frequency analysis over time) of the word <em>pit</em>. Hear the puff of air at the beginning? It is highlighted in blue. <audio controls style="margin-top: 50px; display: inline; float: left;"> <source src="images/pit.wav" type="audio/wav"> <source src="images/pit.mp3" type="audio/mp3"> Your browser does not support the audio element. </audio>
+</span>
+
+<span style="width: 480px; position: absolute; top: 360px; left: 460px; float: left;">
+<em>pit</em> and <em>bit</em> both start with the lips completely closed.  One of the main differences between them is the duration of the puff of air, this duration is called VOT (voice onset time). <audio controls style="margin-top: 40px; display: inline; float: left;"> <source src="images/bit.wav" type="audio/wav"> <source src="images/bit.mp3" type="audio/mp3"> Your browser does not support the audio element.</audio>
+</span>
+
+<span class="inverted-text" style="height: 240px; width: 33px; background: #335AA4; opacity:0.25; z-index: 2; padding: 0; float: left; position: absolute; left: 116px; top: 50px;">&nbsp;</span> <h3 style="font: normal 24px Voces; display: inline; position: absolute; top: 50px; left: 20px;">[pʰɪt] </h3> <h3 style="font: normal 24px Voces; display: inline; position: absolute; top: 345px; left: 20px;">[bɪt] </h3>
+</span>
+
+<p class="rectangle-border" style="border-color: #cccccc; margin-bottom: -10px; clear: both;"> At least in American English, that puff of air is so important that if we cut it out of <em>pit</em> (this was that first sound you played! 'pit' with the puff removed) it results in a word that sounds to English-knowing listeners a lot like <em>bit</em> &mdash;though probably with maybe a funny [b], and that funniness is every bit as interesting and important as the change from [p] to [b]!
+</p>
+
+<img style="float: left;" src="images/bend-bed-screen-off.png">
+
+<p class="rectangle-border" style="float: left; width: 350px; border-color: #335AA4;"> Another covarying feature is the way vowels before nasal consonants in English tend to be nasalized.  Listeners can use this as soon as it becomes available, not only a large distinction like <em>bend</em>/<em>bed</em>... <audio controls styl="width:100px; float: left;"> <source src="BeddorEtAl2013/splices/bend-20-80.wav" type="audio/wav"> Your browser does not support the audio element. </audio> <audio controls styl="width:100px; float: left;"> <source src="BeddorEtAl2013/splices/bed.wav" type="audio/wav"> Your browser does not support the audio element. </audio> </p>
+
+<p class="oval-border" style="margin-left: 80px; width: 460px; border-color: #335AA4; float: left; text-align: center; margin-top: -150px; z-index: 5;"> but also a much more subtle distinction like the difference in nasalization between these two sound files.  Can you hear a difference? </p>
+
+<div style="position: relative; clear: both;">
+<img src="images/bend-bend.png" alt="spectrograms of early and late onset nasalization 'bend'" style="width: 450px; float: right; display: block;"/> 
+
+<span style="position: absolute; top: 70px; left: 50px; width: 400px; float: left;">
+This first recording has <b>late nasalization</b> starting 100 miliseconds after the [b]. <audio controls style="margin-top: 20px; display: inline; float: left;"> <source src="BeddorEtAl2013/splices/bend-60-40.wav" type="audio/wav"> Your browser does not support the audio element.</audio> 
+</span>
+
+<span style="position: absolute; top: 370px; left: 50px; width: 400px; float: left;">
+This second recording has <b>early nasalization</b> starting 33 miliseconds after the [b]. <audio controls style="margin-top: 20px; display: inline; float: left;"> <source src="BeddorEtAl2013/splices/bend-20-80.wav" type="audio/wav"> Your browser does not support the audio element.</audio>
+</span>
+</div>
+
+<div style="clear: both;">
+<img src="images/Beddor1b.png" style="float: right; width: 600px; margin: 0px;"/>
+<p class="rectangle-border" style="float: left; width: 350px; margin-top: -30px; margin-left: 0px; "> In an eye tracking task we found that listeners can use nasalization as soon as it is present.  Looks to the heavily-nasalized word were, on average, 60 ms faster &mdash;the same average difference between early and late nasalization in the recordings (<a href="http://scitation.aip.org/content/asa/journal/jasa/133/4/10.1121/1.4794366">Beddor, McGowan, Boland, Coetzee, and Brasher, 2013)</a>.
+</p>
+</div>
+
+<img src="images/brain-clip-art-18.gif" alt="a drawing of a human brain, I'm not sure whose" style="display: block; float:left; width: 320px; margin-top: 70px; clear: both; ">
+
+<p class="rectangle-border" style="width: 450px; float: left; border-color: darkorange;">
+    Whether the information is social, contextual, articulatory, or
+    idiosyncratic, we humans have an astonishing ability to attend
+    to it, remember it, and activate it during perception. This ability, my
+    research suggests, is not irrelevant to linguistic competence or
+    even peripheral to it, it is fundamentally and centrally part of
+    what it means to know and speak a human language.
+</p>
+
+<p class="bubble" style="width: 765px; height: 190px; clear: both; margin-left: auto; margin-right: auto;"> <img src="/images/harpers_engraving_carrier_pigeons.png" alt="engraving of carrier pigeons" width="175px" style="float: right; margin: 0px; valign: top;"/> Thank you for reading! Ask me questions?  And please enjoy this pigeon engraving as a free gift. And many, many thanks to my friend M.C. Nee for turning me into this cartoon.<br/>
+</p>
+
+<img alt="a cartoon of Kevin by M.C. Nee" src="images/kevinCartoon.png" style="margin-left:150px; z-index: 10;" />
+</div>
+
+<span style="float: right;"><a class="button" href="mcgowan.bib">Download BibTex</a></span>

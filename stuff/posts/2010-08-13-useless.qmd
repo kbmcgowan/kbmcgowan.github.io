@@ -1,0 +1,19 @@
+---
+title: "Useless"
+description: "(A poem that is not about computers)"
+categories: [poetry] # self-defined categories
+image: images/poem.png
+draft: false
+---
+
+another process has my pipe
+so I can't read and I can't write
+now what am I for
+on this long, lonely night
+if I can't read and I can't write?
+
+why do all we children have to fight
+for time and attention of one named pipe?
+now I'm all blocked up
+no end of file in sight
+and I can't read and I can't write.

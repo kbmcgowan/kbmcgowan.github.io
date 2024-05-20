@@ -1,0 +1,15 @@
+{
+  "hash": "5d6c2c2e1135f6d18073bb9b0123316c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle:  \"Preprocess R data with python\"\ndescription: (for archival purposes only, probably don't use this.)\ndate:   2014-07-11 08:15:10\ncategories: python data\nimage: images/bird.png\n---\n\n\n\n\nThis script can be easily modified to code, recode, or modify csv\nfiles prior to loading in R.\n\n\n::: {.cell}\n\n```{.python .cell-code}\n#  transform a raw data file into a happy proto data frame\n#\n\nimport csv\n\nf = open( 'transposed.csv' )\nhnps = csv.reader( f, delimiter = ',' )\nheader = hnps.next()\n\nverbs = [\n\t 'mentioned',\n\t 'indicated',\n\t 'proposed',\n\t 'suggested',\n\t 'recommended',\n\t 'confessed',\n\t 'stated',\n\t 'announced',\n\t 'muttered',\n\t 'explained',\n\t ]\n\nout_name = 'reshaped.csv'\nout = open( out_name, 'w' )\ndata = csv.writer( out, delimiter = ',' )\ndata.writerow( [ 'subject', 'score', 'shift', 'length', 'verb' ])\n\nfor line in hnps:\n    shift_length = line[header.index('V1')]\n\n    try:\n\tif shift_length[0] == \"N\":\n\t    shift = 'N'\n\t    length = shift_length[1:]\n\telif shift_length[0] == \"S\":\n\t    shift = 'S'\n\t    length = shift_length[1:]\n    except IndexError:\n\tcontinue\n\n    sentence = line[header.index('ResponseID')]\n    for v in verbs:\n\t# we're in trouble if one of the sentences contains more than one verb\n\t# fortunately, they don't.\n\tif v in sentence:\n\t    verb = v\n\t    break\n\n    for s in range( 1, 193 ):\n\ttry:\n\t    line[header.index( 'ID.' + str(s))]\n\texcept IndexError:\n\t    # that cell is empty for this subject\n\t    continue\n\telse:\n\t    # if this subject responded to this item add data point to file\n\t    score = line[header.index( 'ID.' + str(s))]\n\t    if score.isdigit():\n\t\tdata.writerow( [ s, score, shift, length, verb ])\n\nf.close()\nout.close()\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

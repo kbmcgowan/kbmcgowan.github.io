@@ -1,0 +1,10 @@
+---
+title:  "2^15"
+date:   2008-12-21 15:11:16
+categories: macos
+image: images/macintosh.jpg
+---
+
+In case anyone is wondering, the maximum number of files that MacOS X (v10.5.6) will allow you to drag and drop at once is 32,768.
+
+So drag and drop responsibly this holiday season.

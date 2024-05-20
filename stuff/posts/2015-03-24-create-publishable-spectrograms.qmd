@@ -1,0 +1,17 @@
+---
+title:  "Generate publishable spectrograms with Praat"
+description: Publishers love this one wild trick!
+date:   2015-03-24 15:11:16
+categories: praat publishing phonetics
+image: images/sgram.png
+---
+
+Don't take a screen shot of that spectrogram! Use this script to
+create a publication-quality spectrogram from a selected wav file.
+Suitable for adding as an object window button in Praat. Makes a great gift!
+
+![](images/sgram.png){width=720 fig-alt="A lovely spectrogram"}
+
+
+{{< gist kbmcgowan df0d847ae9229a123e5f >}}
+

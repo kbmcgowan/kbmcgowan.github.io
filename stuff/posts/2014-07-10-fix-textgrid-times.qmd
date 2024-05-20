@@ -1,0 +1,18 @@
+---
+title:  "match_tg_times.praat"
+date:   2014-07-10 15:11:16
+categories: praat textgrids
+image: images/praat.png
+---
+
+This script fixes a weird problem when concatenating TextGrids and
+sound objects.  Often a TextGrid and its associated sound object
+will differ by anywhere from fraction of a millisecond to a few
+milliseconds.
+
+This is not a problem until you try to concatenate
+the TextGrids and still align them with their concatenated sound
+objects when suddenly intervals and points later in the chain will
+begin to be increasingly misaligned.
+
+{{< gist kbmcgowan 4b093f7c07485344e6b8 >}}

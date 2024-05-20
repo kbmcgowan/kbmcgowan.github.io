@@ -1,0 +1,6 @@
+---
+title: "teaching"
+description: "trust the process"
+---
+
+I'm really tired of canvas and I'm building a new teaching website here.  More soon.
