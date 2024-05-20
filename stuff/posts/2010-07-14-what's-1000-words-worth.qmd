@@ -41,8 +41,8 @@ then, in R:
 11.31k is not a very large picture. Each of the exploratory plots ([quantile x normal](/blog/assets/lj/words-qqnorm.png), [density](/blog/assets/lj/words-density.png), [histogram](/blog/assets/lj/words-hist.png)) is larger! Even these pictures of me and my daughter and the fat giraffes are 13k, 13k, and 15k respectively:
 
 ![13k](images/lj/2008-07-02-fg2-th.jpg)
-![13k](/blog/assets/lj/2008-07-02-fg3-th.jpg)
-![15k](/blog/assets/lj/2008-07-02-fg5-th.jpg)
+![13k](images/lj/2008-07-02-fg3-th.jpg)
+![15k](images/lj/2008-07-02-fg5-th.jpg)
 
 Still, [here are all the many, many google image hits for 'entropy' pictures that are 128 x 128 pixels](http://images.google.com/images?as_q=entropy&hl=en&btnG=Google+Search&as_epq=&as_oq=&as_eq=&as_sitesearch=&as_st=y&tbs=isch:1,isz:ex,iszw:128,iszh:128).  Many of these are are in the roughly 11k range. 
 
