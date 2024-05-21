@@ -1,0 +1,8 @@
+---
+layout: course
+title:  "Lin 515 - Phonology"
+date:   2024-04-15 17:21:16
+categories: teaching phonology
+---
+
+course information goes here.

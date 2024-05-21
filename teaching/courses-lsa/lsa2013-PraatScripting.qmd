@@ -1,0 +1,8 @@
+---
+layout: course
+title:  "Praat Scripting"
+date:   2015-07-15 17:21:16
+categories: teaching Praat methods
+---
+
+This course was an introduction to scripting in Praat in 2015.  As of this update (summer 2024), I would recommend using Python (possibly with Praat) for any analysis that is not embedded within Praat's user interface. The following materials are still relevant as an introduction to Praat scripting for someone who has never done it before and may be useful for anyone wanting to add custom menu commands to Praat.
