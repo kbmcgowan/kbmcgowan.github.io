@@ -1,0 +1,9 @@
+---
+layout: course
+title:  "Speech Perception"
+subtitle: "co-taught with Patrice S. Beddor"
+date:   2019-07-15 17:21:16
+categories: teaching "speech perception"
+---
+
+course information goes here.
