@@ -1,6 +1,6 @@
 ---
 title: "teaching"
-subtitle: (selected courses I teach or have taught)
+subtitle: (trust the process)
 listing: 
   - id: courses-uk
     contents: "courses-uk/*.qmd"
@@ -28,6 +28,11 @@ listing:
 - [Jo Mackby](https://uknowledge.uky.edu/ltt_etds/13/)
 - [Kelly Wright](https://uknowledge.uky.edu/ltt_etds/18/)
 - [Kaitlyn Lee](https://uknowledge.uky.edu/ltt_etds/17/)
+
+## External Examiner
+
+- [Andy M Gibson](https://ir.canterbury.ac.nz/items/4026429a-a08d-4e16-a4e9-0441e9bf5eb0)
+- [Ksenia Gnevsheva](https://ir.canterbury.ac.nz/items/7a56f9f9-0e55-4eb8-b1aa-b93ed37c37cf)
 
 ## Selected Courses at the University of Kentucky
 
