@@ -1,8 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
+
+/* hide the title on just this one page */
+.quarto-title > h1.title {
+  opacity: 0 !important;
+}
+
 body, html {
   height: 100%;
   margin: 0;
@@ -47,15 +48,3 @@ h3 {
   font: 20px "Lato", sans-serif;
   color: #111;
 }
-</style>
-</head>
-<body>
-
-<div class="bgimg-1">
-  <div class="caption">
-    <span class="border">GOAT</span>
-  </div>
-</div>
-
-</body>
-</html>

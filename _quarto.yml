@@ -4,6 +4,7 @@ project:
 website:
   title: Kevin B. McGowan
   description: linguist, phonetician, nerd
+  favicon: favicon.ico
   navbar:
     right:
       - href: index.qmd

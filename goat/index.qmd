@@ -1,0 +1,15 @@
+---
+title: "GOAT!"
+format:
+    html:
+      css: goat.css
+include-in-header: goat-meta.html
+navbar: true
+---
+```{=html}
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border">GOAT</span>
+  </div>
+</div>
+```
