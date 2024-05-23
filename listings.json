@@ -1,5 +1,17 @@
 [
   {
+    "listing": "/teaching/index.html",
+    "items": [
+      "/teaching/courses-uk/lin300.html",
+      "/teaching/courses-uk/lin500.html",
+      "/teaching/courses-uk/lin515.html",
+      "/teaching/courses-lsa/lsa2019-SpeechPerception.html",
+      "/teaching/courses-lsa/lsa2017-DoingPhoneticsResearch.html",
+      "/teaching/courses-lsa/lsa2017-EyeTracking.html",
+      "/teaching/courses-lsa/lsa2013-PraatScripting.html"
+    ]
+  },
+  {
     "listing": "/stuff/index.html",
     "items": [
       "/stuff/posts/2010-08-13-useless.html",
