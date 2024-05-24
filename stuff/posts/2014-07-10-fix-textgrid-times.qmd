@@ -1,7 +1,7 @@
 ---
 title:  "match_tg_times.praat"
 date:   2014-07-10 15:11:16
-categories: praat textgrids
+categories: [praat, textgrids]
 image: images/praat.png
 ---
 

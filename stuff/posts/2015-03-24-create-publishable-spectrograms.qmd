@@ -2,7 +2,7 @@
 title:  "Generate publishable spectrograms with Praat"
 description: Publishers love this one wild trick!
 date:   2015-03-24 15:11:16
-categories: praat publishing phonetics
+categories: [praat, publishing, phonetics]
 image: images/sgram.png
 ---
 

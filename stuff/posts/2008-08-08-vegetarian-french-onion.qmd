@@ -1,7 +1,7 @@
 ---
 title:  "Vegetarian french onion soup"
 date:   2008-08-08 11:59:11
-categories: recipes vegetarian
+categories: [recipes, vegetarian]
 image: images/vegetable.png
 ---
 

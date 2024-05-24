@@ -2,7 +2,7 @@
 layout: post
 title:  "Our souls refracted through a mesh"
 date:   2018-09-10 12:21:16
-categories: poetry
+categories: [poetry, publishing]
 image: images/poem.png
 ---
 

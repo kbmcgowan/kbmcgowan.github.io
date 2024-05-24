@@ -3,7 +3,7 @@ layout: post
 title:  "in a nutshell"
 description: "My dissertation prospectus in a nutshell"
 date:   2010-07-15 15:11:16
-categories: dissertation
+categories: [dissertation, words]
 image: images/lj/prospectus.png
 ---
 

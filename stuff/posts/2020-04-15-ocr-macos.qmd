@@ -2,7 +2,7 @@
 layout: post
 title:  "Open Source OCR on MacOS"
 date:   2020-04-15 17:21:16
-categories: macos sucks
+categories: [macos sucks, macos, oss]
 image: images/macintosh.jpg
 ---
 

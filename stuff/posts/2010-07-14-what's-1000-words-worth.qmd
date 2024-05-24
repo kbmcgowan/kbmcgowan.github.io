@@ -1,7 +1,7 @@
 ---
 title:  "What's 1000 words worth?"
 date:   2010-07-14 15:11:16
-categories: information
+categories: [information, words]
 image: images/bird.png
 ---
 

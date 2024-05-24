@@ -2,7 +2,7 @@
 title:  "Preprocess R data with python"
 description: (for archival purposes only, probably don't use this.)
 date:   2014-07-11 08:15:10
-categories: python data
+categories: [python, data]
 image: images/bird.png
 ---
 

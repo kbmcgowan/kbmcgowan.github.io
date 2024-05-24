@@ -2,7 +2,7 @@
 layout: post
 title:  "immoderate improvement"
 date:   2007-04-08 15:11:16
-categories: perl celex
+categories: [perl, celex]
 image: images/bird.png
 ---
 

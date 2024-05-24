@@ -3,7 +3,7 @@ layout: post
 title:  "Easy, readable css interlinear glosses"
 description: "(surely there is a better way to do this now?)"
 date:   2009-02-28 15:11:16
-categories: css linguistics
+categories: [css, linguistics]
 image: images/bird.png
 ---
 
