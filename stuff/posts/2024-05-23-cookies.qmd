@@ -3,7 +3,7 @@ layout: post
 title:  "Oatmeal Chocolate Chip Cookies"
 date:   2024-05-23 17:21:16
 categories: baking pancakes
-image: images/cookies.jpg
+image: images/cookies.png
 ---
 I've won awards with these cookies.
 
