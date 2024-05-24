@@ -77,39 +77,74 @@
     "text": "“The thing about speech is, it varies.” (Remirez, in press). But for a number of historical and disciplinary reasons (see McGowan, in press), it feels normal for people in my field to talk about how listeners are “confronted with” tremendous variation in speech or to think about and write about variation as a big problem that listeners have to solve. I think this is a real shame.\n\n\n\nHi! My research takes the position that listeners are sensitive to patterns of covariation in speech and that knowing (more on ‘knowing’ later) these subtle patterns is part of what it means to truly know a language.\n\n\n\n\nWhy? Because speech is social. When we speak, we communicate not only our ideas, but also numerous social cues about who we are, where we come from, what we think you already know, who we think is listening, and many other details…\n\n\n\nWhich is great because if people sound the way we expect them to, we’re able to understand them better (McGowan, 2015; 2012 LSA presentation)\n\n\n  \n\n\n\nThis is true even when our expectations are based on stereotypes rather than authentic experience (McGowan, 2017)!\n\n\n\n\n\nIn Sumner, Kim, King, and McGowan (2014) we propose a model (below) of how the linguistic and the social aspects of speech interact to support perception.\n\n\n\n\nIn this model, we propose that listeners process both phonetically cued social information and phonetically cued linguistic information prior to word recognition and that these dual routes can interact to guide and facilitate perception.\n\n\n\nFor example, when Anna Babel and I told Bolivian listeners to expect Quechua-accented Spanish, they perceived vowels completely differently than if they were told to anticipate a Spanish accent (McGowan and Babel, 2020)\n\n\nThis suggests that experienced listeners have detailed knowledge of phonetically-cued social information —so expecting the variation consistent with a particular social category can change the way we perceive vowels. Social information isn’t noise to be thrown away, it is an essential part of the signal.\n\n\n\n\nSo here’s that word know again! Knowledge is not the same thing as awareness. We told listeners they’d changed speakers (from Quechua to Spanish or vice versa) and while they gave every indication of believing the switch their low level perceptual behavior stayed the same!\n\n\n\n\n\nSo does all this knowledge and sensitivity only apply to social variation?\n\n\n\nFirst, some quick background on how sounds like [p], [t], and [k] differ from sounds like [b], [d], and [g] at the beginning of English words like pit and bit. What word is this native American English speaker saying? Does it sound like ‘pit’ or ‘bit’ to you?     Your browser does not support the audio element. \n\n\n\n The image to the left is a spectrogram (frequency analysis over time) of the word pit. Hear the puff of air at the beginning? It is highlighted in blue.    Your browser does not support the audio element.  \n pit and bit both start with the lips completely closed. One of the main differences between them is the duration of the puff of air, this duration is called VOT (voice onset time).    Your browser does not support the audio element. \n \n\n[pʰɪt]\n\n\n[bɪt]\n\n\n\nAt least in American English, that puff of air is so important that if we cut it out of pit (this was that first sound you played! ‘pit’ with the puff removed) it results in a word that sounds to English-knowing listeners a lot like bit —though probably with maybe a funny [b], and that funniness is every bit as interesting and important as the change from [p] to [b]!\n\n\n\nAnother covarying feature is the way vowels before nasal consonants in English tend to be nasalized. Listeners can use this as soon as it becomes available, not only a large distinction like bend/bed…   Your browser does not support the audio element.    Your browser does not support the audio element. \n\n\nbut also a much more subtle distinction like the difference in nasalization between these two sound files. Can you hear a difference?\n\n\n\n This first recording has late nasalization starting 100 miliseconds after the [b].   Your browser does not support the audio element. \n This second recording has early nasalization starting 33 miliseconds after the [b].   Your browser does not support the audio element. \n\n\n\n\nIn an eye tracking task we found that listeners can use nasalization as soon as it is present. Looks to the heavily-nasalized word were, on average, 60 ms faster —the same average difference between early and late nasalization in the recordings (Beddor, McGowan, Boland, Coetzee, and Brasher, 2013).\n\n\n\n\nWhether the information is social, contextual, articulatory, or idiosyncratic, we humans have an astonishing ability to attend to it, remember it, and activate it during perception. This ability, my research suggests, is not irrelevant to linguistic competence or even peripheral to it, it is fundamentally and centrally part of what it means to know and speak a human language.\n\n\n Thank you for reading! Ask me questions? And please enjoy this pigeon engraving as a free gift. And many, many thanks to my friend M.C. Nee for turning me into this cartoon.\n\n\n\nDownload BibTex"
   },
   {
-    "objectID": "stuff/posts/2014-07-11-python-preproccesing-script.html",
-    "href": "stuff/posts/2014-07-11-python-preproccesing-script.html",
-    "title": "Preprocess R data with python",
+    "objectID": "stuff/posts/2024-05-23-cookies.html",
+    "href": "stuff/posts/2024-05-23-cookies.html",
+    "title": "Oatmeal Chocolate Chip Cookies",
     "section": "",
-    "text": "This script can be easily modified to code, recode, or modify csv files prior to loading in R.\n\n#  transform a raw data file into a happy proto data frame\n#\n\nimport csv\n\nf = open( 'transposed.csv' )\nhnps = csv.reader( f, delimiter = ',' )\nheader = hnps.next()\n\nverbs = [\n     'mentioned',\n     'indicated',\n     'proposed',\n     'suggested',\n     'recommended',\n     'confessed',\n     'stated',\n     'announced',\n     'muttered',\n     'explained',\n     ]\n\nout_name = 'reshaped.csv'\nout = open( out_name, 'w' )\ndata = csv.writer( out, delimiter = ',' )\ndata.writerow( [ 'subject', 'score', 'shift', 'length', 'verb' ])\n\nfor line in hnps:\n    shift_length = line[header.index('V1')]\n\n    try:\n    if shift_length[0] == \"N\":\n        shift = 'N'\n        length = shift_length[1:]\n    elif shift_length[0] == \"S\":\n        shift = 'S'\n        length = shift_length[1:]\n    except IndexError:\n    continue\n\n    sentence = line[header.index('ResponseID')]\n    for v in verbs:\n    # we're in trouble if one of the sentences contains more than one verb\n    # fortunately, they don't.\n    if v in sentence:\n        verb = v\n        break\n\n    for s in range( 1, 193 ):\n    try:\n        line[header.index( 'ID.' + str(s))]\n    except IndexError:\n        # that cell is empty for this subject\n        continue\n    else:\n        # if this subject responded to this item add data point to file\n        score = line[header.index( 'ID.' + str(s))]\n        if score.isdigit():\n        data.writerow( [ s, score, shift, length, verb ])\n\nf.close()\nout.close()"
+    "text": "I’ve won awards with these cookies."
   },
   {
-    "objectID": "stuff/posts/2008-12-21-2^15.html",
-    "href": "stuff/posts/2008-12-21-2^15.html",
-    "title": "2^15",
-    "section": "",
-    "text": "In case anyone is wondering, the maximum number of files that MacOS X (v10.5.6) will allow you to drag and drop at once is 32,768.\nSo drag and drop responsibly this holiday season."
+    "objectID": "stuff/posts/2024-05-23-cookies.html#ingredients",
+    "href": "stuff/posts/2024-05-23-cookies.html#ingredients",
+    "title": "Oatmeal Chocolate Chip Cookies",
+    "section": "Ingredients",
+    "text": "Ingredients\n\nDry\n\n\\(270\\) g (\\(1\\frac{3}{4}\\) cups) bread flour\n\\(85\\) g (\\(1\\) cup) rolled oats\n\\(1\\) tsp baking soda\n\\(6\\) g (\\(1\\) tsp) kosher salt\n\n\n\nWet\n\n\\(2\\) sticks of good quality softened butter (e.g. Irish)\n\\(\\frac{3}{4}\\) cup light brown sugar\n\\(\\frac{3}{4}\\) cup granulated sugar\n\\(2\\) eggs\n\\(1\\frac{1}{2}\\) tsp vanilla extract\n\n\n\nFinishing\n\n\\(1\\) cup of Ghiradelli semisweet chocolate chips or break up an equivalent amount of a nice, bittersweet chocolate bar\n\\(1\\frac{1}{3}\\) cup walnuts\noptional: coarse kosher or sea salt"
   },
   {
-    "objectID": "stuff/posts/2013-01-20-repeatedFFT.praat.html",
-    "href": "stuff/posts/2013-01-20-repeatedFFT.praat.html",
-    "title": "repeatedFFT.praat",
-    "section": "",
-    "text": "This Praat editor script will draw a series of 6 FFT spectra starting from a cursor in the edit window. Use Add to dynamic menu… from the File menu to add to, say, the Spectrum menu. Useful for nasalization, diphthongs, and a thousand other purposes."
+    "objectID": "stuff/posts/2024-05-23-cookies.html#directions",
+    "href": "stuff/posts/2024-05-23-cookies.html#directions",
+    "title": "Oatmeal Chocolate Chip Cookies",
+    "section": "Directions",
+    "text": "Directions\n\nPreheat oven to 375º F (190º C)\nCombine the dry ingredients in a small bowl and set aside\nCream butter and sugars in a large bowl (I use a food processor)\nMix in eggs separately and then vanilla\nAdd dry ingredients and mix very well. I put on hearing protection and run the food processor for a couple of minutes. You’re building gluten. Mmm … gluten\nadd walnuts, process, drop in the chocolate bar and process or drop in the chocolate chips and stir\nScoop onto cookie sheet with #20 (yellow handled) disher\noptional: sprinkle with coarse salt\nbake for 13 minutes"
   },
   {
-    "objectID": "stuff/posts/2015-03-24-create-publishable-spectrograms.html",
-    "href": "stuff/posts/2015-03-24-create-publishable-spectrograms.html",
-    "title": "Generate publishable spectrograms with Praat",
+    "objectID": "stuff/posts/2014-07-10-fix-textgrid-times.html",
+    "href": "stuff/posts/2014-07-10-fix-textgrid-times.html",
+    "title": "match_tg_times.praat",
     "section": "",
-    "text": "Don’t take a screen shot of that spectrogram! Use this script to create a publication-quality spectrogram from a selected wav file. Suitable for adding as an object window button in Praat. Makes a great gift!"
+    "text": "This script fixes a weird problem when concatenating TextGrids and sound objects. Often a TextGrid and its associated sound object will differ by anywhere from fraction of a millisecond to a few milliseconds.\nThis is not a problem until you try to concatenate the TextGrids and still align them with their concatenated sound objects when suddenly intervals and points later in the chain will begin to be increasingly misaligned."
   },
   {
-    "objectID": "stuff/posts/2008-08-08-vegetarian-french-onion.html",
-    "href": "stuff/posts/2008-08-08-vegetarian-french-onion.html",
-    "title": "Vegetarian french onion soup",
+    "objectID": "stuff/posts/2018-09-10-typishly.html",
+    "href": "stuff/posts/2018-09-10-typishly.html",
+    "title": "Our souls refracted through a mesh",
     "section": "",
-    "text": "3 T olive oil\n4 vidalia onions sliced thin\n1 t kosher salt\n1 T dijon mustard\n1/4 t thyme\n6 cups vegetable stock\n2 T low sodium soy sauce\n1.5 t sherry vinegar\nfresh pepper\ncroutons (homemade, of course)\ngrated swiss and parmesan cheese\n\nBring olive oil in dutch oven to medium heat. Add onions and salt, sweat for 10 minutes, stirring occasionally.\nAdd mustard and thyme, stir well, cover.\nSimmer over very low heat for 35 minutes.\nAdd stock, soy sauce, vinegar, and pepper. Simmer for another 10 minutes.\nLadle the soup into bowls and top with croutons and cheese. If your bowls are oven-proof, place the dishes under the broiler for a minute to melt and brown the cheese."
+    "text": "Typishly has published my latest poem: Our souls refracted through a mesh. I’m thrilled to have it published and by the beautiful job they did with the presentation."
+  },
+  {
+    "objectID": "stuff/posts/2007-04-08-immoderate-improvement.html",
+    "href": "stuff/posts/2007-04-08-immoderate-improvement.html",
+    "title": "immoderate improvement",
+    "section": "",
+    "text": "I needed to calculate the number of consonant bigrams in English monomorphemic words from CELEX. The hash ‘bigrams’ contains the 30^2 possible consonant clusters given the DISC transcriptions, the transcription has already had stress and syllabification stripped from it. The first version of the code did it this way:\nforeach my $bg ( keys( %bigrams )) {\n    $bigrams{ $bg }++ while ( $PhonStrsDISC =~ /$bg/g );\n}\nthat loop looks for 900 unique strings, globally, in each of about 12,000 words and time looks like this:\nreal    0m58.995s\nuser    0m58.254s\nsys     0m0.221s\nthe second version does it this way:\nmy @phones = split( //, $PhonStrsDISC );\nfor ( my $i = 0; $i &lt; $#phones; $i++ ) {\n    my $bg = $phones[ $i ] . $phones [ $i + 1 ];\n    $bigrams{ $bg }++ if ( exists( $bigrams{ $bg } ));\n}\nI get exactly the same output. The time differences?!?!\nreal    0m0.730s\nuser    0m0.706s\nsys     0m0.026s\nmoral of the story: if you’re going to be an idiot, at least be a moderately efficient idiot. What I find ironic here is that the first pass is about as idiomatic as perl comes whiles the second is slightly less perlish (apart from the heavy reliance on split() and hashes, I mean). Normally I think of these well-worn perl idioms as trading accessibility to outsiders for speed."
+  },
+  {
+    "objectID": "stuff/posts/2010-07-14-what's-1000-words-worth.html",
+    "href": "stuff/posts/2010-07-14-what's-1000-words-worth.html",
+    "title": "What’s 1000 words worth?",
+    "section": "",
+    "text": "Let’s randomly select 1,000 lines from the dictionary and appends the number of bytes in that sample to a file.\nfor i in {1..500}; do\n    awk 'BEGIN {srand()} {printf \"%05.0f %s \\n\",rand()*99999, $0; }' /usr/share/dict/words | sort -n |\\\\\n    head -1000 | sed 's/^[0-9]* //' | dd 2&gt;&1 | grep \"bytes transferred\" | awk '{print $1}' &gt;&gt;sizes.dat\ndone\n \nthen, in R:\n \n&gt; sizes &lt;- read.table(\"~/sizes.dat\", header=TRUE)\n&gt; mean(sizes)\n   bytes \n11581.83 \n&gt; sd(sizes)\n   bytes \n90.32316 \n&gt; qqnorm(sizes$bytes)\n&gt; plot(density(sizes$bytes))\n&gt; hist(sizes$bytes, col=rainbow(15, start=.4))\n&gt; mean(sizes$bytes) / 1024\n[1] 11.31038\n \n11.31k is not a very large picture. Each of the exploratory plots (quantile x normal, density, histogram) is larger! Even these pictures of me and my daughter and the fat giraffes are 13k, 13k, and 15k respectively:\n  \nStill, here are all the many, many google image hits for ‘entropy’ pictures that are 128 x 128 pixels. Many of these are are in the roughly 11k range.\nHappy Bastille Day."
+  },
+  {
+    "objectID": "stuff/posts/2024-05-23-pancakes.html",
+    "href": "stuff/posts/2024-05-23-pancakes.html",
+    "title": "Oatmeal Pancakes",
+    "section": "",
+    "text": "These are good. They’re not as good as Smitten Kitchen’s tall, fluffy, but my kids like them for dinner and love them cold them as morning commute snacks."
+  },
+  {
+    "objectID": "stuff/posts/2024-05-23-pancakes.html#ingredients",
+    "href": "stuff/posts/2024-05-23-pancakes.html#ingredients",
+    "title": "Oatmeal Pancakes",
+    "section": "Ingredients",
+    "text": "Ingredients\n\nDry\n\n\\(156\\) g (\\(1\\frac{1}{2}\\) cups) rolled oats\n\\(230\\) g (\\(1\\frac{1}{2}\\) cups) white whole wheat or ap flour\n\\(2\\) tsp baking soda\n\\(1\\) tsp baking powder\n\\(\\frac{1}{2}\\) tsp kosher salt\n\n\n\nWet\n\n\\(1\\frac{1}{2}\\) cups vanilla yogurt\n\\(1\\) cup milk\n\\(\\frac{1}{4}\\) cup peanut oil\n\\(1\\) egg\n\\(1\\frac{1}{3}\\) cup light brown sugar\n\\(1\\) tsp vanilla extract\n\n\n\nOptional\n\n\\(\\frac{1}{3}\\) cup chopped walnuts or dried cranberries or a mix"
+  },
+  {
+    "objectID": "stuff/posts/2024-05-23-pancakes.html#directions",
+    "href": "stuff/posts/2024-05-23-pancakes.html#directions",
+    "title": "Oatmeal Pancakes",
+    "section": "Directions",
+    "text": "Directions\n\nWhisk dry ingredients in a large bowl\nIn another bowl, combine wet ingredients, stirring until smooth\nMix in dry ingredients just until combined, small lumps are fine\nlightly butter a 350º F (175º C) skillet. I scoop batter with a #20 (yellow handled) disher (55 ml about 3.5 T). Cook for about 3 minutes/side or until brown. More butter makes crispier edges"
   },
   {
     "objectID": "stuff/posts/2009-03-23-align.html",
@@ -144,7 +179,7 @@
     "href": "stuff/index.html",
     "title": "stuff",
     "section": "",
-    "text": "Useless\n\n\n\npoetry\n\n\n\n(A poem that is not about computers)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOpen Source OCR on MacOS\n\n\n\nmacos sucks\n\n\n\n\n\n\n\n\n\n\nApr 15, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOur souls refracted through a mesh\n\n\n\npoetry\n\n\n\n\n\n\n\n\n\n\nSep 10, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA child demonstrates the McGurk effect\n\n\n\nphonetics speech perception mcgurk\n\n\n\n\n\n\n\n\n\n\nMar 26, 2015\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGenerate publishable spectrograms with Praat\n\n\n\npraat publishing phonetics\n\n\n\nPublishers love this one wild trick!\n\n\n\n\n\n\nMar 24, 2015\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPreprocess R data with python\n\n\n\npython data\n\n\n\n(for archival purposes only, probably don’t use this.)\n\n\n\n\n\n\nJul 11, 2014\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmatch_tg_times.praat\n\n\n\npraat textgrids\n\n\n\n\n\n\n\n\n\n\nJul 10, 2014\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Order’s Blue Monday synthesized in Praat (sorta)\n\n\n\npraat silly\n\n\n\n\n\n\n\n\n\n\nJun 16, 2013\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nrepeatedFFT.praat\n\n\n\npraat phonetics\n\n\n\n\n\n\n\n\n\n\nJan 20, 2013\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArbitrary sinewave diagrams in LaTeX\n\n\n\nlatex phonetics teaching\n\n\n\n\n\n\n\n\n\n\nOct 9, 2012\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nin a nutshell\n\n\n\ndissertation\n\n\n\nMy dissertation prospectus in a nutshell\n\n\n\n\n\n\nJul 15, 2010\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat’s 1000 words worth?\n\n\n\ninformation\n\n\n\n\n\n\n\n\n\n\nJul 14, 2010\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nForced-alignment and segmentation of airflow data\n\n\n\npraat airflow htk\n\n\n\n\n\n\n\n\n\n\nMar 23, 2009\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTuna safe tuna salad\n\n\n\nrecipes vegetarian\n\n\n\n\n\n\n\n\n\n\nMar 6, 2009\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEasy, readable css interlinear glosses\n\n\n\ncss linguistics\n\n\n\n(surely there is a better way to do this now?)\n\n\n\n\n\n\nFeb 28, 2009\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2^15\n\n\n\nmacos\n\n\n\n\n\n\n\n\n\n\nDec 21, 2008\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVegetarian french onion soup\n\n\n\nrecipes vegetarian\n\n\n\n\n\n\n\n\n\n\nAug 8, 2008\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nimmoderate improvement\n\n\n\nperl celex\n\n\n\n\n\n\n\n\n\n\nApr 8, 2007\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Oatmeal Pancakes\n\n\n\ncooking pancakes\n\n\n\n\n\n\n\n\n\n\nMay 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOatmeal Chocolate Chip Cookies\n\n\n\nbaking pancakes\n\n\n\n\n\n\n\n\n\n\nMay 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOpen Source OCR on MacOS\n\n\n\nmacos sucks\n\n\n\n\n\n\n\n\n\n\nApr 15, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOur souls refracted through a mesh\n\n\n\npoetry\n\n\n\n\n\n\n\n\n\n\nSep 10, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA child demonstrates the McGurk effect\n\n\n\nphonetics speech perception mcgurk\n\n\n\n\n\n\n\n\n\n\nMar 26, 2015\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGenerate publishable spectrograms with Praat\n\n\n\npraat publishing phonetics\n\n\n\nPublishers love this one wild trick!\n\n\n\n\n\n\nMar 24, 2015\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPreprocess R data with python\n\n\n\npython data\n\n\n\n(for archival purposes only, probably don’t use this.)\n\n\n\n\n\n\nJul 11, 2014\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmatch_tg_times.praat\n\n\n\npraat textgrids\n\n\n\n\n\n\n\n\n\n\nJul 10, 2014\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Order’s Blue Monday synthesized in Praat (sorta)\n\n\n\npraat silly\n\n\n\n\n\n\n\n\n\n\nJun 16, 2013\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nrepeatedFFT.praat\n\n\n\npraat phonetics\n\n\n\n\n\n\n\n\n\n\nJan 20, 2013\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArbitrary sinewave diagrams in LaTeX\n\n\n\nlatex phonetics teaching\n\n\n\n\n\n\n\n\n\n\nOct 9, 2012\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUseless\n\n\n\npoetry\n\n\n\n(A poem that is not about computers)\n\n\n\n\n\n\nAug 13, 2010\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nin a nutshell\n\n\n\ndissertation\n\n\n\nMy dissertation prospectus in a nutshell\n\n\n\n\n\n\nJul 15, 2010\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat’s 1000 words worth?\n\n\n\ninformation\n\n\n\n\n\n\n\n\n\n\nJul 14, 2010\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nForced-alignment and segmentation of airflow data\n\n\n\npraat airflow htk\n\n\n\n\n\n\n\n\n\n\nMar 23, 2009\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTuna safe tuna salad\n\n\n\nrecipes vegetarian\n\n\n\n\n\n\n\n\n\n\nMar 6, 2009\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEasy, readable css interlinear glosses\n\n\n\ncss linguistics\n\n\n\n(surely there is a better way to do this now?)\n\n\n\n\n\n\nFeb 28, 2009\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2^15\n\n\n\nmacos\n\n\n\n\n\n\n\n\n\n\nDec 21, 2008\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVegetarian french onion soup\n\n\n\nrecipes vegetarian\n\n\n\n\n\n\n\n\n\n\nAug 8, 2008\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nimmoderate improvement\n\n\n\nperl celex\n\n\n\n\n\n\n\n\n\n\nApr 8, 2007\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "stuff/posts/2010-08-13-useless.html",
@@ -175,32 +210,39 @@
     "text": "I needed to be able to generate a number of figures for a phonetics homework assignment showing an arbitrary number of component sine waves and the complex wave you get if you sum them.\nTikZ and gnuplot to the very enjoyable and useful rescue! The only tricky part is that Tikz wants to call gnuplot to plot the functions. I don’t let LaTeX execute arbitrary commands (for what are probably obvious reasons), but tikz generates intermediate &lt;filename&gt;.gnuplot files so I just had to add a line to execute these with gnuplot to the makefile for my homework assignment.\nExample one: and the code to create it.\n\n\\begin{tikzpicture}[domain = 0:16, samples = 1000]\n%\\draw[very thin, color = gray, step=1] (0,-2.75) grid(16,2.75);\n\n% zero crossing\n\\draw[dotted] (0,0) -- (16,0);\n\n% y axis and tick marks\n\\draw (0,3) -- (0,-3) node[below] {$amplitude$};\n\\draw (-.25,3) -- (.25,3) node at (-.5,3) {3};\n\\draw (-.25,2) -- (.25,2) node at (-.5,2) {2};\n\\draw (-.25,1) -- (.25,1) node at (-.5,1) {1};\n\\draw (-.25,0) -- (.25,0) node at (-.5,0) {0};\n\\draw (-.25,-1) -- (.25,-1) node at (-.5,-1) {-1};\n\\draw (-.25,-2) -- (.25,-2) node at (-.5,-2) {-2};\n\\draw (-.25,-3) -- (.25,-3) node at (-.5,-3) {-3};\n\n% give some sense of time...\n\\draw (15.2,3) -- (15.2,-3) node[below] {$.01s$};\n\n\\draw[very thick, dashed] plot[id=a] function{sin(2.75 * x)};\n\\draw[thick] plot[id=b] function{1.25 * sin(5 * x)};\n\\draw[very thick, color = blue] plot[id=c] function{sin(2.75 * x) + 1.25 * sin( 5 * x)};\n\\end{tikzpicture}\nExample two: and the code to create it.\n\n\\begin{tikzpicture}[domain = 0:16, samples = 2000]\n%\\draw[very thin, color = gray, step=1] (0,-2.75) grid(16,2.75);\n\n% zero crossing\n\\draw[dotted] (0,0) -- (16,0);\n\n\\draw (0,3) -- (0,-3) node[below] {$amplitude$};\n\\draw (-.25,3) -- (.25,3) node at (-.5,3) {3};\n\\draw (-.25,2) -- (.25,2) node at (-.5,2) {2};\n\\draw (-.25,1) -- (.25,1) node at (-.5,1) {1};\n\\draw (-.25,0) -- (.25,0) node at (-.5,0) {0};\n\\draw (-.25,-1) -- (.25,-1) node at (-.5,-1) {-1};\n\\draw (-.25,-2) -- (.25,-2) node at (-.5,-2) {-2};\n\\draw (-.25,-3) -- (.25,-3) node at (-.5,-3) {-3};\n\n\\draw (6.25,3) -- (6.25,-3) node[below] {$4ms$};\n    \n\\draw[very thick] plot[id=foo] function{sin(3*x)};\n\\draw[thick, dashed] plot[id=bar] function{2 * sin(x + 0.125)};\n\\draw[very thick, color = blue] plot[id=baz] function{sin(3*x) + 2 * sin(x + 0.125)};\n\\end{tikzpicture}"
   },
   {
-    "objectID": "stuff/posts/2010-07-14-what's-1000-words-worth.html",
-    "href": "stuff/posts/2010-07-14-what's-1000-words-worth.html",
-    "title": "What’s 1000 words worth?",
+    "objectID": "stuff/posts/2008-08-08-vegetarian-french-onion.html",
+    "href": "stuff/posts/2008-08-08-vegetarian-french-onion.html",
+    "title": "Vegetarian french onion soup",
     "section": "",
-    "text": "Let’s randomly select 1,000 lines from the dictionary and appends the number of bytes in that sample to a file.\nfor i in {1..500}; do\n    awk 'BEGIN {srand()} {printf \"%05.0f %s \\n\",rand()*99999, $0; }' /usr/share/dict/words | sort -n |\\\\\n    head -1000 | sed 's/^[0-9]* //' | dd 2&gt;&1 | grep \"bytes transferred\" | awk '{print $1}' &gt;&gt;sizes.dat\ndone\n \nthen, in R:\n \n&gt; sizes &lt;- read.table(\"~/sizes.dat\", header=TRUE)\n&gt; mean(sizes)\n   bytes \n11581.83 \n&gt; sd(sizes)\n   bytes \n90.32316 \n&gt; qqnorm(sizes$bytes)\n&gt; plot(density(sizes$bytes))\n&gt; hist(sizes$bytes, col=rainbow(15, start=.4))\n&gt; mean(sizes$bytes) / 1024\n[1] 11.31038\n \n11.31k is not a very large picture. Each of the exploratory plots (quantile x normal, density, histogram) is larger! Even these pictures of me and my daughter and the fat giraffes are 13k, 13k, and 15k respectively:\n  \nStill, here are all the many, many google image hits for ‘entropy’ pictures that are 128 x 128 pixels. Many of these are are in the roughly 11k range.\nHappy Bastille Day."
+    "text": "3 T olive oil\n4 vidalia onions sliced thin\n1 t kosher salt\n1 T dijon mustard\n1/4 t thyme\n6 cups vegetable stock\n2 T low sodium soy sauce\n1.5 t sherry vinegar\nfresh pepper\ncroutons (homemade, of course)\ngrated swiss and parmesan cheese\n\nBring olive oil in dutch oven to medium heat. Add onions and salt, sweat for 10 minutes, stirring occasionally.\nAdd mustard and thyme, stir well, cover.\nSimmer over very low heat for 35 minutes.\nAdd stock, soy sauce, vinegar, and pepper. Simmer for another 10 minutes.\nLadle the soup into bowls and top with croutons and cheese. If your bowls are oven-proof, place the dishes under the broiler for a minute to melt and brown the cheese."
   },
   {
-    "objectID": "stuff/posts/2007-04-08-immoderate-improvement.html",
-    "href": "stuff/posts/2007-04-08-immoderate-improvement.html",
-    "title": "immoderate improvement",
+    "objectID": "stuff/posts/2015-03-24-create-publishable-spectrograms.html",
+    "href": "stuff/posts/2015-03-24-create-publishable-spectrograms.html",
+    "title": "Generate publishable spectrograms with Praat",
     "section": "",
-    "text": "I needed to calculate the number of consonant bigrams in English monomorphemic words from CELEX. The hash ‘bigrams’ contains the 30^2 possible consonant clusters given the DISC transcriptions, the transcription has already had stress and syllabification stripped from it. The first version of the code did it this way:\nforeach my $bg ( keys( %bigrams )) {\n    $bigrams{ $bg }++ while ( $PhonStrsDISC =~ /$bg/g );\n}\nthat loop looks for 900 unique strings, globally, in each of about 12,000 words and time looks like this:\nreal    0m58.995s\nuser    0m58.254s\nsys     0m0.221s\nthe second version does it this way:\nmy @phones = split( //, $PhonStrsDISC );\nfor ( my $i = 0; $i &lt; $#phones; $i++ ) {\n    my $bg = $phones[ $i ] . $phones [ $i + 1 ];\n    $bigrams{ $bg }++ if ( exists( $bigrams{ $bg } ));\n}\nI get exactly the same output. The time differences?!?!\nreal    0m0.730s\nuser    0m0.706s\nsys     0m0.026s\nmoral of the story: if you’re going to be an idiot, at least be a moderately efficient idiot. What I find ironic here is that the first pass is about as idiomatic as perl comes whiles the second is slightly less perlish (apart from the heavy reliance on split() and hashes, I mean). Normally I think of these well-worn perl idioms as trading accessibility to outsiders for speed."
+    "text": "Don’t take a screen shot of that spectrogram! Use this script to create a publication-quality spectrogram from a selected wav file. Suitable for adding as an object window button in Praat. Makes a great gift!"
   },
   {
-    "objectID": "stuff/posts/2018-09-10-typishly.html",
-    "href": "stuff/posts/2018-09-10-typishly.html",
-    "title": "Our souls refracted through a mesh",
+    "objectID": "stuff/posts/2013-01-20-repeatedFFT.praat.html",
+    "href": "stuff/posts/2013-01-20-repeatedFFT.praat.html",
+    "title": "repeatedFFT.praat",
     "section": "",
-    "text": "Typishly has published my latest poem: Our souls refracted through a mesh. I’m thrilled to have it published and by the beautiful job they did with the presentation."
+    "text": "This Praat editor script will draw a series of 6 FFT spectra starting from a cursor in the edit window. Use Add to dynamic menu… from the File menu to add to, say, the Spectrum menu. Useful for nasalization, diphthongs, and a thousand other purposes."
   },
   {
-    "objectID": "stuff/posts/2014-07-10-fix-textgrid-times.html",
-    "href": "stuff/posts/2014-07-10-fix-textgrid-times.html",
-    "title": "match_tg_times.praat",
+    "objectID": "stuff/posts/2008-12-21-2^15.html",
+    "href": "stuff/posts/2008-12-21-2^15.html",
+    "title": "2^15",
     "section": "",
-    "text": "This script fixes a weird problem when concatenating TextGrids and sound objects. Often a TextGrid and its associated sound object will differ by anywhere from fraction of a millisecond to a few milliseconds.\nThis is not a problem until you try to concatenate the TextGrids and still align them with their concatenated sound objects when suddenly intervals and points later in the chain will begin to be increasingly misaligned."
+    "text": "In case anyone is wondering, the maximum number of files that MacOS X (v10.5.6) will allow you to drag and drop at once is 32,768.\nSo drag and drop responsibly this holiday season."
+  },
+  {
+    "objectID": "stuff/posts/2014-07-11-python-preproccesing-script.html",
+    "href": "stuff/posts/2014-07-11-python-preproccesing-script.html",
+    "title": "Preprocess R data with python",
+    "section": "",
+    "text": "This script can be easily modified to code, recode, or modify csv files prior to loading in R.\n\n#  transform a raw data file into a happy proto data frame\n#\n\nimport csv\n\nf = open( 'transposed.csv' )\nhnps = csv.reader( f, delimiter = ',' )\nheader = hnps.next()\n\nverbs = [\n     'mentioned',\n     'indicated',\n     'proposed',\n     'suggested',\n     'recommended',\n     'confessed',\n     'stated',\n     'announced',\n     'muttered',\n     'explained',\n     ]\n\nout_name = 'reshaped.csv'\nout = open( out_name, 'w' )\ndata = csv.writer( out, delimiter = ',' )\ndata.writerow( [ 'subject', 'score', 'shift', 'length', 'verb' ])\n\nfor line in hnps:\n    shift_length = line[header.index('V1')]\n\n    try:\n    if shift_length[0] == \"N\":\n        shift = 'N'\n        length = shift_length[1:]\n    elif shift_length[0] == \"S\":\n        shift = 'S'\n        length = shift_length[1:]\n    except IndexError:\n    continue\n\n    sentence = line[header.index('ResponseID')]\n    for v in verbs:\n    # we're in trouble if one of the sentences contains more than one verb\n    # fortunately, they don't.\n    if v in sentence:\n        verb = v\n        break\n\n    for s in range( 1, 193 ):\n    try:\n        line[header.index( 'ID.' + str(s))]\n    except IndexError:\n        # that cell is empty for this subject\n        continue\n    else:\n        # if this subject responded to this item add data point to file\n        score = line[header.index( 'ID.' + str(s))]\n        if score.isdigit():\n        data.writerow( [ s, score, shift, length, verb ])\n\nf.close()\nout.close()"
   },
   {
     "objectID": "stuff/posts/2020-04-15-ocr-macos.html",
