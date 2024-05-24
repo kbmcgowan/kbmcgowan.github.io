@@ -5,7 +5,7 @@ date:   2024-05-23 17:21:16
 categories: cooking pancakes
 image: images/pancakes.jpg
 ---
-These are good.  They're not as good as [Smitten Kitchen's tall, fluffy](https://smittenkitchen.com/2017/05/tall-fluffy-buttermilk-pancakes/), but my kids like them for dinner and *love* them cold them as morning commute snacks.
+These are good.  They're not as good as [Smitten Kitchen's tall, fluffy](https://smittenkitchen.com/2017/05/tall-fluffy-buttermilk-pancakes/), but my kids like them for dinner or cold as morning commute snacks.
 
 ![](images/pancakes.jpg){fig-alt="a plate of pancakes"}
 
