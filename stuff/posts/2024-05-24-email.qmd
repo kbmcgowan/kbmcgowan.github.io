@@ -17,6 +17,6 @@ Worse, it's unhealthy. No one should have a world-writeable todo list. The peopl
 
 Unfortunately, also, capitalism.  Even at the University where I work, which should be above such things, aspiring fascist administrators and their toady IT staff routinely modify, scan, delete, and monitor users' e-mail. It is used as a tool of control.  Just last year, my University reached into our inboxes and deleted a message from our Union coordinating some activism. You can't trust e-mail for personal communication, it is an instrument of your oppression, and it's usually the worst tool for collaborative woirk.
 
-Can we please stop using an outmoded collaboration tool that amounts to sifting through a litterbox multiple times per day to see if maybe one of the neighborhood cats dropped anything we might want in there?
+Can we please stop using an outmoded collaboration tool that amounts to sifting through a public litterbox multiple times per day to see if maybe one of the neighborhood cats dropped anything we might want in there?
 
 
