@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Oatmeal Chocolate Chip Cookies"
+date:   2024-05-23 17:21:16
+categories: baking pancakes
+image: images/cookies.jpg
+---
+I've won awards with these cookies.
+
+![](images/cookies.png){fig-alt="a bowl of delivious cookies"}
+
+## Ingredients
+
+### Dry
+- $270$ g ($1\frac{3}{4}$ cups) bread flour
+- $85$ g ($1$ cup) rolled oats
+- $1$ tsp baking soda
+- $6$ g ($1$ tsp) kosher salt
+
+### Wet
+- $2$ sticks of good quality softened butter (e.g. Irish)
+- $\frac{3}{4}$ cup light brown sugar
+- $\frac{3}{4}$ cup granulated sugar
+- $2$ eggs
+- $1\frac{1}{2}$ tsp vanilla extract
+
+### Finishing
+- $1$ cup of Ghiradelli semisweet chocolate chips or break up an equivalent amount of a nice, bittersweet chocolate bar
+- $1\frac{1}{3}$ cup walnuts
+- optional: coarse kosher or sea salt
+
+## Directions
+
+1. Preheat oven to 375º F (190º C)
+1. Combine the dry ingredients in a small bowl and set aside
+1. Cream butter and sugars in a large bowl (I use a food processor)
+2. Mix in eggs separately and then vanilla
+3. Add dry ingredients and mix very well. I put on hearing protection and run the food processor for a couple of minutes.  You're building gluten.  Mmm ... gluten
+4. add walnuts, process, drop in the chocolate bar and process or drop in the chocolate chips and stir 
+3. Scoop onto cookie sheet with #20 (yellow handled) disher
+5. optional: sprinkle with coarse salt
+9. bake for 13 minutes

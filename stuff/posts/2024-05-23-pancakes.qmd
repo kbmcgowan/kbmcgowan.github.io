@@ -2,7 +2,7 @@
 layout: post
 title:  "Oatmeal Pancakes"
 date:   2024-05-23 17:21:16
-categories: baking cookies
+categories: cooking pancakes
 image: images/pancakes.jpg
 ---
 These are good.  They're not as good as [Smitten Kitchen's tall, fluffy](https://smittenkitchen.com/2017/05/tall-fluffy-buttermilk-pancakes/), but my kids like them for dinner and *love* them cold them as morning commute snacks.
