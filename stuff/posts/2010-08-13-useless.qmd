@@ -2,6 +2,7 @@
 title: "Useless"
 description: "(A poem that is not about computers)"
 categories: [poetry] # self-defined categories
+date:   2010-08-13 17:21:16
 image: images/poem.png
 draft: false
 ---
