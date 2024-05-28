@@ -38,7 +38,7 @@ then, in R:
 
 &nbsp;
 
-11.31k is not a very large picture. Each of the exploratory plots ([quantile x normal](/blog/assets/lj/words-qqnorm.png), [density](/blog/assets/lj/words-density.png), [histogram](/blog/assets/lj/words-hist.png)) is larger! Even these pictures of me and my daughter and the fat giraffes are 13k, 13k, and 15k respectively:
+11.31k is not a very large picture. Each of the exploratory plots ([quantile x normal](images/lj/words-qqnorm.png), [density](images/lj/words-density.png), [histogram](images/lj/words-hist.png)) is larger! Even these pictures of me and my daughter and the fat giraffes are 13k, 13k, and 15k respectively:
 
 ![13k](images/lj/2008-07-02-fg2-th.jpg)
 ![13k](images/lj/2008-07-02-fg3-th.jpg)
