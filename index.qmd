@@ -13,6 +13,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/kbmcgowan
+    - icon: calendar
+      text: make an appointment
+      href: https://appt.link/meet-with-kevin-mcgowan-8HaU92A1
     - icon: book
       text: Scholar
       href: https://scholar.google.com/citations?user=lLc4BXYAAAAJ&hl=en
