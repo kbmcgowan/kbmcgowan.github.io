@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.8">
+<meta name="generator" content="quarto-1.7.13">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -31,14 +31,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./favicon.ico" rel="icon">
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-79bb3942e891885f9f7af119cd221462.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-66ab7fd5e73b7f0a764e0d49b3e29ab1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3e2a9af25a307abeb180fa14d4508642.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dd989a974e8b82405fd4113b799654b8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -149,6 +150,8 @@ ul.task-list li input[type="checkbox"] {
 </div><div class="column" style="width:70%;">
 <p><a href="https://en.wikipedia.org/wiki/Rusty_Barrett">Rusty Barrett</a>, <a href="https://linguistics.as.uky.edu/users/jsfrie0">Jennifer Cramer</a>, and I had the great honor of revising <a href="https://en.wikipedia.org/wiki/Rosina_Lippi">Rosina Lippi-Green’s</a> classic <em>English with an Accent</em> to bring it up to date with all of the research it has been so important in inspiring.</p>
 <p><a href="http://www.jennifernycz.com">Jennifer Nycz</a> described our new edition as the “updated-for-the-<a href="https://web.stanford.edu/~eckert/thirdwave.html">3rd-wave</a>” edition of EWAA, adding that “third-wave” is [her] academic translation of how they explain it … clearly/accessibly and without jargon.” And I could not be more thrilled with this description!</p>
+<p><a href="https://www.brooklyn.edu/faculty-staff/mike-mena/">Mike Mena</a> <a href="https://bsky.app/profile/mikemena.bsky.social/post/3lekb4tqv2c2q">Reviewed the book enthusiastically on bluesky</a></p>
+<p>We did <a href="https://www.buzzsprout.com/1930383/episodes/14886469-gorsh-we-all-have-accents.mp3?download=true">an episode of the Vocal Fries podcast about the third edition</a></p>
 <p>The <a href="https://www.routledge.com/English-with-an-Accent-Language-Ideology-and-Discrimination-in-the-United-States/Barrett-Cramer-McGowan/p/book/9781003332886">book’s website is here</a></p>
 </div>
 </div>
@@ -169,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://vicfirth.com/blogs/artist/kevin-mcgowan">Kevin McGowan</a>, drummer &amp; also possibly musician?</li>
 <li><a href="https://www.janelia.org/people/kevin-mcgowan">Kevin McGowan</a>, molecular genomics</li>
 <li><a href="https://www.legacy.com/us/obituaries/newsobserver/name/kevin-mcgowan-obituary?id=53581809">Kevin P. McGowan</a> statistical programmer, alas, is no longer with us.</li>
-<li>There are more, a lot more, but you get the idea.</li>
+<li>There are more, a lot more, but you probably get the idea.</li>
 </ul>
 
 
@@ -273,8 +276,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -385,7 +386,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
