@@ -1,10 +1,22 @@
 [
   {
+    "listing": "/teaching/index.html",
+    "items": [
+      "/teaching/courses-uk/lin300.html",
+      "/teaching/courses-uk/lin500.html",
+      "/teaching/courses-uk/lin515.html",
+      "/teaching/courses-lsa/lsa2019-SpeechPerception.html",
+      "/teaching/courses-lsa/lsa2017-DoingPhoneticsResearch.html",
+      "/teaching/courses-lsa/lsa2017-EyeTracking.html",
+      "/teaching/courses-lsa/lsa2013-PraatScripting.html"
+    ]
+  },
+  {
     "listing": "/stuff/index.html",
     "items": [
       "/stuff/posts/2024-05-24-email.html",
-      "/stuff/posts/2024-05-22-pancakes.html",
       "/stuff/posts/2024-05-23-cookies copy.html",
+      "/stuff/posts/2024-05-22-pancakes.html",
       "/stuff/posts/2020-04-15-ocr-macos.html",
       "/stuff/posts/2018-09-10-typishly.html",
       "/stuff/posts/2015-03-26-mcgurk-effect.html",
@@ -23,18 +35,6 @@
       "/stuff/posts/2008-12-21-2^15.html",
       "/stuff/posts/2008-08-08-vegetarian-french-onion.html",
       "/stuff/posts/2007-04-08-immoderate-improvement.html"
-    ]
-  },
-  {
-    "listing": "/teaching/index.html",
-    "items": [
-      "/teaching/courses-uk/lin300.html",
-      "/teaching/courses-uk/lin500.html",
-      "/teaching/courses-uk/lin515.html",
-      "/teaching/courses-lsa/lsa2019-SpeechPerception.html",
-      "/teaching/courses-lsa/lsa2017-DoingPhoneticsResearch.html",
-      "/teaching/courses-lsa/lsa2017-EyeTracking.html",
-      "/teaching/courses-lsa/lsa2013-PraatScripting.html"
     ]
   }
 ]
