@@ -1,7 +1,7 @@
 # Site settings
 title: Kevin B. McGowan
 email: kbmcgowan@vowel.space
-description: linguist, phonetician, nerd
+description: linguist, phonetician, musician
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://vowel.space" # the base hostname & protocol for your site
 

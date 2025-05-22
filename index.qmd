@@ -1,5 +1,5 @@
 ---
-title: linguist, phonetician, nerd
+title: linguist, phonetician, musician
 html:
 about:
   template: marquee
