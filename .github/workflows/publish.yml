@@ -1,7 +1,12 @@
 on:
   workflow_dispatch:
+  label:
+    types:
+      - created
   push:
-    branches: main
+    branches:
+      - main
+  page_build:
 
 name: Quarto Publish
 
