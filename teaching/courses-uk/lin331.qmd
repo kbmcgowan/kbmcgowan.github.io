@@ -1,0 +1,7 @@
+---
+layout: course
+title:  "Lin 331 - Language in the United States"
+date:   2025-04-15 17:21:16
+categories: teaching sociolinguistics
+---
+
