@@ -67,8 +67,10 @@ format:
     <dl>
 	<!--<dt>(in prep)</dt> <dd>McGowan, K.B. &amp; Sumner, M. <em>A phonetic explanation of phonetic variant effects</em></dd> -->
 
-   <dt>(in prep)</dt><dd>Laycock, K. \& McGowan, K.B. Removing the disguise: the matched guise technique and listener awareness. <em>Journal of Sociolinguistics</em>.</dd>
    <dt>(in press)</dt><dd>McGowan, K.B. Speech Perception.  In <em>Sociophonetics: Implications for Phonetics and Phonology</em>, ed. by Lauren Hall-Lew and Jennifer Nycz.  Oxford University Press</dd>
+   
+   <dt>(2025)</dt><dd>Laycock, K., & McGowan, K. B. (2025). Removing the Disguise: The Matched Guise Technique, Incongruity, and Listener Awareness. <em>Journal of Sociolinguistics</em><a href="https://doi.org/10.1111/josl.12700">https://doi.org/10.1111/josl.12700</a></dd>
+	<dt>(2025)</dt><dd>Babel, A. M., Campbell‐Kibler, K., & McGowan, K. B. Introduction to the Thematic Issue. <em>Journal of Sociolinguistics</em><a href="https://doi.org/10.1111/josl.12690">https://doi.org/10.1111/josl.12690</a></dd>
 	
 	<dt>(2022)</dt> <dd>Barrett, R., Cramer, J., & McGowan, K. B. English with an accent: Language, ideology, and discrimination in the United States. Taylor & Francis.</dd>
 
