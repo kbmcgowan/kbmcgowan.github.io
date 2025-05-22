@@ -3,7 +3,7 @@ project:
 
 website:
   title: Kevin B. McGowan
-  description: linguist, phonetician, nerd
+  description: linguist, phonetician, musician
   favicon: favicon.ico
   navbar:
     right:
