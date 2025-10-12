@@ -1,68 +1,139 @@
 ---
-title: "curriculum vitae"
+title: "Curriculum vitae"
 format:
     html:
       css: simple.css
+    typst:
+      mainfont: "Roboto"
+      toc: false
+      columns: 1
+      number-sections: false
 ---
+
+# Kevin B. McGowan
+:::: {#address layout-ncol=2}
+
+<div>
+1669 Patterson Office Tower \
+Lexington KY 40506-0027 \
+USA
+</div>
+
+<div>
+kbmcgowan@vowel.space \
+https://vowel.space/
+
+::: {.content-visible when-format="typst"}
++1 (734) 678-4245
+:::
+</div>
+
+::::
+
+## Education
+
+:::: {layout="[20,80]"}
+2006 - 2011\
+<div> 
+Ph.D. Linguistics, University of Michigan \
+ \
+Dissertation: The Role of Socioindexical Expectation in Speech Perception \
+Patrice Speeter Beddor & Steven P. Abney, co-chairs \
+Julie Boland, Benjamin Munson, & Robin Queen, committee members \
+</div>
+::::
+
+:::: {layout="[20,80]"}
+2007\
+<div>Linguistic Institute, Stanford University</div>
+::::
+
+:::: {layout="[20,80]"}
+1996\
+<div>B.A. Linguistics, University of Michigan</div>
+::::
+
+## Employment
+
+:::: {layout="[20,80]"}
+2021 -  \
+<div>Associate Professor, Department of Linguistics, University of Kentucky</div>
+::::
+
+:::: {layout="[20,80]"}
+2015 – 2021 \
+<div>Assistant Professor, Department of Linguistics, University of Kentucky</div>
+::::
+
+:::: {layout="[20,80]"}
+2013 – 2015 \
+<div>Postdoctoral Scholar, Department of Linguistics, Stanford University \
+Meghan Sumner, PI
+</div>
+::::
+
+:::: {layout="[20,80]"}
+2011 - 2013 \
+<div>Lecturer, Department of Linguistics, Rice University</div>
+::::
+
+:::: {layout="[20,80]"}
+1997 - 2007 \
+<div>Webmaster, Web Production & Database Services Team Lead, Information Technology Division, University of Michigan</div>
+::::
+
+
+
+## Professional Experience
+
+:::: {layout="[20,80]"}
+2019 \
+<div>Invited Faculty, &ldquo;Speech Perception&rdquo;, Linguistic Society of America Summer Institute, University of California, Davis</div>
+::::
+
+:::: {layout="[20,80]"}
+2017 \
+<div>Invited Faculty, &ldquo;Doing phonetics research&rdquo; and &ldquo;Eye tracking for linguistics research&rdquo; Linguistic Society of America Summer Institute, University of Kentucky</div>
+::::
+
+:::: {layout="[20,80]"}
+2013 \
+<div>Invited Faculty, &ldquo;Introduction to Praat&rdquo; Linguistic Society of America Summer Institute, University of Michigan</div>
+::::
+
+:::: {layout="[20,80]"}
+2007 - 2010 \
+<div>Journal Assistant &amp; Student Board Member, <em>Language Learning Journal</em>, Blackwell Publishing</div>
+::::
+
+:::: {layout="[20,80]"}
+2009 - 2010 \
+<div>Research Assistant, Professor Pam Beddor, Michigan Phonetics &amp; Phonology Laboratory</div>
+::::
+
+:::: {layout="[20,80]"}
+2007 - 2008 \
+<div>Research Assistant, Professors Pam Beddor &amp; A. Coetzee, Michigan Phonetics &amp; Phonology Laboratory</div>
+::::
+
+:::: {layout="[20,80]"}
+1997 - 2007 \
+<div>Programmer &amp;, System administrator, Manager of Web and Database production services, University of Michigan</div>
+::::
+
+:::: {layout="[20,80]"}
+1993 - 1994 \
+<div>Undergraduate Research Assistant, Professor Richard W. Bailey, Department of English, University of Michigan</div>
+::::
+
+
 ```{=html}
 <div class="scrolling-columns">
 
 <div class="singlecolumn">
 
-<div class="box">
-    <div>
-    <span style="float: right;">(<a class="button" href="McGowanCV.pdf">pdf</a>)</span>
-    <!-- <h2 class="title"><a href="McGowanCV.pdf">Curriculum Vitae</a></h2>  -->
-
-    </div>
-
-
-
-<div id="text"> 
-		<div class="post"> 
-		    <h2 class="title"> Education</h2>
-    <dl>
-	<dt>2006 - 2011</dt> <dd>Ph.D. Linguistics <br />
-	 University of Michigan <br />
-	Dissertation title: <em>The Role of Socioindexical Expectation in Speech Perception</em><br />
-	Steven P. Abney &amp; Patrice Speeter Beddor, co-chairs<br/>
-	Julie Boland, Robin Queen, &amp; Benjamin Munson, readers</dd>
-	<dt>1996</dt>  <dd>B.A. Linguistics<br />
-	University of Michigan</dd>
-
-	<dt>2007</dt> <dd>Summer Institute of the Linguistic Society of America<br />
-	Stanford University</dd>
-	<dt>2006</dt> <dd>JHU Summer School on Human Language Technology<br />
-	Johns Hopkins University
-    </dl>
-		</div>
-
 <div class="post">
-                    <h2 class="title">Employment</h2>
-    <dl>
-	<dt>2021 - </dt> <dd> <dd>Associate Professor, Department of Linguistics, University of Kentucky</dd>
-	<dt>2015 - 2021</dt> <dd>Assistant Professor, Program in Linguistics, Department of English, University of Kentucky</dd>
-	<dt>2013 - 2015</dt> <dd>Postdoctoral Scholar, Department of Linguistics, Stanford University<br />Meghan Sumner (PI)</dd>
-	<dt>2011 - 2013</dt> <dd>Lecturer, Department of Linguistics, Rice University</dd>
-    </dl>
-</div>
-
-<div class="post">
-                    <h2 class="title">Professional Experience</h2>
-    <dl>
-	<dt>2019</dt> <dd>Invited Faculty, &ldquo;Speech Perception&rdquo;, Linguistic Society of America Summer Institute, University of California, Davis</dd>
-	<dt>2017</dt> <dd>Invited Faculty, &ldquo;Doing phonetics research&rdquo; and &ldquo;Eye tracking for linguistics research&rdquo; Linguistic Society of America Summer Institute, University of Kentucky</dd>
-	<dt>2013</dt> <dd>Invited Faculty, &ldquo;Introduction to Praat&rdquo; Linguistic Society of America Summer Institute, University of Michigan</dd>
-	<dt>2007 - 2010</dt> <dd>Journal Assistant &amp; Student Board Member, <em>Language Learning Journal</em>, Blackwell Publishing</dd>
-	<dt>2009 - 2010</dt> <dd>Research Assistant, Professor Pam Beddor, Michigan Phonetics &amp; Phonology Laboratory</dd>
-	<dt>2007 - 2008</dt> <dd>Research Assistant, Professors Pam Beddor &amp; A. Coetzee, Michigan Phonetics &amp; Phonology Laboratory</dd>
-	<dt>1997 - 2007</dt> <dd>Programmer &amp;, System administrator, Manager of Web and Database production services, University of Michigan</dd>
-    </dl>
-</div>
-
-<div class="post">
-    <h2 class="title">Publications &amp; Presentations</h2>
-    <h3 class="subtitle">Publications ( <a href="../research/mcgowan.bib">bibtex</a> )</h3>
+    <h2 class="subtitle">Publications ( <a href="../research/mcgowan.bib">bibtex</a> )</h2>
 
     <dl>
 	<!--<dt>(in prep)</dt> <dd>McGowan, K.B. &amp; Sumner, M. <em>A phonetic explanation of phonetic variant effects</em></dd> -->
@@ -102,20 +173,9 @@ format:
     </dl>
 </div>
 
-<!--
-<div class="post">
-    <h3 class="subtitle">Manuscripts in Preparation &amp; Upcoming Talks</h3>
-
-    <dl>
-	<dt>manuscript</dt> <dd>&ldquo;Aerodynamic Modeling of Coarticulation for Unit-Selection Speech Synthesis.&rdquo;</dd>
-
-	<dt>manuscript</dt> <dd> &ldquo;The Influence of Socioindexical Expectation on Speech Perception: evidence from Eye-Tracking&rdquo;</dd>
-
-</div>
--->
 
 <div class="post">
-    <h3 class="subtitle">Invited Talks &amp; Colloquia</h3>
+    <h2 class="subtitle">Invited Talks &amp; Colloquia</h2>
     <dl>
 	<dt>2019</dt> <dd>University of Tennessee, Knoxville &mdash; Social expectation and speech perception: mismatch and alignment</dd>
 	<dt>2016</dt> <dd>University of Michigan &mdash; &ldquo;Subcategorical mismatches can be mismatches of phonetic, phonological, lexical, and social context&rdquo;</dd>
@@ -305,9 +365,9 @@ format:
 <div class="post">
                     <h2 class="title">Selected Software Projects</h2>
     <ul>
-	<li> <a href="http://weblogin.org/">CoSign, Open Source Web Single SignOn</a> ( co-founder, former developer ). </li>
-	<li> <a href=" http://rubberducky.org/cgi-bin/chomsky.pl">ChomskyBot</a>, Pseudo-random Sentence Generator and Gentle Mockery Engine. </li>
-	<li> <a href="http://directory.umich.edu/">ldapweb</a>, Web-based LDAP Directory Client. </li>
+	<li> CoSign, Open Source Web Single SignOn ( co-founder, developer ). </li>
+	<li> <a href="http://www.chomskybot.com/">ChomskyBot</a>, Pseudo-random Sentence Generator and Gentle Mockery Engine. </li>
+	<li> ldapweb, Web-based LDAP Directory Client. </li>
 	<li> kpasswd.cgi, Web-based Kerberos password changer </li>
     </ul>
 </div> 
@@ -324,12 +384,10 @@ format:
 <div class="post">
     <h2 class="title">Professional affiliations</h2>
     <dl>
-	<dt>2010 - </dt> <dd>Association for Laboratory Phonology</dd>
 	<dt>2009 - </dt> <dd>Acoustical Society of America</dd>
 	<dt>2006 - </dt> <dd>Linguistic Society of America</dd>
     </dl>
 </div>
-    <span style="float: right;"><a class="button" href="McGowanCV.pdf">Download PDF</a></span>
 </div> 
 </div>
 

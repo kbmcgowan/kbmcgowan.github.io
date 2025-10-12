@@ -1,5 +1,6 @@
 ---
 title: "teaching"
+css: simple.css
 listing: 
   - id: courses-uk
     contents: "courses-uk/*.qmd"
@@ -21,16 +22,27 @@ listing:
 
 ## Mentorship & Advising
 
-- Stella Takvoryan ([ma thesis](https://uknowledge.uky.edu/ltt_etds/66/))
-- [Kaitlin Young](https://uknowledge.uky.edu/ltt_etds/69/), co-chair with Brenna Byrd
-- [Emily Remirez](https://www.proquest.com/openview/633e57c9ca44f19ecf97c41c1c04f9bf/1?pq-origsite=gscholar&cbl=18750&diss=y), co-chair with Keith Johnson
-- [Nour Kayali](https://uknowledge.uky.edu/ltt_etds/53/)
-- [Aidah Aljuran](https://uknowledge.uky.edu/ltt_etds/25/)
-- [Jarred Brewster](https://uknowledge.uky.edu/ltt_etds/43/)
-- [Kyler Laycock](https://uknowledge.uky.edu/ltt_etds/41/)
-- [Ollie Combs](https://uknowledge.uky.edu/ltt_etds/40/)
-- [Kelly Wright](https://uknowledge.uky.edu/ltt_etds/18/)
-- [Kaitlyn Lee](https://uknowledge.uky.edu/ltt_etds/17/)
+- Stella Takvoryan,  [Listening to cursive: The roles of regional identity and folk beliefs in perceptual cue-weighting](https://uknowledge.uky.edu/ltt_etds/66/), MA thesis chair
+- Kaitlin Young, [Cognate Facilitation and Processing in English-Speaking Learners of German](https://uknowledge.uky.edu/ltt_etds/69/), MA thesis co-chair with Brenna Byrd
+- Emily Remirez, [Modeling the Role of Social Information in Speech Perception](https://www.proquest.com/openview/633e57c9ca44f19ecf97c41c1c04f9bf/1?pq-origsite=gscholar&cbl=18750&diss=y), UC Berkeley PhD thesis, co-chair with Keith Johnson
+- Nour Kayali, ["Does This Make Sense?": The Effect of Congruent Guise in Regional Accent on Grammatical Acceptability Judgments](https://uknowledge.uky.edu/ltt_etds/53/), MA Thesis chair
+- Aidah Aljuran, [“Listening with an Attitude”: The Role of Attitude on Native and Non-Native Intergroup CommunicatioN
+](https://uknowledge.uky.edu/ltt_etds/25/), MA Thesis chair
+- Jarred Brewster, [Language Contact and Covert Prominence in the Sḥerēt-Jibbāli Language of Oman
+](https://uknowledge.uky.edu/ltt_etds/43/), MA Thesis chair
+- Kyler Laycock, [The Influence of Socioindexical Information on the Speech Perception-Production Link: Evidence from a Shadowing Task](https://uknowledge.uky.edu/ltt_etds/41/), MA Thesis chair
+- Ollie Combs, [Relevant Angry Affect Slows Response Time To Commands](https://uknowledge.uky.edu/ltt_etds/40/), MA Thesis chair
+- Kelly Wright, [The Reflection and Reification of Racialized Language in Popular Media](https://uknowledge.uky.edu/ltt_etds/18/), MA Thesis chair
+- Kaitlyn Lee, [he Perception of Creaky Voice: Does Speaker Gender Affect our
+The Perception of Creaky Voice: Does Speaker Gender Affect our
+Judgments? ](https://uknowledge.uky.edu/ltt_etds/17/), MA Thesis chair
+- Penelope Howe, Investigation of cues to fricative voicing in dialects of Malagasy. Rice University. Qualifying Paper, chair
+- Hussein Hizazi, Formant Analysis of Jordanian Arabic Vowels: Emphasis Effect on F2 in Jordanian Arabic. Rice University. Qualifying Paper, chair
+- John Galindo, A psychoacoustic study of the influence of L1 lexical tone and pitch perception. Rice University. Qualifying Paper, chair
+- Ling Ma, Native Mandarin perception of English word boundary consonant overlap. Qualifying Paper, chair
+- Ru-ping Ruby Tso, Chinese Characters and Speech Recognition. Rice University. Qualifying Paper, reader
+- Obi Nwabueze, The use of eye-tracking in speech perception research. Undergraduate Research
+- Sheri-Ann Peckham, Investigation of age-related perceptual plasticity using Jamaican Creole. Undergraduate Research
 
 ## External Examiner
 
