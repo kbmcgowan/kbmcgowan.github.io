@@ -1,5 +1,5 @@
 ---
-title: "cv"
+title: "curriculum vitae"
 format:
     html:
       css: simple.css
@@ -11,8 +11,8 @@ format:
 
 <div class="box">
     <div>
-    <span style="float: right;"><a class="button" href="McGowanCV.pdf">Download PDF</a></span>
-    <h2 class="title"><a href="McGowanCV.pdf">Curriculum Vitae</a></h2> 
+    <span style="float: right;">(<a class="button" href="McGowanCV.pdf">pdf</a>)</span>
+    <!-- <h2 class="title"><a href="McGowanCV.pdf">Curriculum Vitae</a></h2>  -->
 
     </div>
 

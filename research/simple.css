@@ -64,7 +64,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #314159;
+    color: #2254A4;
 }
 
 a:hover {
@@ -298,7 +298,7 @@ div.scrollableArea
 
 .box h1, .box h2, .box h3 {
     margin-top:0px;
-    color:#0B486B;
+    color:#2254A4;
     margin-bottom: 1em;
     font-weight: normal;
 }
@@ -332,7 +332,7 @@ div.scrollableArea
 #footer {
    width: 100%;
    height: 110px;
-   backgroun-color: #3f3d3f;
+   backgroun-color: #2254A4;
 }
 
 .twocolumn {
@@ -488,9 +488,9 @@ dt {
 
 .button {
     font-size: 16px;
-    background: #0B486B;
+    background: #2254A4;
     color: white;
-    background: rgb( 11, 72, 107 );
+    background: rgb( 34, 84, 164 );
     display: inline-block;
     margin-bottom: 0px;
     padding-top: 2px;
@@ -644,7 +644,7 @@ h3 { font-size: 100%; }
     position: absolute;
     border-style: solid;
     border-width: 24px 16px 0;
-    border-color: #0B486B transparent;
+    border-color: #2254A4 transparent;
     display: block;
     width: 0;
     z-index: 0;
@@ -684,7 +684,7 @@ content: '';
 position: absolute;
 border-style: solid;
 border-width: 24px 24px 24px 0;
-border-color: transparent #0B486B;
+border-color: transparent #2254A4;
 display: block;
 width: 0;
 z-index: 0;
