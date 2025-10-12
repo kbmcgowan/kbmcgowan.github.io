@@ -12,7 +12,8 @@ website:
       - research/index.qmd
       - teaching/index.qmd
       - stuff/index.qmd
-      - cv/index.qmd
+      - text: "cv"
+        href: cv/index.qmd
 
 resources:
   - "things/*"
