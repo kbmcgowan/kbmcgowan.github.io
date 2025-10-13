@@ -1,9 +1,0 @@
-## {{< meta thesis >}}
-
-#### {{< meta advisee >}}
-\
-
-
-{{< meta florp >}}
-
-[{{< meta href >}}]({{< meta href >}})
