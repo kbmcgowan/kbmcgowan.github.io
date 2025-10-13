@@ -393,10 +393,23 @@ Undergraduate Research Assistant, Professor Richard W. Bailey, Department of Eng
 ```
 
 ## Advising &amp; Supervision
+
+::::: {.content-visible when-format="typst"}
 \
-
 {{< include includes/_advisees.qmd >}}
+:::::
 
+::::: {.content-visible when-format="html"}
+
+:::{#advising}
+:::
+
+### External Reviewer
+
+:::{#external}
+:::
+
+:::::
 
 ## Selected Software Projects
 
