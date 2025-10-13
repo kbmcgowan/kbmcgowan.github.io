@@ -1,0 +1,12 @@
+---
+year: 
+thesis: 
+advisee: 
+lastname: 
+href: 
+role: 
+florp: 
+---
+
+{{< include _template.qmd >}}
+

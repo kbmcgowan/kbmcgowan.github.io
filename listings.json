@@ -1,5 +1,28 @@
 [
   {
+    "listing": "/cv/index.html",
+    "items": [
+      "/teaching/advisees/Takvoryan.html",
+      "/teaching/advisees/Young.html",
+      "/teaching/advisees/Remirez.html",
+      "/teaching/advisees/Kayali.html",
+      "/teaching/advisees/Brewster.html",
+      "/teaching/advisees/Laycock.html",
+      "/teaching/advisees/Combs.html",
+      "/teaching/advisees/Aljuran.html",
+      "/teaching/advisees/Wright.html",
+      "/teaching/advisees/Lee.html",
+      "/teaching/advisees/Galindo.html",
+      "/teaching/advisees/Howe.html",
+      "/teaching/advisees/Hizazi.html",
+      "/teaching/advisees/Ma.html",
+      "/teaching/advisees/Nwabueze.html",
+      "/teaching/advisees/Peckham.html",
+      "/teaching/advisees/Gibson.html",
+      "/teaching/advisees/Gnevsheva.html"
+    ]
+  },
+  {
     "listing": "/stuff/index.html",
     "items": [
       "/stuff/posts/2024-05-24-email.html",
@@ -28,6 +51,24 @@
   {
     "listing": "/teaching/index.html",
     "items": [
+      "/teaching/advisees/Takvoryan.html",
+      "/teaching/advisees/Young.html",
+      "/teaching/advisees/Remirez.html",
+      "/teaching/advisees/Kayali.html",
+      "/teaching/advisees/Brewster.html",
+      "/teaching/advisees/Laycock.html",
+      "/teaching/advisees/Combs.html",
+      "/teaching/advisees/Gibson.html",
+      "/teaching/advisees/Aljuran.html",
+      "/teaching/advisees/Wright.html",
+      "/teaching/advisees/Lee.html",
+      "/teaching/advisees/Gnevsheva.html",
+      "/teaching/advisees/Galindo.html",
+      "/teaching/advisees/Howe.html",
+      "/teaching/advisees/Hizazi.html",
+      "/teaching/advisees/Ma.html",
+      "/teaching/advisees/Nwabueze.html",
+      "/teaching/advisees/Peckham.html",
       "/teaching/courses-uk/lin500.html",
       "/teaching/courses-uk/lin517.html",
       "/teaching/courses-uk/lin331.html",

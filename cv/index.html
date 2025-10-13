@@ -51,6 +51,8 @@ div.csl-indent {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -89,11 +91,97 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-advising .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-year','listing-advisee','listing-thesis','listing-role',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-advising'] = new List('listing-advising', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-external .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-year','listing-advisee','listing-thesis','listing-role',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-external'] = new List('listing-external', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
 <link rel="manifest" href="../site.webmanifest">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="simple.css">
@@ -600,31 +688,390 @@ Coetzee, A. W., &amp; McGowan, K. B. (2008, January). <em>Allophonic cues to syl
 </div></div></section>
 <section id="student-research-supervision" class="level2">
 <h2 class="anchored" data-anchor-id="student-research-supervision">Student Research Supervision</h2>
-<ul>
-<li>Stella Takvoryan, <a href="https://uknowledge.uky.edu/ltt_etds/66/">Listening to cursive: The roles of regional identity and folk beliefs in perceptual cue-weighting</a>, MA thesis chair</li>
-<li>Kaitlin Young, <a href="https://uknowledge.uky.edu/ltt_etds/69/">Cognate Facilitation and Processing in English-Speaking Learners of German</a>, MA thesis co-chair with Brenna Byrd</li>
-<li>Emily Remirez, <a href="https://www.proquest.com/openview/633e57c9ca44f19ecf97c41c1c04f9bf/1?pq-origsite=gscholar&amp;cbl=18750&amp;diss=y">Modeling the Role of Social Information in Speech Perception</a>, UC Berkeley PhD thesis, co-chair with Keith Johnson</li>
-<li>Nour Kayali, <a href="https://uknowledge.uky.edu/ltt_etds/53/">“Does This Make Sense?”: The Effect of Congruent Guise in Regional Accent on Grammatical Acceptability Judgments</a>, MA Thesis chair</li>
-<li>Aidah Aljuran, <a href="https://uknowledge.uky.edu/ltt_etds/25/">“Listening with an Attitude”: The Role of Attitude on Native and Non-Native Intergroup CommunicatioN</a>, MA Thesis chair</li>
-<li>Jarred Brewster, <a href="https://uknowledge.uky.edu/ltt_etds/43/">Language Contact and Covert Prominence in the Sḥerēt-Jibbāli Language of Oman</a>, MA Thesis chair</li>
-<li>Kyler Laycock, <a href="https://uknowledge.uky.edu/ltt_etds/41/">The Influence of Socioindexical Information on the Speech Perception-Production Link: Evidence from a Shadowing Task</a>, MA Thesis chair</li>
-<li>Ollie Combs, <a href="https://uknowledge.uky.edu/ltt_etds/40/">Relevant Angry Affect Slows Response Time To Commands</a>, MA Thesis chair</li>
-<li>Kelly Wright, <a href="https://uknowledge.uky.edu/ltt_etds/18/">The Reflection and Reification of Racialized Language in Popular Media</a>, MA Thesis chair</li>
-<li>Kaitlyn Lee, <a href="https://uknowledge.uky.edu/ltt_etds/17/">he Perception of Creaky Voice: Does Speaker Gender Affect our The Perception of Creaky Voice: Does Speaker Gender Affect our Judgments?</a>, MA Thesis chair</li>
-<li>Penelope Howe, Investigation of cues to fricative voicing in dialects of Malagasy. Rice University. Qualifying Paper, chair</li>
-<li>Hussein Hizazi, Formant Analysis of Jordanian Arabic Vowels: Emphasis Effect on F2 in Jordanian Arabic. Rice University. Qualifying Paper, chair</li>
-<li>John Galindo, A psychoacoustic study of the influence of L1 lexical tone and pitch perception. Rice University. Qualifying Paper, chair</li>
-<li>Ling Ma, Native Mandarin perception of English word boundary consonant overlap. Qualifying Paper, chair</li>
-<li>Ru-ping Ruby Tso, Chinese Characters and Speech Recognition. Rice University. Qualifying Paper, reader</li>
-<li>Obi Nwabueze, The use of eye-tracking in speech perception research. Undergraduate Research</li>
-<li>Sheri-Ann Peckham, Investigation of age-related perceptual plasticity using Jamaican Creole. Undergraduate Research</li>
-</ul>
+<div id="listing-advising" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+year
+</th>
+
+<th>
+advisee
+</th>
+
+<th>
+thesis
+</th>
+
+<th>
+role
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-file-modified-sort="1760361761031">
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<a href="../teaching/advisees/_new.qmd" class="advisee listing-advisee">&nbsp;</a>
+</td>
+<td>
+<a href="../teaching/advisees/_new.qmd" class="thesis listing-thesis">&nbsp;</a>
+</td>
+<td>
+<span class="listing-role">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-file-modified-sort="1760361761031">
+<td>
+<span class="listing-year">&nbsp;</span>
+</td>
+<td>
+<a href="../teaching/advisees/_template.qmd" class="advisee listing-advisee">&nbsp;</a>
+</td>
+<td>
+<a href="../teaching/advisees/_template.qmd" class="thesis listing-thesis">&nbsp;</a>
+</td>
+<td>
+<span class="listing-role">&nbsp;</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-listing-file-modified-sort="1760361761031" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="Listening to cursive&amp;colon; The roles of regional identity and folk beliefs in perceptual cue-weighting" data-listing-advisee-sort="Stella Takvoryan">
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<a href="../teaching/advisees/Takvoryan.html" class="advisee listing-advisee">Stella Takvoryan</a>
+</td>
+<td>
+<a href="../teaching/advisees/Takvoryan.html" class="thesis listing-thesis">Listening to cursive: The roles of regional identity and folk beliefs in perceptual cue-weighting</a>
+</td>
+<td>
+<span class="listing-role">MA thesis chair</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-listing-file-modified-sort="1760361761031" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="Cognate Facilitation and Processing in English-Speaking Learners of German" data-listing-advisee-sort="Kaitlin Young">
+<td>
+<span class="listing-year">2025</span>
+</td>
+<td>
+<a href="../teaching/advisees/Young.html" class="advisee listing-advisee">Kaitlin Young</a>
+</td>
+<td>
+<a href="../teaching/advisees/Young.html" class="thesis listing-thesis">Cognate Facilitation and Processing in English-Speaking Learners of German</a>
+</td>
+<td>
+<span class="listing-role">MA thesis co-chair with Brenna Byrd</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-listing-file-modified-sort="1760361761031" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="Modeling the Role of Social Information in Speech Perception" data-listing-advisee-sort="Emily Remirez">
+<td>
+<span class="listing-year">2024</span>
+</td>
+<td>
+<a href="../teaching/advisees/Remirez.html" class="advisee listing-advisee">Emily Remirez</a>
+</td>
+<td>
+<a href="../teaching/advisees/Remirez.html" class="thesis listing-thesis">Modeling the Role of Social Information in Speech Perception</a>
+</td>
+<td>
+<span class="listing-role">UC Berkeley PhD thesis, co-chair with Keith Johnson</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-listing-file-modified-sort="1760361761031" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="This Make Sense?&amp;rdquo;&amp;nbsp; The Effect of Congruent Guise in Regional Accent on Grammatical Acceptability Judgments" data-listing-advisee-sort="Nour Kayali">
+<td>
+<span class="listing-year">2023</span>
+</td>
+<td>
+<a href="../teaching/advisees/Kayali.html" class="advisee listing-advisee">Nour Kayali</a>
+</td>
+<td>
+<a href="../teaching/advisees/Kayali.html" class="thesis listing-thesis">This Make Sense?”&nbsp; The Effect of Congruent Guise in Regional Accent on Grammatical Acceptability Judgments</a>
+</td>
+<td>
+<span class="listing-role">MA thesis chair</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-listing-file-modified-sort="1760361761030" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="Language Contact and Covert Prominence in the Sḥerēt-Jibbāli Language of Oman" data-listing-advisee-sort="Jarred Brewster">
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<a href="../teaching/advisees/Brewster.html" class="advisee listing-advisee">Jarred Brewster</a>
+</td>
+<td>
+<a href="../teaching/advisees/Brewster.html" class="thesis listing-thesis">Language Contact and Covert Prominence in the Sḥerēt-Jibbāli Language of Oman</a>
+</td>
+<td>
+<span class="listing-role">MA thesis chair</span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-listing-file-modified-sort="1760361761031" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="The Influence of Socioindexical Information on the Speech Perception-Production Link&amp;nbsp; Evidence from a Shadowing Task" data-listing-advisee-sort="Kyler Laycock">
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<a href="../teaching/advisees/Laycock.html" class="advisee listing-advisee">Kyler Laycock</a>
+</td>
+<td>
+<a href="../teaching/advisees/Laycock.html" class="thesis listing-thesis">The Influence of Socioindexical Information on the Speech Perception-Production Link&nbsp; Evidence from a Shadowing Task</a>
+</td>
+<td>
+<span class="listing-role">MA thesis chair</span>
+</td>
+
+</tr>
+
+<tr data-index="8" data-listing-file-modified-sort="1760361761030" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="Relevant Angry Affect Slows Response Time To Commands" data-listing-advisee-sort="Ollie Combs">
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<a href="../teaching/advisees/Combs.html" class="advisee listing-advisee">Ollie Combs</a>
+</td>
+<td>
+<a href="../teaching/advisees/Combs.html" class="thesis listing-thesis">Relevant Angry Affect Slows Response Time To Commands</a>
+</td>
+<td>
+<span class="listing-role">MA thesis chair</span>
+</td>
+
+</tr>
+
+<tr data-index="9" data-listing-file-modified-sort="1760361761030" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="“Listening with an Attitude”&amp;nbsp; The Role of Attitude on Native and Non-Native Intergroup Communication" data-listing-advisee-sort="Aidah Aljuran">
+<td>
+<span class="listing-year">2017</span>
+</td>
+<td>
+<a href="../teaching/advisees/Aljuran.html" class="advisee listing-advisee">Aidah Aljuran</a>
+</td>
+<td>
+<a href="../teaching/advisees/Aljuran.html" class="thesis listing-thesis">“Listening with an Attitude”&nbsp; The Role of Attitude on Native and Non-Native Intergroup Communication</a>
+</td>
+<td>
+<span class="listing-role">MA thesis chair</span>
+</td>
+
+</tr>
+
+<tr data-index="10" data-listing-file-modified-sort="1760361761031" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="The Reflection and Reification of Racialized Language in Popular Media" data-listing-advisee-sort="Kelly E. Wright">
+<td>
+<span class="listing-year">2017</span>
+</td>
+<td>
+<a href="../teaching/advisees/Wright.html" class="advisee listing-advisee">Kelly E. Wright</a>
+</td>
+<td>
+<a href="../teaching/advisees/Wright.html" class="thesis listing-thesis">The Reflection and Reification of Racialized Language in Popular Media</a>
+</td>
+<td>
+<span class="listing-role">MA thesis chair</span>
+</td>
+
+</tr>
+
+<tr data-index="11" data-listing-file-modified-sort="1760361761031" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="The Perception of Creaky Voice&amp;nbsp; Does Speaker Gender Affect our Judgments?" data-listing-advisee-sort="Kaitlyn Lee">
+<td>
+<span class="listing-year">2016</span>
+</td>
+<td>
+<a href="../teaching/advisees/Lee.html" class="advisee listing-advisee">Kaitlyn Lee</a>
+</td>
+<td>
+<a href="../teaching/advisees/Lee.html" class="thesis listing-thesis">The Perception of Creaky Voice&nbsp; Does Speaker Gender Affect our Judgments?</a>
+</td>
+<td>
+<span class="listing-role">MA thesis chair</span>
+</td>
+
+</tr>
+
+<tr data-index="12" data-listing-file-modified-sort="1760361761030" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="A psychoacoustic study of the influence of L1 lexical tone and pitch perception" data-listing-advisee-sort="John Galindo">
+<td>
+<span class="listing-year">2014</span>
+</td>
+<td>
+<a href="../teaching/advisees/Galindo.html" class="advisee listing-advisee">John Galindo</a>
+</td>
+<td>
+<a href="../teaching/advisees/Galindo.html" class="thesis listing-thesis">A psychoacoustic study of the influence of L1 lexical tone and pitch perception</a>
+</td>
+<td>
+<span class="listing-role">Rice University, Qualifying Paper, chair</span>
+</td>
+
+</tr>
+
+<tr data-index="13" data-listing-file-modified-sort="1760361761031" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="Investigation of cues to fricative voicing in dialects of Malagasy" data-listing-advisee-sort="Penelope Howe">
+<td>
+<span class="listing-year">2014</span>
+</td>
+<td>
+<a href="../teaching/advisees/Howe.html" class="advisee listing-advisee">Penelope Howe</a>
+</td>
+<td>
+<a href="../teaching/advisees/Howe.html" class="thesis listing-thesis">Investigation of cues to fricative voicing in dialects of Malagasy</a>
+</td>
+<td>
+<span class="listing-role">Rice University, Qualifying Paper, chair</span>
+</td>
+
+</tr>
+
+<tr data-index="14" data-listing-file-modified-sort="1760361761031" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="Formant Analysis of Jordanian Arabic Vowels&amp;colon; Emphasis Effect on F2 in Jordanian Arabic" data-listing-advisee-sort="Hussein Hizazi">
+<td>
+<span class="listing-year">2013</span>
+</td>
+<td>
+<a href="../teaching/advisees/Hizazi.html" class="advisee listing-advisee">Hussein Hizazi</a>
+</td>
+<td>
+<a href="../teaching/advisees/Hizazi.html" class="thesis listing-thesis">Formant Analysis of Jordanian Arabic Vowels: Emphasis Effect on F2 in Jordanian Arabic</a>
+</td>
+<td>
+<span class="listing-role">Rice University, Qualifying Paper, chair</span>
+</td>
+
+</tr>
+
+<tr data-index="15" data-listing-file-modified-sort="1760361761031" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="Native Mandarin perception of English word boundary consonant overlap." data-listing-advisee-sort="Ling Ma">
+<td>
+<span class="listing-year">2013</span>
+</td>
+<td>
+<a href="../teaching/advisees/Ma.html" class="advisee listing-advisee">Ling Ma</a>
+</td>
+<td>
+<a href="../teaching/advisees/Ma.html" class="thesis listing-thesis">Native Mandarin perception of English word boundary consonant overlap.</a>
+</td>
+<td>
+<span class="listing-role">Rice University, Qualifying Paper, chair</span>
+</td>
+
+</tr>
+
+<tr data-index="16" data-listing-file-modified-sort="1760361761031" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="The use of eye-tracking in speech perception research" data-listing-advisee-sort="Obi Nwabueze">
+<td>
+<span class="listing-year">2013</span>
+</td>
+<td>
+<a href="../teaching/advisees/Nwabueze.html" class="advisee listing-advisee">Obi Nwabueze</a>
+</td>
+<td>
+<a href="../teaching/advisees/Nwabueze.html" class="thesis listing-thesis">The use of eye-tracking in speech perception research</a>
+</td>
+<td>
+<span class="listing-role">Undergraduate Research</span>
+</td>
+
+</tr>
+
+<tr data-index="17" data-listing-file-modified-sort="1760361761031" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="Investigation of age-related perceptual plasticity using Jamaican Creole" data-listing-advisee-sort="Sheri-Ann Peckham">
+<td>
+<span class="listing-year">2013</span>
+</td>
+<td>
+<a href="../teaching/advisees/Peckham.html" class="advisee listing-advisee">Sheri-Ann Peckham</a>
+</td>
+<td>
+<a href="../teaching/advisees/Peckham.html" class="thesis listing-thesis">Investigation of age-related perceptual plasticity using Jamaican Creole</a>
+</td>
+<td>
+<span class="listing-role">Undergraduate Research</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 <section id="external-examiner" class="level3">
 <h3 class="anchored" data-anchor-id="external-examiner">External Examiner</h3>
-<ul>
-<li>Andy M Gibson, <a href="https://ir.canterbury.ac.nz/items/4026429a-a08d-4e16-a4e9-0441e9bf5eb0">Sociophonetics of popular music: insights from corpus analysis and speech perception experiments</a></li>
-<li>Ksenia Gnevsheva, <a href="https://ir.canterbury.ac.nz/items/7a56f9f9-0e55-4eb8-b1aa-b93ed37c37cf">Variation in passing for a native speaker: accentedness in second language speakers of English in production and perception</a></li>
-</ul>
+<div id="listing-external" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+year
+</th>
+
+<th>
+advisee
+</th>
+
+<th>
+thesis
+</th>
+
+<th>
+role
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-file-modified-sort="1760361761030" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="Sociophonetics of popular music&amp;colon; insights from corpus analysis and speech perception experiments" data-listing-advisee-sort="Andy M Gibson">
+<td>
+<span class="listing-year">2019</span>
+</td>
+<td>
+<a href="../teaching/advisees/Gibson.html" class="advisee listing-advisee">Andy M Gibson</a>
+</td>
+<td>
+<a href="../teaching/advisees/Gibson.html" class="thesis listing-thesis">Sociophonetics of popular music: insights from corpus analysis and speech perception experiments</a>
+</td>
+<td>
+<span class="listing-role">External Examiner (not advisor)</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-file-modified-sort="1760361761030" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-thesis-sort="Variation in passing for a native speaker&amp;colon; accentedness in second language speakers of English in production and perception" data-listing-advisee-sort="Ksenia Gnevsheva">
+<td>
+<span class="listing-year">2015</span>
+</td>
+<td>
+<a href="../teaching/advisees/Gnevsheva.html" class="advisee listing-advisee">Ksenia Gnevsheva</a>
+</td>
+<td>
+<a href="../teaching/advisees/Gnevsheva.html" class="thesis listing-thesis">Variation in passing for a native speaker: accentedness in second language speakers of English in production and perception</a>
+</td>
+<td>
+<span class="listing-role">External Examiner (not advisor)</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
 </section>
 <section id="selected-software-projects" class="level2">
@@ -688,6 +1135,7 @@ Coetzee, A. W., &amp; McGowan, K. B. (2008, January). <em>Allophonic cues to syl
 </div>
 </div>
 </div>
+
 
 
 </section>
