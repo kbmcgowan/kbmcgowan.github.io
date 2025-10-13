@@ -1,0 +1,12 @@
+---
+year: 2019
+thesis: Lexingtopn STEAM Academy High School Internship
+advisee: Jaycee Taylor
+lastname: Taylor
+href: https://uknowledge.uky.edu/ltt_etds/53/
+role: Supervisor
+florp:
+---
+
+{{< include _template.qmd >}}
+

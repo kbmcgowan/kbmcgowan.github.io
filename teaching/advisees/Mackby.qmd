@@ -1,0 +1,12 @@
+---
+year: 2016
+thesis: Cries from The Jungle&colon; The Dialogic Linguistic Landscape of the Migrant and Refugee Camps in Calais, France
+advisee: Jo Mackby
+lastname: Mackby
+href: http://dx.doi.org/10.13023/ETD.2016.210
+role: MA thesis co-chair with Mark Lauersdorf
+florp: Since 1999, migrants and refugees from across the Middle East and Northeastern Africa have squatted in makeshift camps in and around the strategic port city of Calais, France, hoping for the opportunity to stow away on a ferry or lorry to England. The inhabitants of these camps seek to engage the world in a dialogue, and although they speak a variety of languages, the voices the refugees and migrants in The Jungle of Calais raise through their protest placards and graffiti are more homogeneous. Like in many other protests, the languages of these messages are universal; they are French and English, the languages of their location, their desired destination, and of the world that they hope is watching. The data for this study are from still images freely available through Getty Images Embed Service. Using the techniques of linguistic landscapes, this paper analyzes the linguistic material of The Jungle. Like other recent works on the linguistic landscapes of protest, this analysis challenges the idea that territory is a fixed place or space (Kasanga, 2014), asserting rather that the migrants/refugees are co-creating a collective space that exists more through their raised voices, and less in the physical space they temporarily inhabit.
+---
+
+{{< include _template.qmd >}}
+

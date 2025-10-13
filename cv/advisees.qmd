@@ -9,7 +9,7 @@ format:
       number-sections: false
 listing: 
   - id: advising
-    template:  advisees.ejs
+    template:  advisees-typst.ejs
     filter-ui: false
     contents: "../teaching/advisees/[!_]*.qmd"
     field-links: [thesis, advisee]

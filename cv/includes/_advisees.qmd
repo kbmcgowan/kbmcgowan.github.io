@@ -1,3 +1,5 @@
+<div id="listing-advising" class="quarto-listing quarto-listing-container-custom">
+
 - Stella Takvoryan (2025) <a href="https://uknowledge.uky.edu/ltt_etds/66/">Listening to cursive: The roles of regional identity and folk beliefs in perceptual cue-weighting</a>, MA thesis chair
 
 - Kaitlin Young (2025) <a href="https://uknowledge.uky.edu/ltt_etds/69/">Cognate Facilitation and Processing in English-Speaking Learners of German</a>, MA thesis co-chair with Brenna Byrd
@@ -8,17 +10,31 @@
 
 - Jarred Brewster (2021) <a href="https://uknowledge.uky.edu/ltt_etds/43/">Language Contact and Covert Prominence in the Sḥerēt-Jibbāli Language of Oman</a>, MA thesis chair
 
+- Monica Chulde Guayasamin (2021) <a href="https://uknowledge.uky.edu/ltt_etds/45/">Face Masks and Speech Perception: Emotions and Intelligibility Perceived by Monolingual and Bilingual Speakers</a>, MA thesis chair
+
 - Kyler Laycock (2021) <a href="https://uknowledge.uky.edu/ltt_etds/41/">The Influence of Socioindexical Information on the Speech Perception-Production Link&nbsp; Evidence from a Shadowing Task</a>, MA thesis chair
 
 - Ollie Combs (2020) <a href="https://uknowledge.uky.edu/ltt_etds/40/">Relevant Angry Affect Slows Response Time To Commands</a>, MA thesis chair
 
+- Robert Bell (2019) <a href="https://doi.org/10.13023/etd.2019.352">Limón Patwa: A Perceptual Study to Measure Language Attitudes Toward Speakers of Patwa in Costa Rica</a>, MA thesis co-chair
+
 - Andy M Gibson (2019) <a href="https://ir.canterbury.ac.nz/items/4026429a-a08d-4e16-a4e9-0441e9bf5eb0">Sociophonetics of popular music: insights from corpus analysis and speech perception experiments</a>, External Examiner (not advisor)
+
+- Mikhayla Sheeley (2019) <a href="">Linguistic Relativity and the L2 Learner: An Investigation of the Effects of L2 Grammatical Gender on L1 Conceptual Gender</a>, Undergraduate honors thesis chair
+
+- Jaycee Taylor (2019) <a href="https://uknowledge.uky.edu/ltt_etds/53/">Lexingtopn STEAM Academy High School Internship</a>, Supervisor
+
+- Philip Barnett (2018) <a href="https://doi.org/10.13023/ETD.2018.203">A Markedly Different Approach: Investigating PIE Stops Using Modern Empirical Methods</a>, MA thesis co-chair with Andrew Byrd
+
+- June Nielsen (2018) <a href="">Lexingtopn STEAM Academy High School Internship</a>, Supervisor
 
 - Aidah Aljuran (2017) <a href="https://uknowledge.uky.edu/ltt_etds/25/">“Listening with an Attitude”&nbsp; The Role of Attitude on Native and Non-Native Intergroup Communication</a>, MA thesis chair
 
 - Kelly E. Wright (2017) <a href="https://uknowledge.uky.edu/ltt_etds/18/">The Reflection and Reification of Racialized Language in Popular Media</a>, MA thesis chair
 
 - Kaitlyn Lee (2016) <a href="https://uknowledge.uky.edu/ltt_etds/17/">The Perception of Creaky Voice&nbsp; Does Speaker Gender Affect our Judgments?</a>, MA thesis chair
+
+- Jo Mackby (2016) <a href="http://dx.doi.org/10.13023/ETD.2016.210">Cries from The Jungle: The Dialogic Linguistic Landscape of the Migrant and Refugee Camps in Calais, France</a>, MA thesis co-chair with Mark Lauersdorf
 
 - Ksenia Gnevsheva (2015) <a href="https://ir.canterbury.ac.nz/items/7a56f9f9-0e55-4eb8-b1aa-b93ed37c37cf">Variation in passing for a native speaker: accentedness in second language speakers of English in production and perception</a>, External Examiner (not advisor)
 
@@ -30,7 +46,10 @@
 
 - Ling Ma (2013) <a href="">Native Mandarin perception of English word boundary consonant overlap.</a>, Rice University, Qualifying Paper, chair
 
+- Mariama Mallah (2013) <a href="">Directed undergraduate research</a>, Stanford University
+
 - Obi Nwabueze (2013) <a href="">The use of eye-tracking in speech perception research</a>, Undergraduate Research
 
 - Sheri-Ann Peckham (2013) <a href="">Investigation of age-related perceptual plasticity using Jamaican Creole</a>, Undergraduate Research
+</div>
 

@@ -1,0 +1,12 @@
+---
+year: 2018
+thesis: Lexingtopn STEAM Academy High School Internship
+advisee: June Nielsen
+lastname: Nielsen
+href: 
+role: Supervisor
+florp:
+---
+
+{{< include _template.qmd >}}
+

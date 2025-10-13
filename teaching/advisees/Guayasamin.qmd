@@ -1,0 +1,12 @@
+---
+year: 2021
+thesis: Face Masks and Speech Perception&colon; Emotions and Intelligibility Perceived by Monolingual and Bilingual Speakers
+advisee: Monica Chulde Guayasamin
+lastname: Guayasamin
+href: https://uknowledge.uky.edu/ltt_etds/45/
+role: MA thesis chair
+florp: Speech perception in unfavorable conditions reduces the intelligibility of the message. The use of face masks may be one factor that degrades the comprehension of target words in transcription tasks and the recognition of emotional prosodies. Different researchers have proposed the influence of visual stimuli in the comprehension of the linguistic message (e.g., Tuomainen et al., 2005; Schwartz et al., 2004; Llamas et al., 2008; McGowan, 2015). This study reports the results of an experiment that tests how intelligibility and emotional prosody are affected by surgical masks. The online experiment has been applied to two groups of speakers from the University of Kentucky. The first group consisted of 42 students from the Latin Students Association (LSA) with Spanish-English backgrounds who were subdivided in three groups according to their language’s history, monolinguals (L1), early bilinguals (L1-2), and late bilinguals (L2). The second group consisted of 10 monolingual English speakers from the Linguistics department. Both groups performed a transcription task plus an emotional prosody rating from 60 videos of a native English speaker in two conditions&colon; MASK and NO MASK. Participants in both groups obtained more accurate results in the NO MASK perception tasks.
+---
+
+{{< include _template.qmd >}}
+

@@ -1,0 +1,12 @@
+---
+year: 2018
+thesis: A Markedly Different Approach&colon; Investigating PIE Stops Using Modern Empirical Methods
+advisee: Philip Barnett
+lastname: Barnett
+href: https://doi.org/10.13023/ETD.2018.203
+role: MA thesis co-chair with Andrew Byrd
+florp: In this thesis, I investigate a decades-old problem found in the stop system of Proto-Indo-European (PIE). More specifically, I will be investigating the paucity of */b/ in the forms reconstructed for the ancient, hypothetical language. As cross-linguistic evidence and phonological theory alone have fallen short of providing a satisfactory answer, herein will I employ modern empirical methods of linguistic investigation, namely laboratory phonology experiments and computational database analysis. Following Byrd 2015, I advocate for an examination of synchronic phenomena and behavior as a method for investigating diachronic change.<br> In Chapter 1, I present an overview of the various proposed phonological systems of PIE and some of the explanations previously given for the enigmatic rarity of PIE */b/. Chapter 2 presents a detailed account of three lab phonology experiments I conducted in order to investigate perceptual confusability as a motivator of asymmetric merger within a system of stop consonants. Chapter 3 presents the preliminary form and findings of a computational database of reconstructed forms in PIE that I created and have named the Database of Etymological Reconstructions Beginnning in Proto-Indo-European (DERBiPIE). The final chapter, Chapter 4, offers a summary of the work presented herein and conclusions that may be drawn, offering suggestions for continued work on the topic and others like it.
+---
+
+{{< include _template.qmd >}}
+

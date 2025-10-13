@@ -1,0 +1,12 @@
+---
+year: 2013
+thesis: Directed undergraduate research 
+advisee: Mariama Mallah
+lastname: Mallah
+href: 
+role: Stanford University
+florp: 
+---
+
+{{< include _template.qmd >}}
+

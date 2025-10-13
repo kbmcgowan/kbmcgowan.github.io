@@ -1,0 +1,12 @@
+---
+year: 2019
+thesis: Limón Patwa&colon; A Perceptual Study to Measure Language Attitudes Toward Speakers of Patwa in Costa Rica
+advisee: Robert Bell
+lastname: Bell
+href: https://doi.org/10.13023/etd.2019.352
+role: MA thesis co-chair
+florp: The primary purpose for this research is to examine and identify the social functions of Limón Patwa, a closely related language to Jamaican Patwa spoken by the Afro-Caribbean community of Costa Rica. There is a unique relationship regarding the language contact between Spanish and LP, where the maintenance of this English based language can certainly be complicated by a Spanish language dominant environment. Studying the historical migration of this Afro-Caribbean population to Costa Rica in the 1800s sheds light on the systemic oppression and the lack of integration into Costa Rican society that Afro-Costa Ricans faced in the midst of their arrival to Puerto Viejo (“the old port”). I conducted 8 sociolinguistic interviews with Limón Patwa speakers with efforts to better understand the usage of Limón Patwa, along with valuable information about being of African descent and living in Costa Rica. In addition to interviews with Patwa speakers, a matched guise audio survey was elicited to that involved listening to speakers of Patwa vs speakers of Spanish along with one audio recording of a Patwa speaker using Spanish. A Likert scale was used for participants to rate these voices as trustworthy, intelligent, and friendly, for example, in order to analyze how Patwa speakers are perceived by the general population. Furthermore, this research gives insight to where negative ideologies surrounding Limón Patwa and its speakers may stem from and how it influences the usage of LP. This study takes into consideration the issues of political power and the aspects of language identity, calling to attention the importance of efforts to maintain this minority language among an underrepresented community.
+---
+
+{{< include _template.qmd >}}
+
