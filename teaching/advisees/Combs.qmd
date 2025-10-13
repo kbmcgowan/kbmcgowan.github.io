@@ -1,0 +1,12 @@
+---
+year: 2020
+thesis: Relevant Angry Affect Slows Response Time To Commands
+advisee: Ollie Combs
+lastname: Combs
+href: https://uknowledge.uky.edu/ltt_etds/40/
+role: MA thesis chair
+florp: Previous research has found that emotional prosody can interact with speech perception and listeners’ processing of the meaning of particular word/emotion pairings(Kim and Sumner, 2017). What remains unclear is how this interactive processing can affect behavioral responses such as responses to imperatives. To answer this question,71 participants were presented with a series of commands given in a relevant affect.Commands were read either with angry prosody, happy prosody, or neutral prosody (control) and the participants were instructed to press the requested button on a response box as quickly and accurately as possible. All emotional states were simulated and normed for perceived emotion, rather than induced. On average, participants responded 50ms slower to the commands which were performed with angry prosody than to the control (neutral prosody), and 164 ms slower when that angry prosody was given in a pragmatically relevant situation&colon; after an incorrect response (see 4.1.) There was no significant difference between responses to happy prosody commands and the control. This difference in response time may be due to the heightened neurological responses to angry stimuli (Fr ̈uhholz and Grandjean, 2013). These results are consistent with a model of speech perception in which linguistic and social in-formation are processed simultaneously and interactively (Sumner et al., 2014), but not with a model in which emotional aspects of the speech signal are discarded or irrelevant to perception. The latency of the response to the pragmatically relevant angry commands observed in experiment two reinforces the findings from experiment one, where angry affect slows response time to commands.
+---
+
+{{< include _template.qmd >}}
+

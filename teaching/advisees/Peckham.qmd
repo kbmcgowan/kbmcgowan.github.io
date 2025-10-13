@@ -1,0 +1,12 @@
+---
+year: 2013
+thesis: Investigation of age-related perceptual plasticity using Jamaican Creole
+advisee: Sheri-Ann Peckham
+lastname: Peckham
+href: 
+role: Undergraduate Research
+florp: 
+---
+
+{{< include _template.qmd >}}
+

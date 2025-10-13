@@ -1,0 +1,12 @@
+---
+year: 2023
+thesis: &ldquo;Does This Make Sense?&rdquo;&nbsp; The Effect of Congruent Guise in Regional Accent on Grammatical Acceptability Judgments
+advisee: Nour Kayali
+lastname: Kayali
+href: https://uknowledge.uky.edu/ltt_etds/53/
+role: MA thesis chair
+florp: This study seeks to unite sociophonetic speech perception and syntax research by presenting participants with congruent or incongruent social expectations during a structural grammaticality judgement task. Participants completed a between-subjects matched guise survey with place-based grammatical structures spoken in either a congruent place-based, local accent or a nonlocal accent. Place-based structures are consistently rated more acceptable in the local accent than the nonlocal. These results suggest that judgment of grammaticality results from an interplay of sociocultural expectations with accent and sentence structure. Judgement of structural grammaticality is not independent of social expectation.
+---
+
+{{< include _template.qmd >}}
+

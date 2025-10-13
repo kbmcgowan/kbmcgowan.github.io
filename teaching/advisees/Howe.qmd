@@ -1,0 +1,12 @@
+---
+year: 2014
+thesis: Investigation of cues to fricative voicing in dialects of Malagasy
+advisee: Penelope Howe
+lastname: Howe
+href: 
+role: Rice University, Qualifying Paper, chair
+florp: The development of phonological tone has been linked in many languages to consonant voice quality contrasts that impart pitch differences to preceding or following vowels. In particular, modal voicing on a syllable-initial consonant has been shown to correlate with low pitch on a following vowel in both tone and non-tone languages (Hombert et al. 1979). In the Austronesian language Malagasy, a strong relationship between consonant voicing and vowel pitch has been observed in the literature; previous studies state, however, that Malagasy does not have phonological tone. In contrast with these previous descriptions, the results presented in this paper from a production study of homorganic fricative pairs in several different dialects of Malagasy suggest that in certain dialects, pitch has replaced modal voicing as the primary phonetic cue to fricative voicing category.
+---
+
+{{< include _template.qmd >}}
+

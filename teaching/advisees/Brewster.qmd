@@ -1,0 +1,12 @@
+---
+year: 2021
+thesis: Language Contact and Covert Prominence in the Sḥerēt-Jibbāli Language of Oman
+advisee: Jarred Brewster
+lastname: Brewster
+href: https://uknowledge.uky.edu/ltt_etds/43/
+role: MA thesis chair
+florp: This thesis reports on a phonetic production study, the results of which support the existence of a complex word-prosodic system for the Sḥerēt-Jibbāli language of Dhofar, Oman. In the language, stress seems to co-occur in some lexical items with a high tone. In the discussion, a mechanism for the emergence of this system is proposed as the reflex of a typological feature held in common with the related language, Soqotri, and as justification for an Eastern Modern South Arabian subgroup consisting of Sḥerēt-Jibbāli and Soqotri.
+---
+
+{{< include _template.qmd >}}
+

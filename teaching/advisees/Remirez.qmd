@@ -1,0 +1,12 @@
+---
+year: 2024
+thesis: Modeling the Role of Social Information in Speech Perception
+advisee: Emily Remirez
+lastname: Remirez
+href: https://www.proquest.com/openview/633e57c9ca44f19ecf97c41c1c04f9bf/1
+role: UC Berkeley PhD thesis, co-chair with Keith Johnson
+florp: How do we model the relationship between &ldquo;high level&rdquo; social constructs and &ldquo;low level&rdquo; automatic processing of phonetic detail? Variation in pronunciation is socially informative, and listeners can draw on these social expectations when perceiving speech. This dissertation argues for a closer consideration of variation within sociophonetic exemplar modeling. I do this by reviewing the web of literature, simulating perception events in Python, and conducting an experiment. &ldquo;Exemplar theory&rdquo; is a class of models positing that past experiences interpreting stimuli are remembered as exemplars; new stimuli are categorized based on comparison to these stored memories. In particular, I focus on the Generalized Context Model (Nosofsky 1986; Johnson 1997), or GCM. The evidence that social categories, like other higher-order abstractions from stimuli, can play a role in categorization is well-established but loosely unified. Many adopt an episodic or exemplar-based framework in interpreting their results, but focus on the general patterns more than a specific model. I developed a Python library ExemPy which implements the GCM and provides routines for simulating common perception experiment tasks. I suggest applications for both enhancing empirical work and exploring theoretical space. I designed an experiment to explore a key difference among sociophonetic priming literature&colon; whether social expectation is invoked as part of or outside of the phonetic stimulus. Taken together, this work advances an integrative, ecologically informed approach to exemplar-based sociophonetic research, drawing on multiple sources of evidence to contextualize our modeling.
+---
+
+{{< include _template.qmd >}}
+

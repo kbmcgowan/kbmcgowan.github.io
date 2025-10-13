@@ -1,0 +1,12 @@
+---
+year: 2013
+thesis: Formant Analysis of Jordanian Arabic Vowels&colon; Emphasis Effect on F2 in Jordanian Arabic
+advisee: Hussein Hizazi
+lastname: Hizazi
+href: 
+role: Rice University, Qualifying Paper, chair
+florp: 
+---
+
+{{< include _template.qmd >}}
+

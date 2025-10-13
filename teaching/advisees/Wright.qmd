@@ -1,0 +1,12 @@
+---
+year: 2017
+thesis: The Reflection and Reification of Racialized Language in Popular Media
+advisee: Kelly E. Wright
+lastname: Wright
+href: https://uknowledge.uky.edu/ltt_etds/18/
+role: MA thesis chair
+florp: This work highlights specific lexical items that have become racialized in specific contextual applications and tests how these words are cognitively processed. This work presents the results of a visual world (Huettig et al 2011) eye-tracking study designed to determine the perception and application of racialized (Coates 2011) adjectives. To objectively select the racialized adjectives used, I developed a corpus comprised of popular media sources, designed specifically to suit my research question. I collected publications from digital media sources such as Sports Illustrated, USA Today, and Fortune by scraping articles featuring specific search terms from their websites. This experiment seeks to aid in the demarcation of socially salient groups whose application of racialized adjectives to racialized images is near instantaneous, or at least less questioned. As we view growing social movements which revolve around the significant marks unconscious assumptions leave on American society, revealing how and where these lexical assignments arise and thrive allows us to interrogate the forces which build and reify such biases. Future research should attempt to address the harmful semiotics these lexical choices sustain.
+---
+
+{{< include _template.qmd >}}
+

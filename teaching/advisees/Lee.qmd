@@ -1,0 +1,12 @@
+---
+year: 2016
+thesis: The Perception of Creaky Voice&nbsp; Does Speaker Gender Affect our Judgments?
+advisee: Kaitlyn Lee
+lastname: Lee
+href: https://uknowledge.uky.edu/ltt_etds/17/
+role: MA thesis chair
+florp: This study focuses on the phonetics of creaky voice saliency and the perceptual sociolinguistic indexes that are evoked during creaky voice use. This study consists of two experiments&nbsp; the first a listener judgment based Likert scale, the second an AXB study. The first experiment used modal and creaky voice statement-of-fact tokens to determine whether the speaker is or isn’t x characteristic (intelligent, feminine, educated, masculine, hesitant, and confident). This study found that both male and female speakers were found to be less intelligent, less educated, less feminine, more masculine, less confident, and more hesitant when using creaky voice phonation as compared to the modal register. Participants also rated male and female speakers as statistically different. During the second experiment the participants listened to continuums that went from modal register to extreme creaky voice (based on F0 levels). Participants performed an AXB task to determine ability at distinguishing levels of creaky voice along the continuum. This study found that participants were less able to correctly detect the level of creaky voice in the female speaker for the lower half of the continuum when compared to the male speaker.
+---
+
+{{< include _template.qmd >}}
+

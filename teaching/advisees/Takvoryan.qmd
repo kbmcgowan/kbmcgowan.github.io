@@ -1,0 +1,12 @@
+---
+year: 2025
+thesis: Listening to cursive&colon; The roles of regional identity and folk beliefs in perceptual cue-weighting
+advisee: Stella Takvoryan
+lastname: Takvoryan
+href: https://uknowledge.uky.edu/ltt_etds/66/
+role: MA thesis chair
+florp: Listeners use knowledge acquired from experiences to weight phonetic-level cues to phonological contrasts. Phonetic knowledge is imbued with expectations about the contexts in which cues covary, speakers of a variety, and identity categories or constructs, so it can be challenging to distinguish expectations about variation from expectations about speakers. This study aims to explore the extent that expectations about iconic vowel quality variation in Southern American Englishes can drive cue-weighting. Listeners categorized stimuli with vowel qualities synthesized from an [ɛ]-[eɪ] continuum from a Southern and a non-Southern talker, with duration manipulated in tandem. Half of the participants saw a label corresponding to talkers' regional affiliation (Southern, Non-Southern); half did not. The results suggest that listeners perceived duration differently depending upon indexical cues from the voice and label, namely as a dimension for length for the non-Southern voice and diphthongization or a tense/lax distinction for the Southern one. The label also affected categorization, suggesting that activating enregistered categories or concepts may induce greater categoricity or permit more flexibility. The results have implications for how cue dimensions could relate to listeners' indexical knowledge and specifically imply that identity and contextual information can be intertwined at the phonetic cue level.
+---
+
+{{< include _template.qmd >}}
+

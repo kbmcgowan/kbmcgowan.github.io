@@ -1,0 +1,12 @@
+---
+year: 2021
+thesis: The Influence of Socioindexical Information on the Speech Perception-Production Link&nbsp; Evidence from a Shadowing Task
+advisee: Kyler Laycock
+lastname: Laycock
+href: https://uknowledge.uky.edu/ltt_etds/41/
+role: MA thesis chair
+florp: The body of work on speech perception demonstrates the ability of listeners to utilize both visual and acoustic information in their processing of a given speech signal. More recent studies have established that listeners are sensitive to cues in both these modalities which inform their perception of a speaker's identity in parallel with the linguistic message, but the relationship between social information in perception and production together is unclear. This study reports the results of an experiment designed to test the hypothesis that expectations about a speakers identity is able to influence a listener's perception and production of speech in tandem. The shadowing task addresses the degree to which listeners faithfully reproduce L2 accented English when presented with four ethnically distinct faces in congruent and incongruent auditory-visual pairs in a within-subject design. Analyses of the degree of acoustic similarity to model talkers in speakers' imitations revealed a slight average trend toward convergence on vowel spectra, vowel duration, and average fundamental frequency. Significant predictors of the degree of change in a speaker's production were shown to be the vowel quality measured and the voice presented, but these predictors were agnostic with respect to whether these changes represented phonetic convergence or divergence. The variance in degree of similarity suggests that speakers' convergence is subject to linguistic selectivity, but it is less clear the role social selectivity plays when presented with unfamiliar varieties. Overall these findings are consistent with exemplar models which consider the inherent coupling of individuals' speech perception and production, but that the visual stimuli had no significant effect on these analyses may be reflective of listeners' adaptive processes during perception of L2-accented speech.
+---
+
+{{< include _template.qmd >}}
+

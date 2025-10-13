@@ -1,0 +1,12 @@
+---
+year: 2017
+thesis: “Listening with an Attitude”&nbsp; The Role of Attitude on Native and Non-Native Intergroup Communication
+advisee: Aidah Aljuran
+lastname: Aljuran
+href: https://uknowledge.uky.edu/ltt_etds/25/
+role: MA thesis chair
+florp: People tend to draw their own conclusions about similarities and differences between who they are and the “other.” Having perceptions of being similar to the in-group and being different from the out-group “satisfies psychological needs” (Robbins & Krueger, 2005). Based on this social perception, individuals show communication variations as a way of expressing their identities (Giles 1973). This study implements quantitative and qualitative methods in order to examine the attitude of native speakers (NSs), as well as the potential impact of these attitudes on their communication with non-native speakers (NNSs). The potential impact of NSs’ interactions on NNSs’ interactions was also analyzed. First, this study elicits NSs’ attitudes by implementing the matched-guise technique (adopted from Lindemann’s work, 2000). Then, NSs and NNSs’ interaction variations were analyzed through the implementation of the map task model. The result reveals that (a) there is no consistent alignment between NSs’ attitudes and their interaction variations and that, (b) NNSs’ interaction variation was dynamic and affected by NSs’ interactions.
+---
+
+{{< include _template.qmd >}}
+

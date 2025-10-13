@@ -1,0 +1,12 @@
+---
+year: 2025
+advisee: Kaitlin Young
+lastname: Young
+thesis: Cognate Facilitation and Processing in English-Speaking Learners of German
+href: https://uknowledge.uky.edu/ltt_etds/69/
+school: Kentucky
+role: MA thesis co-chair with Brenna Byrd
+florp: Within the field of second language acquisition, research finds that increased exposure to input results in improved proficiency, especially when those activities are challenging yet manageable for the language learner’s current level. Because of this, listening exercises and speech processing are considered integral to language acquisition, even leading to recommendations of frequent, authentic use of the target language (TL). Instructors’ TL authenticity is, however, sometimes stunted by the demand for comprehensible input and facilitation of classroom activities; they make use of simpler syntax, stronger enunciation, and more cognates (words sharing origins, meanings, and form across languages) than in casual speech. <br> This study, comprised of a listening task and post-task survey, therefore seeks to contribute to the fields of second language acquisition, psycholinguistics, and foreign language pedagogy by addressing German learners’ auditory processing of cognates as it relates to useful and authentic TL use in the classroom. Ten students in beginner German courses listened to German words and provided their English cognates, in order to determine which factor(s) most impacted processing&colon; phonological (dis)similarities, morphological (dis)similarities, or TL lexical (in)frequency. A linear mixed effects analysis found that lexical items with lower frequency coincided with higher response times, and the post-task survey focused on student perspectives indicated that participants consider longer words, varying types of context, and transfer from other languages (including the L1) to be most helpful in their TL development. Altogether, these findings suggest that the moderated use of cognates is most helpful in combination with other linguistic support such as body language, as well as learner strategies like segmentation, in order to take advantage of frequently occurring morphemes in the TL lexicon. This warrants more intentional stylistic use of the TL and classroom dictation exercises to up the frequency of exposure to TL sounds and lexical items.
+---
+
+{{< include _template.qmd >}}

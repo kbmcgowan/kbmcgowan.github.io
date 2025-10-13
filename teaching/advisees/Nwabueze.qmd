@@ -1,0 +1,12 @@
+---
+year: 2013
+thesis: The use of eye-tracking in speech perception research
+advisee: Obi Nwabueze
+lastname: Nwabueze
+href: 
+role: Undergraduate Research
+florp: 
+---
+
+{{< include _template.qmd >}}
+

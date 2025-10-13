@@ -1,0 +1,12 @@
+---
+year: 2014
+thesis: A psychoacoustic study of the influence of L1 lexical tone and pitch perception
+advisee: John Galindo
+lastname: Galindo
+href: 
+role: Rice University, Qualifying Paper, chair
+florp: 
+---
+
+{{< include _template.qmd >}}
+
