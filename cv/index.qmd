@@ -8,217 +8,265 @@ format:
       toc: false
       columns: 1
       number-sections: false
+citeproc: true
+csl: "cv.csl"
+bibliography: references.bib
+nocite: |
+  @mcgowan2019acoustic; @McGowan2011; @mcgowan2015; @mcgowan2016sounding; @mcgowanBabel2020; @beddormcgowanbolandcoetzeebrasher2013; @CoetzeeMcGowan2008; @beddorcoetzeestylermcgowanboland2018; @BabelCampbell-KiblerMcGowan2025; @sumner2014; @baese-berk2020; @beddor2018; @laycock2025; @barrett2023; @medeiros2021ceiling; @namboodiripad1; @TakvoryanMcGowaninpress; @McGowanTakvoryaninpress; @McGowan2012; @McGowaninpress; @BabelMcGowanDuque2021
 ---
 
-# Kevin B. McGowan
-:::: {#address layout-ncol=2}
+------------------------------------------------------------------------
 
+# Kevin B. McGowan
+
+:::::: {#address layout-ncol="2"}
 <div>
-1669 Patterson Office Tower \
-Lexington KY 40506-0027 \
+
+1669 Patterson Office Tower\
+Lexington KY 40506-0027\
 USA
+
 </div>
 
 <div>
-kbmcgowan@vowel.space \
+
+kbmcgowan\@vowel.space\
 https://vowel.space/
 
 ::: {.content-visible when-format="typst"}
 +1 (734) 678-4245
 :::
-</div>
 
-::::
+</div>
+::::::
 
 ## Education
 
 :::: {layout="[20,80]"}
 2006 - 2011\
-<div> 
-Ph.D. Linguistics, University of Michigan \
- \
-Dissertation: The Role of Socioindexical Expectation in Speech Perception \
-Patrice Speeter Beddor & Steven P. Abney, co-chairs \
-Julie Boland, Benjamin Munson, & Robin Queen, committee members \
+
+<div>
+
+Ph.D. Linguistics, University of Michigan\
+\
+Dissertation: The Role of Socioindexical Expectation in Speech Perception\
+Patrice Speeter Beddor & Steven P. Abney, co-chairs\
+Julie Boland, Benjamin Munson, & Robin Queen, committee members\
+
 </div>
 ::::
 
 :::: {layout="[20,80]"}
 2007\
-<div>Linguistic Institute, Stanford University</div>
+
+<div>
+
+Linguistic Institute, Stanford University
+
+</div>
 ::::
 
 :::: {layout="[20,80]"}
 1996\
-<div>B.A. Linguistics, University of Michigan</div>
+
+<div>
+
+B.A. Linguistics, University of Michigan
+
+</div>
 ::::
 
 ## Employment
 
 :::: {layout="[20,80]"}
-2021 -  \
-<div>Associate Professor, Department of Linguistics, University of Kentucky</div>
-::::
+2021 -\
 
-:::: {layout="[20,80]"}
-2015 – 2021 \
-<div>Assistant Professor, Department of Linguistics, University of Kentucky</div>
-::::
+<div>
 
-:::: {layout="[20,80]"}
-2013 – 2015 \
-<div>Postdoctoral Scholar, Department of Linguistics, Stanford University \
-Meghan Sumner, PI
+Associate Professor, Department of Linguistics, University of Kentucky
+
 </div>
 ::::
 
 :::: {layout="[20,80]"}
-2011 - 2013 \
-<div>Lecturer, Department of Linguistics, Rice University</div>
+2015 – 2021\
+
+<div>
+
+Assistant Professor, Department of Linguistics, University of Kentucky
+
+</div>
 ::::
 
 :::: {layout="[20,80]"}
-1997 - 2007 \
-<div>Webmaster, Web Production & Database Services Team Lead, Information Technology Division, University of Michigan</div>
+2013 – 2015\
+
+<div>
+
+Postdoctoral Scholar, Department of Linguistics, Stanford University\
+Meghan Sumner, PI
+
+</div>
 ::::
 
+:::: {layout="[20,80]"}
+2011 - 2013\
 
+<div>
+
+Lecturer, Department of Linguistics, Rice University
+
+</div>
+::::
+
+:::: {layout="[20,80]"}
+1997 - 2007\
+
+<div>
+
+Webmaster, Web Production & Database Services Team Lead, Information Technology Division, University of Michigan
+
+</div>
+::::
 
 ## Professional Experience
 
 :::: {layout="[20,80]"}
-2019 \
-<div>Invited Faculty, &ldquo;Speech Perception&rdquo;, Linguistic Society of America Summer Institute, University of California, Davis</div>
+2019\
+
+<div>
+
+Invited Faculty, “Speech Perception”, Linguistic Society of America Summer Institute, University of California, Davis
+
+</div>
 ::::
 
 :::: {layout="[20,80]"}
-2017 \
-<div>Invited Faculty, &ldquo;Doing phonetics research&rdquo; and &ldquo;Eye tracking for linguistics research&rdquo; Linguistic Society of America Summer Institute, University of Kentucky</div>
+2017\
+
+<div>
+
+Invited Faculty, “Doing phonetics research” and “Eye tracking for linguistics research” Linguistic Society of America Summer Institute, University of Kentucky
+
+</div>
 ::::
 
 :::: {layout="[20,80]"}
-2013 \
-<div>Invited Faculty, &ldquo;Introduction to Praat&rdquo; Linguistic Society of America Summer Institute, University of Michigan</div>
+2013\
+
+<div>
+
+Invited Faculty, “Introduction to Praat” Linguistic Society of America Summer Institute, University of Michigan
+
+</div>
 ::::
 
 :::: {layout="[20,80]"}
-2007 - 2010 \
-<div>Journal Assistant &amp; Student Board Member, <em>Language Learning Journal</em>, Blackwell Publishing</div>
+2007 - 2010\
+
+<div>
+
+Journal Assistant & Student Board Member, <em>Language Learning Journal</em>, Blackwell Publishing
+
+</div>
 ::::
 
 :::: {layout="[20,80]"}
-2009 - 2010 \
-<div>Research Assistant, Professor Pam Beddor, Michigan Phonetics &amp; Phonology Laboratory</div>
+2009 - 2010\
+
+<div>
+
+Research Assistant, Professor Pam Beddor, Michigan Phonetics & Phonology Laboratory
+
+</div>
 ::::
 
 :::: {layout="[20,80]"}
-2007 - 2008 \
-<div>Research Assistant, Professors Pam Beddor &amp; A. Coetzee, Michigan Phonetics &amp; Phonology Laboratory</div>
+2007 - 2008\
+
+<div>
+
+Research Assistant, Professors Pam Beddor & A. Coetzee, Michigan Phonetics & Phonology Laboratory
+
+</div>
 ::::
 
 :::: {layout="[20,80]"}
-1997 - 2007 \
-<div>Programmer &amp;, System administrator, Manager of Web and Database production services, University of Michigan</div>
+1997 - 2007\
+
+<div>
+
+Programmer &, System administrator, Manager of Web and Database production services, University of Michigan
+
+</div>
 ::::
 
 :::: {layout="[20,80]"}
-1993 - 1994 \
-<div>Undergraduate Research Assistant, Professor Richard W. Bailey, Department of English, University of Michigan</div>
+1993 - 1994\
+
+<div>
+
+Undergraduate Research Assistant, Professor Richard W. Bailey, Department of English, University of Michigan
+
+</div>
 ::::
 
+## Publications
+
+::: {#refs}
+:::
 
 ```{=html}
 <div class="scrolling-columns">
 
 <div class="singlecolumn">
 
-<div class="post">
-    <h2 class="subtitle">Publications ( <a href="../research/mcgowan.bib">bibtex</a> )</h2>
-
-    <dl>
-	<!--<dt>(in prep)</dt> <dd>McGowan, K.B. &amp; Sumner, M. <em>A phonetic explanation of phonetic variant effects</em></dd> -->
-
-   <dt>(in press)</dt><dd>McGowan, K.B. Speech Perception.  In <em>Sociophonetics: Implications for Phonetics and Phonology</em>, ed. by Lauren Hall-Lew and Jennifer Nycz. Oxford University Press</dd>
-   
-   <dt>(2025)</dt><dd>Laycock, K., & McGowan, K. B. (2025). Removing the Disguise: The Matched Guise Technique, Incongruity, and Listener Awareness. <em>Journal of Sociolinguistics</em> <a href="https://doi.org/10.1111/josl.12700">https://doi.org/10.1111/josl.12700</a></dd>
-	<dt>(2025)</dt><dd>Babel, A. M., Campbell‐Kibler, K., & McGowan, K. B. Introduction to the Thematic Issue. <em>Journal of Sociolinguistics</em> <a href="https://doi.org/10.1111/josl.12690">https://doi.org/10.1111/josl.12690</a></dd>
-	
-	<dt>(2022)</dt> <dd>Barrett, R., Cramer, J., & McGowan, K. B. English with an accent: Language, ideology, and discrimination in the United States. Taylor & Francis. <a href="https://doi.org/10.4324/9781003332886">https://doi.org/10.4324/9781003332886</a></dd>
-
-	<dt>(2021)</dt><dd>Babel, A.M., McGowan, K.B., & Enríquez Duque, P. Niveles de percepción de las vocales en contacto: el caso de una variedad de español andino en Bolivia. Niveles de percepción de las vocales en contacto: el caso de una variedad de español andino en Bolivia, 119-136.</dd>
-	
-	<dt>(2020)</dt> <dd>Baese-Berk, M.M., McLaughlin, D., and McGowan, K.B. Perception of non-native speech. <em>Language and Linguistics Compass</em></dd>
-
-	<dt>(2020)</dt> <dd>Medeiros, D.J., Mains, P., and McGowan, K.B. Ceiling Effects on Weight in Heavy NP Shift.<em>Linguistic Inquiry</em></dd>
-
-	<dt>(2020)</dt> <dd>McGowan, K.B. &amp; Babel, A.M. Perceiving isn’t believing: Divergence in levels of sociolinguistic awareness <em>Language in Society</em> 49(1)</dd>
-
-	<dt>(2019)</dt> <dd>McGowan, K.B., Johnson, M.T., Combs, A., and Soleymanpoor, M. Acoustic, non-invasive measurement of velopharyngeal aperture using a high frequency tone, <em>Proceedings of the 19th International Congress of Phonetic Sciences</em>, Sydney, Australia</dd>
-
-	<dt>2018</dt> <dd>Beddor, P.S., Coetzee, A., Styler, W., McGowan, K.B., &amp; Boland, J.E. The time course of individuals’ perception and production of coarticulatory information, and its implications for sound change <em>Language</em> 94(4) 931&ndash;968</dd> 
-
-	<dt>2016</dt> <dd>McGowan, K.B. &ldquo;Sounding Chinese and Listening Chinese: Awareness and Knowledge in the Laboratory&rdquo;  In <em>Awareness and Control in Sociolinguistics Research</em>, ed. by A.M. Babel. Cambridge University Press.</dd>
-
-	<dt>2015</dt>
-	<dd><a href="http://las.sagepub.com/content/early/2015/02/03/0023830914565191.abstract"><dd>McGowan, K.B. &ldquo;Social Expectation Improves Speech Perception in Noise&rdquo; <em>Language and Speech</em>. doi:10.1177/0023830914565191</a></dd>
-
-	<dt>2014</dt>
-	<dd><a href="http://journal.frontiersin.org/article/10.3389/fpsyg.2013.01015/full">Sumner, M., Kim, S. K., King, E., and McGowan, K.B. &ldquo;The socially-weighted encoding of spoken words: A dual-route approach to speech perception&rdquo; Frontiers in Psychology.  doi:10.3389/fpsyg.2013.01015</a></dd>
-
-	<dt>2013</dt>
-	<dd><a href="http://scitation.aip.org/content/asa/journal/jasa/133/4/10.1121/1.4794366">P.S. Beddor, K.B. McGowan, J.E. Boland, A.W. Coetzee and A. Brasher &ldquo;The Perceptual Time Course of Coarticulation&rdquo; &mdash; <em>Journal of the Acoustical Society of America</em>, 133 (2013) : 2350-2366.  doi:10.1121/1.3249491</a></dd>
-
-	<dt>2012</dt>
-	<dd><a href="../publications/mcgowan-cls45.pdf">McGowan, K.B. &ldquo;Gradient Lexical Reflexes of the Syllable Contact Law&rdquo; <em>Proceedings of the Annual Meeting of the Chicago Linguistics Society 45,</em> Volume I, R. Bochnak, N. Nicola, P. Klecha, J. Urban, A. Lemieux and C.  Weaver (Eds.), p. 445-454. Chicago Linguistics Society: Chicago.  </a> </dd>
-    </dl>
-</div>
-
 
 <div class="post">
     <h2 class="subtitle">Invited Talks &amp; Colloquia</h2>
     <dl>
-	<dt>2019</dt> <dd>University of Tennessee, Knoxville &mdash; Social expectation and speech perception: mismatch and alignment</dd>
-	<dt>2016</dt> <dd>University of Michigan &mdash; &ldquo;Subcategorical mismatches can be mismatches of phonetic, phonological, lexical, and social context&rdquo;</dd>
-	<dt>2016</dt> <dd>North Carolina State University &mdash; &ldquo;Socially informed speech perception: context, congruency, and complications&rdquo;</dd>
-	<dt>2016</dt> <dd>University at Buffalo, The State University of New York &mdash; &ldquo;Social knowledge and speech perception: mismatch and alignment&rdquo;</dd>
-	<dt>2014</dt> <dd>UC Berkeley, Phorum &mdash; &ldquo;Perceiving isn't believing: listeners' expectation and awareness of phonetically-cued social information&rdquo; with A.M. Babel</dd>
-	<dt>2012</dt> <dd>Rice University &mdash; &ldquo;Claims about processing require online tasks: disjunction of AXB and interview results in a Bolivian crossroads&rdquo;</dd>
-	<dt>2012</dt> <dd> University of Texas, Austin &mdash; &ldquo;Social expectation and theories of speech perception&rdquo; &mdash;  Invited colloquium</dd>
-	<dt>2011</dt> <dd> Rice University &mdash; &ldquo;The role of socioindexical expectation in speech perception.&rdquo;</dd>
-	<dt>2010</dt> <dd>University of Michigan &mdash; &ldquo;The perceptual time course of coarticulation&rdquo; with P.S. Beddor
-	<dt>2009</dt> <dd>University of Michigan  &mdash; &ldquo;Aerodynamic Modeling of Coarticulation Improves Concatenative Synthesis&rdquo;</dd>
+    <dt>2019</dt> <dd>University of Tennessee, Knoxville &mdash; Social expectation and speech perception: mismatch and alignment</dd>
+    <dt>2016</dt> <dd>University of Michigan &mdash; &ldquo;Subcategorical mismatches can be mismatches of phonetic, phonological, lexical, and social context&rdquo;</dd>
+    <dt>2016</dt> <dd>North Carolina State University &mdash; &ldquo;Socially informed speech perception: context, congruency, and complications&rdquo;</dd>
+    <dt>2016</dt> <dd>University at Buffalo, The State University of New York &mdash; &ldquo;Social knowledge and speech perception: mismatch and alignment&rdquo;</dd>
+    <dt>2014</dt> <dd>UC Berkeley, Phorum &mdash; &ldquo;Perceiving isn't believing: listeners' expectation and awareness of phonetically-cued social information&rdquo; with A.M. Babel</dd>
+    <dt>2012</dt> <dd>Rice University &mdash; &ldquo;Claims about processing require online tasks: disjunction of AXB and interview results in a Bolivian crossroads&rdquo;</dd>
+    <dt>2012</dt> <dd> University of Texas, Austin &mdash; &ldquo;Social expectation and theories of speech perception&rdquo; &mdash;  Invited colloquium</dd>
+    <dt>2011</dt> <dd> Rice University &mdash; &ldquo;The role of socioindexical expectation in speech perception.&rdquo;</dd>
+    <dt>2010</dt> <dd>University of Michigan &mdash; &ldquo;The perceptual time course of coarticulation&rdquo; with P.S. Beddor
+    <dt>2009</dt> <dd>University of Michigan  &mdash; &ldquo;Aerodynamic Modeling of Coarticulation Improves Concatenative Synthesis&rdquo;</dd>
     </dl>
 </div>
 
 <div class="post">
     <h3 class="subtitle">Presentations</h3>
     <dl>
-	<dt>2015</dt> <dd>McGowan, K.B. and Sumner, M. A phonetic explanation of pronunciation variant effects.  89<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
-	<dt>2015</dt> <dd>Sumner, M., McGowan, K.B., D'Onofrio, A., and Pratt, T.  The contribution of form and meaning to the processing of careful and casual speech.  89<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
-	<dt>2015</dt> <dd>Mains, P., McGowan, K.B., and Medeiros, D.  Gradient acceptability by length in heavy NP shift. 89<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
-	<dt>2015</dt> <dd>Moores, N.P., McGowan, K.B., Sumner, M. and Frank, MC. Children use phonetically-cued talker information to infer speaker meaning. Poster, 89<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
-	<dt>2014</dt> <dd>Moores, N.P., McGowan, K.B., Sumner, M., and Frank, M.C. Children use phonetically-cued talker information to disambiguate similar objects. The 55<sup>th</sup> Annual Meeting of the Psychonomics Society, Long Beach, CA</dd>
-	<dt>2014</dt> <dd>McGowan, K.B. Sumner, M., D'Onofrio, A., and Pratt, T.  The contribution of form and meaning to the processing of careful and casual speech.  27<sup>th</sup> Annual CUNY Conference on Human Sentence Processing.  Columbus, OH</dd>
-	<dt>2014</dt> <dd>Sumner, M., Calder, J., D'Onofrio, A., McGowan, K.B., and Pratt, T.  Top-down vs. bottom-up processing depends on the acoustic composition of an utterance. 88<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
-	<dt>2013</dt> <dd>Sumner, M.; D'Onofrio, A.; McGowan, K.; Pratt, T.; and Calder, J.  Differences in the recognition of careful and casual speech. Poster, 166<sup>th</sup> Meeting of the Acoustical Society of America</dd>
-	<dt>2013</dt> <dd> McGowan, K.B. and Babel, A.M. Perception of Spanish in Contact: Bolivian listeners' expectation and awareness of socioindexical variation. Workshop on Sound Change Actuation, University of Chicago</dd>
-	<dt>2013</dt> <dd>McGowan, K.B. Sounding Chinese and Listening Chinese: Imitation, Perception, and Awareness of Non-Native Phonology. Part of panel, <em>Awareness \& control in sociolinguistic research</em>.  87<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
-	<dt>2012</dt> <dd>Babel, A.M. and McGowan, K.B.  Social Categorization and Levels of Awareness: A Cross-Disciplinary Study.  Part of panel, <em>Voices in Movement: Phonetic Border Crossings</em>.  American Anthropological Association annual meeting.</dd>
-	<dt>2012</dt> <dd>McGowan, K.B. The influence of socioindexical expectations on speech perception in noise.  86<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
-	<dt>2011</dt> <dd>McGowan, K.B. The influence of socioindexical expectations on speech perception in noise.  Poster, 162<sup>nd</sup> Meeting of the Acoustical Society of America</dd>
-	<dt>2011</dt> <dd>McGowan, K.B. and Medeiros, D. J.  Tongues don't twist  &mdash;mental representations do.  85<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
-	<dt>2011</dt> <dd>McGowan, K.B. Are you experienced? Socio-indexical knowledge and naive listeners.  Poster, 85<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
-	<dt>2010</dt> <dd>McGowan, K.B. Examining Listeners' Use of Sociolinguistic Information During Early Phonetic Judgments: Evidence from eye-tracking.  New Ways of Analyzing Variation (NWAV 39)</dd>
-	<dt>2010</dt> <dd>McGowan, K.B. Listener Expectations and the Processing of Foreign-Accented Speech. Mid-Continental Workshop on Phonology (MCWOP 16) </dd>
-	<dt>2010</dt> <dd> Beddor, P.S., McGowan, K.B., Boland, J., and Coetzee, A. The Perceptual Time Course of Coarticulation.  Poster, Laboratory Phonology (LabPhon 12)</dd>
-	<dt>2010</dt> <dd>McGowan, K.B. Aerodynamic Modeling of Coarticulation for Unit Selection Synthesis.  Poster, 84<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
-	<dt>2009</dt> <dd>Beddor, P.S., McGowan, K.B., Boland, J., and Coetzee, A. The Perceptual Time Course of Coarticulatory Nasalization.  Poster, 158<sup>th</sup> Meeting of the Acoustical Society of America</dd>
-	<dt>2009</dt> <dd>McGowan, K.B. Aerodynamic Modeling for Concatenative Speech Synthesis.  Poster, 158<sup>th</sup> Meeting of the Acoustical Society of America</dd>
-	<dt>2008</dt> <dd>McGowan, K.B.  Pointwise Mutual Information and the Syllable Contact Law.  Mid-Continental Workshop on Phonology (MCWOP 14)</dd>
-	<dt>2008</dt> <dd>Coetzee, A. and McGowan, K.B. Allophonic cues to syllabification.  CUNY Conference On The Syllable</dd>
-	</dd>
-	<dt>1994</dt> <dd>Bailey, R.W. and Kevin B. McGowan The Michigan Academy &mdash; &ldquo;English in Michigan: A Century of Scholarship&rdquo; with Richard W. Bailey</dd>
-	</dd>
+    <dt>2015</dt> <dd>McGowan, K.B. and Sumner, M. A phonetic explanation of pronunciation variant effects.  89<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
+    <dt>2015</dt> <dd>Sumner, M., McGowan, K.B., D'Onofrio, A., and Pratt, T.  The contribution of form and meaning to the processing of careful and casual speech.  89<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
+    <dt>2015</dt> <dd>Mains, P., McGowan, K.B., and Medeiros, D.  Gradient acceptability by length in heavy NP shift. 89<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
+    <dt>2015</dt> <dd>Moores, N.P., McGowan, K.B., Sumner, M. and Frank, MC. Children use phonetically-cued talker information to infer speaker meaning. Poster, 89<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
+    <dt>2014</dt> <dd>Moores, N.P., McGowan, K.B., Sumner, M., and Frank, M.C. Children use phonetically-cued talker information to disambiguate similar objects. The 55<sup>th</sup> Annual Meeting of the Psychonomics Society, Long Beach, CA</dd>
+    <dt>2014</dt> <dd>McGowan, K.B. Sumner, M., D'Onofrio, A., and Pratt, T.  The contribution of form and meaning to the processing of careful and casual speech.  27<sup>th</sup> Annual CUNY Conference on Human Sentence Processing.  Columbus, OH</dd>
+    <dt>2014</dt> <dd>Sumner, M., Calder, J., D'Onofrio, A., McGowan, K.B., and Pratt, T.  Top-down vs. bottom-up processing depends on the acoustic composition of an utterance. 88<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
+    <dt>2013</dt> <dd>Sumner, M.; D'Onofrio, A.; McGowan, K.; Pratt, T.; and Calder, J.  Differences in the recognition of careful and casual speech. Poster, 166<sup>th</sup> Meeting of the Acoustical Society of America</dd>
+    <dt>2013</dt> <dd> McGowan, K.B. and Babel, A.M. Perception of Spanish in Contact: Bolivian listeners' expectation and awareness of socioindexical variation. Workshop on Sound Change Actuation, University of Chicago</dd>
+    <dt>2013</dt> <dd>McGowan, K.B. Sounding Chinese and Listening Chinese: Imitation, Perception, and Awareness of Non-Native Phonology. Part of panel, <em>Awareness \& control in sociolinguistic research</em>.  87<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
+    <dt>2012</dt> <dd>Babel, A.M. and McGowan, K.B.  Social Categorization and Levels of Awareness: A Cross-Disciplinary Study.  Part of panel, <em>Voices in Movement: Phonetic Border Crossings</em>.  American Anthropological Association annual meeting.</dd>
+    <dt>2012</dt> <dd>McGowan, K.B. The influence of socioindexical expectations on speech perception in noise.  86<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
+    <dt>2011</dt> <dd>McGowan, K.B. The influence of socioindexical expectations on speech perception in noise.  Poster, 162<sup>nd</sup> Meeting of the Acoustical Society of America</dd>
+    <dt>2011</dt> <dd>McGowan, K.B. and Medeiros, D. J.  Tongues don't twist  &mdash;mental representations do.  85<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
+    <dt>2011</dt> <dd>McGowan, K.B. Are you experienced? Socio-indexical knowledge and naive listeners.  Poster, 85<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
+    <dt>2010</dt> <dd>McGowan, K.B. Examining Listeners' Use of Sociolinguistic Information During Early Phonetic Judgments: Evidence from eye-tracking.  New Ways of Analyzing Variation (NWAV 39)</dd>
+    <dt>2010</dt> <dd>McGowan, K.B. Listener Expectations and the Processing of Foreign-Accented Speech. Mid-Continental Workshop on Phonology (MCWOP 16) </dd>
+    <dt>2010</dt> <dd> Beddor, P.S., McGowan, K.B., Boland, J., and Coetzee, A. The Perceptual Time Course of Coarticulation.  Poster, Laboratory Phonology (LabPhon 12)</dd>
+    <dt>2010</dt> <dd>McGowan, K.B. Aerodynamic Modeling of Coarticulation for Unit Selection Synthesis.  Poster, 84<sup>th</sup> Annual Meeting of the Linguistic Society of America</dd>
+    <dt>2009</dt> <dd>Beddor, P.S., McGowan, K.B., Boland, J., and Coetzee, A. The Perceptual Time Course of Coarticulatory Nasalization.  Poster, 158<sup>th</sup> Meeting of the Acoustical Society of America</dd>
+    <dt>2009</dt> <dd>McGowan, K.B. Aerodynamic Modeling for Concatenative Speech Synthesis.  Poster, 158<sup>th</sup> Meeting of the Acoustical Society of America</dd>
+    <dt>2008</dt> <dd>McGowan, K.B.  Pointwise Mutual Information and the Syllable Contact Law.  Mid-Continental Workshop on Phonology (MCWOP 14)</dd>
+    <dt>2008</dt> <dd>Coetzee, A. and McGowan, K.B. Allophonic cues to syllabification.  CUNY Conference On The Syllable</dd>
+    </dd>
+    <dt>1994</dt> <dd>Bailey, R.W. and Kevin B. McGowan The Michigan Academy &mdash; &ldquo;English in Michigan: A Century of Scholarship&rdquo; with Richard W. Bailey</dd>
+    </dd>
     </dl>
 </div>
 
@@ -226,83 +274,83 @@ Meghan Sumner, PI
     <h2 class="title">Teaching</h2>
     <dl>
     <h3 class="subtitle">University of Kentucky</h3>
-	<dt class="class">Phonetics</dt>
-	<dd> <br />Linguistics 500<br />
-	<br /> Fall 2015&mdash;2017</dd>
+    <dt class="class">Phonetics</dt>
+    <dd> <br />Linguistics 500<br />
+    <br /> Fall 2015&mdash;2017</dd>
 
-	<dt class="class">Computational Linguistics</dt>
-	<dd> <br />Linguistics 511<br />
-	<br /> Fall 2017</dd>
+    <dt class="class">Computational Linguistics</dt>
+    <dd> <br />Linguistics 511<br />
+    <br /> Fall 2017</dd>
 
-	<dt class="class">Language in U.S. Society</dt>
-	<dd> <br />Linguistics 331<br />
-	<br /> Spring 2016&mdash;2017</dd>
+    <dt class="class">Language in U.S. Society</dt>
+    <dd> <br />Linguistics 331<br />
+    <br /> Spring 2016&mdash;2017</dd>
 
-	<dt class="class">Phonology</dt>
-	<dd> <br />Linguistics 515<br />
-	<br /> Spring 2017</dd>
+    <dt class="class">Phonology</dt>
+    <dd> <br />Linguistics 515<br />
+    <br /> Spring 2017</dd>
 
-	<dt class="class">Introduction to R</dt>
-	<dd> <br />Arts &amp; Sciences 500<br />
-	<br /> Spring 2016&mdash;2017</dd>
+    <dt class="class">Introduction to R</dt>
+    <dd> <br />Arts &amp; Sciences 500<br />
+    <br /> Spring 2016&mdash;2017</dd>
 
-	<dt class="class">Sociophonetics</dt>
-	<dd> <br />Linguistics 617<br />
-	<br /> Spring 2016</dd>
+    <dt class="class">Sociophonetics</dt>
+    <dd> <br />Linguistics 617<br />
+    <br /> Spring 2016</dd>
 
-	<dt class="class">Introduction to Linguistics</dt>
-	<dd> <br />Linguistics 221<br />
-	<br /> Fall 2015&mdash;2016</dd>
+    <dt class="class">Introduction to Linguistics</dt>
+    <dd> <br />Linguistics 221<br />
+    <br /> Fall 2015&mdash;2016</dd>
 
     <h3 class="subtitle">Linguistic Society of America</h3>
         <dt class="class">Doing Phonetics Research</dt>
-	<dd><br />with Melissa Baese-Berk, Melinda Fricke, &amp; Natasha Warner
-	    <br />LSA Linguistic Institute
-	    <br />Summer 2017, Lexington, KY
-	<dt class="class">Eyetracking for linguistic research</dt>
-	<dd><br /> LSA Institute
-	    <br /> Summer 2017, Lexington, KY</dd>
-	<dt class="class">Praat Scripting</dt>
-	<dd><br /> LSA Annual Meeting Pre-Workshops
-	<br /> January 2015, Portland, OR </dd>
-	<dd><br /> LSA Institute
-	<br /> Summer 2013, Ann Arbor, MI </dd>
+    <dd><br />with Melissa Baese-Berk, Melinda Fricke, &amp; Natasha Warner
+        <br />LSA Linguistic Institute
+        <br />Summer 2017, Lexington, KY
+    <dt class="class">Eyetracking for linguistic research</dt>
+    <dd><br /> LSA Institute
+        <br /> Summer 2017, Lexington, KY</dd>
+    <dt class="class">Praat Scripting</dt>
+    <dd><br /> LSA Annual Meeting Pre-Workshops
+    <br /> January 2015, Portland, OR </dd>
+    <dd><br /> LSA Institute
+    <br /> Summer 2013, Ann Arbor, MI </dd>
 
     <h3 class="subtitle">Rice University</h3>
-	<dt class="class">Computational Linguistics</dt>
-	<dd> <br />Linguistics 409<br /> Rice University, Department of
-	Linguistics<br /> Spring 2013</dd>
+    <dt class="class">Computational Linguistics</dt>
+    <dd> <br />Linguistics 409<br /> Rice University, Department of
+    Linguistics<br /> Spring 2013</dd>
 
-	<dt class="class">Introduction to Phonology</dt>
-	<dd><br />Linguistics 311/511 & Anthropology 323/523<br />Rice University, Department of Linguistics<br />Spring 2012 &amp; Spring 2013</dd>
+    <dt class="class">Introduction to Phonology</dt>
+    <dd><br />Linguistics 311/511 & Anthropology 323/523<br />Rice University, Department of Linguistics<br />Spring 2012 &amp; Spring 2013</dd>
 
-	<dt class="class">Advanced Phonology</dt>
-	<dd><br />Linguistics 427<br />Rice University, Department of Linguistics<br />Fall 2012</dd>
+    <dt class="class">Advanced Phonology</dt>
+    <dd><br />Linguistics 427<br />Rice University, Department of Linguistics<br />Fall 2012</dd>
 
-	<dt class="class">Hearing & Speech Perception, Graduate Seminar</dt>
-	<dd><br />Linguistics 555<br />Rice University, Department of Linguistics<br />Spring 2012</dd>
+    <dt class="class">Hearing & Speech Perception, Graduate Seminar</dt>
+    <dd><br />Linguistics 555<br />Rice University, Department of Linguistics<br />Spring 2012</dd>
 
-	<dt class="class">Introduction to the Scientific Study of Language</dt>
-	<dd><br />Linguistics/Anthropology 200<br />Rice University, Department of Linguistics<br />Fall 2011</dd>
+    <dt class="class">Introduction to the Scientific Study of Language</dt>
+    <dd><br />Linguistics/Anthropology 200<br />Rice University, Department of Linguistics<br />Fall 2011</dd>
 
-	<dt class="class">Introduction to Phonetics</dt>
-	<dd><br />Linguistics/Anthropology 301/501<br />Rice University, Department of Linguistics<br />Fall 2011 & 2012</dd>
+    <dt class="class">Introduction to Phonetics</dt>
+    <dd><br />Linguistics/Anthropology 301/501<br />Rice University, Department of Linguistics<br />Fall 2011 & 2012</dd>
 
     <h3 class="subtitle">University of Michigan</h3>
-	<dt class="class">Language & the Human Mind</dt>
-	<dd><br />Linguistics 209/Pyschology 242<br />Graduate Student Instructor for Professor Sam Epstein<br />University of Michigan, Department of Linguistics<br />Fall 2009</dd>
+    <dt class="class">Language & the Human Mind</dt>
+    <dd><br />Linguistics 209/Pyschology 242<br />Graduate Student Instructor for Professor Sam Epstein<br />University of Michigan, Department of Linguistics<br />Fall 2009</dd>
 
-	<dt class="class">College Writing</dt>
-	<dd><br />English 125<br />University of Michigan, Department of English Language & Literature<br />Fall 2008</dd>
+    <dt class="class">College Writing</dt>
+    <dd><br />English 125<br />University of Michigan, Department of English Language & Literature<br />Fall 2008</dd>
 
-	<dt class="class">Introduction to Language</dt>
-	<dd><br />Linguistics 111<br />University of Michigan, Department of Linguistics<br />Spring 2008</dd>
+    <dt class="class">Introduction to Language</dt>
+    <dd><br />Linguistics 111<br />University of Michigan, Department of Linguistics<br />Spring 2008</dd>
 
-	<dt class="class">Javascript Programming</dt>
-	<dd><br />Introductory JavaScript Programming Workshop<br />University of Michigan, School of Information<br />Winter 2006, Winter 2007</dd>
+    <dt class="class">Javascript Programming</dt>
+    <dd><br />Introductory JavaScript Programming Workshop<br />University of Michigan, School of Information<br />Winter 2006, Winter 2007</dd>
 
-	<dt class="class">UNIX, perl programming, SQL, and various computing skills workshops</dt>
-	<dd><br />University of Michigan, Information Technology Division<br />1997 - 1999</dd>
+    <dt class="class">UNIX, perl programming, SQL, and various computing skills workshops</dt>
+    <dd><br />University of Michigan, Information Technology Division<br />1997 - 1999</dd>
     </dl>
 </div>
 
@@ -310,85 +358,99 @@ Meghan Sumner, PI
                     <h2 class="title">Fellowships and Awards</h2>
     <dl>
         <dt>March 2016</dt> <dd>Confucius Institute Faculty China Curriculum Development Grant</dd>
-	<dt>2010 - 2011</dt> <dd>Horace H. Rackham Predoctoral Fellowship, Horace H. Rackham School of Graduate Studies, University of Michigan</dd>
-	<dt>2010</dt> <dd>Humanities Candidacy Fellowship, University of Michigan</dd>
-	<dt>2008</dt> <dd>National Science Foundation, Honorable Mention, Graduate Research Fellowship</dd>
-	<dt>2008</dt> <dd>Pre-Candidate Research Grant, Rackham Graduate Student Research Grant, Rackham Graduate School, University of Michigan</dd>
-	<dt>2007</dt> <dd>Linguistic Society of America, LSA Linguistic Institute Fellowship, LSA Summer Institute, Stanford University</dd>
-	<dt>2006</dt> <dd>NAACL Summer School, North American Chapter of the Association for Computational Linguistics</dd>
-	<dt>2005 - 2006</dt> <dd>Non-Traditional Fellowship, Rackham Graduate School, University of Michigan</dd>
+    <dt>2010 - 2011</dt> <dd>Horace H. Rackham Predoctoral Fellowship, Horace H. Rackham School of Graduate Studies, University of Michigan</dd>
+    <dt>2010</dt> <dd>Humanities Candidacy Fellowship, University of Michigan</dd>
+    <dt>2008</dt> <dd>National Science Foundation, Honorable Mention, Graduate Research Fellowship</dd>
+    <dt>2008</dt> <dd>Pre-Candidate Research Grant, Rackham Graduate Student Research Grant, Rackham Graduate School, University of Michigan</dd>
+    <dt>2007</dt> <dd>Linguistic Society of America, LSA Linguistic Institute Fellowship, LSA Summer Institute, Stanford University</dd>
+    <dt>2006</dt> <dd>NAACL Summer School, North American Chapter of the Association for Computational Linguistics</dd>
+    <dt>2005 - 2006</dt> <dd>Non-Traditional Fellowship, Rackham Graduate School, University of Michigan</dd>
     </dl>
 </div>
 ```
 
-
 ## Student Research Supervision
 
-- Stella Takvoryan,  [Listening to cursive: The roles of regional identity and folk beliefs in perceptual cue-weighting](https://uknowledge.uky.edu/ltt_etds/66/), MA thesis chair
-- Kaitlin Young, [Cognate Facilitation and Processing in English-Speaking Learners of German](https://uknowledge.uky.edu/ltt_etds/69/), MA thesis co-chair with Brenna Byrd
-- Emily Remirez, [Modeling the Role of Social Information in Speech Perception](https://www.proquest.com/openview/633e57c9ca44f19ecf97c41c1c04f9bf/1?pq-origsite=gscholar&cbl=18750&diss=y), UC Berkeley PhD thesis, co-chair with Keith Johnson
-- Nour Kayali, ["Does This Make Sense?": The Effect of Congruent Guise in Regional Accent on Grammatical Acceptability Judgments](https://uknowledge.uky.edu/ltt_etds/53/), MA Thesis chair
-- Aidah Aljuran, [“Listening with an Attitude”: The Role of Attitude on Native and Non-Native Intergroup CommunicatioN
-](https://uknowledge.uky.edu/ltt_etds/25/), MA Thesis chair
-- Jarred Brewster, [Language Contact and Covert Prominence in the Sḥerēt-Jibbāli Language of Oman
-](https://uknowledge.uky.edu/ltt_etds/43/), MA Thesis chair
-- Kyler Laycock, [The Influence of Socioindexical Information on the Speech Perception-Production Link: Evidence from a Shadowing Task](https://uknowledge.uky.edu/ltt_etds/41/), MA Thesis chair
-- Ollie Combs, [Relevant Angry Affect Slows Response Time To Commands](https://uknowledge.uky.edu/ltt_etds/40/), MA Thesis chair
-- Kelly Wright, [The Reflection and Reification of Racialized Language in Popular Media](https://uknowledge.uky.edu/ltt_etds/18/), MA Thesis chair
-- Kaitlyn Lee, [he Perception of Creaky Voice: Does Speaker Gender Affect our
-The Perception of Creaky Voice: Does Speaker Gender Affect our
-Judgments? ](https://uknowledge.uky.edu/ltt_etds/17/), MA Thesis chair
-- Penelope Howe, Investigation of cues to fricative voicing in dialects of Malagasy. Rice University. Qualifying Paper, chair
-- Hussein Hizazi, Formant Analysis of Jordanian Arabic Vowels: Emphasis Effect on F2 in Jordanian Arabic. Rice University. Qualifying Paper, chair
-- John Galindo, A psychoacoustic study of the influence of L1 lexical tone and pitch perception. Rice University. Qualifying Paper, chair
-- Ling Ma, Native Mandarin perception of English word boundary consonant overlap. Qualifying Paper, chair
-- Ru-ping Ruby Tso, Chinese Characters and Speech Recognition. Rice University. Qualifying Paper, reader
-- Obi Nwabueze, The use of eye-tracking in speech perception research. Undergraduate Research
-- Sheri-Ann Peckham, Investigation of age-related perceptual plasticity using Jamaican Creole. Undergraduate Research
+-   Stella Takvoryan, [Listening to cursive: The roles of regional identity and folk beliefs in perceptual cue-weighting](https://uknowledge.uky.edu/ltt_etds/66/), MA thesis chair
+-   Kaitlin Young, [Cognate Facilitation and Processing in English-Speaking Learners of German](https://uknowledge.uky.edu/ltt_etds/69/), MA thesis co-chair with Brenna Byrd
+-   Emily Remirez, [Modeling the Role of Social Information in Speech Perception](https://www.proquest.com/openview/633e57c9ca44f19ecf97c41c1c04f9bf/1?pq-origsite=gscholar&cbl=18750&diss=y), UC Berkeley PhD thesis, co-chair with Keith Johnson
+-   Nour Kayali, ["Does This Make Sense?": The Effect of Congruent Guise in Regional Accent on Grammatical Acceptability Judgments](https://uknowledge.uky.edu/ltt_etds/53/), MA Thesis chair
+-   Aidah Aljuran, [“Listening with an Attitude”: The Role of Attitude on Native and Non-Native Intergroup CommunicatioN](https://uknowledge.uky.edu/ltt_etds/25/), MA Thesis chair
+-   Jarred Brewster, [Language Contact and Covert Prominence in the Sḥerēt-Jibbāli Language of Oman](https://uknowledge.uky.edu/ltt_etds/43/), MA Thesis chair
+-   Kyler Laycock, [The Influence of Socioindexical Information on the Speech Perception-Production Link: Evidence from a Shadowing Task](https://uknowledge.uky.edu/ltt_etds/41/), MA Thesis chair
+-   Ollie Combs, [Relevant Angry Affect Slows Response Time To Commands](https://uknowledge.uky.edu/ltt_etds/40/), MA Thesis chair
+-   Kelly Wright, [The Reflection and Reification of Racialized Language in Popular Media](https://uknowledge.uky.edu/ltt_etds/18/), MA Thesis chair
+-   Kaitlyn Lee, [he Perception of Creaky Voice: Does Speaker Gender Affect our The Perception of Creaky Voice: Does Speaker Gender Affect our Judgments?](https://uknowledge.uky.edu/ltt_etds/17/), MA Thesis chair
+-   Penelope Howe, Investigation of cues to fricative voicing in dialects of Malagasy. Rice University. Qualifying Paper, chair
+-   Hussein Hizazi, Formant Analysis of Jordanian Arabic Vowels: Emphasis Effect on F2 in Jordanian Arabic. Rice University. Qualifying Paper, chair
+-   John Galindo, A psychoacoustic study of the influence of L1 lexical tone and pitch perception. Rice University. Qualifying Paper, chair
+-   Ling Ma, Native Mandarin perception of English word boundary consonant overlap. Qualifying Paper, chair
+-   Ru-ping Ruby Tso, Chinese Characters and Speech Recognition. Rice University. Qualifying Paper, reader
+-   Obi Nwabueze, The use of eye-tracking in speech perception research. Undergraduate Research
+-   Sheri-Ann Peckham, Investigation of age-related perceptual plasticity using Jamaican Creole. Undergraduate Research
 
 ### External Examiner
 
-- [Andy M Gibson](https://ir.canterbury.ac.nz/items/4026429a-a08d-4e16-a4e9-0441e9bf5eb0)
-- [Ksenia Gnevsheva](https://ir.canterbury.ac.nz/items/7a56f9f9-0e55-4eb8-b1aa-b93ed37c37cf)
-
+-   Andy M Gibson, [Sociophonetics of popular music: insights from corpus analysis and speech perception experiments](https://ir.canterbury.ac.nz/items/4026429a-a08d-4e16-a4e9-0441e9bf5eb0)
+-   Ksenia Gnevsheva, [Variation in passing for a native speaker: accentedness in second language speakers of English in production and perception](https://ir.canterbury.ac.nz/items/7a56f9f9-0e55-4eb8-b1aa-b93ed37c37cf)
 
 ## Selected Software Projects
 
-:::: {layout="[20,80]"}
-<div> &nbsp; </div>
+::::: {layout="[20,80]"}
+<div>
+
+ 
+
+</div>
 
 <div>
-- CoSign, Open Source Web Single SignOn ( co-founder, developer )
-- <a href="http://www.chomskybot.com/">ChomskyBot</a>, Pseudo-random Sentence Generator and Gentle Mockery Engine
-- ldapweb, Web-based LDAP Directory Client
-- kpasswd.cgi, Web-based Kerberos password changer
+
+-   CoSign, Open Source Web Single SignOn ( co-founder, developer )
+-   <a href="http://www.chomskybot.com/">ChomskyBot</a>, Pseudo-random Sentence Generator and Gentle Mockery Engine
+-   ldapweb, Web-based LDAP Directory Client
+-   kpasswd.cgi, Web-based Kerberos password changer
+
+</div>
+:::::
+
+## Technologies
+
+::::: {layout="[20,80]"}
+<div>
+
+ 
+
+</div>
+
+<div>
+
+-   Eyelink II head-mounted eye tracker,EG2-PCX Electroglottograph, EVA 2 pneumotachograph, Zonare Ultrasound, Praat, Wavesurfer, OpenSesame, sox, etc.
+-   Python, Perl, C, Bourne shell, JavaScript, awk, tcl, SQL, PL/SQL
+-   RDBMS systems (Oracle, MySQL, PostgreSQL)
+-   UNIX administration & programming (Linux, OpenBSD, MacOS, Solaris, etc.)
+-   HTML, XML, CSS, LaTeX, Markdown, Typst
+
+</div>
+:::::
+
+## Professional affiliations
+
+:::: {layout="[20,80]"}
+2009 -\
+
+<div>
+
+Acoustical Society of America
+
 </div>
 ::::
 
-
-
-
-## Technologies
 :::: {layout="[20,80]"}
-<div> &nbsp; </div>
+2006 -\
 
 <div>
-- Eyelink II head-mounted eye tracker,EG2-PCX Electroglottograph, EVA 2 pneumotachograph, Zonare Ultrasound, Praat, Wavesurfer, OpenSesame, sox, etc.
-- Python, Perl, C, Bourne shell, JavaScript, awk, tcl, SQL, PL/SQL
-- RDBMS systems (Oracle, MySQL, PostgreSQL)
-- UNIX administration & programming (Linux, OpenBSD, MacOS, Solaris, etc.)
-- HTML, XML, CSS, LaTeX, Markdown, Typst
-</div> 
-::::
 
+Linguistic Society of America
 
-## Professional affiliations
-:::: {layout="[20,80]"}
-2009 - \
-<div>Acoustical Society of America</div>
-::::
-
-:::: {layout="[20,80]"}
-2006 - \
-<div>Linguistic Society of America</div>
+</div>
 ::::
