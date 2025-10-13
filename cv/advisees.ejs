@@ -1,0 +1,13 @@
+```{=html}
+<dl width="80%">
+<% for (const item of items) { %>
+  <dt>
+     <%- item.advisee %>
+  </dt>
+
+  <dd>
+  (<%- item.year %>) <a href="<%- item.href %>"><%= item.thesis %></a>, <%- item.role %>
+  </dd>
+<% } %>
+</dl>
+```

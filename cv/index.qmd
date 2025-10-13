@@ -10,18 +10,18 @@ format:
       number-sections: false
 listing: 
   - id: advising
-    type: table
+    template:  advisees.ejs
     filter-ui: false
     exclude:
       role: "External*"
-    contents: "../teaching/advisees/*.qmd"
+    contents: "../teaching/advisees/[!_]*.qmd"
     field-links: [thesis, advisee]
     fields: [year, advisee, thesis, role]
     sort:
       - year desc
       - lastname asc
   - id: external
-    type: table
+    template:  advisees.ejs
     filter-ui: false
     include:
       role: "External*"
@@ -392,15 +392,11 @@ Undergraduate Research Assistant, Professor Richard W. Bailey, Department of Eng
 </div>
 ```
 
-## Student Research Supervision
+## Advising &amp; Supervision
+\
 
-:::{#advising}
-:::
+{{< include includes/_advisees.qmd >}}
 
-### External Examiner
-
-:::{#external}
-:::
 
 ## Selected Software Projects
 

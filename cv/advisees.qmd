@@ -1,0 +1,24 @@
+---
+format:
+    html:
+      css: simple.css
+    typst:
+      mainfont: "Roboto"
+      toc: false
+      columns: 1
+      number-sections: false
+listing: 
+  - id: advising
+    template:  advisees.ejs
+    filter-ui: false
+    contents: "../teaching/advisees/[!_]*.qmd"
+    field-links: [thesis, advisee]
+    fields: [year, advisee, thesis, role]
+    sort:
+      - year desc
+      - lastname asc
+---
+
+:::{#advising}
+:::
+
