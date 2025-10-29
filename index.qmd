@@ -3,7 +3,7 @@ title: linguist, phonetician, musician
 html:
 about:
   template: marquee
-  image: images/raven-crane2.png
+  image: images/raven.jpg
   image-title: "This may not be the Kevin McGowan you are looking for"
   image-alt: "A photo of a Kevin McGowan (right) and a corvid-shaped object"
   links:
