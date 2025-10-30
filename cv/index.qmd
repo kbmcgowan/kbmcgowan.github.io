@@ -35,7 +35,7 @@ citeproc: true
 csl: "cv.csl"
 bibliography: references.bib
 nocite: |
-  @mcgowan2019acoustic; @McGowan2011; @mcgowan2015; @mcgowan2016sounding; @mcgowanBabel2020; @beddormcgowanbolandcoetzeebrasher2013; @CoetzeeMcGowan2008; @beddorcoetzeestylermcgowanboland2018; @BabelCampbell-KiblerMcGowan2025; @sumner2014; @baese-berk2020; @beddor2018; @laycock2025; @barrett2023; @medeiros2021ceiling; @TakvoryanMcGowaninpress; @McGowanTakvoryaninpress; @McGowan2012; @BabelMcGowanDuque2021; @mcgowan2026; @namboodiripad1a
+  @mcgowan2019acoustic; @McGowan2011; @mcgowan2015; @mcgowan2016sounding; @mcgowanBabel2020; @beddormcgowanbolandcoetzeebrasher2013; @beddorcoetzeestylermcgowanboland2018; @BabelCampbell-KiblerMcGowan2025; @sumner2014; @baese-berk2020; @beddor2018; @laycock2025; @barrett2023; @medeiros2021ceiling; @TakvoryanMcGowaninpress; @McGowanTakvoryaninpress; @McGowan2012; @BabelMcGowanDuque2021; @mcgowan2026; @namboodiripad1a
 ---
 
 ------------------------------------------------------------------------
