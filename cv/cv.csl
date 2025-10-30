@@ -288,7 +288,7 @@
         <text value="1"/>
       </if>
       <else-if variable="status">
-        <text value="2"/>
+        <text value="0"/>
       </else-if>
       <else>
         <text value="0"/>
