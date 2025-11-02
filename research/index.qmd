@@ -76,13 +76,13 @@ For example, when [Anna Babel](https://sppo.osu.edu/people/babel.6) and I told B
 
 <br style="clear: both;">
 
-<div class="rectangle-border inverted-text" style="border-color: #335AA4; background:#335AA4; margin-top: 50px;">So here's that word <em>know</em> again! Knowledge is not the same thing as <em>awareness</em>. We told listeners they'd changed speakers (from Quechua to Spanish or vice versa) and while they gave every indication of believing the switch their low level perceptual behavior stayed the same!<p>  But what would happen if, instead of misleading listeners about the identity of the talker, we explicitly told them to ignore the guise information?
+<div class="rectangle-border inverted-text" style="border-color: #335AA4; background:#335AA4; margin-top: 50px;">So here's that word <em>know</em> again! Knowledge is not the same thing as <em>awareness</em>. We told listeners they'd changed speakers (from Quechua to Spanish or vice versa) and while they gave every indication of believing the switch their low level perceptual behavior stayed the same! <p>nbsp;</p>  But what would happen if, instead of misleading listeners about the identity of the talker, we explicitly told them to ignore the guise information?
 </div>
 
 <img style="width: 60%; float: left; display: block; margin-left: auto; margin-right: auto; z-index: 10;" alt="Laycock & McGowan: Results of Congruous, Incongruous, Hidden, and Unhidden Guise Presentations" src="images/LaycockMcGowan-Scurve.png">
 
 <p class="rectangle-border" style="float: right; width: 400px;">
-The answer is <b>nothing</b>!  There is no difference in listeners' use of the visual guise when told to ignore it/that it is meaningless (see figure, left).  <b> But, when [Kyler Laycock](https://linguistics.osu.edu/people/laycock.21) and I conducted a Matched-Guise Experiment in which visual information about the gender of the talker was sometimes congruent with the voice and sometimes incongruent with the voice, we replicated the Strand Effect, the second experiment of Strand & Johnson (1996) in which visual information influences listeners' perception of fricative consonants (top row of figure).
+The answer is <b>nothing</b>!  There is no difference in listeners' use of the visual guise when told to ignore it/that it is meaningless (see figure, left). But, when [Kyler Laycock](https://linguistics.osu.edu/people/laycock.21) and I conducted a Matched-Guise Experiment in which visual information about the gender of the talker was sometimes congruent with the voice and sometimes incongruent with the voice, we replicated the Strand Effect, the second experiment of Strand & Johnson (1996) in which visual information influences listeners' perception of fricative consonants (top row of figure).
 </p>
 
 <div style="clear: both;">
