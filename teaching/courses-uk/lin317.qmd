@@ -1,9 +1,143 @@
 ---
 layout: course
 title:  "Lin 317 - How do Muppets work? A hands-in introduction to speech perception"
-date:   2024-01-07 17:21:16
+date:   2025-06-01 17:21:16
 categories: teaching phonetics sociolinguistics perception
 ---
 
 Every speech sound we make in every word we utter carries richly intertwined and dynamic cues to both linguistic meanings and social meanings. Listeners use this information in the voice to inform their expectations about who is talking, what they’re like, and even whether we like them. In this class we will use the Muppets to help us understand speech perception and speech perception to help us understand the Muppets. We will design and build our own puppet characters and we will see how Muppeteers take advantage of our core human facility with social and linguistic meanings to build characters and tell stories. We will see how our ideas about age, race, gender, sexuality, size, color, and fluffiness are activated by different voices and body shapes to create believable personas from felt and foam.
 
+## Student Learning Outcomes
+
+In this course, students will:
+1. Learn the fundamental questions of speech perception through a combination of readings, discussion,
+and contemplation of various media.
+2. Become conversant in the core principles of linguistics: The descriptive and empirical study of the
+human capacity for language.
+3. Learn to apply critical thinking and analysis to media representations and characterizations of language
+4. Practice using physical materials and your own voice to design, develop, create, and present a puppet.
+
+## Guiding Questions
+1. How does speech work?
+2. How do we use our voices to help define who we are?
+3. How do we use others’ voices to define and maybe constrain who they are allowed to be?
+4. To what extent is agency (the ability to act independently and define oneself) a property of the individual
+and to what extent does agency emerge from the expectations of others?
+5. How do talkers and listeners use physical attributes (of the body but also fashion and accessories) to
+create and inhabit social personae?
+
+## Required Textbook and Readings
+- Kreutinger, Adam (2023). Puppetry 101: Creating Film & Television Style Puppetry  ISBN: 195932103X
+
+- Additional required readings will be provided on Canvas.
+
+## Formative vs Summative and Late Grading Types
+
+My goal is to reward intellectual exploration and play and to minimize the inhibitory fear of grading/grades. For this reason, there are two types of grading:
+
+-   **Formative** assignments will receive 85% of full credit simply by being an earnest effort that is handed-in on time. An additional 15% may be awarded for work that is also correct. *Any formative assignment that does not receive full credit may be revised and resubmitted for re-evaluation.* The only way to receive less than 85% on formative work is to not do it or to cheat (e.g. using LLMs or other generative AI in any way, see below)
+-   **Summative** assignments are graded when they are due and may not typically be revised and resubmitted without extenuating circumstances (e.g. excused illness)
+-   **Late Work** Whether formative or summative, late work will lose 5% of its maximum potential grade for each full week the assignment is late.
+
+## Course Requirements
+
+| Assignment              | Weight | Type      |
+|-------------------------|--------|-----------|
+| ✓ Reading Questions (x 15)              | 50%    | formative |
+| ✓ Project 1: Design a character & voice | 20%    | formative |
+| ✓ Project 2: Design puppet | 20%    | formative |
+| ✓ Final Presentation | 10%    | summative |
+
+### Reading Questions
+- For each reading there will be a brief set of questions for you to engage with. These are designed to
+exercise key concepts and to ensure that you do not fall behind.
+- You will receive one checkmark for each completed reading assignment. You must complete 15 (of
+19) to earn the full 50% toward your final grade. You earn points by doing the work, not for agreeing
+with me or with the author.
+- **Important**: reading questions can not be completed after the class period for which they are
+discussed (see due dates on the tentative schedule below) unless circumstances require an
+exception.
+
+### Project 1: Design a Character & Voice
+- Manipulate phonetics and social meaning to design a puppet voice for a particular character. Who is
+this character? What does such a character sound like? What are the social and ethical
+consequences of your decisions?
+
+### Project 2: Design a Puppet
+- Design a puppet that embodies your character. Is your character furry? Why? What kind of clothes
+do they wear, if any? Do they have some feature that helps you build character (e.g. Kermit has no
+foam so the puppeteer's hand performance is more exposed; Sam Eagle has "living hands" so he
+can more completely express his frustration; Cookie Monster's pupils swing freely; etc.).
+
+Both projects will be graded on design effort, thoroughness, and integration of course materials – not
+implementation abilities so we are free to challenge ourselves and take risks in construction and
+performance. Trust yourself. Be bold. Try things you don't think you can do!
+
+### Final Presentation
+- I will hand off emceeing of the final presentations to McGurk, the puppet I will also be building this
+semester. Yours can be a character presentation by you -or- a character performance/presentation
+by your puppet. Assessment will be based on a rubrik (see Canvas) and peer evaluations.
+
+## Grading Practices
+
+| Final Percentage | Letter Grade |
+|------------------|--------------|
+| 90–100%          | A            |
+| 80–89%           | B            |
+| 70–79%           | C            |
+| 60 – 69%         | D            |
+| Below 60%        | E            |
+
+## Tentative Course Schedule and Tasks
+
+By taking this course you agree to complete all assigned readings prior to coming to class. All tasks are due on the date listed.
+
+| **Week** | **Day** | **Task(s)** |
+|----------|---------|-------------|
+| **Unit 1: Introductions** | 1-8: Why do Muppets work? | Review Syllabus |
+|     | 1-10: Why does speech perception work so well? | [Muppets on Puppets (1st half hour)](https://www.youtube.com/watch?v=kLrG4j8RVHI) |
+|     |     | McGurkMacDonald1976.pdf |
+|     | 1-12: Why does speech perception work so well? | LadefogedBroadbent1957.pdf |
+| **Unit 2: What is Perception?** | 1-17: Sensation and Perception | Sensing & Perceiving (pages 118-129) |
+|     | 1-19: Vision | Sensing & Perceiving (pages 130-150) |
+|     | 1-22: Hearing | Sensing & Perceiving (pages 151-156) |
+|     | 1-24: The perceptual world of animals | Yong (Introduction, pages 3-16) |
+|     | 1-26: Animal Hearing | Yong (Chapter 8, pages 210 - 242) |
+| **Unit 3: What is Speech?** |     |     |
+|     | 1-29: Language is not writing | Course in Phonetics: Chapter 1 |
+|     | 1-31: Language is not writing (cont) |     |
+|     | 2-2: Sounds of the World's languages | Course in Phonetics: Chapter 2 |
+|     | 2-5: Sounds of the World's Language, continued |     |
+|     | 2-7: Words & Syllables | Course in Phonetics: Chapter 5 |
+|     | 2-9: (syllable puppets) |     |
+|     | 2-12: Tone & Intonation | Course in Phonetics: Chapter 10 |
+|     | 2-14: Tone & Intonation, continued |     |
+| **Unit 4: Making Meaning: Ideas & Identities** |     |     |
+|     | 2-16: Language, Categorization, and social identities | EWAA, Chapter 2 (pages 21-41) |
+|     | 2-19: Language Varies | EWAA, Chapter 3 (pages 42-63) |
+|     | 2-21: Language Subordination | EWAA, Chapter 4 (pages 64-78) |
+|     | 2-23: Regional Variation | EWAA, Chapter 5 (pages 79-101) |
+|     | 2-26: Perceian Semiotics | TBD, Babel (in press)? |
+| **Unit 5: Making Puppets** |     |     |
+|     | 2-28: Puppet Making Basics | [Adam Kreutinger, Puppets 101](https://www.youtube.com/watch?v=K9NfVw9AgqE)<br><br>[Free “Snoof” pattern](https://www.snoofsoftheworld.com/make-a-snoof.html)<br><br>[Free Arms & Hands](https://www.snoofsoftheworld.com/uploads/1/9/7/1/19712965/hand_pattern_-_kreutinger.pdf)<br><br>Kreutinger (pages 31-50) |
+|     | 3-1: Puppet Making Basics (continued) | [Muppets on Puppets II (2nd half hour)](https://www.youtube.com/watch?v=kLrG4j8RVHI&t=28m45s)<br><br>**Bring ideas for Project 1 to discuss** |
+| **Unit 6: Language as character** |     |     |
+|     | 3-18: Language Use & Media | EWAA Chapter 12 (pages 258-280) |
+|     | 3-20: FILM: The Problem with Apu & Discussion |     |
+|     | 3-22: FILM: The Problem with Apu & Discussion | **Project 1 Due** |
+| **Unit 7: Personae & Puppets** |     |     |
+|     | 3-30: Performative Language & Switching | Pratt 2023; D'Onofrio (2020) |
+|     | 4-1: Character Design for Puppets | Kreutinger (pages 51-62) |
+|     | 4-3: How to Film Puppets | Kreutinger (pages 74-103) |
+| **Unit 8: Speech Perception** |     |     |
+|     | 4-5: Speech Perception | Beddor (2017); Peterson & Barney (1952) |
+|     | 4-8: Social Speech Perception | Drager (2010) |
+|     | 4-10: Social Speech Perception | McGowan (2015) |
+|     | 4-12: Multimodal perception | Gick, Ikegami, & Derrick (2010), Green, Kuhl, Meltzoff, & Stevens (1991) |
+| **Unit 9: Muppets!** |     |     |
+|     | 4-15: FILM: Muppet Movie |     |
+|     | 4-17: FILM: MM Discussion & Puppet Workshop |     |
+| **Unit 10: Final Presentations** |     |     |
+|     | 4-19: Film Festival Group A |     |
+|     | 4-22: Film Festival Group B |     |
+|     | 4-24: Film Festival Group C | **Project 2 Due** |

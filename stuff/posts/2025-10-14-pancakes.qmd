@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "malted & buttermilk pancakes"
+date:   2025-05-24 17:21:16
+categories: [recipes, cooking, pancakes]
+image: images/pancakes2.png
+---
+
+![](images/pancakes2.png){fig-alt="griddle with veggie sausage"}
+
+It's easy to find buttermilk pancake recipes and it's easy to find malted milk pancake recipes, but these days a malted & buttermilk pancake is a rare dish.
+
+Improbably, this is the 2nd time I've felt [moved to write a post about a pancake recipe](/stuff/posts/2024-05-22-pancakes.html). But, whereas that previous recipe emphasized health or whatever, this recipe emphasizes neither of those things.
+
+## Ingredients
+
+### Dry
+- $\frac{1}{4}$ tsp fine sea or table salt
+- $\frac{1}{2}$ tsp baking soda
+- $35$ g ($\frac{1}{4}$ cup) malted milk powder
+- $120$ grams (~1 cup) all-purpose flour
+- $\frac{1}{2}$ tsp vanilla extract
+
+### Wet
+- $2$ T (30 grams) unsalted butter, plus more for pan
+- $2$ T (25 grams) granulated sugar
+- $\frac{1}{2}$ cup plus 2 to 4 tablespoons buttermilk or yogurt
+- $1$ large egg
+- $1$ tsp vanilla extract
+
+## Directions
+
+1. Whisk dry ingredients in a large bowl
+2. In another bowl, combine wet ingredients, stirring until smooth
+3. Mix in dry ingredients just until combined, small lumps are fine
+4. lightly butter a 350º F (175º C) skillet. I scoop batter with a #20 (yellow handled) disher (55 ml about 3.5 T). Cook for about 3 minutes/side or until brown. More butter makes crispier edges
+
