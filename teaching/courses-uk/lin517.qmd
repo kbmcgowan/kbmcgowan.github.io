@@ -1,8 +1,202 @@
 ---
 layout: course
 title:  "Lin 515 - Speech Perception"
-date:   2025-05-22 17:21:16
+date:   2025-08-22 17:21:16
 categories: teaching phonetics psycholinguistics
+bibliography: references.bib
+csl: apa.csl
+nocite: |
+  @BabelJohnson2010a; @beddor2017a; @Best1995a; @whalen1984; @warner2023; @strange2013; @strange2005; @schwartz2019; @remez2005; @remez1984; @peterson1952; @noyce2023; @Liberman1957; @Liberman1952; @LadefogedBroadbent1957; @ladefoged2004; @kapnoula2021; @jongman2017; @johnson2006; @johnson2005; @Johnson1997; @goldstone2010; @GoldingerAzuma2003; @fry1996; @fowler2018; @choi2019a; @byrd2010a; @bruderer2015a; @apfelbaum2022a; @Liberman1996; @McGurkMacDonald1976; @mcmurray2022; @melguy2021; @miller1955; @mcgowan2026a; @Babel2025; @mcgowanBabel2020; @samuel2011
 ---
 
-course information goes here.
+Given how complicated Introductory Phonetics (Lin 500) feels, it seems like probably people should misunderstand each other a lot more than we do. Yet, we have little difficulty recognizing the sounds of speech and assigning a meaningful interpretation to sequences of speech sounds. This course investigates how listeners interpret the input acoustic stream as a linguistic message. It is structured as both an introduction to the study of perception and then an overview of some of the classic problems unique to speech perception. The course also introduces students to the relation between theory and experimentation, and to experimental design, in this interdisciplinary field. This goal is addressed in two ways. First, we will read and assess the primary literature for a focus topic: the influence of linguistic experience on speech perception. Through this lens, students will get a detailed picture of how specific theoretical questions are translated into an experimental design, and how those results in turn lead to theory revisions and engender new questions. Second, the course will take a hands-on approach to the experimental study of speech perception. Students will participate in classic perception experiments in order to better understand the phenomena as well as the experimental methods. In addition, class participants will design (and maybe execute!) their own perception experiment.
+
+## Course Prerequisites
+
+Lin 500, Introduction to Phonetics (or equivalent) is strongly suggested.
+
+## Student Learning Outcomes
+
+By the end of the course, students will be able to:
+
+1.  Have a basic understanding of the goals and methods of speech perception research
+2.  Have a basic understanding of how phoneticians think about the relationship between the sensory input of speech and our cognitive representations of that input
+3.  Be able to conduct a simple speech perception experiment and interpret others’ work
+4.  Be prepared for independent research in speech perception (e.g. for another class, a QP, or a dissertation)
+
+## Required Materials
+
+### Readings
+
+-   All required reading materials will be available on canvas in PDF format.
+
+### Praat
+
+You will need to download Praat from <http://praat.org/>. Free & Open Source, available for all major platforms and Windows
+
+## Activities Outside of Regular Class Meetings
+
+#### Individual Meetings
+
+If you have something to discuss that you would prefer to do in my office, please [make an appointment](https://appt.link/meet-with-kevin-mcgowan-8HaU92A1) or canvas message/e-mail me. Lab hours are meant to be open house.
+
+#### Lab Hours
+
+I will hold regular lab hours every Thursday in the Kentucky Phonetics Lab (Miller Hall 007b). It's in the basement, across from the Linguistic Atlas Project, and you get there by walking *through* the Geography Lab 005 (see map). Come with questions, come to work on a problem set, come to play with the lab equipment (see your tongue in an ultrasound, try out an experiment, etc.), or just to say "hi!"
+
+![UK Phonetics Lab: 007b Miller Hall](FindTheLab.png){#fig-map}
+
+## Course Activities, Assignments, and Evaluation
+
+#### Formative vs Summative and Late Grading Types
+
+My goal is to reward intellectual exploration and play and to minimize the inhibitory fear of grading/grades. For this reason, there are two types of grading:
+
+-   **Formative** assignments will receive 85% of full credit simply by being an earnest effort that is handed-in on time. An additional 15% may be awarded for work that is also correct. *Any formative assignment that does not receive full credit may be revised and resubmitted for re-evaluation.* The only way to receive less than 85% on formative work is to not do it or to cheat (e.g. using LLMs or other generative AI in any way, see below)
+-   **Summative** assignments are graded when they are due and may not typically be revised and resubmitted without extenuating circumstances (e.g. excused illness)
+-   **Late Work** Whether formative or summative, late work will lose 5% of its maximum potential grade for each full week the assignment is late.
+
+### Course Requirements: Undergraduate
+
+| Assignment              | Weight | Type      |
+|-------------------------|--------|-----------|
+| ✓ Lab Exercises (x 4)   | 40%    | formative |
+| ✓ Précis (x 10)         | 40%    | formative |
+| ✓ Experimental Proposal | 10%    | formative |
+| ✓ Presentation          | 10%    | summative |
+
+#### ✓ Lab Exercises
+
+-   There will be up to 4 (four) lab exercises posted to canvas or performed together during class that require you to analyze pre-existing data, measure phonetic properties of a speech sound, label recorded data, and or run an experiment on yourself
+-   Your task is to apply theoretical knowledge and practical skills from our readings and class discussions to interpret and understand the exercise
+-   Complete all four (4) lab exercises successfully to obtain the full 40% toward your final grade. Successful completion of each puzzle unlocks the next one.
+
+#### ✓ Précis
+
+-   Over the course of this semester we will read a mix of textbook/summary chapters and original research papers
+-   Please bring to class or upload before class a 1 page (\~250 words) summary of the reading for that day. I can not accept these after the work has been discussed in class, but you only have to précis 10 of the 36 assigned readings (including optional readings)
+-   I will show you two example précis on the first day of class.
+
+#### ✓ Experimental Proposal
+
+-   By November 11th (see tentative schedule), please submit a 500 to 2,000 word experimental proposal
+-   More information will be shared in class/uploaded to canvas, but your experimental proposal should identify a perceptual phenomenon (either from your experience or from a reading) and propose a method for exploring that phenomenon experimentally. You should consider stimuli required, the experimental task to be performed, and the kinds of listeners who would make sense as participants in your study.
+-   You *may*, but do not have to, run a pilot of your experiment to collect and analyze prelimary data
+
+#### ✓ Final Presentation
+
+-   On the last day of class, each student will deliver a brief presentation of their experimental proposal (5 minutes for presentation, 3 minutes for questions)
+-   More information will be shared in class/uploaded to canvas, but your presentation should: clearly identify the perceptual phenomenon you are investigating, briefly relate your proposal to the readings and discussions from the semester, and provide either predicted outcomes or preliminary/pilot data
+
+## Grading Practices : Undergraduate
+
+The grading scale for the final course grade will be as follows. Note: it is also possible to receive an Incomplete (I) as a placeholder grade if difficult, unavoidable circumstances arise during the semester that make it impossible for you to complete the course requirements before grades are due (but this has to be discussed with me in advance!).
+
+| Final Percentage | Letter Grade |
+|------------------|--------------|
+| 90–100%          | A            |
+| 80–89%           | B            |
+| 70–79%           | C            |
+| 60 – 69%         | D            |
+| Below 60%        | E            |
+
+### Course Requirements: Graduate/Honors
+
+| Assignment              | Weight | Type      |
+|-------------------------|--------|-----------|
+| ✓ Lab Exercises (x 4)   | 40%    | formative |
+| ✓ Précis (x 10 )        | 20%    | formative |
+| ✓ Experimental Proposal | 15%    | formative |
+| ✓ Methods Section       | 15%    | formative |
+| ✓ Presentation          | 20%    | summative |
+
+#### ✓ Lab Exercises (graduate & honors)
+
+-   These exercises are nearly identical to the Undergraduate assignments but with a few additional questions and, typically, a stricter grading rubric.
+
+#### ✓ Précis
+
+-   Over the course of this semester we will read a mix of textbook/summary chapters and original research papers
+-   Please bring to class or upload before class a 1 page (\~250 words) summary of the reading for that day. I can not accept these after the work has been discussed in class, but you only have to précis 10 of the 36 assigned readings
+-   I will show you two example précis on the first day of class.
+
+#### ✓ Experimental Proposal
+
+-   By November 11th (see tentative schedule), please submit a 500 to 2,000 word experimental proposal
+-   More information will be shared in class/uploaded to canvas, but your experimental proposal should identify a perceptual phenomenon (either from your experience or from a reading) and propose a method for exploring that phenomenon experimentally. You should consider stimuli required, the experimental task to be performed, and the kinds of listeners who would make sense as participants in your study.
+-   You *may*, but do not have to, run a pilot of your experiment to collect and analyze prelimary data
+
+#### ✓ Methods Section (graduate & honors)
+
+-   By December 9th, each graduate or honors student will be asked to compose a 1,000 - 3,000 word methods section for. Successful papers in the past have included:
+    -   work related to the students' prospective thesis
+    -   a literature survey on a particular topic (e.g. perception of nasal coarticulation, phonetic correlates of stress in so-called stress timed vs syllable timed languages, the sociophonetics of gender)
+    -   an experimental proposal. Typically this will take the form of an experimental paper you have read that you would like to replicated and reinvestigate in a different way
+
+#### ✓ Final Presentation
+
+-   On the last day of class, each student will deliver a brief presentation of their experimental proposal (5 minutes for presentation, 3 minutes for questions)
+-   More information will be shared in class/uploaded to canvas, but your presentation should: clearly identify the perceptual phenomenon you are investigating, briefly relate your proposal to the readings and discussions from the semester, and provide either predicted outcomes or preliminary/pilot data
+
+## Academic Policy Statements
+
+-   [Academic Policy Statements](https://provost.uky.edu/proposals/guidance-course-proposals/standard-academic-policy-statements)
+-   [Mental Health Resources](https://studentsuccess.uky.edu/get-help)
+-   [Academic Support](https://studentsuccess.uky.edu/academicresources)
+-   [Disability Resource Center](https://studentsuccess.uky.edu/disability-resource-center)
+-   [Academic Ombud](https://ombud.uky.edu/students)
+-   [Classroom Emergency Preparedness and Response information](https://provost.uky.edu/instructor-resources)
+
+## Plagiarism & Academic Integrity
+
+-   [What is Plagiarism?](https://ombud.uky.edu/students/what-plagiarism) Summary: Do not present others' work as your own. If you get an idea from a source, cite that source (both to show the research work you've done and to credit the people who have influenced your thinking). Buying a paper from someone, using Generative AI, or copying something from the internet are each obviously plagiarism and unacceptable, but plagiarism includes behaviors students sometimes find surprising. Paraphrasing someone else's writing in your own words (without citing them) is plagiarism. Citing something you did not read based on someone else's commentary on that book or paper is plagiarism. Be thoughtful, give credit where it is due, and do your own work and you won't have any problems.
+-   [What is Cheating?](https://ombud.uky.edu/students/what-cheating) Before taking or giving answers to a quiz, test, homework, transcription, etc. to someone else, please ask yourself what the point or value of earning a university degree *is* if you aren't going to do the work yourself? I do *not* look kindly on cheating which includes such insidious behaviors as taking a Canvas exam or quiz and then sharing the answers with a group chat.
+-   **Generative AI** use for any assignment is strictly prohibited. Idea generation, analytical thinking, and critical analysis are key outcomes in this course. As a result, all assignments submitted by the student must be 100% their original work. Generative AI tools, including Grammarly, should not be used for any stage of any assignment or activity. Any submission of AI-generated content (even if you paraphrase the output) will be considered misuse in the context of this course and consequences will follow University policies. See the [University Senate guidelines found here](https://www.uky.edu/universitysenate/ao). Beyond this, Generative AI is *terrible* at phonetics and phonology. I guarantee you can do a better job yourself.
+-   [Academic Misconduct Process](https://ombud.uky.edu/students/academic-misconduct-process)
+
+## Course Outline (subject to change)
+
+| Date | Topic | Reading or Assignment |
+|----------------------------|----------------------|----------------------|
+| Tuesday, Aug 26th | Course Overview & Goals | this syllabus |
+| Thursday, Aug 28th | How we listen to speech | [Ladefoged (chapter 10, 2001)](https://uk.instructure.com/courses/2136700/files?preview=115258017) Optional [Fry 1979, chapter 10](https://uk.instructure.com/courses/2136700/files?preview=115305826) |
+| Tuesday, Sep 2nd | What is Perception? | [Schwartz & Krantz ch. 1](https://uk.instructure.com/courses/2136700/files?preview=115258106) |
+| Thursday, Sep 4th | Research Methodology | [Schwartz & Krantz ch. 2](https://uk.instructure.com/courses/2136700/files?preview=115287307)<br> **lab exercise 1** |
+| Tuesday, Sep 9th | How to read a research paper | [Peterson & Barney 1952](https://uk.instructure.com/courses/2136700/files?preview=115305873); [McGurk & MacDonald 1976](https://uk.instructure.com/courses/2136700/files?preview=115305895) |
+| Thursday, Sep 11th | Attention | [Schwartz & Krantz ch. 9](https://uk.instructure.com/courses/2136700/files?preview=115305543) Optional: [Noyce et al. 2022](https://uk.instructure.com/courses/2136700/files?preview=115305907) |
+| Tuesday, Sep 16th | The Lack of Invariance Problem & Categorical Perception | [Byrd & Mintz ch. 5](https://uk.instructure.com/courses/2136700/files?preview=115306149) |
+| Thursday, Sep 18th |  | [Liberman et al. 1952](https://uk.instructure.com/courses/2136700/files?preview=115307337) & [Liberman et al. 1957](https://uk.instructure.com/courses/2136700/files?preview=115307326) |
+| Tuesday, Sep 23rd | The development of theory | [Liberman 1996](https://uk.instructure.com/courses/2136700/files?preview=115307136) |
+| Thursday, Sep 25th | Perception of Speech Sounds | [Schwartz & Krantz ch. 12](https://uk.instructure.com/courses/2136700/files?preview=115305542) <br> [Fry 1979, chapter 11](https://uk.instructure.com/courses/2136700/files?preview=115305827) |
+| Tuesday, Sep 30th |  | [Beddor 2017](https://uk.instructure.com/courses/2136700/files?preview=115307606) <br> Optional [Samuel 2011](https://uk.instructure.com/courses/2136700/files?preview=115317083) |
+| Thursday, Oct 2nd | Consonants | [Miller & Nicely (1955)](https://uk.instructure.com/courses/2136700/files?preview=115307438)<br> **lab exercise 2** |
+| Tuesday, Oct 7th | Motor Theory | [Whalen 2019](https://uk.instructure.com/courses/2136700/files?preview=115306638) Optional: [Liberman & Mattingly (1985)](https://uk.instructure.com/courses/2136700/files?preview=115306280) |
+| Thursday, Oct 9th | Direct Realism | [Fowler 2018](https://uk.instructure.com/courses/2136700/files?preview=115306637) |
+| Tuesday, Oct 14th |  | [Whalen (1984)](https://uk.instructure.com/courses/2136700/files?preview=115307537)<br> |
+| Thursday, Oct 16th |  | [Bruderer et al. (2015)](https://uk.instructure.com/courses/2136700/files?preview=115307477) & [Choi et al. (2019)](https://uk.instructure.com/courses/2136700/files?preview=115309005) |
+| Tuesday, Oct 21st |  | [GoldStone & Hendrickson (2010)](https://uk.instructure.com/courses/2136700/files?preview=115259073) |
+| Thursday, Oct 23rd |  | [McMurray (2022)](https://uk.instructure.com/courses/2136700/files?preview=115309153) |
+| Tuesday, Oct 28th | Fall Break (NO CLASS) |  |
+| Thursday, Oct 30th |  | [Apfelbaum et al. (2022)](https://uk.instructure.com/courses/2136700/files?preview=115309116) |
+| Tuesday, Nov 4th | Perception of Vowels | [Ladefoged & Broadbent (1957)](https://uk.instructure.com/courses/2136700/files?preview=115309250) <br> **lab exercise 3** |
+| Thursday, Nov 6th |  | [Strange & Jenkins (2013)](https://uk.instructure.com/courses/2136700/files?preview=115309287) |
+| Tuesday, Nov 11th |  | [Johnson (2005)](https://uk.instructure.com/courses/2136700/files?preview=115309313) <br> **Experimental Proposal** |
+| Thursday, Nov 13th |  | [Evans & Iverson (2003)](https://uk.instructure.com/courses/2136700/files?preview=115309345) & [McGowan & Babel (2020)](https://uk.instructure.com/courses/2136700/files?preview=115309435) |
+| Tuesday, Nov 18th | The Perceptual Organization of Speech | [Remez 2021](https://uk.instructure.com/courses/2136700/files?preview=115311051) <br> Optional: [Remez & Rubin (1984)](https://uk.instructure.com/courses/2136700/files?preview=115311087) |
+| Thursday, Nov 20th | Exemplar Models | [Johnson (1997)](https://uk.instructure.com/courses/2136700/files?preview=115309792) |
+| Tuesday, Nov 25th |  | [Goldinger & Azuma (2003)](https://uk.instructure.com/courses/2136700/files?preview=115309813) **lab exercise 4** |
+| Thursday, Nov 27th | Thanksgiving (NO CLASS) |  |
+| Tuesday, Dec 2nd | Word Recognition | [Warner (2023)](https://uk.instructure.com/courses/2136700/files?preview=115309710) |
+| Thursday, Dec 4th | Toward an ecological theory of speech perception | McGowan (to appear) |
+| Tuesday, Dec 9th | Student Presentations | 🥳 |
+
+: Tentative Schedule {.striped .hover tbl-colwidths="\[30,35,35\]"}
+
+## Bibliography
+
+::: {#refs}
+:::
+
+## Course Copyright
+
+All original instructor-provided content for this course, which may include handouts, assignments, and lectures, is the intellectual property of the instructor(s). Students enrolled in the course this academic term may use the original instructor-provided content for their learning and completion of course requirements this term, but such content must not be reproduced or sold. Students enrolled in the course this academic term are hereby granted permission to use original instructor-provided content for reasonable educational and professional purposes extending beyond this course and term, such as retaining for your own personal use, studying for a comprehensive or qualifying examination in a degree program, preparing for a professional or certification examination, or to assist in fulfilling responsibilities at a job or internship; other uses of original instructor-provided content require written permission from the instructor(s) in advance.

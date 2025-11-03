@@ -1,8 +1,235 @@
 ---
 layout: course
 title:  "Lin 500 - Introduction to Phonetics"
-date:   2025-12-10 17:21:16
+date:   2024-12-10 17:21:16
 categories: teaching phonetics
 ---
 
-course information goes here.
+We humans have the uncanny ability to convert thoughts into vibrating air molecules, perceive minute patterns of vibration happening around our heads, and translate those vibrations back into thoughts! Nothing any science fiction author could ever make up about mind reading could be as amazing, intricate, or subtle as speech. This course introduces students to the study of speech production and perception and to the nature of the acoustic signal that is transmitted from speaker to listener.
+
+## Course Prerequisites
+Lin 221, Introduction to Linguistics (or equivalent) is required.
+
+## Required Materials
+- Textbooks
+	Gick, B., Wilson, I., & Derrick, D. (2013). *Articulatory phonetics*. John Wiley & Sons.
+	ISBN: 1405193204
+	
+	Johnson, K. (2011). *Acoustic and auditory phonetics*. Wiley-Blackwell, 238 pages.
+	ISBN-10 ‏ : ‎ 1405194669
+	ISBN-13 ‏ : ‎ 978-1405194662
+	
+* Additional Readings
+	Additional readings will be available on Canvas
+	
+* Praat http://praat.org/ 
+	Free & Open Source, available for all major platforms and Windows
+## Activities Outside of Regular Class Meetings
+#### Individual Meetings
+If you have something to discuss that you would prefer to do in my office, please write to me on canvas or e-mail me to make an appointment.
+#### Lab Hours
+I will hold regular lab hours every Monday in the Kentucky Phonetics Lab (Miller Hall 007b). It's in the basement, across from the Linguistic Atlas Project, and you get there by walking _through_ the Geography Lab (see map).  Come with questions, come to work on a problem set, come to play with the lab equipment (see your tongue in an ultrasound, try out an experiment, etc.), or just to say "hi!"
+
+![Map to the phonetics lab](FindTheLab.png)
+
+## Student Learning Outcomes
+In this course, students will:
+
+1. Have a basic understanding of articulatory phonetics and the physiology of speech
+2. Have a basic understanding of the relationship between the sensory input of speech and our cognitive representations of that input
+3. Be able to perform basic acoustic analysis of speech and interpret others’ analyses
+4. Be prepared to conduct independent research on topics in phonetics and field linguistics
+5. Be prepared for further linguistic study in phonology, sociolinguistics, sociophonetics, etc.
+
+## Course Requirements: Undergraduate
+
+| Assignment             | Weight |
+| ---------------------- | ------ |
+| ✓ Lab Exercises (x 4) | 40%    |
+| ✓ Participation          | 10%     |
+| ✓ IPA Practice      | 10%    |
+| ✓ Midterm                | 20%    |
+| ✓ Final                  | 20%    |
+
+#### ✓ Lab Exercises
+- There will be four lab exercises posted to canvas that require you to analyze data, measure phonetic properties of a speech sound, label recorded data, and or run an experiment on yourself
+- Your task is to apply theoretical knowledge and practical skills from our readings and class discussions to interpret and understand the data.
+- Although called "Lab Exercises" these never need to be done in the lab as long as you have access to a computer with Praat and headphones.
+- Complete all four (4) lab exercises successfully to obtain the full 40% toward your final grade. Successful completion of each puzzle unlocks the next one.
+
+#### ✓ Participation
+Participation is assessed bi-weekly based on my notes. You are invited to meet with me about an assessment you feel is unfair. Final participation grade is is the mode (not mean or median) of biweekly assessments and will be used to calculate this 10% of your final grade.
+
+- **5 points** : Student comes to class prepared; contributes readily to the conversation; shows an interest in and respect for others’ contributions; participates actively in all groups
+- **4 points** : Student comes to class prepared; contributes only occasionally to the conversation;  or participates minimally in groups
+- **3 points** : Student comes to class but preparation is not clear; only minimally contributes to the conversation or is distracted (e.g. on phone, browsing the web, etc.); does not engage with others' contributions;  or listens but does not contribute to group work
+- **2 points** : Student has been habitually late, occasionally absent (unexcused, see below) or unprepared for class; does not contribute to the conversation unless called on; is occasionally disrespectful of others' contributions; or is disengaged from group work (e.g. on phone, browsing the web, etc.)
+- **1 point** : Student frequently does not attend class (unexcused, see below); habitually avoids answering questions or contributing to the conversation; rejects participation in groups; or brings an aardvark to class.
+
+#### ✓ IPA Practice
+- We will do a mix of small in-class and online IPA transcription or reading exercises.
+
+#### ✓ Midterm & Final
+- This course includes two opportunities to demonstrate what you have learned at the mid-point and end of the semester.
+
+## Grading Practices
+
+The grading scale for the final course grade will be as follows. Note: it is also possible to receive an Incomplete (I) as a placeholder grade if difficult, unavoidable circumstances arise during the semester that make it impossible for you to complete the course requirements before grades are due (but this has to be discussed with me in advance!).
+
+| Final Percentage | Letter Grade |
+| ---------------- | ------------ |
+| 90–100%          | A            |
+| 80–89%           | B            |
+| 70–79%           | C            |
+| 60 – 69%         | D            |
+| Below 60%        | E            |
+
+## Course Requirements: Graduate Students or Honors
+
+| Assignment             | Weight |
+| ---------------------- | ------ |
+| ✓ Lab Exercises (x 4) | 40%    |
+| ✓ Participation          | 10%     |
+| ✓ IPA Practice      | 5%    |
+| ✓ Midterm                | 15%    |
+| ✓ Final                  | 15%    |
+| ✓ Final Paper | 15% | 
+
+✓ Lab Exercises
+	These exercises are identical to the Undergraduate assignments but with a few additional questions and, typically, a stricter grading rubric.
+✓ Midterm and Final Exams
+	Again, identical to the undergraduate requirement but with additional questions/opportunities to integrate knowledge across the curriculum
+✓ Final Paper
+	Each graduate or honors student will be asked to complete a 1,200 - 1,800 word term paper demonstrating original investigation of a phonetic (or laboratory phonological) question.  Successful papers in the past have included:
+	- work related to the students' prospective thesis
+	- a literature survey on a particular topic (e.g. perception of nasal coarticulation, phonetic correlates of stress in so-called stress timed vs syllable timed languages, the sociophonetics of gender)
+	- an experimental proposal. Typically this will take the form of an experimental paper you have read that you would like to replicated and reinvestigate in a different way
+
+## Academic Policy Statements
+The UK Faculty Senate policies ( https://www.uky.edu/universitysenate/acadpolicy ) govern this course for the following topics:
+
+- [Excused Absences & Acceptable Excuses](https://www.uky.edu/universitysenate/acadpolicy#Excused)
+- [Religious Observances](https://www.uky.edu/universitysenate/acadpolicy#Religious%20Observances)
+- [Verification of Absences](https://www.uky.edu/universitysenate/acadpolicy#Verification)
+	Alternation: I do **not** require verification for emergency medical care, significant illness (physical or mental); or death in the household. I do **not** need or want doctors' notes, obituaries, photos of positive Covid tests.
+- [Make Up Work](https://www.uky.edu/universitysenate/acadpolicy#Make-Up%20Work)
+	Clarification of policy: reading quizzes **can not be completed after the date they are discussed in class**. Otherwise, all late work will be accepted per Senate policy.
+- [Excused absences for Military Service](https://www.uky.edu/universitysenate/acadpolicy#ExcusedMil)
+- [Unexcused Absences](https://www.uky.edu/universitysenate/acadpolicy#Unexcused)
+- [Prep Week and Reading Days](https://www.uky.edu/universitysenate/acadpolicy#Prep)
+- [Accommodations Due to Disability](https://www.uky.edu/universitysenate/acadpolicy#Accommodation)
+- [Non-Discrimination Statement and Title IX Information](https://www.uky.edu/universitysenate/acadpolicy#Title%20IX)
+- [Regular and Substantive Interactions](https://www.uky.edu/universitysenate/acadpolicy#RSI)
+
+## Plagiarism & Academic Integrity
+
+- [Faculty Senate Rules 6.3.1 apply in this course for plagiarism](https://www.uky.edu/universitysenate/ao#Plagiarism)
+	Summary: Do not present others' work as your own. If you get an idea from a source, cite that source (both to show the research work you've done and to credit the people who have influenced your thinking). Buying a paper from someone or downloading something from the internet is obviously plagiarism and unacceptable, but plagiarism includes behaviors students sometimes find surprising. Paraphrasing someone else's writing in your own words (without citing them) is plagiarism. Citing something you did not read based on someone else's commentary on that book or paper is plagiarism.
+- [Faculty Senate Rules 6.3.2 apply in this course for instances of cheating](https://www.uky.edu/universitysenate/ao#Cheating)
+	Before taking or giving answers to a quiz, test, homework, transcription, etc. to someone else, please ask yourself what the point or value of earning a university degree _is_ if you aren't going to do the work yourself? I do _not_ look kindly on cheating which includes such insidious behaviors as taking a Canvas exam or quiz and then sharing the answers with a group chat.
+- Generative AI use for any assignment is strictly prohibited.
+	Idea generation, analytical thinking, and critical analysis are key outcomes in this course. As a result, all assignments submitted by the student must be 100% their original work. Generative AI tools should not be used for any stage of any assignment or activity. Any submission of AI-generated content (even paraphrased output) will be considered misuse in the context of this course and consequences will follow University policies. See the [University Senate guidelines found here](https://www.uky.edu/universitysenate/ao). Beyond this, Generative AI is _terrible_ at phonetics and phonology. I guarantee you can do a better job yourself.
+
+
+- January 14, 2025 (Tuesday)
+	- Introductions
+	- Syllabus, Course Business
+	- The Speech Chain
+	- Reading: Gick, Wilson, and Derrick (GWD) chapter 1, pp 3-12
+	- Exercise: speech demo, praat
+- January 16, 2025 (Thursday)
+	- Central Nervous System
+	- Reading: GWD, chapter 2, pp. 15-27
+	- Exercise: Looking at EEG data
+- January 21, 2025 (Tuesday)
+	- Peripheral Nervous System
+	- Reading: GWD, chapter 3, 33-44
+- January 23, 2025 (Thursday)
+	- Speech Perception
+	- Reading: Skipper, Devlin, and Lemetti (2017) on canvas
+- January 28, 2025 (Tuesday)
+	- Respiration
+	- Reading: GWD, chapter 4, 47 - 68 (long but easy)
+- January 30, 2025 (Thursday)
+	- Voice I
+	- Reading: GWD, chapter 5, pp. 71 - 85 (long)
+- February 4, 2025 (Tuesday)
+	- Voice II
+	- Reading: GWD, chapter 5, pp. 85 - 90 (short)
+- February 6, 2025 (Thursday)
+	- Laryngeal Articulations I
+	- Reading: GWD, chapter 6, pp. 99-105
+- February 11, 2025 (Tuesday)
+	- Laryngeal Articulations II
+	- Reading: GWD, chapter 6, pp. 106-119
+- February 13, 2025 (Thursday)
+	- Velic Articulations
+	- Reading: GWD, chapter 7, pp. 125-139
+- February 18, 2025 (Tuesday)
+	- Articulating Vowels I
+	- Reading: GWD, chapter 8, pp. 143 - 153
+- February 20, 2025 (Thursday)
+	- Articulating Vowels II
+	- Reading: GWD, chapter 8, pp. 154 - 162
+- February 25, 2025 (Tuesday)
+	- Lab: Ultrasound & Airflow
+- February 27, 2025 (Thursday)
+	- Articulatory Phonetics Review Session
+	- Structure of the IPA Chart
+- March 4, 2025 (Tuesday) (midterm grading window opens)
+	- Midterm Exam
+	- In Class, Open Book & Open Notes
+- March 6, 2025 (Thursday)
+	- Basic Acoustics & Filters
+	- Reading: Johnson's Acoustic & Auditory Phonetics 3e (AAP), pp. 7 - 21
+- March 11, 2025 (Tuesday)
+	- Deriving Schwa I
+	- Reading: AAP, chapter 2, pp. 25 - 32
+- March 13, 2025 (Thursday)
+	- Deriving Schwa II
+	- Reading: AAP, chapter 2, pp. 32 - 46
+- March 18, 2025 (Tuesday)
+	- Spring Break
+- March 20, 2025 (Thursday)
+	- Spring Break
+- March 25, 2025 (Tuesday)
+	- Basic Audition I
+	- Reading: AAP, chapter 4, pp. 82 - 90
+- March 27, 2025 (Thursday)
+	- Basic Audition II, Psychoacoustics
+	- Reading: AAP, chapter 4, pp. 90 - 97
+- April 1, 2025 (Tuesday)
+	- Acoustics of Vowels I
+	- Reading: AAP, chapter 6, pp. 131 - 142
+- April 3, 2025 (Thursday)
+	- Acoustics of Vowels II
+	- Reading: AAP, chapter 6, pp. 142 - 148
+- April 8, 2025 (Tuesday)
+	- Articulating Lingual Consonants
+	- Reading: GWP, chapter 9, pp. 167 - 181
+- April 10, 2025 (Thursday)
+	- Acoustics of Nasals & Laterals
+	- Reading: AAP, chapter 9, pp. 185 - 203
+- April 15, 2025 (Tuesday)
+	- Articulating Labial Sounds
+	- Reading: GWP, chapter 10, pp. 189 - 201
+- April 17, 2025 (Thursday)
+	- Acoustics of Stops and Affricates
+	- Reading: AAP, chapter 8, pp. 169 - 182
+- April 22, 2025 (Tuesday)
+	- Putting Articulations Together
+	- Reading: pp. 205 - 220
+- April 24, 2025 (Thursday)
+	- Speech Perception I
+	- Reading: TBD
+- April 29, 2025 (Tuesday)
+	- Speech Perception II
+	- Reading: TBD
+
+
+- May 8, 2025 (Thursday)
+	- Final Exam
+	- 10:30 - 12:30, in person
+## Course Copyright
+
+All original instructor-provided content for this course, which may include handouts, assignments, and lectures, is the intellectual property of the instructor(s). Students enrolled in the course this academic term may use the original instructor-provided content for their learning and completion of course requirements this term, but such content must not be reproduced or sold. Students enrolled in the course this academic term are hereby granted permission to use original instructor-provided content for reasonable educational and professional purposes extending beyond this course and term, such as retaining for your own personal use, studying for a comprehensive or qualifying examination in a degree program, preparing for a professional or certification examination, or to assist in fulfilling responsibilities at a job or internship; other uses of original instructor-provided content require written permission from the instructor(s) in advance.

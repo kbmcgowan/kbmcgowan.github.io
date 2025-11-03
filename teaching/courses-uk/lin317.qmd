@@ -1,0 +1,9 @@
+---
+layout: course
+title:  "Lin 317 - How do Muppets work? A hands-in introduction to speech perception"
+date:   2024-01-07 17:21:16
+categories: teaching phonetics sociolinguistics perception
+---
+
+Every speech sound we make in every word we utter carries richly intertwined and dynamic cues to both linguistic meanings and social meanings. Listeners use this information in the voice to inform their expectations about who is talking, what they’re like, and even whether we like them. In this class we will use the Muppets to help us understand speech perception and speech perception to help us understand the Muppets. We will design and build our own puppet characters and we will see how Muppeteers take advantage of our core human facility with social and linguistic meanings to build characters and tell stories. We will see how our ideas about age, race, gender, sexuality, size, color, and fluffiness are activated by different voices and body shapes to create believable personas from felt and foam.
+

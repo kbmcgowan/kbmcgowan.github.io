@@ -5,4 +5,130 @@ date:   2024-04-15 17:21:16
 categories: teaching phonetics phonology
 ---
 
-course information goes here.
+This course provides students with the practical skills and the theoretical frameworks needed to pursue more advanced study in phonetics and phonology. You will learn how linguists study production, perception, and the mental representations of speech sounds. You will also learn how linguists develop theoretical models to understand how these speech sounds are organized in phonological grammars. The concepts learned in LIN 300 will provide a solid foundation for Linguistics and will allow the student to enroll in a variety of courses at the 500- and 600-level in Linguistics.
+
+## Course Prerequisites
+Lin 221, Introduction to Linguistics (or equivalent) is required.
+
+## Required Materials
+- Textbook
+	Zsiga, Elizabeth C. (2013) The Sounds of Language, Wiley-Blackwell
+	ISBN: 978-1-4051-9103-6 You could also get the new edition of this book: it is available at the campus bookstore and either edition will work fine.
+* Praat http://praat.org/ 
+	Free & Open Source, available for all major platforms and Windows
+
+## Activities Outside of Regular Class Meetings
+#### Individual Meetings
+If you have something to discuss that you would prefer to do in my office, please write to me on canvas or [make an appointment](https://appt.link/meet-with-kevin-mcgowan-8HaU92A1).
+
+#### Lab Hours
+I will hold regular lab hours every Wednesday in the Kentucky Phonetics Lab (Miller Hall 007b). It's in the basement, across from the Linguistic Atlas Project, and you get there by walking _through_ the Geography Lab (see map).  Come with questions, come to work on a problem set, come to play with the lab equipment (see your tongue in an ultrasound, try out an experiment, etc.), or just to say "hi!"
+
+![Find the Lab](FindTheLab.png)
+
+## Student Learning Outcomes
+In this course, students will:
+
+1. Discover the fundamental questions of the fields of phonetics and phonology through engagement with original and curated language data.
+2. Use basic terminology in linguistics, phonetics, and phonology.
+3. Learn to read, understand, and use the International Phonetic Alphabet for linguistic analysis.
+4. Analyze data from a variety of languages to identify regularities and patterns in the structure of speech sounds and sound systems.
+5. Apply the scientific method to problems within phonetics and phonology, and formulate rules and hypotheses to explain the structure of speech sounds.
+
+## Course Requirements
+
+| Assignment             | Weight |
+| ---------------------- | ------ |
+| ✓ Reading Quizzes (x 10) | 25%    |
+| ✓ Language Puzzles (x 5) | 25%    |
+| ✓ Participation          | 10%     |
+| ✓ IPA Practice      | 10%    |
+| ✓ Midterm                | 15%    |
+| ✓ Final                  | 15%    |
+
+#### ✓ Reading Quizzes
+- For each reading there will be a brief set of questions on canva for you to find the answers to. These are designed to highlight key concepts and to ensure that you do not fall behind.
+- You will receive one checkmark for each completed reading quiz. You must complete 10 (of 15) to obtain the full 25% toward your final grade.
+- **Important**: reading quizzes can not be completed after the class period for which they are due (see due dates on the tentative schedule below).
+#### ✓ Language Puzzles
+- For each language puzzle you will receive curated speech sound data (in the form of IPA transcriptions or audio recordings) and a set of exploratory questions about those data.
+- Your task is to apply theoretical knowledge and practical skills from our readings and class discussions to interpret and understand the data.
+- Complete all five (5) language puzzles to obtain the full 25% toward your final grade. Successful completion of each puzzle unlocks the next one.
+#### ✓ Participation
+Participation is assessed every 4 class meetings based on my notes. You are invited to meet with me about an assessment you feel is unfair. Final participation grade is the mode (not mean or median) of biweekly assessments and will be used to calculate this 10% of your final grade.
+
+- **5 points** : Student comes to class prepared; contributes readily to the conversation; shows an interest in and respect for others’ contributions; participates actively in all groups
+- **4 points** : Student comes to class prepared; contributes only occasionally to the conversation;  or participates minimally in groups
+- **3 points** : Student comes to class but preparation is not clear; only minimally contributes to the conversation or is distracted (e.g. on phone, browsing the web, etc.); does not engage with others' contributions;  or listens but does not contribute to group work
+- **2 points** : Student has been habitually late, occasionally absent (unexcused, see below) or unprepared for class; does not contribute to the conversation unless called on; is occasionally disrespectful of others' contributions; or is disengaged from group work (e.g. on phone, browsing the web, etc.)
+- **1 point** : Student frequently does not attend class (unexcused, see below); habitually avoids answering questions or contributing to the conversation; rejects participation in groups; or brings an aardvark to class.
+- 
+#### ✓ IPA Practice
+- There will be 8 transcription practice modules on Canvas for you to unlock by listening and practicing
+- Transcription: there are ~10 individual transcription items (words or syllables) per module. You can obtain the full 10% toward your final grade by completing all 80 items successfully.
+
+#### ✓ Midterm & Final
+- This course includes two opportunities to demonstrate what you have learned at the mid-point and end of the semester.
+- In each exam you will be presented with original language data and you will be asked to find patterns in these data.
+
+## Grading Practices
+
+The grading scale for the final course grade will be as follows. Note: it is also possible to receive an Incomplete (I) as a placeholder grade if difficult, unavoidable circumstances arise during the semester that make it impossible for you to complete the course requirements before grades are due (but this has to be discussed with me in advance!).
+
+| Final Percentage | Letter Grade |
+| ---------------- | ------------ |
+| 90–100%          | A            |
+| 80–89%           | B            |
+| 70–79%           | C            |
+| 60 – 69%         | D            |
+| Below 60%        | E            |
+
+## Midterm Grades
+
+For undergraduates, midterm grades will be posted in myUK by the deadline published in the [Academic Calendar](https://registrar.uky.edu/academic-calendars/university). 
+
+![[Course Outline]]
+
+## Attendance Philosophy
+
+This course is an event you have agreed to participate in.  The event unfolds over 31 semi-weekly course meetings and one final exam. I have planned a sequence of readings, lectures, in-class activities, discussions, assessments, and exams that are all part of this experience.  Most importantly, you are a crucial part of this course. Your energy, attention, questions, answers, and growth are an essential part of every moment of this class.  At an absolute bare minimum, that means you need to be physically in the room, prepared, awake, and ready to learn for as much of our 31 course meetings as you can. You can not cram the experience of this event into your brain in the last few weeks and I will not be inventing extra credit to accommodate your unwillingness to participate in the class as designed.
+
+### Excused Absences
+
+[AR-ASA 5.2.5](https://provost.uky.edu/proposals/guidance-course-proposals/standard-academic-policy-statements) defines the following excused absences (see link for full text):
+
+1. Mental or Physical illness of the student or a member of the student's household or immediate family.
+2. Death of a member of the student's household or immediate family.
+3. University-sponsored trips (e.g. athletics, conference)
+4. Major religious holiday
+5. Interviews: for a full time job, graduate or professional school
+
+I do not need verification for a day here or there. Please just let me know, ideally in advance, when you're going to be absent. If your participation grades tend to be good then my assumption will be that your excused absence is real and responsible and that you have made a good faith effort to be here.  If, on the other hand, absences become routine and particularly if you risk 
+
+### Unexcused Absences
+
+The following types of absences are not excused:
+
+1. Routine dental cleanings, medical check-ups, haircuts, or massages. Please schedule these at times you are available.
+2. Family vacations.  They are not excused, particularly during Finals.
+3. Sleeping through or otherwise forgetting about class (but note that mental health _is_ a valid reason to miss class.  Please just talk to me.)
+
+## Academic Offenses (Cheating, Plagiarism, and Falsification or Misuse of Academic Records)
+
+- UK policies on academic offenses are available at [https://provost.uky.edu/proposals/guidance-course-proposals/academic-offenses](https://provost.uky.edu/proposals/guidance-course-proposals/academic-offenses)
+
+- For a thorough description of “plagiarism,” see [https://ombud.uky.edu/students/what-plagiarism](https://ombud.uky.edu/students/what-plagiarism)
+
+- For a thorough description of “cheating,” see [https://ombud.uky.edu/students/what-cheating](https://ombud.uky.edu/students/what-cheating)
+
+## Resources
+
+The university offers a variety of resources available to students. Visti the [Office of Student Success](https://studentsuccess.uky.edu/get-help) to access the full list.
+
+## Classroom Emergency Preparedness and Response
+
+Please see the following link for information related to emergency reporting and action: [https://provost.uky.edu/curriculumproposals/syllabus-information](https://provost.uky.edu/curriculumproposals/syllabus-information)
+
+## Course Copyright
+
+All original instructor-provided content for this course, which may include handouts, assignments, and lectures, is the intellectual property of the instructor(s). Students enrolled in the course this academic term may use the original instructor-provided content for their learning and completion of course requirements this term, but such content must not be reproduced or sold. Students enrolled in the course this academic term are hereby granted permission to use original instructor-provided content for reasonable educational and professional purposes extending beyond this course and term, such as retaining for your own personal use, studying for a comprehensive or qualifying examination in a degree program, preparing for a professional or certification examination, or to assist in fulfilling responsibilities at a job or internship; other uses of original instructor-provided content require written permission from the instructor(s) in advance.

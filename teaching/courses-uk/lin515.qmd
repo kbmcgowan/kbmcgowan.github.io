@@ -5,4 +5,20 @@ date:   2024-04-15 17:21:16
 categories: teaching phonology
 ---
 
-course information goes here.
+This Introduction to Phonology course is designed to do two things:
+
+1. Survey some basic phonological data: How do speech sounds work, pattern, and interact across
+the worlds languages? Why cant *bnick or *fnaishl be a word of English? Why does your
+Japanese friend think you get a Big Mac at Makudonarudo? What properties do sound patterns
+share across every language in the world, and in what general ways do they diﬀer? Much of
+this course will focus on patterns within and among sound segments, but later we will talk more
+about larger phonological units like syllables and words.
+
+2. Teach you to analyze phonological data like a scientist. Throughout the course we will look at
+lots of languages. In each case, you will look at some data, see patterns in that data, describe
+them as carefully as you can, use a theory to capture those patterns, and then assess how well
+the theory works – or even compare two theories abilities to capture the same data. In the first
+two thirds of the course, the theory we will use is one of phonological rules. In the later weeks,
+we will entertain a diﬀerent theory that uses ranked constraints.
+
+[lin515_Spring2018.pdf](lin515_Spring2018.pdf)

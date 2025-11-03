@@ -1,0 +1,185 @@
+---
+layout: course
+title:  "Lin 512 - Introduction to Syntactic Theory"
+date:   2022-03-17 17:21:16
+categories: teaching syntax
+---
+
+This course provides students with the practical skills and the theoretical frameworks needed to understand current research in syntax. You will learn how linguists study the structure of sentences in the languages of the world, including English. You will learn how linguists develop theoretical models to understand the human capacity for language and be introduced to some of these models. You will learn to conduct data analysis, how to evaluate formal hypotheses, and how to provide support for and against these hypotheses.
+
+## Prerequisite
+
+Lin 221 or permission of the instructor
+Student Learning Outcomes
+
+## In this course, students will:
+
+* Discover the fundamental questions of the fields of syntax through analysis of original and curated language data.
+* Understand and use basic terminology in linguistics and syntax.
+* Analyze data from a variety of languages to identify regularities and patterns in the structure of sentences.
+* Apply the scientific method to problems within syntax and formulate rules and hypotheses to explain the structure of those sentences.
+
+## Attendance
+
+To get the most out of this class you have to be prepared for it and then you have to be present for it. Therefore, I expect you to come to class prepared if health allows. Notice that I am presenting the class simultaneously in person and on zoom so being "present" can be:
+
+1. in person in real time if you are healthy and masked
+
+2. via zoom if you are sick, have been exposed to covid, or wish not to wear a mask or
+
+3. sychronously (all course sessions will be captured and available under the Zoom tab).
+
+I will notice if you’re not here and I will ask you about it, but I’m not grading you on sitting in a chair and you don’t need a note from anyone if you miss. Attendance is not a direct part of your grade, but the only people who have ever failed my classes at Kentucky are when they didn't come.
+
+ 
+## What it means to be prepared for class
+
+Discussions will parallel the readings but will, by design, not cover exactly the same material. You are responsible for all material covered in readings and in class. Regular, alert, engaged class attendance with active listening and participation are essential for mastery of the material and will absolutely be reflected by your overall mastery of the material and therefore course grade. Slides, when used, will be made available online, but serve only to support the discussion we’ll have together. Our discussions, in a very real sense, are the course and the more you participate the richer our course will be.
+
+ 
+## Grading Practices : Undergraduate
+
+The grading scale for the final course grade will be as follows. Note: it is also possible to receive an Incomplete (I) as a placeholder grade if difficult, unavoidable circumstances arise during the semester that make it impossible for you to complete the course requirements before grades are due (but this has to be discussed with me in advance!).
+
+| Final Percentage | Letter Grade |
+|------------------|--------------|
+| 90–100%          | A            |
+| 80–89%           | B            |
+| 70–79%           | C            |
+| 60 – 69%         | D            |
+| Below 60%        | E            |
+
+### Course Requirements: Undergraduate
+
+| Assignment              | Weight | Type      |
+|-------------------------|--------|-----------|
+| ✓ Homeworks (x 10)   | 50%    | formative |
+| ✓ Midterm Exam       | 25%    | formative |
+| ✓ Final Exam (5-3; 8:00 am - 10:00 am)  | 25%    | summative |
+
+### Course Requirements: Graduate/Honors
+
+| Assignment              | Weight | Type      |
+|-------------------------|--------|-----------|
+| ✓ Homeworks (x10)  | 40%    | formative |
+| ✓ Midterm Exam        | 10%    | formative |
+| ✓ Final Exam | 10%    | summative |
+| ✓ Final Paper       | 20%    | summative |
+| ✓ Presentation          | 20%    | summative |
+
+
+
+Homework Information
+
+- Homework sheets will be available for download from (or completion on) canvas.
+- Completed homeworks should be uploaded to canvas.
+- Please, please, please do not hand in sideways photographs of hand-written work.
+- If you must hand-write, please don't. If you do it any way, be a mensch and use a proper scanner or figure out how to get the paper to me by the due date.
+
+ 
+## Tentative Course Schedule & Readings
+
+By taking this course you agree to complete all assigned readings prior to coming to class.
+
+### Week 0: Optional background before we start
+Preliminaries 1: What is a word? [EoL Chapter 6](https://ecampusontario.pressbooks.pub/essentialsoflinguistics/part/chapter-6-word-forms/)
+
+Preliminaries 2: Combining Words - [EoL Chapter 7](https://ecampusontario.pressbooks.pub/essentialsoflinguistics/part/chapter-7-combining-words/) & [EoL Chapter 8](https://ecampusontario.pressbooks.pub/essentialsoflinguistics/part/chapter-8-forming-sentences/)
+
+### Week 1: Context Free Grammars
+8-23: Phrase Structure - Chomsky 1957 (on Canvas), pp 11-33
+
+8-25: The Goals of a Linguistic Theory - Chomsky 1957 (on Canvas), pp 34-60
+
+### Week 2: Collaborative Grammar Writing
+8-30: Collaborative Grammar Writing (bring a computer if you have one)
+
+9-1: Collaborative Grammar Writing (bring a computer if you have one)
+
+### Week 3: Functionalist and Generative Approaches
+
+9-6: Functionalist Introduction - Payne, chapter 1
+
+9-8: Generative Introduction - Carnie, chapter 1
+
+### Week 4: Other viewpoints
+
+9-13: Introduction - Probabilistic Syntax, Chris D. Manning
+
+9-15: INtroduction - Exemplar-Based Syntax: How to Get Productivity from Examples, Rens Bod
+
+### Week 5: Lexical Classes
+
+9-20: Let's call them "Lexical Classes" rather than the ableist "Parts of Speech" : Carnie, chapter 2
+
+9-22: Payne calls them "Word Classes" : Payne, chapter 4
+
+### Week 6: Constituent Structure
+
+9-27: Constituency - Payne, chapter 6
+
+9-29: Phrase Structure Rules - Carnie, chapter 3
+
+### Week 7: Language Typology & 
+
+10-4: Language Typology - Payne, chapter 7
+
+10-6: Word Order
+
+### Week 8: Grammatical Relations
+
+10-11: Grammatical Relations - Payne, chapter 8 pp 210 - 220
+
+10-13: Split Systems - Payne, chapter 8 pp 221 - 229
+Week 8: Voice & Valence
+
+### Week 9: Functionalism summary & Midterm
+
+10-18: Voice & Valence (Functionalism) - Payne, chapter 9
+
+10-20: MIDTERM (on canvas, open book & open notes)
+
+### Week 10: Okay, now do Generativism!
+
+10-25: Fall Break (no class)
+
+10-27: Generative Syntax: Structural Relations (Carnie, Chapter 4)
+
+### Week 11: Binding
+11-1: Binding Theory - Carnie, Chapter 5
+
+11-3: Binding (cont.)
+
+### Week 12: The Base
+
+11-8: X-bar Theory - Carnie, chapter 6
+
+11-10: Extending X-bar - Carnie, chapter 7
+
+### Week 13: Voice & Valence (Generative)
+
+11-15: Theta Theory - Carnie, chapter 8
+
+11-17: Auxiliaries & Functional Categories - Carnie, chapter 9
+
+### Week 14: Movement
+
+11-22: Head-to-Head Movement - Carnie, chapter 10
+
+11-24: Thanksgiving Break (no class)
+
+### Week 15: Movement (cont.)
+11-29: DP Movement - Carnie, chapter 11
+
+12-1: WH Movement - Carnie, chapter 12 (optional, chapter 13)
+
+### Week 16: Conclusions?
+
+12-6: Expanded VPs (or, what on earth do we do with a ditransitive verb in X-Bar theory?!) - Carnie, chapter 14
+
+### Final Exam
+12-13: 8:00 am - 10:00 am
+
+### Grades Due:
+
+12-16: by 10:00 am
