@@ -238,15 +238,444 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>FALL <span class="op">=</span> (FALL_SEM_FIRST, FALL_SEM_LAST, FALL_HOLIDAYS)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>and if you wanted to generate a calendar for a MW fall term class in 2025, you would run:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">./semester.py</span> <span class="at">-b</span> mw <span class="at">-t</span> f <span class="op">&gt;</span>fall2025.md</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="example-calendar" class="level3">
+<h3 class="anchored" data-anchor-id="example-calendar">Example Calendar</h3>
+<p>The command above generated this blank calendar:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Topic</th>
+<th>Reading/Due</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Monday, Aug 25th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Aug 27th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Sep 1st</td>
+<td>Labor Day (NO CLASS)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Sep 3rd</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Sep 8th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Sep 10th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Sep 15th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Sep 17th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Sep 22nd</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Sep 24th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Sep 29th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Oct 1st</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Oct 6th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Oct 8th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Oct 13th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Oct 15th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Oct 20th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Oct 22nd</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Oct 27th</td>
+<td>Fall Break (NO CLASS)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Oct 29th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Nov 3rd</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Nov 5th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Nov 10th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Nov 12th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Nov 17th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Nov 19th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Nov 24th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Nov 26th</td>
+<td>Thanksgiving (NO CLASS)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Dec 1st</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Dec 3rd</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Dec 8th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Dec 10th</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <p>then populate that calendar with assignments, readings, whatever you need and don’t worry about how you’ll update the dates the next time you teach it, because:</p>
+</section>
 </section>
 <section id="to-update-an-existing-calendar-for-a-new-semester" class="level2">
 <h2 class="anchored" data-anchor-id="to-update-an-existing-calendar-for-a-new-semester">To update an existing calendar for a new semester</h2>
 <p>Imagine you have an old syllabus for a course and just want to update the dates to a new semester. Edit the python source of semester.py to know about the new semester (e.g.&nbsp;a TH class in Spring 2026), and then run:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># make a copy of the file, this will be the new calendar</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> fall2025.md spring2026.md</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> spring2025.md spring2026.md</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="ex">./semester.py</span> <span class="at">-b</span> th <span class="at">-f</span> s spring2026.md</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>and semester.py will update the dates in place in the new file.</p>
+<p>and semester.py will update the dates in place in the new file:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 26%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Topic</th>
+<th>Reading/Due</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Monday, Jan 12th</td>
+<td>Introduction, review syllabus</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Jan 14th</td>
+<td>Introduction to Language Ideologies</td>
+<td>EWAA, Chapter 1</td>
+</tr>
+<tr class="odd">
+<td>Friday, Jan 16th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Monday, Jan 19th</td>
+<td>MLK (NO CLASS)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Wednesday, Jan 21st</td>
+<td>Language, categorization, &amp; social identities</td>
+<td>EWAA, Chapter 2</td>
+</tr>
+<tr class="even">
+<td>Friday, Jan 23rd</td>
+<td></td>
+<td><strong>Assignment #1 Due</strong></td>
+</tr>
+<tr class="odd">
+<td>Monday, Jan 26th</td>
+<td>A quick introduction to Language &amp; Linguistics</td>
+<td>EWAA, Chapter 3</td>
+</tr>
+<tr class="even">
+<td>Wednesday, Jan 28th</td>
+<td>Language subordination</td>
+<td>EWAA, Chapter 4</td>
+</tr>
+<tr class="odd">
+<td>Friday, Jan 30th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Monday, Feb 2nd</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Wednesday, Feb 4th</td>
+<td>American accents</td>
+<td>EWAA, Chapter 5</td>
+</tr>
+<tr class="even">
+<td>Friday, Feb 6th</td>
+<td></td>
+<td><strong>Assignment #2 Due</strong></td>
+</tr>
+<tr class="odd">
+<td>Monday, Feb 9th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Feb 11th</td>
+<td>Language, racialization, &amp; race</td>
+<td>EWAA, Chapter 6</td>
+</tr>
+<tr class="odd">
+<td>Friday, Feb 13th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Monday, Feb 16th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Wednesday, Feb 18th</td>
+<td>Non-English spoken languages in the US</td>
+<td>EWAA, Chapter 7</td>
+</tr>
+<tr class="even">
+<td>Friday, Feb 20th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Feb 23rd</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Feb 25th</td>
+<td>American Sign Language</td>
+<td>EWAA, Chapter 8</td>
+</tr>
+<tr class="odd">
+<td>Friday, Feb 27th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Monday, Mar 2nd</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Wednesday, Mar 4th</td>
+<td>Perceptual dialectology</td>
+<td>EWAA, Chapter 9</td>
+</tr>
+<tr class="even">
+<td>Friday, Mar 6th</td>
+<td></td>
+<td><strong>Assignment #3 Due</strong></td>
+</tr>
+<tr class="odd">
+<td>Monday, Mar 9th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Wednesday, Mar 11th</td>
+<td>First half wrap-up, Exam Prep</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Friday, Mar 13th</td>
+<td></td>
+<td><strong>Midterm Exam</strong></td>
+</tr>
+<tr class="even">
+<td>Monday, Mar 16th</td>
+<td>Spring break (NO CLASS)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Wednesday, Mar 18th</td>
+<td>Spring break (NO CLASS)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Friday, Mar 20th</td>
+<td>Spring break (NO CLASS)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Mar 23rd</td>
+<td>A history of ‘r’ in the US</td>
+<td>EWAA, Chapter 10</td>
+</tr>
+<tr class="even">
+<td>Wednesday, Mar 25th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Friday, Mar 27th</td>
+<td></td>
+<td><strong>Assignment #4 Due</strong></td>
+</tr>
+<tr class="even">
+<td>Monday, Mar 30th</td>
+<td>Language in education</td>
+<td>EWAA, Chapter 11</td>
+</tr>
+<tr class="odd">
+<td>Wednesday, Apr 1st</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Friday, Apr 3rd</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Monday, Apr 6th</td>
+<td>Language in the media</td>
+<td>EWAA, Chapter 12</td>
+</tr>
+<tr class="even">
+<td>Wednesday, Apr 8th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Friday, Apr 10th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Monday, Apr 13th</td>
+<td>Language in the workplace</td>
+<td>EWAA, Chapter 13</td>
+</tr>
+<tr class="odd">
+<td>Wednesday, Apr 15th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Friday, Apr 17th</td>
+<td></td>
+<td><strong>Assignment #5 Due</strong></td>
+</tr>
+<tr class="odd">
+<td>Monday, Apr 20th</td>
+<td>Language in the law</td>
+<td>EWAA, Chapter 14</td>
+</tr>
+<tr class="even">
+<td>Wednesday, Apr 22nd</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Friday, Apr 24th</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Monday, Apr 27th</td>
+<td>Stereotype as cognitive template</td>
+<td>Lindeman 2002</td>
+</tr>
+<tr class="odd">
+<td>Wednesday, Apr 29th</td>
+<td></td>
+<td>McGowan &amp; Babel 2020</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="source-code" class="level2">
+<h2 class="anchored" data-anchor-id="source-code">Source code</h2>
 <script src="https://gist.github.com/kbmcgowan/8cca0303b5de62d079163329e3d37f67.js"></script>
 
 
