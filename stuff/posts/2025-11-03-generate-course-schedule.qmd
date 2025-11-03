@@ -1,0 +1,80 @@
+---
+layout: post
+title:  "generate markdown course schedule with python"
+date:   2025-11-03 17:21:16
+categories: [python, syllabus, markdown]
+image: images/calendar.jpeg
+---
+
+![](images/calendar.jpeg){fig-alt="a perspective view of calendar dates"}
+
+I have a gist posted to [generate or update a course syllabus that is maintained in a markdown table](https://gist.github.com/kbmcgowan/8cca0303b5de62d079163329e3d37f67). This code is [based on original work by Joseph Reagle, Copyright (C) 2011-2023 GLPv3](https://gist.github.com/reagle/19806122fdb22515ea0b).
+
+## To install
+
+Click [raw] in the upper right-corner of the gist, save that text into a file, and change the first line to whatever you get when you type:
+
+```bash
+which python | which python3
+```
+
+then execute:
+
+```bash
+chmod 755 semester.py
+./semester.py -h
+```
+
+## To generate a new calendar for a new semester
+
+1. Use your favorite text editor to modify this part of the code to know about days of the week, holidays, and start and end dates for your semester (or quarter).  The date format is YYYYMMDD
+
+```python
+# Spring semester; updated 2025-04-12
+SPRING_SEM_FIRST = "20260112"
+SPRING_SEM_LAST = "20260429"
+SPRING_HOLIDAYS = {
+    "20260119": "MLK",
+    "20260316": "Spring break",
+    "20260317": "Spring break",
+    "20260318": "Spring break",
+    "20260319": "Spring break",
+    "20260320": "Spring break",
+}
+SPRING = (SPRING_SEM_FIRST, SPRING_SEM_LAST, SPRING_HOLIDAYS)
+
+# Fall semester; updated 2025-04-12
+FALL_SEM_FIRST = "20250825"
+FALL_SEM_LAST = "20251210"
+FALL_HOLIDAYS = {
+    "20250901": "Labor Day",
+    "20251027": "Fall Break",
+    "20251028": "Fall Break",
+    "20251126": "Thanksgiving",
+    "20251127": "Thanksgiving",
+    "20251128": "Thanksgiving",
+}
+FALL = (FALL_SEM_FIRST, FALL_SEM_LAST, FALL_HOLIDAYS)
+```
+
+and if you wanted to generate a calendar for a MW fall term class in 2025, you would run:
+
+```bash
+./semester.py -b mw -t f >fall2025.md
+```
+
+then populate that calendar with assignments, readings, whatever you need and don't worry about how you'll update the dates the next time you teach it, because:
+
+## To update an existing calendar for a new semester
+
+Imagine you have an old syllabus for a course and just want to update the dates to a new semester.  Edit the python source of semester.py to know about the new semester (e.g. a TH class in Spring 2026), and then run:
+
+```bash
+# make a copy of the file, this will be the new calendar
+cp fall2025.md spring2026.md
+./semester.py -b th -f s spring2026.md
+```
+
+and semester.py will update the dates in place in the new file.
+
+<script src="https://gist.github.com/kbmcgowan/8cca0303b5de62d079163329e3d37f67.js"></script>
