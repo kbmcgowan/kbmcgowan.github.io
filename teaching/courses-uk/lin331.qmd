@@ -1,7 +1,7 @@
 ---
 layout: course
 title:  "Lin 331 - Language in the United States"
-date:   2025-04-15 17:21:16
+date:   2025-11-03 17:16:16
 categories: teaching sociolinguistics
 ---
 
@@ -10,10 +10,11 @@ This course is an introduction to the linguistic diversity of the United States 
 ## Required Materials
 ### Textbook
 
-- *English with an accent: Language, ideology, and discrimination in the United States, Third Edition* (ISBN 1138041939) by Rusty Barrett, Jennifer Cramer, and Kevin B. McGowan  THIRD EDITION (Routledge, 2023) [Please DO NOT try to use the first or second editions; the new edition is very different]. Readings from this book are marked as EWAA in the schedule. Please note that I am one of the 3 authors of this textbook but I will earn no royalties from your purchase as these are donated to the department.
+- *English with an accent: Language, ideology, and discrimination in the United States, Third Edition* (ISBN 1138041939) by Rusty Barrett, Jennifer Cramer, and Kevin B. McGowan  THIRD EDITION (Routledge, 2023).
+- Readings from this book are marked as EWAA in the schedule. Please note that I am one of the 3 authors of this textbook but I will earn no royalties from your purchase as these are donated to the department.
 
 ### Additional Readings
-Additional readings will be made available on Canvas (marked as C on the schedule).
+Additional readings will be made available online.
 
 ## Course Goals/Objectives:
 - Demonstrate an understanding of historical changes in the language diversity and shifts in the linguistic categories related to racial and ethnic categorizations in the United States
@@ -36,22 +37,30 @@ Upon completion of this course, students will be able to:
 
 ## Course Requirements
 
-| Assignment             | Weight |
-| ---------------------- | ------ |
-| ✓ Assignments (x 5)    | 40%    |
-| ✓ Participation        | 10%    |
-| ✓ Midterm              | 25%    |
-| ✓ Final                | 25%    |
+### Formative vs Summative and Late Grading Types
+
+My goal is to reward intellectual exploration and play and to minimize the inhibitory fear of grading/grades. For this reason, there are two types of grading:
+
+-   **Formative** assignments will receive 85% of full credit simply by being an earnest effort that is handed-in on time. An additional 15% may be awarded for work that is also correct. *Any formative assignment that does not receive full credit may be revised and resubmitted for re-evaluation.* The only way to receive less than 85% on formative work is to not do it or to cheat (e.g. using LLMs or other generative AI in any way, see below)
+-   **Summative** assignments are graded when they are due and may not typically be revised and resubmitted without extenuating circumstances (e.g. excused illness)
+-   **Late Work** Whether formative or summative, late work will lose 5% of its maximum potential grade for each full week the assignment is late.
+
+
+| Assignment             | Weight | Type      |
+| ---------------------- | ------ | --------- |
+| ✓ Assignments (x 5)    | 40%    | formative |
+| ✓ Participation        | 10%    | formative |
+| ✓ Midterm              | 25%    | formative |
+| ✓ Final Project       | 25%    | summative | 
 
 #### ✓ Assignments
 Assignments for this class (distributed via Canvas) are short activities based on the content of course lectures and reading assignments. Most of these assignments are individual efforts, though some may require students to work in groups. No cheating (including the use of generative AI) will be tolerated. There will be five (5) such assignments. Due dates for these assignments are listed in the course schedule below.
 
-#### ✓ Exams
-There will be two in-class exams: a midterm and a final. The final is not cumulative and will only cover the material after the midterm exam.
-
 #### ✓ Participation
 You are expected to attend each class and to have done the reading assigned for that day. In the course schedule, readings appear next to the day on which they are due. I recommend that you take notes on the readings and come prepared with questions or comments to contribute to class discussion. Your participation grade will be based on participation questions that are sprinkled throughout the lectures.
 
+#### ✓ Exams
+There will be two in-class exams: a midterm and a final. The final is not cumulative and will only cover the material after the midterm exam.
 
 ## Grading Practices
 
@@ -91,84 +100,58 @@ If you need to leave early for any reason, please let us know before class start
 - [Academic Misconduct Process](https://ombud.uky.edu/students/academic-misconduct-process)
   
 
-## Course Outline (subject to change)
-z
-- January 14, 2025 (Tuesday)
-	- Introduction, review syllabus	
-- January 16, 2025 (Thursday)
-	- Introduction to Language Ideologies
-	- EWAA, Chapter 1
-- January 21, 2025 (Tuesday)
-	- Language, categorization, & social identities
-	- EWAA, Chapter 2
-- January 23, 2025 (Thursday)
-	- A quick introduction to Language & Linguistics
-	- EWAA, Chapter 3
-	- **Assignment #1 Due**
-- January 28, 2025 (Tuesday)
-	- Language subordination
-	- EWAA, Chapter 4
-- January 30, 2025 (Thursday)
-- February 4, 2025 (Tuesday)
-	- American accents
-	- EWAA, Chapter 5
-- February 6, 2025 (Thursday)
-	- **Assignment #2 Due**
-- February 11, 2025 (Tuesday)
-	- Language, racialization, & race
-	- EWAA, Chapter 6
-- February 13, 2025 (Thursday)
-- February 18, 2025 (Tuesday)
-	- Non-English spoken languages in the US
-	- EWAA, Chapter 7
-- February 20, 2025 (Thursday)
-- February 25, 2025 (Tuesday)
-	- American Sign Language
-	- EWAA, Chapter 8
-- February 27, 2025 (Thursday)
-- March 4, 2025 (Tuesday)
-	- Perceptual dialectology
-	- EWAA, Chapter 9
-- March 6, 2025 (Thursday)
-	- **Assignment #3 Due**
-- March 11, 2025 (Tuesday)
-  - First half wrap-up, Exam Prep
-- March 13, 2025 (Thursday)
-	- **Midterm Exam**
-- March 18, 2025 (Tuesday)
-	- *Spring Break*
-- March 20, 2025 (Thursday)
-	- *Spring Break*
-- March 25, 2025 (Tuesday)
-	- A history of 'r' in the US
-	- EWAA, Chapter 10
-- March 27, 2025 (Thursday)
-- April 1, 2025 (Tuesday)
-	- Language in education
-	- EWAA, Chapter 11
-- April 3, 2025 (Thursday)
-	- **Assignment #4 Due**
-- April 8, 2025 (Tuesday)
-	- Language in the media
-	- EWAA, Chapter 12
-- April 10, 2025 (Thursday)
-- April 15, 2025 (Tuesday)
-	- Language in the workplace
-	- EWAA, Chapter 13
-- April 17, 2025 (Thursday)
-	- **Assignment #5 Due**
-- April 22, 2025 (Tuesday)
-	- Language in the law
-	- EWAA, Chapter 14
-- April 24, 2025 (Thursday)
-- April 29, 2025 (Tuesday)
-	- Stereotype as cognitive template
-	- Lindeman 2002 (C)
-	- McGowan 2015 (C)
+## Tentative Course Outline
 
-- May 8, 2025 (Thursday)
-	- [Final Exam](https://registrar.uky.edu/calendars/examination-schedules)
-	- 8:00 - 10:00am, in person
+| Date | Topic | Reading/Due |
+|------|-------|-------------|
+|	Monday, Jan 12th	| Introduction, review syllabus	| |
+|	Wednesday, Jan 14th	| Introduction to Language Ideologies | EWAA, Chapter 1 |
+|	Friday, Jan 16th	|	|	|
+|	Monday, Jan 19th	| MLK (NO CLASS)	|	|
+|	Wednesday, Jan 21st	| Language, categorization, & social identities | EWAA, Chapter 2 |
+|	Friday, Jan 23rd	|	| **Assignment #1 Due** |
+|	Monday, Jan 26th	| A quick introduction to Language & Linguistics | EWAA, Chapter 3 |
+|	Wednesday, Jan 28th	| Language subordination | EWAA, Chapter 4 |
+|	Friday, Jan 30th	|	|	|
+|	Monday, Feb 2nd	|	|	|
+|	Wednesday, Feb 4th	| American accents | EWAA, Chapter 5 |
+|	Friday, Feb 6th	|	| **Assignment #2 Due** |
+|	Monday, Feb 9th	|	|	|
+|	Wednesday, Feb 11th	| Language, racialization, & race | EWAA, Chapter 6 |
+|	Friday, Feb 13th	|	|	|
+|	Monday, Feb 16th	|	|	|
+|	Wednesday, Feb 18th	| Non-English spoken languages in the US | EWAA, Chapter 7 |
+|	Friday, Feb 20th	|	|	|
+|	Monday, Feb 23rd	|	|	|
+|	Wednesday, Feb 25th	| American Sign Language | EWAA, Chapter 8 |
+|	Friday, Feb 27th	|	|	|
+|	Monday, Mar 2nd	|	|	|
+|	Wednesday, Mar 4th	| Perceptual dialectology | EWAA, Chapter 9 |
+|	Friday, Mar 6th	|	| **Assignment #3 Due** |
+|	Monday, Mar 9th	|	|	|
+|	Wednesday, Mar 11th	| First half wrap-up, Exam Prep |
+|	Friday, Mar 13th	|	| **Midterm Exam** |
+|	Monday, Mar 16th	| Spring break (NO CLASS)	|	|
+|	Wednesday, Mar 18th	| Spring break (NO CLASS)	|	|
+|	Friday, Mar 20th	| Spring break (NO CLASS)	|	|
+|	Monday, Mar 23rd	| A history of 'r' in the US | EWAA, Chapter 10 |
+|	Wednesday, Mar 25th	|	|	|
+|	Friday, Mar 27th	|	| **Assignment #4 Due** |
+|	Monday, Mar 30th	| Language in education | EWAA, Chapter 11 |
+|	Wednesday, Apr 1st	|	|	|
+|	Friday, Apr 3rd	|	|	|
+|	Monday, Apr 6th	| Language in the media | EWAA, Chapter 12 |
+|	Wednesday, Apr 8th	|	|	|
+|	Friday, Apr 10th	|	|	|
+|	Monday, Apr 13th	| Language in the workplace | EWAA, Chapter 13 |
+|	Wednesday, Apr 15th	|	|	|
+|	Friday, Apr 17th	|	| **Assignment #5 Due** |
+|	Monday, Apr 20th	| Language in the law | EWAA, Chapter 14 |
+|	Wednesday, Apr 22nd	|	|	|
+|	Friday, Apr 24th	|	|	|
+|	Monday, Apr 27th	| Stereotype as cognitive template | Lindeman 2002 |
+|	Wednesday, Apr 29th	|	| McGowan & Babel 2020 |
+| Mondqy, May 4th | [Final Exam](https://registrar.uky.edu/calendars/examination-schedules) | 1:00 - 3:00pm, in person |
 
 
 ## Course Copyright

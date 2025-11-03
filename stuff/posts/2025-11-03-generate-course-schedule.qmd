@@ -63,6 +63,45 @@ and if you wanted to generate a calendar for a MW fall term class in 2025, you w
 ./semester.py -b mw -t f >fall2025.md
 ```
 
+### Example Calendar
+
+The command above generated this blank calendar:
+
+| Date | Topic | Reading/Due |
+|------|-------|-------------|
+|	Monday, Aug 25th	|	|	|
+|	Wednesday, Aug 27th	|	|	|
+|	Monday, Sep 1st	| Labor Day (NO CLASS)	|	|
+|	Wednesday, Sep 3rd	|	|	|
+|	Monday, Sep 8th	|	|	|
+|	Wednesday, Sep 10th	|	|	|
+|	Monday, Sep 15th	|	|	|
+|	Wednesday, Sep 17th	|	|	|
+|	Monday, Sep 22nd	|	|	|
+|	Wednesday, Sep 24th	|	|	|
+|	Monday, Sep 29th	|	|	|
+|	Wednesday, Oct 1st	|	|	|
+|	Monday, Oct 6th	|	|	|
+|	Wednesday, Oct 8th	|	|	|
+|	Monday, Oct 13th	|	|	|
+|	Wednesday, Oct 15th	|	|	|
+|	Monday, Oct 20th	|	|	|
+|	Wednesday, Oct 22nd	|	|	|
+|	Monday, Oct 27th	| Fall Break (NO CLASS)	|	|
+|	Wednesday, Oct 29th	|	|	|
+|	Monday, Nov 3rd	|	|	|
+|	Wednesday, Nov 5th	|	|	|
+|	Monday, Nov 10th	|	|	|
+|	Wednesday, Nov 12th	|	|	|
+|	Monday, Nov 17th	|	|	|
+|	Wednesday, Nov 19th	|	|	|
+|	Monday, Nov 24th	|	|	|
+|	Wednesday, Nov 26th	| Thanksgiving (NO CLASS)	|	|
+|	Monday, Dec 1st	|	|	|
+|	Wednesday, Dec 3rd	|	|	|
+|	Monday, Dec 8th	|	|	|
+|	Wednesday, Dec 10th	|	|	|
+
 then populate that calendar with assignments, readings, whatever you need and don't worry about how you'll update the dates the next time you teach it, because:
 
 ## To update an existing calendar for a new semester
@@ -71,10 +110,63 @@ Imagine you have an old syllabus for a course and just want to update the dates 
 
 ```bash
 # make a copy of the file, this will be the new calendar
-cp fall2025.md spring2026.md
+cp spring2025.md spring2026.md
 ./semester.py -b th -f s spring2026.md
 ```
 
-and semester.py will update the dates in place in the new file.
+and semester.py will update the dates in place in the new file:
+
+| Date | Topic | Reading/Due |
+|------|-------|-------------|
+|	Monday, Jan 12th	| Introduction, review syllabus	| |
+|	Wednesday, Jan 14th	| Introduction to Language Ideologies | EWAA, Chapter 1 |
+|	Friday, Jan 16th	|	|	|
+|	Monday, Jan 19th	| MLK (NO CLASS)	|	|
+|	Wednesday, Jan 21st	| Language, categorization, & social identities | EWAA, Chapter 2 |
+|	Friday, Jan 23rd	|	| **Assignment #1 Due** |
+|	Monday, Jan 26th	| A quick introduction to Language & Linguistics | EWAA, Chapter 3 |
+|	Wednesday, Jan 28th	| Language subordination | EWAA, Chapter 4 |
+|	Friday, Jan 30th	|	|	|
+|	Monday, Feb 2nd	|	|	|
+|	Wednesday, Feb 4th	| American accents | EWAA, Chapter 5 |
+|	Friday, Feb 6th	|	| **Assignment #2 Due** |
+|	Monday, Feb 9th	|	|	|
+|	Wednesday, Feb 11th	| Language, racialization, & race | EWAA, Chapter 6 |
+|	Friday, Feb 13th	|	|	|
+|	Monday, Feb 16th	|	|	|
+|	Wednesday, Feb 18th	| Non-English spoken languages in the US | EWAA, Chapter 7 |
+|	Friday, Feb 20th	|	|	|
+|	Monday, Feb 23rd	|	|	|
+|	Wednesday, Feb 25th	| American Sign Language | EWAA, Chapter 8 |
+|	Friday, Feb 27th	|	|	|
+|	Monday, Mar 2nd	|	|	|
+|	Wednesday, Mar 4th	| Perceptual dialectology | EWAA, Chapter 9 |
+|	Friday, Mar 6th	|	| **Assignment #3 Due** |
+|	Monday, Mar 9th	|	|	|
+|	Wednesday, Mar 11th	| First half wrap-up, Exam Prep |
+|	Friday, Mar 13th	|	| **Midterm Exam** |
+|	Monday, Mar 16th	| Spring break (NO CLASS)	|	|
+|	Wednesday, Mar 18th	| Spring break (NO CLASS)	|	|
+|	Friday, Mar 20th	| Spring break (NO CLASS)	|	|
+|	Monday, Mar 23rd	| A history of 'r' in the US | EWAA, Chapter 10 |
+|	Wednesday, Mar 25th	|	|	|
+|	Friday, Mar 27th	|	| **Assignment #4 Due** |
+|	Monday, Mar 30th	| Language in education | EWAA, Chapter 11 |
+|	Wednesday, Apr 1st	|	|	|
+|	Friday, Apr 3rd	|	|	|
+|	Monday, Apr 6th	| Language in the media | EWAA, Chapter 12 |
+|	Wednesday, Apr 8th	|	|	|
+|	Friday, Apr 10th	|	|	|
+|	Monday, Apr 13th	| Language in the workplace | EWAA, Chapter 13 |
+|	Wednesday, Apr 15th	|	|	|
+|	Friday, Apr 17th	|	| **Assignment #5 Due** |
+|	Monday, Apr 20th	| Language in the law | EWAA, Chapter 14 |
+|	Wednesday, Apr 22nd	|	|	|
+|	Friday, Apr 24th	|	|	|
+|	Monday, Apr 27th	| Stereotype as cognitive template | Lindeman 2002 |
+|	Wednesday, Apr 29th	|	| McGowan & Babel 2020 |
+
+
+## Source code
 
 <script src="https://gist.github.com/kbmcgowan/8cca0303b5de62d079163329e3d37f67.js"></script>
