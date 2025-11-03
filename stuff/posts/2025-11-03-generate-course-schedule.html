@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-06-01">
+<meta name="dcterms.date" content="2025-11-03">
 
-<title>Lin 317 - How do Muppets work? A hands-in introduction to speech perception – Kevin B. McGowan</title>
+<title>generate markdown course schedule with python – Kevin B. McGowan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -133,9 +168,11 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lin 317 - How do Muppets work? A hands-in introduction to speech perception</h1>
+<h1 class="title">generate markdown course schedule with python</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">teaching phonetics sociolinguistics perception</div>
+    <div class="quarto-category">python</div>
+    <div class="quarto-category">syllabus</div>
+    <div class="quarto-category">markdown</div>
   </div>
   </div>
 
@@ -147,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 1, 2025</p>
+      <p class="date">November 3, 2025</p>
     </div>
   </div>
   
@@ -159,386 +196,58 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Every speech sound we make in every word we utter carries richly intertwined and dynamic cues to both linguistic meanings and social meanings. Listeners use this information in the voice to inform their expectations about who is talking, what they’re like, and even whether we like them. In this class we will use the Muppets to help us understand speech perception and speech perception to help us understand the Muppets. We will design and build our own puppet characters and we will see how Muppeteers take advantage of our core human facility with social and linguistic meanings to build characters and tell stories. We will see how our ideas about age, race, gender, sexuality, size, color, and fluffiness are activated by different voices and body shapes to create believable personas from felt and foam.</p>
-<section id="student-learning-outcomes" class="level2">
-<h2 class="anchored" data-anchor-id="student-learning-outcomes">Student Learning Outcomes</h2>
-<p>In this course, students will:</p>
+<p><img src="images/calendar.jpeg" class="img-fluid" alt="a perspective view of calendar dates"></p>
+<p>I have a gist posted to <a href="https://gist.github.com/kbmcgowan/8cca0303b5de62d079163329e3d37f67">generate or update a course syllabus that is maintained in a markdown table</a>. This code is <a href="https://gist.github.com/reagle/19806122fdb22515ea0b">based on original work by Joseph Reagle, Copyright (C) 2011-2023 GLPv3</a>.</p>
+<section id="to-install" class="level2">
+<h2 class="anchored" data-anchor-id="to-install">To install</h2>
+<p>Click [raw] in the upper right-corner of the gist, save that text into a file, and change the first line to whatever you get when you type:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">which</span> python <span class="kw">|</span> <span class="fu">which</span> python3</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>then execute:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> 755 semester.py</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">./semester.py</span> <span class="at">-h</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="to-generate-a-new-calendar-for-a-new-semester" class="level2">
+<h2 class="anchored" data-anchor-id="to-generate-a-new-calendar-for-a-new-semester">To generate a new calendar for a new semester</h2>
 <ol type="1">
-<li>Learn the fundamental questions of speech perception through a combination of readings, discussion, and contemplation of various media.</li>
-<li>Become conversant in the core principles of linguistics: The descriptive and empirical study of the human capacity for language.</li>
-<li>Learn to apply critical thinking and analysis to media representations and characterizations of language</li>
-<li>Practice using physical materials and your own voice to design, develop, create, and present a puppet.</li>
+<li>Use your favorite text editor to modify this part of the code to know about days of the week, holidays, and start and end dates for your semester (or quarter). The date format is YYYYMMDD</li>
 </ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Spring semester; updated 2025-04-12</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>SPRING_SEM_FIRST <span class="op">=</span> <span class="st">"20260112"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>SPRING_SEM_LAST <span class="op">=</span> <span class="st">"20260429"</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>SPRING_HOLIDAYS <span class="op">=</span> {</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"20260119"</span>: <span class="st">"MLK"</span>,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"20260316"</span>: <span class="st">"Spring break"</span>,</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"20260317"</span>: <span class="st">"Spring break"</span>,</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"20260318"</span>: <span class="st">"Spring break"</span>,</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"20260319"</span>: <span class="st">"Spring break"</span>,</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"20260320"</span>: <span class="st">"Spring break"</span>,</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>SPRING <span class="op">=</span> (SPRING_SEM_FIRST, SPRING_SEM_LAST, SPRING_HOLIDAYS)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Fall semester; updated 2025-04-12</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>FALL_SEM_FIRST <span class="op">=</span> <span class="st">"20250825"</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>FALL_SEM_LAST <span class="op">=</span> <span class="st">"20251210"</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>FALL_HOLIDAYS <span class="op">=</span> {</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"20250901"</span>: <span class="st">"Labor Day"</span>,</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">"20251027"</span>: <span class="st">"Fall Break"</span>,</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">"20251028"</span>: <span class="st">"Fall Break"</span>,</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"20251126"</span>: <span class="st">"Thanksgiving"</span>,</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">"20251127"</span>: <span class="st">"Thanksgiving"</span>,</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">"20251128"</span>: <span class="st">"Thanksgiving"</span>,</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>FALL <span class="op">=</span> (FALL_SEM_FIRST, FALL_SEM_LAST, FALL_HOLIDAYS)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>and if you wanted to generate a calendar for a MW fall term class in 2025, you would run:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">./semester.py</span> <span class="at">-b</span> mw <span class="at">-t</span> f <span class="op">&gt;</span>fall2025.md</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>then populate that calendar with assignments, readings, whatever you need and don’t worry about how you’ll update the dates the next time you teach it, because:</p>
 </section>
-<section id="guiding-questions" class="level2">
-<h2 class="anchored" data-anchor-id="guiding-questions">Guiding Questions</h2>
-<ol type="1">
-<li>How does speech work?</li>
-<li>How do we use our voices to help define who we are?</li>
-<li>How do we use others’ voices to define and maybe constrain who they are allowed to be?</li>
-<li>To what extent is agency (the ability to act independently and define oneself) a property of the individual and to what extent does agency emerge from the expectations of others?</li>
-<li>How do talkers and listeners use physical attributes (of the body but also fashion and accessories) to create and inhabit social personae?</li>
-</ol>
-</section>
-<section id="required-textbook-and-readings" class="level2">
-<h2 class="anchored" data-anchor-id="required-textbook-and-readings">Required Textbook and Readings</h2>
-<ul>
-<li><p>Kreutinger, Adam (2023). Puppetry 101: Creating Film &amp; Television Style Puppetry ISBN: 195932103X</p></li>
-<li><p>Additional required readings will be provided on Canvas.</p></li>
-</ul>
-</section>
-<section id="formative-vs-summative-and-late-grading-types" class="level2">
-<h2 class="anchored" data-anchor-id="formative-vs-summative-and-late-grading-types">Formative vs Summative and Late Grading Types</h2>
-<p>My goal is to reward intellectual exploration and play and to minimize the inhibitory fear of grading/grades. For this reason, there are two types of grading:</p>
-<ul>
-<li><strong>Formative</strong> assignments will receive 85% of full credit simply by being an earnest effort that is handed-in on time. An additional 15% may be awarded for work that is also correct. <em>Any formative assignment that does not receive full credit may be revised and resubmitted for re-evaluation.</em> The only way to receive less than 85% on formative work is to not do it or to cheat (e.g.&nbsp;using LLMs or other generative AI in any way, see below)</li>
-<li><strong>Summative</strong> assignments are graded when they are due and may not typically be revised and resubmitted without extenuating circumstances (e.g.&nbsp;excused illness)</li>
-<li><strong>Late Work</strong> Whether formative or summative, late work will lose 5% of its maximum potential grade for each full week the assignment is late.</li>
-</ul>
-</section>
-<section id="course-requirements" class="level2">
-<h2 class="anchored" data-anchor-id="course-requirements">Course Requirements</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Assignment</th>
-<th>Weight</th>
-<th>Type</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>✓ Reading Questions (x 15)</td>
-<td>50%</td>
-<td>formative</td>
-</tr>
-<tr class="even">
-<td>✓ Project 1: Design a character &amp; voice</td>
-<td>20%</td>
-<td>formative</td>
-</tr>
-<tr class="odd">
-<td>✓ Project 2: Design puppet</td>
-<td>20%</td>
-<td>formative</td>
-</tr>
-<tr class="even">
-<td>✓ Final Presentation</td>
-<td>10%</td>
-<td>summative</td>
-</tr>
-</tbody>
-</table>
-<section id="reading-questions" class="level3">
-<h3 class="anchored" data-anchor-id="reading-questions">Reading Questions</h3>
-<ul>
-<li>For each reading there will be a brief set of questions for you to engage with. These are designed to exercise key concepts and to ensure that you do not fall behind.</li>
-<li>You will receive one checkmark for each completed reading assignment. You must complete 15 (of 19) to earn the full 50% toward your final grade. You earn points by doing the work, not for agreeing with me or with the author.</li>
-<li><strong>Important</strong>: reading questions can not be completed after the class period for which they are discussed (see due dates on the tentative schedule below) unless circumstances require an exception.</li>
-</ul>
-</section>
-<section id="project-1-design-a-character-voice" class="level3">
-<h3 class="anchored" data-anchor-id="project-1-design-a-character-voice">Project 1: Design a Character &amp; Voice</h3>
-<ul>
-<li>Manipulate phonetics and social meaning to design a puppet voice for a particular character. Who is this character? What does such a character sound like? What are the social and ethical consequences of your decisions?</li>
-</ul>
-</section>
-<section id="project-2-design-a-puppet" class="level3">
-<h3 class="anchored" data-anchor-id="project-2-design-a-puppet">Project 2: Design a Puppet</h3>
-<ul>
-<li>Design a puppet that embodies your character. Is your character furry? Why? What kind of clothes do they wear, if any? Do they have some feature that helps you build character (e.g.&nbsp;Kermit has no foam so the puppeteer’s hand performance is more exposed; Sam Eagle has “living hands” so he can more completely express his frustration; Cookie Monster’s pupils swing freely; etc.).</li>
-</ul>
-<p>Both projects will be graded on design effort, thoroughness, and integration of course materials – not implementation abilities so we are free to challenge ourselves and take risks in construction and performance. Trust yourself. Be bold. Try things you don’t think you can do!</p>
-</section>
-<section id="final-presentation" class="level3">
-<h3 class="anchored" data-anchor-id="final-presentation">Final Presentation</h3>
-<ul>
-<li>I will hand off emceeing of the final presentations to McGurk, the puppet I will also be building this semester. Yours can be a character presentation by you -or- a character performance/presentation by your puppet. Assessment will be based on a rubrik (see Canvas) and peer evaluations.</li>
-</ul>
-</section>
-</section>
-<section id="grading-practices" class="level2">
-<h2 class="anchored" data-anchor-id="grading-practices">Grading Practices</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Final Percentage</th>
-<th>Letter Grade</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>90–100%</td>
-<td>A</td>
-</tr>
-<tr class="even">
-<td>80–89%</td>
-<td>B</td>
-</tr>
-<tr class="odd">
-<td>70–79%</td>
-<td>C</td>
-</tr>
-<tr class="even">
-<td>60 – 69%</td>
-<td>D</td>
-</tr>
-<tr class="odd">
-<td>Below 60%</td>
-<td>E</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="tentative-course-schedule-and-tasks" class="level2">
-<h2 class="anchored" data-anchor-id="tentative-course-schedule-and-tasks">Tentative Course Schedule and Tasks</h2>
-<p>By taking this course you agree to complete all assigned readings prior to coming to class. All tasks are due on the date listed.</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th><strong>Week</strong></th>
-<th><strong>Day</strong></th>
-<th><strong>Task(s)</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Unit 1: Introductions</strong></td>
-<td>1-8: Why do Muppets work?</td>
-<td>Review Syllabus</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>1-10: Why does speech perception work so well?</td>
-<td><a href="https://www.youtube.com/watch?v=kLrG4j8RVHI">Muppets on Puppets (1st half hour)</a></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td>McGurkMacDonald1976.pdf</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>1-12: Why does speech perception work so well?</td>
-<td>LadefogedBroadbent1957.pdf</td>
-</tr>
-<tr class="odd">
-<td><strong>Unit 2: What is Perception?</strong></td>
-<td>1-17: Sensation and Perception</td>
-<td>Sensing &amp; Perceiving (pages 118-129)</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>1-19: Vision</td>
-<td>Sensing &amp; Perceiving (pages 130-150)</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>1-22: Hearing</td>
-<td>Sensing &amp; Perceiving (pages 151-156)</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>1-24: The perceptual world of animals</td>
-<td>Yong (Introduction, pages 3-16)</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>1-26: Animal Hearing</td>
-<td>Yong (Chapter 8, pages 210 - 242)</td>
-</tr>
-<tr class="even">
-<td><strong>Unit 3: What is Speech?</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>1-29: Language is not writing</td>
-<td>Course in Phonetics: Chapter 1</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>1-31: Language is not writing (cont)</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>2-2: Sounds of the World’s languages</td>
-<td>Course in Phonetics: Chapter 2</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>2-5: Sounds of the World’s Language, continued</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>2-7: Words &amp; Syllables</td>
-<td>Course in Phonetics: Chapter 5</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>2-9: (syllable puppets)</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>2-12: Tone &amp; Intonation</td>
-<td>Course in Phonetics: Chapter 10</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>2-14: Tone &amp; Intonation, continued</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>Unit 4: Making Meaning: Ideas &amp; Identities</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>2-16: Language, Categorization, and social identities</td>
-<td>EWAA, Chapter 2 (pages 21-41)</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>2-19: Language Varies</td>
-<td>EWAA, Chapter 3 (pages 42-63)</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>2-21: Language Subordination</td>
-<td>EWAA, Chapter 4 (pages 64-78)</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>2-23: Regional Variation</td>
-<td>EWAA, Chapter 5 (pages 79-101)</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>2-26: Perceian Semiotics</td>
-<td>TBD, Babel (in press)?</td>
-</tr>
-<tr class="odd">
-<td><strong>Unit 5: Making Puppets</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>2-28: Puppet Making Basics</td>
-<td><a href="https://www.youtube.com/watch?v=K9NfVw9AgqE">Adam Kreutinger, Puppets 101</a><br><br><a href="https://www.snoofsoftheworld.com/make-a-snoof.html">Free “Snoof” pattern</a><br><br><a href="https://www.snoofsoftheworld.com/uploads/1/9/7/1/19712965/hand_pattern_-_kreutinger.pdf">Free Arms &amp; Hands</a><br><br>Kreutinger (pages 31-50)</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>3-1: Puppet Making Basics (continued)</td>
-<td><a href="https://www.youtube.com/watch?v=kLrG4j8RVHI&amp;t=28m45s">Muppets on Puppets II (2nd half hour)</a><br><br><strong>Bring ideas for Project 1 to discuss</strong></td>
-</tr>
-<tr class="even">
-<td><strong>Unit 6: Language as character</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>3-18: Language Use &amp; Media</td>
-<td>EWAA Chapter 12 (pages 258-280)</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>3-20: FILM: The Problem with Apu &amp; Discussion</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>3-22: FILM: The Problem with Apu &amp; Discussion</td>
-<td><strong>Project 1 Due</strong></td>
-</tr>
-<tr class="even">
-<td><strong>Unit 7: Personae &amp; Puppets</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>3-30: Performative Language &amp; Switching</td>
-<td>Pratt 2023; D’Onofrio (2020)</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>4-1: Character Design for Puppets</td>
-<td>Kreutinger (pages 51-62)</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>4-3: How to Film Puppets</td>
-<td>Kreutinger (pages 74-103)</td>
-</tr>
-<tr class="even">
-<td><strong>Unit 8: Speech Perception</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>4-5: Speech Perception</td>
-<td>Beddor (2017); Peterson &amp; Barney (1952)</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>4-8: Social Speech Perception</td>
-<td>Drager (2010)</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>4-10: Social Speech Perception</td>
-<td>McGowan (2015)</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>4-12: Multimodal perception</td>
-<td>Gick, Ikegami, &amp; Derrick (2010), Green, Kuhl, Meltzoff, &amp; Stevens (1991)</td>
-</tr>
-<tr class="odd">
-<td><strong>Unit 9: Muppets!</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>4-15: FILM: Muppet Movie</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>4-17: FILM: MM Discussion &amp; Puppet Workshop</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>Unit 10: Final Presentations</strong></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>4-19: Film Festival Group A</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>4-22: Film Festival Group B</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>4-24: Film Festival Group C</td>
-<td><strong>Project 2 Due</strong></td>
-</tr>
-</tbody>
-</table>
+<section id="to-update-an-existing-calendar-for-a-new-semester" class="level2">
+<h2 class="anchored" data-anchor-id="to-update-an-existing-calendar-for-a-new-semester">To update an existing calendar for a new semester</h2>
+<p>Imagine you have an old syllabus for a course and just want to update the dates to a new semester. Edit the python source of semester.py to know about the new semester (e.g.&nbsp;a TH class in Spring 2026), and then run:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># make a copy of the file, this will be the new calendar</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> fall2025.md spring2026.md</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="ex">./semester.py</span> <span class="at">-b</span> th <span class="at">-f</span> s spring2026.md</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>and semester.py will update the dates in place in the new file.</p>
+<script src="https://gist.github.com/kbmcgowan/8cca0303b5de62d079163329e3d37f67.js"></script>
 
 
 </section>
