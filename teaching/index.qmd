@@ -23,6 +23,17 @@ listing:
     categories: true # allows you to sort posts by assigned categories 
 ---
 
+## Selected Courses at the University of Kentucky
+
+:::{#courses-uk}
+:::
+
+## Courses at Linguistic Institutes
+
+:::{#courses-lsa}
+:::
+
+
 ## Teaching Philosophy
 
 What I hope every student learns from me, in the classroom or out, is the joy of discovery and the necessity of failure on the path to that discovery. I strive to build educational opportunities that provide structured access to knowledge and the encouragement for students to explore and synthesize that knowledge themselves. I want to engender a healthy distrust for the obvious while feeding or reviving an innate respect for the wondrous complexity that surrounds us. In practical terms this means things like curating assigned readings and providing support for them so that a curious reader can discover, for themselves, a coherent path. I provide assignments, and grading structure, that encourage play and the kind of low-stakes opportunities to experience informative failure and eventual success that are necessary for learning.
@@ -33,13 +44,4 @@ What I hope every student learns from me, in the classroom or out, is the joy of
 :::{#advising}
 :::
 
-## Selected Courses at the University of Kentucky
-
-:::{#courses-uk}
-:::
-
-## Courses at Linguistic Institutes
-
-:::{#courses-lsa}
-:::
 

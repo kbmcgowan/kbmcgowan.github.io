@@ -1,6 +1,6 @@
 ---
 layout: course
-title:  "Lin 515 - Speech Perception"
+title:  "Lin 517 - Speech Perception"
 date:   2025-08-22 17:21:16
 categories: teaching phonetics psycholinguistics
 bibliography: references.bib
