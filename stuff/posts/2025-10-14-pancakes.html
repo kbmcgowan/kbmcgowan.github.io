@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-05-24">
+<meta name="dcterms.date" content="2025-05-24">
 
-<title>Why I hate e-mail – Kevin B. McGowan</title>
+<title>malted &amp; buttermilk pancakes – Kevin B. McGowan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,6 +75,35 @@ ul.task-list li input[type="checkbox"] {
 <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
 <link rel="manifest" href="../../site.webmanifest">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -133,10 +162,11 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Why I hate e-mail</h1>
+<h1 class="title">malted &amp; buttermilk pancakes</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">workflow</div>
-    <div class="quarto-category">e-mail</div>
+    <div class="quarto-category">recipes</div>
+    <div class="quarto-category">cooking</div>
+    <div class="quarto-category">pancakes</div>
   </div>
   </div>
 
@@ -148,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 24, 2024</p>
+      <p class="date">May 24, 2025</p>
     </div>
   </div>
   
@@ -160,28 +190,45 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>“Trust him not with your secrets, who, when left alone in your room, turns over your papers.” – Johann Kaspar Lavater</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/email.jpg" class="img-fluid figure-img" alt="Medieval Express Mail"></p>
-<figcaption>Accurate image of e-mail courtesty of <a href="https://www.flickr.com/photos/24354425@N03/24195826102">Stuart Rankin</a></figcaption>
-</figure>
-</div>
-<p>I think e-mail is basically garbage and should be used as sparingly as possible and only for the things it’s really good at: receipts, tracking, pushing announcements, and sharing links/access to higher bandwidth means of communication.</p>
-<p>It’s bad at facilitating communication. E-mail is more time-expensive than an actual conversation with only a fraction of the communicative bandwidth. It offers zero opportunity for real time ambiguity resolution. It is less efficient than a forum (such as discord or slack), and just generally terrible at almost all of the purposes it’s normally put to.</p>
-<p>Worse, it’s unhealthy. No one should have a world-writeable todo list. The people who expect you to read and attend to every one of their messages immediately are also, too often, the same people who want to forward you every bit of litter that falls into their inbox or send you constant, unnecessary updates, newsletters, check-ins, and ‘friendly’ reminders<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. E-mail is terrible. But e-mail is also personal; it belongs to its user.</p>
-<p>Unfortunately, also, capitalism. Even at the University where I work, which should be above such things, aspiring fascist administrators and their toady IT staff routinely modify, scan, delete, and monitor users’ e-mail. It is used as a tool of control. Just last year, my University reached into our inboxes and deleted a message from our Union coordinating some activism. You can’t trust e-mail for personal communication, it is an instrument of your oppression, and it’s usually the worst tool for collaborative woirk.</p>
-<p>Can we please stop using an outmoded collaboration tool that amounts to sifting through a public litterbox multiple times per day to see if maybe one of the neighborhood cats dropped anything we might want in there?</p>
-
-
-
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>there is no such thing as a friendly reminder<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<p><img src="images/pancakes2.png" class="img-fluid" alt="griddle with veggie sausage"></p>
+<p>It’s easy to find buttermilk pancake recipes and it’s easy to find malted milk pancake recipes, but these days a malted &amp; buttermilk pancake is a rare dish.</p>
+<p>Improbably, this is the 2nd time I’ve felt <a href="../../stuff/posts/2024-05-22-pancakes.html">moved to write a post about a pancake recipe</a>. But, whereas that previous recipe emphasized health or whatever, this recipe emphasizes neither of those things.</p>
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<section id="dry" class="level3">
+<h3 class="anchored" data-anchor-id="dry">Dry</h3>
+<ul>
+<li><span class="math inline">\(\frac{1}{4}\)</span> tsp fine sea or table salt</li>
+<li><span class="math inline">\(\frac{1}{2}\)</span> tsp baking soda</li>
+<li><span class="math inline">\(35\)</span> g (<span class="math inline">\(\frac{1}{4}\)</span> cup) malted milk powder</li>
+<li><span class="math inline">\(120\)</span> grams (~1 cup) all-purpose flour</li>
+<li><span class="math inline">\(\frac{1}{2}\)</span> tsp vanilla extract</li>
+</ul>
+</section>
+<section id="wet" class="level3">
+<h3 class="anchored" data-anchor-id="wet">Wet</h3>
+<ul>
+<li><span class="math inline">\(2\)</span> T (30 grams) unsalted butter, plus more for pan</li>
+<li><span class="math inline">\(2\)</span> T (25 grams) granulated sugar</li>
+<li><span class="math inline">\(\frac{1}{2}\)</span> cup plus 2 to 4 tablespoons buttermilk or yogurt</li>
+<li><span class="math inline">\(1\)</span> large egg</li>
+<li><span class="math inline">\(1\)</span> tsp vanilla extract</li>
+</ul>
+</section>
+</section>
+<section id="directions" class="level2">
+<h2 class="anchored" data-anchor-id="directions">Directions</h2>
+<ol type="1">
+<li>Whisk dry ingredients in a large bowl</li>
+<li>In another bowl, combine wet ingredients, stirring until smooth</li>
+<li>Mix in dry ingredients just until combined, small lumps are fine</li>
+<li>lightly butter a 350º F (175º C) skillet. I scoop batter with a #20 (yellow handled) disher (55 ml about 3.5 T). Cook for about 3 minutes/side or until brown. More butter makes crispier edges</li>
 </ol>
-</section></div></main> <!-- /main -->
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
