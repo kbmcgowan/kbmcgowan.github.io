@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-05-22">
+<meta name="dcterms.date" content="2025-08-22">
 
 <title>Lin 515 - Speech Perception – Kevin B. McGowan</title>
 <style>
@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -147,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 22, 2025</p>
+      <p class="date">August 22, 2025</p>
     </div>
   </div>
   
@@ -159,9 +179,565 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>course information goes here.</p>
+<p>Given how complicated Introductory Phonetics (Lin 500) feels, it seems like probably people should misunderstand each other a lot more than we do. Yet, we have little difficulty recognizing the sounds of speech and assigning a meaningful interpretation to sequences of speech sounds. This course investigates how listeners interpret the input acoustic stream as a linguistic message. It is structured as both an introduction to the study of perception and then an overview of some of the classic problems unique to speech perception. The course also introduces students to the relation between theory and experimentation, and to experimental design, in this interdisciplinary field. This goal is addressed in two ways. First, we will read and assess the primary literature for a focus topic: the influence of linguistic experience on speech perception. Through this lens, students will get a detailed picture of how specific theoretical questions are translated into an experimental design, and how those results in turn lead to theory revisions and engender new questions. Second, the course will take a hands-on approach to the experimental study of speech perception. Students will participate in classic perception experiments in order to better understand the phenomena as well as the experimental methods. In addition, class participants will design (and maybe execute!) their own perception experiment.</p>
+<section id="course-prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="course-prerequisites">Course Prerequisites</h2>
+<p>Lin 500, Introduction to Phonetics (or equivalent) is strongly suggested.</p>
+</section>
+<section id="student-learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="student-learning-outcomes">Student Learning Outcomes</h2>
+<p>By the end of the course, students will be able to:</p>
+<ol type="1">
+<li>Have a basic understanding of the goals and methods of speech perception research</li>
+<li>Have a basic understanding of how phoneticians think about the relationship between the sensory input of speech and our cognitive representations of that input</li>
+<li>Be able to conduct a simple speech perception experiment and interpret others’ work</li>
+<li>Be prepared for independent research in speech perception (e.g.&nbsp;for another class, a QP, or a dissertation)</li>
+</ol>
+</section>
+<section id="required-materials" class="level2">
+<h2 class="anchored" data-anchor-id="required-materials">Required Materials</h2>
+<section id="readings" class="level3">
+<h3 class="anchored" data-anchor-id="readings">Readings</h3>
+<ul>
+<li>All required reading materials will be available on canvas in PDF format.</li>
+</ul>
+</section>
+<section id="praat" class="level3">
+<h3 class="anchored" data-anchor-id="praat">Praat</h3>
+<p>You will need to download Praat from <a href="http://praat.org/" class="uri">http://praat.org/</a>. Free &amp; Open Source, available for all major platforms and Windows</p>
+</section>
+</section>
+<section id="activities-outside-of-regular-class-meetings" class="level2">
+<h2 class="anchored" data-anchor-id="activities-outside-of-regular-class-meetings">Activities Outside of Regular Class Meetings</h2>
+<section id="individual-meetings" class="level4">
+<h4 class="anchored" data-anchor-id="individual-meetings">Individual Meetings</h4>
+<p>If you have something to discuss that you would prefer to do in my office, please <a href="https://appt.link/meet-with-kevin-mcgowan-8HaU92A1">make an appointment</a> or canvas message/e-mail me. Lab hours are meant to be open house.</p>
+</section>
+<section id="lab-hours" class="level4">
+<h4 class="anchored" data-anchor-id="lab-hours">Lab Hours</h4>
+<p>I will hold regular lab hours every Thursday in the Kentucky Phonetics Lab (Miller Hall 007b). It’s in the basement, across from the Linguistic Atlas Project, and you get there by walking <em>through</em> the Geography Lab 005 (see map). Come with questions, come to work on a problem set, come to play with the lab equipment (see your tongue in an ultrasound, try out an experiment, etc.), or just to say “hi!”</p>
+<div id="fig-map" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="FindTheLab.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: UK Phonetics Lab: 007b Miller Hall
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="course-activities-assignments-and-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="course-activities-assignments-and-evaluation">Course Activities, Assignments, and Evaluation</h2>
+<section id="formative-vs-summative-and-late-grading-types" class="level4">
+<h4 class="anchored" data-anchor-id="formative-vs-summative-and-late-grading-types">Formative vs Summative and Late Grading Types</h4>
+<p>My goal is to reward intellectual exploration and play and to minimize the inhibitory fear of grading/grades. For this reason, there are two types of grading:</p>
+<ul>
+<li><strong>Formative</strong> assignments will receive 85% of full credit simply by being an earnest effort that is handed-in on time. An additional 15% may be awarded for work that is also correct. <em>Any formative assignment that does not receive full credit may be revised and resubmitted for re-evaluation.</em> The only way to receive less than 85% on formative work is to not do it or to cheat (e.g.&nbsp;using LLMs or other generative AI in any way, see below)</li>
+<li><strong>Summative</strong> assignments are graded when they are due and may not typically be revised and resubmitted without extenuating circumstances (e.g.&nbsp;excused illness)</li>
+<li><strong>Late Work</strong> Whether formative or summative, late work will lose 5% of its maximum potential grade for each full week the assignment is late.</li>
+</ul>
+</section>
+<section id="course-requirements-undergraduate" class="level3">
+<h3 class="anchored" data-anchor-id="course-requirements-undergraduate">Course Requirements: Undergraduate</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Assignment</th>
+<th>Weight</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>✓ Lab Exercises (x 4)</td>
+<td>40%</td>
+<td>formative</td>
+</tr>
+<tr class="even">
+<td>✓ Précis (x 10)</td>
+<td>40%</td>
+<td>formative</td>
+</tr>
+<tr class="odd">
+<td>✓ Experimental Proposal</td>
+<td>10%</td>
+<td>formative</td>
+</tr>
+<tr class="even">
+<td>✓ Presentation</td>
+<td>10%</td>
+<td>summative</td>
+</tr>
+</tbody>
+</table>
+<section id="lab-exercises" class="level4">
+<h4 class="anchored" data-anchor-id="lab-exercises">✓ Lab Exercises</h4>
+<ul>
+<li>There will be up to 4 (four) lab exercises posted to canvas or performed together during class that require you to analyze pre-existing data, measure phonetic properties of a speech sound, label recorded data, and or run an experiment on yourself</li>
+<li>Your task is to apply theoretical knowledge and practical skills from our readings and class discussions to interpret and understand the exercise</li>
+<li>Complete all four (4) lab exercises successfully to obtain the full 40% toward your final grade. Successful completion of each puzzle unlocks the next one.</li>
+</ul>
+</section>
+<section id="précis" class="level4">
+<h4 class="anchored" data-anchor-id="précis">✓ Précis</h4>
+<ul>
+<li>Over the course of this semester we will read a mix of textbook/summary chapters and original research papers</li>
+<li>Please bring to class or upload before class a 1 page (~250 words) summary of the reading for that day. I can not accept these after the work has been discussed in class, but you only have to précis 10 of the 36 assigned readings (including optional readings)</li>
+<li>I will show you two example précis on the first day of class.</li>
+</ul>
+</section>
+<section id="experimental-proposal" class="level4">
+<h4 class="anchored" data-anchor-id="experimental-proposal">✓ Experimental Proposal</h4>
+<ul>
+<li>By November 11th (see tentative schedule), please submit a 500 to 2,000 word experimental proposal</li>
+<li>More information will be shared in class/uploaded to canvas, but your experimental proposal should identify a perceptual phenomenon (either from your experience or from a reading) and propose a method for exploring that phenomenon experimentally. You should consider stimuli required, the experimental task to be performed, and the kinds of listeners who would make sense as participants in your study.</li>
+<li>You <em>may</em>, but do not have to, run a pilot of your experiment to collect and analyze prelimary data</li>
+</ul>
+</section>
+<section id="final-presentation" class="level4">
+<h4 class="anchored" data-anchor-id="final-presentation">✓ Final Presentation</h4>
+<ul>
+<li>On the last day of class, each student will deliver a brief presentation of their experimental proposal (5 minutes for presentation, 3 minutes for questions)</li>
+<li>More information will be shared in class/uploaded to canvas, but your presentation should: clearly identify the perceptual phenomenon you are investigating, briefly relate your proposal to the readings and discussions from the semester, and provide either predicted outcomes or preliminary/pilot data</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="grading-practices-undergraduate" class="level2">
+<h2 class="anchored" data-anchor-id="grading-practices-undergraduate">Grading Practices : Undergraduate</h2>
+<p>The grading scale for the final course grade will be as follows. Note: it is also possible to receive an Incomplete (I) as a placeholder grade if difficult, unavoidable circumstances arise during the semester that make it impossible for you to complete the course requirements before grades are due (but this has to be discussed with me in advance!).</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Final Percentage</th>
+<th>Letter Grade</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>90–100%</td>
+<td>A</td>
+</tr>
+<tr class="even">
+<td>80–89%</td>
+<td>B</td>
+</tr>
+<tr class="odd">
+<td>70–79%</td>
+<td>C</td>
+</tr>
+<tr class="even">
+<td>60 – 69%</td>
+<td>D</td>
+</tr>
+<tr class="odd">
+<td>Below 60%</td>
+<td>E</td>
+</tr>
+</tbody>
+</table>
+<section id="course-requirements-graduatehonors" class="level3">
+<h3 class="anchored" data-anchor-id="course-requirements-graduatehonors">Course Requirements: Graduate/Honors</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Assignment</th>
+<th>Weight</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>✓ Lab Exercises (x 4)</td>
+<td>40%</td>
+<td>formative</td>
+</tr>
+<tr class="even">
+<td>✓ Précis (x 10 )</td>
+<td>20%</td>
+<td>formative</td>
+</tr>
+<tr class="odd">
+<td>✓ Experimental Proposal</td>
+<td>15%</td>
+<td>formative</td>
+</tr>
+<tr class="even">
+<td>✓ Methods Section</td>
+<td>15%</td>
+<td>formative</td>
+</tr>
+<tr class="odd">
+<td>✓ Presentation</td>
+<td>20%</td>
+<td>summative</td>
+</tr>
+</tbody>
+</table>
+<section id="lab-exercises-graduate-honors" class="level4">
+<h4 class="anchored" data-anchor-id="lab-exercises-graduate-honors">✓ Lab Exercises (graduate &amp; honors)</h4>
+<ul>
+<li>These exercises are nearly identical to the Undergraduate assignments but with a few additional questions and, typically, a stricter grading rubric.</li>
+</ul>
+</section>
+<section id="précis-1" class="level4">
+<h4 class="anchored" data-anchor-id="précis-1">✓ Précis</h4>
+<ul>
+<li>Over the course of this semester we will read a mix of textbook/summary chapters and original research papers</li>
+<li>Please bring to class or upload before class a 1 page (~250 words) summary of the reading for that day. I can not accept these after the work has been discussed in class, but you only have to précis 10 of the 36 assigned readings</li>
+<li>I will show you two example précis on the first day of class.</li>
+</ul>
+</section>
+<section id="experimental-proposal-1" class="level4">
+<h4 class="anchored" data-anchor-id="experimental-proposal-1">✓ Experimental Proposal</h4>
+<ul>
+<li>By November 11th (see tentative schedule), please submit a 500 to 2,000 word experimental proposal</li>
+<li>More information will be shared in class/uploaded to canvas, but your experimental proposal should identify a perceptual phenomenon (either from your experience or from a reading) and propose a method for exploring that phenomenon experimentally. You should consider stimuli required, the experimental task to be performed, and the kinds of listeners who would make sense as participants in your study.</li>
+<li>You <em>may</em>, but do not have to, run a pilot of your experiment to collect and analyze prelimary data</li>
+</ul>
+</section>
+<section id="methods-section-graduate-honors" class="level4">
+<h4 class="anchored" data-anchor-id="methods-section-graduate-honors">✓ Methods Section (graduate &amp; honors)</h4>
+<ul>
+<li>By December 9th, each graduate or honors student will be asked to compose a 1,000 - 3,000 word methods section for. Successful papers in the past have included:
+<ul>
+<li>work related to the students’ prospective thesis</li>
+<li>a literature survey on a particular topic (e.g.&nbsp;perception of nasal coarticulation, phonetic correlates of stress in so-called stress timed vs syllable timed languages, the sociophonetics of gender)</li>
+<li>an experimental proposal. Typically this will take the form of an experimental paper you have read that you would like to replicated and reinvestigate in a different way</li>
+</ul></li>
+</ul>
+</section>
+<section id="final-presentation-1" class="level4">
+<h4 class="anchored" data-anchor-id="final-presentation-1">✓ Final Presentation</h4>
+<ul>
+<li>On the last day of class, each student will deliver a brief presentation of their experimental proposal (5 minutes for presentation, 3 minutes for questions)</li>
+<li>More information will be shared in class/uploaded to canvas, but your presentation should: clearly identify the perceptual phenomenon you are investigating, briefly relate your proposal to the readings and discussions from the semester, and provide either predicted outcomes or preliminary/pilot data</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="academic-policy-statements" class="level2">
+<h2 class="anchored" data-anchor-id="academic-policy-statements">Academic Policy Statements</h2>
+<ul>
+<li><a href="https://provost.uky.edu/proposals/guidance-course-proposals/standard-academic-policy-statements">Academic Policy Statements</a></li>
+<li><a href="https://studentsuccess.uky.edu/get-help">Mental Health Resources</a></li>
+<li><a href="https://studentsuccess.uky.edu/academicresources">Academic Support</a></li>
+<li><a href="https://studentsuccess.uky.edu/disability-resource-center">Disability Resource Center</a></li>
+<li><a href="https://ombud.uky.edu/students">Academic Ombud</a></li>
+<li><a href="https://provost.uky.edu/instructor-resources">Classroom Emergency Preparedness and Response information</a></li>
+</ul>
+</section>
+<section id="plagiarism-academic-integrity" class="level2">
+<h2 class="anchored" data-anchor-id="plagiarism-academic-integrity">Plagiarism &amp; Academic Integrity</h2>
+<ul>
+<li><a href="https://ombud.uky.edu/students/what-plagiarism">What is Plagiarism?</a> Summary: Do not present others’ work as your own. If you get an idea from a source, cite that source (both to show the research work you’ve done and to credit the people who have influenced your thinking). Buying a paper from someone, using Generative AI, or copying something from the internet are each obviously plagiarism and unacceptable, but plagiarism includes behaviors students sometimes find surprising. Paraphrasing someone else’s writing in your own words (without citing them) is plagiarism. Citing something you did not read based on someone else’s commentary on that book or paper is plagiarism. Be thoughtful, give credit where it is due, and do your own work and you won’t have any problems.</li>
+<li><a href="https://ombud.uky.edu/students/what-cheating">What is Cheating?</a> Before taking or giving answers to a quiz, test, homework, transcription, etc. to someone else, please ask yourself what the point or value of earning a university degree <em>is</em> if you aren’t going to do the work yourself? I do <em>not</em> look kindly on cheating which includes such insidious behaviors as taking a Canvas exam or quiz and then sharing the answers with a group chat.</li>
+<li><strong>Generative AI</strong> use for any assignment is strictly prohibited. Idea generation, analytical thinking, and critical analysis are key outcomes in this course. As a result, all assignments submitted by the student must be 100% their original work. Generative AI tools, including Grammarly, should not be used for any stage of any assignment or activity. Any submission of AI-generated content (even if you paraphrase the output) will be considered misuse in the context of this course and consequences will follow University policies. See the&nbsp;<a href="https://www.uky.edu/universitysenate/ao">University Senate guidelines found here</a>. Beyond this, Generative AI is <em>terrible</em> at phonetics and phonology. I guarantee you can do a better job yourself.</li>
+<li><a href="https://ombud.uky.edu/students/academic-misconduct-process">Academic Misconduct Process</a></li>
+</ul>
+</section>
+<section id="course-outline-subject-to-change" class="level2">
+<h2 class="anchored" data-anchor-id="course-outline-subject-to-change">Course Outline (subject to change)</h2>
+<table class="table-striped table-hover caption-top table">
+<caption>Tentative Schedule</caption>
+<colgroup>
+<col style="width: 30%">
+<col style="width: 35%">
+<col style="width: 35%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Topic</th>
+<th>Reading or Assignment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tuesday, Aug 26th</td>
+<td>Course Overview &amp; Goals</td>
+<td>this syllabus</td>
+</tr>
+<tr class="even">
+<td>Thursday, Aug 28th</td>
+<td>How we listen to speech</td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115258017">Ladefoged (chapter 10, 2001)</a> Optional <a href="https://uk.instructure.com/courses/2136700/files?preview=115305826">Fry 1979, chapter 10</a></td>
+</tr>
+<tr class="odd">
+<td>Tuesday, Sep 2nd</td>
+<td>What is Perception?</td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115258106">Schwartz &amp; Krantz ch.&nbsp;1</a></td>
+</tr>
+<tr class="even">
+<td>Thursday, Sep 4th</td>
+<td>Research Methodology</td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115287307">Schwartz &amp; Krantz ch.&nbsp;2</a><br> <strong>lab exercise 1</strong></td>
+</tr>
+<tr class="odd">
+<td>Tuesday, Sep 9th</td>
+<td>How to read a research paper</td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115305873">Peterson &amp; Barney 1952</a>; <a href="https://uk.instructure.com/courses/2136700/files?preview=115305895">McGurk &amp; MacDonald 1976</a></td>
+</tr>
+<tr class="even">
+<td>Thursday, Sep 11th</td>
+<td>Attention</td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115305543">Schwartz &amp; Krantz ch.&nbsp;9</a>&nbsp;Optional: <a href="https://uk.instructure.com/courses/2136700/files?preview=115305907">Noyce et al.&nbsp;2022</a></td>
+</tr>
+<tr class="odd">
+<td>Tuesday, Sep 16th</td>
+<td>The Lack of Invariance Problem &amp; Categorical Perception</td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115306149">Byrd &amp; Mintz ch.&nbsp;5</a></td>
+</tr>
+<tr class="even">
+<td>Thursday, Sep 18th</td>
+<td></td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115307337">Liberman et al.&nbsp;1952</a> &amp; <a href="https://uk.instructure.com/courses/2136700/files?preview=115307326">Liberman et al.&nbsp;1957</a></td>
+</tr>
+<tr class="odd">
+<td>Tuesday, Sep 23rd</td>
+<td>The development of theory</td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115307136">Liberman 1996</a></td>
+</tr>
+<tr class="even">
+<td>Thursday, Sep 25th</td>
+<td>Perception of Speech Sounds</td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115305542">Schwartz &amp; Krantz ch.&nbsp;12</a> <br> <a href="https://uk.instructure.com/courses/2136700/files?preview=115305827">Fry 1979, chapter 11</a></td>
+</tr>
+<tr class="odd">
+<td>Tuesday, Sep 30th</td>
+<td></td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115307606">Beddor 2017</a> <br> Optional <a href="https://uk.instructure.com/courses/2136700/files?preview=115317083">Samuel 2011</a></td>
+</tr>
+<tr class="even">
+<td>Thursday, Oct 2nd</td>
+<td>Consonants</td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115307438">Miller &amp; Nicely (1955)</a><br> <strong>lab exercise 2</strong></td>
+</tr>
+<tr class="odd">
+<td>Tuesday, Oct 7th</td>
+<td>Motor Theory</td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115306638">Whalen 2019</a> Optional: <a href="https://uk.instructure.com/courses/2136700/files?preview=115306280">Liberman &amp; Mattingly (1985)</a></td>
+</tr>
+<tr class="even">
+<td>Thursday, Oct 9th</td>
+<td>Direct Realism</td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115306637">Fowler 2018</a></td>
+</tr>
+<tr class="odd">
+<td>Tuesday, Oct 14th</td>
+<td></td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115307537">Whalen (1984)</a><br></td>
+</tr>
+<tr class="even">
+<td>Thursday, Oct 16th</td>
+<td></td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115307477">Bruderer et al.&nbsp;(2015)</a> &amp; <a href="https://uk.instructure.com/courses/2136700/files?preview=115309005">Choi et al.&nbsp;(2019)</a></td>
+</tr>
+<tr class="odd">
+<td>Tuesday, Oct 21st</td>
+<td></td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115259073">GoldStone &amp; Hendrickson (2010)</a></td>
+</tr>
+<tr class="even">
+<td>Thursday, Oct 23rd</td>
+<td></td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115309153">McMurray (2022)</a></td>
+</tr>
+<tr class="odd">
+<td>Tuesday, Oct 28th</td>
+<td>Fall Break (NO CLASS)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Thursday, Oct 30th</td>
+<td></td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115309116">Apfelbaum et al.&nbsp;(2022)</a></td>
+</tr>
+<tr class="odd">
+<td>Tuesday, Nov 4th</td>
+<td>Perception of Vowels</td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115309250">Ladefoged &amp; Broadbent (1957)</a> <br> <strong>lab exercise 3</strong></td>
+</tr>
+<tr class="even">
+<td>Thursday, Nov 6th</td>
+<td></td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115309287">Strange &amp; Jenkins (2013)</a></td>
+</tr>
+<tr class="odd">
+<td>Tuesday, Nov 11th</td>
+<td></td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115309313">Johnson (2005)</a> <br> <strong>Experimental Proposal</strong></td>
+</tr>
+<tr class="even">
+<td>Thursday, Nov 13th</td>
+<td></td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115309345">Evans &amp; Iverson (2003)</a> &amp; <a href="https://uk.instructure.com/courses/2136700/files?preview=115309435">McGowan &amp; Babel (2020)</a></td>
+</tr>
+<tr class="odd">
+<td>Tuesday, Nov 18th</td>
+<td>The Perceptual Organization of Speech</td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115311051">Remez 2021</a> <br> Optional: <a href="https://uk.instructure.com/courses/2136700/files?preview=115311087">Remez &amp; Rubin (1984)</a></td>
+</tr>
+<tr class="even">
+<td>Thursday, Nov 20th</td>
+<td>Exemplar Models</td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115309792">Johnson (1997)</a></td>
+</tr>
+<tr class="odd">
+<td>Tuesday, Nov 25th</td>
+<td></td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115309813">Goldinger &amp; Azuma (2003)</a> <strong>lab exercise 4</strong></td>
+</tr>
+<tr class="even">
+<td>Thursday, Nov 27th</td>
+<td>Thanksgiving (NO CLASS)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Tuesday, Dec 2nd</td>
+<td>Word Recognition</td>
+<td><a href="https://uk.instructure.com/courses/2136700/files?preview=115309710">Warner (2023)</a></td>
+</tr>
+<tr class="even">
+<td>Thursday, Dec 4th</td>
+<td>Toward an ecological theory of speech perception</td>
+<td>McGowan (to appear)</td>
+</tr>
+<tr class="odd">
+<td>Tuesday, Dec 9th</td>
+<td>Student Presentations</td>
+<td>🥳</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="bibliography" class="level2">
+<h2 class="anchored" data-anchor-id="bibliography">Bibliography</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-apfelbaum2022a" class="csl-entry" role="listitem">
+Apfelbaum, K. S., Kutlu, E., McMurray, B., &amp; Kapnoula, E. C. (2022). Don’t force it! Gradient speech categorization calls for continuous categorization tasks. <em>The Journal of the Acoustical Society of America</em>, <em>152</em>(6), 3728–3745. <a href="https://doi.org/10.1121/10.0015201">https://doi.org/10.1121/10.0015201</a>
+</div>
+<div id="ref-Babel2025" class="csl-entry" role="listitem">
+Babel, A. (2025). A semiotic approach to awareness and control. <em>Journal of Sociolinguistics</em>, <em>29</em>(1).
+</div>
+<div id="ref-BabelJohnson2010a" class="csl-entry" role="listitem">
+Babel, M., &amp; Johnson, K. (2010). Accessing psycho-acoustic perception and language-specific perception with speech sounds. <em>Laboratory Phonology</em>, <em>1</em>(1), 179205. <a href="https://doi.org/10.1515/LABPHON.2010.009">https://doi.org/10.1515/LABPHON.2010.009</a>
+</div>
+<div id="ref-beddor2017a" class="csl-entry" role="listitem">
+Beddor, P. S. (2017). <em>Speech perception in phonetics</em>.
+</div>
+<div id="ref-Best1995a" class="csl-entry" role="listitem">
+Best, C. T. (1995). <em>A direct realist perspective on cross-language speech perception.</em> (W. Strange &amp; J. J. Jenkins, Eds.; pp. 171–204). York Press.
+</div>
+<div id="ref-bruderer2015a" class="csl-entry" role="listitem">
+Bruderer, A. G., Danielson, D. K., Kandhadai, P., &amp; Werker, J. F. (2015). Sensorimotor influences on speech perception in infancy. <em>Proceedings of the National Academy of Sciences</em>, <em>112</em>(44), 13531–13536. <a href="https://doi.org/10.1073/pnas.1508631112">https://doi.org/10.1073/pnas.1508631112</a>
+</div>
+<div id="ref-byrd2010a" class="csl-entry" role="listitem">
+Byrd, D., &amp; Mintz, T. H. (2010). <em>Discovering speech, words, and mind</em>. Wiley-Blackwell.
+</div>
+<div id="ref-choi2019a" class="csl-entry" role="listitem">
+Choi, D., Bruderer, A. G., &amp; Werker, J. F. (2019). Sensorimotor influences on speech perception in pre-babbling infants: Replication and extension of Bruderer et al. (2015). <em>Psychonomic Bulletin &amp; Review</em>, <em>26</em>(4), 1388–1399. <a href="https://doi.org/10.3758/s13423-019-01601-0">https://doi.org/10.3758/s13423-019-01601-0</a>
+</div>
+<div id="ref-fowler2018" class="csl-entry" role="listitem">
+Fowler, C. A. (2018). <em>Direct Perception of Speech</em>. Oxford University Press. <a href="https://doi.org/10.1093/acrefore/9780199384655.013.407">https://doi.org/10.1093/acrefore/9780199384655.013.407</a>
+</div>
+<div id="ref-fry1996" class="csl-entry" role="listitem">
+Fry, D. B., &amp; Fry, D. B. (1996). <em>The physics of speech</em> (1. publ., repr). Cambridge Univ. Pr.
+</div>
+<div id="ref-GoldingerAzuma2003" class="csl-entry" role="listitem">
+Goldinger, S. D., &amp; Azuma, T. (2003). Puzzle-solving science: The quixotic quest for units in speech perception. <em>Journal of Phonetics</em>, <em>31</em>(3-4), 305–320. <a href="https://doi.org/DOI: 10.1016/S0095-4470(03)00030-5">https://doi.org/DOI: 10.1016/S0095-4470(03)00030-5</a>
+</div>
+<div id="ref-goldstone2010" class="csl-entry" role="listitem">
+Goldstone, R. L., &amp; Hendrickson, A. T. (2010). Categorical perception. <em>WIREs Cognitive Science</em>, <em>1</em>(1), 69–78. <a href="https://doi.org/10.1002/wcs.26">https://doi.org/10.1002/wcs.26</a>
+</div>
+<div id="ref-Johnson1997" class="csl-entry" role="listitem">
+Johnson, K. (1997). <em>Speech perception without speaker normalization: An exemplar model</em> (K. Johnson &amp; J. W. Mullennix, Eds.; pp. 145–165). Academic Press.
+</div>
+<div id="ref-johnson2005" class="csl-entry" role="listitem">
+Johnson, K. (2005). <em>Speaker Normalization in Speech Perception</em>. 27.
+</div>
+<div id="ref-johnson2006" class="csl-entry" role="listitem">
+Johnson, K. (2006). Resonance in an exemplar-based lexicon: The emergence of social identity and phonology. <em>Journal of Phonetics</em>, <em>34</em>(4), 485–499. <a href="https://doi.org/10.1016/j.wocn.2005.08.004">https://doi.org/10.1016/j.wocn.2005.08.004</a>
+</div>
+<div id="ref-jongman2017" class="csl-entry" role="listitem">
+Jongman, A., &amp; McMurray, B. (2017). <em>On invariance: Acoustic input meets listener expectations</em> (A. Lahiri &amp; S. Kotzor, Eds.; pp. 21–51). De Gruyter. <a href="https://doi.org/10.1515/9783110422658-003">https://doi.org/10.1515/9783110422658-003</a>
+</div>
+<div id="ref-kapnoula2021" class="csl-entry" role="listitem">
+Kapnoula, E. C., &amp; McMurray, B. (2021). Idiosyncratic use of bottom-up and top-down information leads to differences in speech perception flexibility: Converging evidence from ERPs and eye-tracking. <em>Brain and Language</em>, <em>223</em>, 105031. <a href="https://doi.org/10.1016/j.bandl.2021.105031">https://doi.org/10.1016/j.bandl.2021.105031</a>
+</div>
+<div id="ref-ladefoged2004" class="csl-entry" role="listitem">
+Ladefoged, P. (2004). <em>Vowels and consonants: an introduction to the sounds of languages</em> (Repr). Blackwell.
+</div>
+<div id="ref-LadefogedBroadbent1957" class="csl-entry" role="listitem">
+Ladefoged, P., &amp; Broadbent, D. E. (1957). Information conveyed by vowels. <em>Journal of the Acoustical Society of America</em>, <em>29</em>(1), 98104.
+</div>
+<div id="ref-Liberman1996" class="csl-entry" role="listitem">
+Liberman, A. M. (1996). <em>Speech: A special code.</em> MIT Press.
+</div>
+<div id="ref-Liberman1952" class="csl-entry" role="listitem">
+Liberman, A. M., Delattre, P. C., &amp; Cooper, F. S. (1952). The role of selected stimulus variables in the perception of the unvoiced stop consonants. <em>American Journal of Psychology</em>, <em>65</em>, 497516.
+</div>
+<div id="ref-Liberman1957" class="csl-entry" role="listitem">
+Liberman, A. M., Harris, K. S., &amp; Griffith, B. C. (1957). The discrimination of speech sounds within and across phoneme boundaries. <em>Journal of Experimental Psychology</em>, <em>54</em>, 358368.
+</div>
+<div id="ref-mcgowan2026a" class="csl-entry" role="listitem">
+McGowan, Kevin B. (2026). <em>Toward an ecologically valid theory of speech perception</em> (L. Hall-Lew &amp; J. Nycz, Eds.). Oxford University Press.
+</div>
+<div id="ref-mcgowanBabel2020" class="csl-entry" role="listitem">
+McGowan, Kevin B., &amp; Babel, A. M. (2020). Perceiving isn’t believing: Divergence in levels of sociolinguistic awareness. <em>Language in Society</em>, <em>49</em>(2), 231256.
+</div>
+<div id="ref-McGurkMacDonald1976" class="csl-entry" role="listitem">
+McGurk, H., &amp; MacDonald, J. (1976). Hearing lips and seeing voices. <em>Nature</em>, <em>264</em>, 746748.
+</div>
+<div id="ref-mcmurray2022" class="csl-entry" role="listitem">
+McMurray, B. (2022). The myth of categorical perception. <em>The Journal of the Acoustical Society of America</em>, <em>152</em>(6), 38193842.
+</div>
+<div id="ref-melguy2021" class="csl-entry" role="listitem">
+Melguy, Y. V., &amp; Johnson, K. (2021). General adaptation to accented English: Speech intelligibility unaffected by perceived source of non-native accent. <em>The Journal of the Acoustical Society of America</em>, <em>149</em>(4), 2602–2614. <a href="https://doi.org/10.1121/10.0004240">https://doi.org/10.1121/10.0004240</a>
+</div>
+<div id="ref-miller1955" class="csl-entry" role="listitem">
+Miller, G. A., &amp; Nicely, P. E. (1955). An Analysis of Perceptual Confusions Among Some English Consonants. <em>The Journal of the Acoustical Society of America</em>, <em>27</em>(2), 338–352. <a href="https://doi.org/10.1121/1.1907526">https://doi.org/10.1121/1.1907526</a>
+</div>
+<div id="ref-noyce2023" class="csl-entry" role="listitem">
+Noyce, A. L., Kwasa, J. A. C., &amp; Shinn-Cunningham, B. G. (2023). Defining attention from an auditory perspective. <em>WIREs Cognitive Science</em>, <em>14</em>(1), e1610. <a href="https://doi.org/10.1002/wcs.1610">https://doi.org/10.1002/wcs.1610</a>
+</div>
+<div id="ref-peterson1952" class="csl-entry" role="listitem">
+Peterson, G. E., &amp; Barney, H. L. (1952). Control methods used in a study of the vowels. <em>The Journal of the Acoustical Society of America</em>, <em>24</em>(2), 175184. <a href="https://doi.org/10.1121/1.1906875">https://doi.org/10.1121/1.1906875</a>
+</div>
+<div id="ref-remez2005" class="csl-entry" role="listitem">
+Remez, Robert E. (2005). Perceptual organization of speech. <em>The Handbook of Speech Perception</em>, 127.
+</div>
+<div id="ref-remez1984" class="csl-entry" role="listitem">
+Remez, Robert E., &amp; Rubin, P. E. (1984). On the perception of intonation from sinusoidal sentences. <em>Perception &amp; Psychophysics</em>, <em>35</em>(5), 429–440. <a href="https://doi.org/10.3758/BF03203919">https://doi.org/10.3758/BF03203919</a>
+</div>
+<div id="ref-samuel2011" class="csl-entry" role="listitem">
+Samuel, A. G. (2011). Speech Perception. <em>Annual Review of Psychology</em>, <em>62</em>(1), 49–72. <a href="https://doi.org/10.1146/annurev.psych.121208.131643">https://doi.org/10.1146/annurev.psych.121208.131643</a>
+</div>
+<div id="ref-schwartz2019" class="csl-entry" role="listitem">
+Schwartz, B. L., &amp; Krantz, J. H. (2019). <em>Sensation &amp; perception</em> (Second edition). SAGE.
+</div>
+<div id="ref-strange2005" class="csl-entry" role="listitem">
+Strange, W., Bohn, O.-S., Nishi, K., &amp; Trent, S. A. (2005). Contextual variation in the acoustic and perceptual similarity of North German and American English vowels. <em>The Journal of the Acoustical Society of America</em>, <em>118</em>(3), 1751–1762. <a href="https://doi.org/10.1121/1.1992688">https://doi.org/10.1121/1.1992688</a>
+</div>
+<div id="ref-strange2013" class="csl-entry" role="listitem">
+Strange, W., &amp; Jenkins, J. J. (2013). <em>Dynamic Specification of Coarticulated Vowels</em> (G. S. Morrison &amp; P. F. Assmann, Eds.; pp. 87–115). Springer Berlin Heidelberg. <a href="https://doi.org/10.1007/978-3-642-14209-3_5">https://doi.org/10.1007/978-3-642-14209-3_5</a>
+</div>
+<div id="ref-warner2023" class="csl-entry" role="listitem">
+Warner, N. (2023). Advancements of phonetics in the 21st century: Theoretical and empirical issues of spoken word recognition in phonetic research. <em>Journal of Phonetics</em>, <em>101</em>, 101275. <a href="https://doi.org/10.1016/j.wocn.2023.101275">https://doi.org/10.1016/j.wocn.2023.101275</a>
+</div>
+<div id="ref-whalen1984" class="csl-entry" role="listitem">
+Whalen, D. H. (1984). Subcategorical phonetic mismatches slow phonetic judgments. <em>Perception and Psychophysics</em>, <em>35</em>, 49–64.
+</div>
+</div>
+</section>
+<section id="course-copyright" class="level2">
+<h2 class="anchored" data-anchor-id="course-copyright">Course Copyright</h2>
+<p>All original instructor-provided content for this course, which may include handouts, assignments, and lectures, is the intellectual property of the instructor(s). Students enrolled in the course this academic term may use the original instructor-provided content for their learning and completion of course requirements this term, but such content must not be reproduced or sold. Students enrolled in the course this academic term are hereby granted permission to use original instructor-provided content for reasonable educational and professional purposes extending beyond this course and term, such as retaining for your own personal use, studying for a comprehensive or qualifying examination in a degree program, preparing for a professional or certification examination, or to assist in fulfilling responsibilities at a job or internship; other uses of original instructor-provided content require written permission from the instructor(s) in advance.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
