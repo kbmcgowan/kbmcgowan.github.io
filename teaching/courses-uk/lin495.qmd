@@ -64,10 +64,12 @@ My goal is to reward intellectual exploration and play and to minimize the inhib
 
 | Assignment              | Weight | Type      |
 |-------------------------|--------|-----------|
-| ✓ Reading Questions (x 15)              | 50%    | formative |
-| ✓ Project 1: Design a character & voice | 20%    | formative |
-| ✓ Project 2: Design puppet | 20%    | formative |
-| ✓ Final Presentation | 10%    | summative |
+| ✓ Irish Reading Questions/Puzzles (x 7) | 50%    | formative |
+| ✓ Project 1: Proposal | 10%    | formative |
+| ✓ Project 2: Outline | 10% | formative |
+| ✓ Project 3: Draft Research Paper | 10% | formative |
+| ✓ Project 4: Final Presentation | 10%    | summative |
+| ✓ Project 5: Revised Research Paper | 10% | summative |
 
 ## Tentative Schedule
 
@@ -80,46 +82,47 @@ The following dates are approximate, and dates are subject to change. The last d
 |	Wednesday, Jan 14th	|	Irish Historical Linguistics & Dialectology | MI: General Introduction, [Stifter](https://mural.maynoothuniversity.ie/id/eprint/12890/1/Stifter%20Encyc.pdf)	|
 |	Friday, Jan 16th	| Library Skills	| [Annotated Bibliography Guide](https://guides.library.cornell.edu/annotatedbibliography)	|
 |	Monday, Jan 19th	| MLK (NO CLASS)	|	|
-|	Wednesday, Jan 21st	| The Phonetics of Irish | [Ní Chasaide, 1977](https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/part-2-illustrations-of-the-ipa/42EDC001DBB96C627ACF2E1F5D8C635F)|
+|	Wednesday, Jan 21st	| The Phonetics of Irish | [Ní Chasaide, 1977](https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/part-2-illustrations-of-the-ipa/42EDC001DBB96C627ACF2E1F5D8C635F) <br>**Irish Puzzle 1 due** |
 |	Friday, Jan 23rd	|	Your thesis Statements & Evaluating Sources |	|
 |	Monday, Jan 26th	|	Irish Phonology: Major & Minor Rules | MI: Chapter 1	|
-|	Wednesday, Jan 28th	| Irish Phonology: Syllables	|	MI: Chapter 2 |
+|	Wednesday, Jan 28th	| Irish Phonology: Syllables	|	MI: Chapter 2<br>**Irish Puzzle 2 due** |
 |	Friday, Jan 30th	|	Using a reference manager  | [zotero](https://www.zotero.org/)	|
 |	Monday, Feb 2nd	| Irish Phonology: Vowels	| MI: Chapter 3	|
-|	Wednesday, Feb 4th	| Irish Phonology: Semi-vowel Consonants	| MI: Chapter 4, pp. 67-82	|
+|	Wednesday, Feb 4th	| Irish Phonology: Semi-vowel Consonants	| MI: Chapter 4, pp. 67-82<br>**Irish Puzzle 3 due**	|
 |	Friday, Feb 6th	|	Structuring your research paper |	|
 |	Monday, Feb 9th	|	Irish Phonology: Consonants | MI: Chapter 4, pp. 82-104	|
-|	Wednesday, Feb 11th	|	Irish Phonology: Names & Placenames | See discussion notes on canvas	|
+|	Wednesday, Feb 11th	|	Irish Phonology: Names & Placenames | See discussion notes on canvas<br>**Irish Puzzle 4 due**	|
 |	Friday, Feb 13th	| Writing your literature review	|	|
 |	Monday, Feb 16th	| Group discussion of project ideas	|	|
-|	Wednesday, Feb 18th	| Peer review: project proposal drafts	|	**project proposal due** |
+|	Wednesday, Feb 18th	| Peer review: project proposal drafts	|	**Project 1: Proposal due** |
 |	Friday, Feb 20th	|	Introductions & Conclusions |	|
 |	Monday, Feb 23rd	|	Irish Morphology | MI: Chapter 5 & 6 pp. 111-125	|
 |	Wednesday, Feb 25th	|	Quarto: Publication quality typesetting | [Hello, Quarto](https://quarto.org/docs/get-started/hello/rstudio.html)	|
 |	Friday, Feb 27th	| Quarto: Working with templates	| [Quarto templates](https://quarto.org/docs/journals/templates.html)	|
-|	Monday, Mar 2nd	|	Irish Morphology | MI: Chapter 6, pp. 125-141	|
+|	Monday, Mar 2nd	|	Irish Morphology | MI: Chapter 6, pp. 125-141<br>**Irish Puzzle 5 due**	|
 |	Wednesday, Mar 4th	|	|	|
 |	Friday, Mar 6th	| Project Check-In	|	|
 |	Monday, Mar 9th	| Irish Morphology: Nouns	| MI: Chapter 7	|
-|	Wednesday, Mar 11th	|	 |	|
-|	Friday, Mar 13th	|	Peer review | **outline due**	|
+|	Wednesday, Mar 11th	|	 | 	|
+|	Friday, Mar 13th	|	Peer review | **Project 2: Outline due**	|
 |	Monday, Mar 16th	| Spring break (NO CLASS)	|	|
 |	Wednesday, Mar 18th	| Spring break (NO CLASS)	|	|
 |	Friday, Mar 20th	| Spring break (NO CLASS)	|	|
 |	Monday, Mar 23rd	|	Irish Morphosyntax: Verbs I | MI: Chapter 8, pp. 169-185	|
-|	Wednesday, Mar 25th	|	|	|
+|	Wednesday, Mar 25th	|	| **Irish Puzzle 6 due**	|
 |	Friday, Mar 27th	|	Peer review |	|
 |	Monday, Mar 30th	| Irish Morphosyntax: Verbs II | MI: Chapter 8, pp. 185-201	|
 |	Wednesday, Apr 1st	|	|	|
-|	Friday, Apr 3rd	|	Making publication quality figures: spectrograms | **draft due**	|
+|	Friday, Apr 3rd	|	Making publication quality figures: spectrograms | **Project 3: Draft due**	|
 |	Monday, Apr 6th	|	Irish Syntax: Introduction | MI: Chapter 9	|
 |	Wednesday, Apr 8th	|	|	|
 |	Friday, Apr 10th	|	Making publication quality figures: syntax trees |	|
 |	Monday, Apr 13th	|	Irish Syntax: the Copula | MI: Chapter 10	|
-|	Wednesday, Apr 15th	|	|	|
+|	Wednesday, Apr 15th	|	| **Irish Puzzle 7 due**	|
 |	Friday, Apr 17th	|	Presenting like a linguist | [LSA Presentation Guidelines], [Poster guidelines]	|
 |	Monday, Apr 20th	|	Irish Sociolinguistics  | Ó Catháin, 2016 & Hickey 2023	|
 |	Wednesday, Apr 22nd	|	|	|
 |	Friday, Apr 24th	|	|	|
 |	Monday, Apr 27th	|	Student Presentations |	|
-|	Wednesday, Apr 29th	| Student Presentations	|	|
+|	Wednesday, Apr 29th	| Student Presentations	| **Project 4: Slides or Video Due**	|
+| | Party in Phonetics Lab |  **Project 5: Revised Paper Due** |
