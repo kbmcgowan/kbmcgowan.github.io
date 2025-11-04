@@ -29,7 +29,9 @@ To celebrate and explore all of your exciting new linguistics knowledge, this se
 
 - Mícheál Ó Siadhail (1989) Modern Irish: Grammatical structure and dialectal variation. Cambridge [England] ; New York : Cambridge University Press ISBN: 0-521-42519-0
 
-The book is older, but it shouldn't be difficult to find an affordable used copy, a digital copy, or I have several I'm happy to loan out for the semester if needs be.
+  The book is older, so won't be in the campus book store, but it shouldn't be difficult to find an affordable used copy, a digital copy, or I have several I'm happy to loan out for the semester if needs be.
+  
+- [Guide to Writing a Senior Thesis in Linguistics, Harvard](https://scholar.harvard.edu/files/auroregonzalez/files/a_guide_to_writing_a_senior_thesis_in_linguistics_2019.pdf)
 
 ## Student Learning Outcomes
 
@@ -73,14 +75,14 @@ My goal is to reward intellectual exploration and play and to minimize the inhib
 
 ## Tentative Schedule
 
-The following dates are approximate, and dates are subject to change. The last day to add a class is Friday, January 17. Midterm grades are due by Monday, March 17. The final exam for this class is scheduled for Wednesday, May 7 from 10:30am-12:30pm. We will not have a final exam, but we may use this time to finish presentations. A detailed schedule is in Canvas. (MI refers to the Míchaél Ó Siadhail book)
+The following dates are approximate, and dates are subject to change. The last day to add a class is Friday, January 17. Midterm grades are due by Monday, March 17. The final exam for this class is scheduled for Wednesday, May 7 from 10:30am-12:30pm. We will not have a final exam, but we may use this time to finish presentations. A detailed schedule is in Canvas. (MI refers to the Míchaél Ó Siadhail book; H refers to the Harvard guide)
 
 
 | Date | Topic | Reading/Due |
 |------|-------|-------------|
 |	Monday, Jan 12th	|	Get to know each other & Syllabus | This Syllabus	|
 |	Wednesday, Jan 14th	|	Irish Historical Linguistics & Dialectology | MI: General Introduction, [Stifter](https://mural.maynoothuniversity.ie/id/eprint/12890/1/Stifter%20Encyc.pdf)	|
-|	Friday, Jan 16th	| Library Skills	| [Annotated Bibliography Guide](https://guides.library.cornell.edu/annotatedbibliography)	|
+|	Friday, Jan 16th	| Library Skills	| [Annotated Bibliography Guide](https://guides.library.cornell.edu/annotatedbibliography), H chapter 4 (Planning)	|
 |	Monday, Jan 19th	| MLK (NO CLASS)	|	|
 |	Wednesday, Jan 21st	| The Phonetics of Irish | [Ní Chasaide, 1977](https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/part-2-illustrations-of-the-ipa/42EDC001DBB96C627ACF2E1F5D8C635F) <br>**Irish Puzzle 1 due** |
 |	Friday, Jan 23rd	|	Your thesis Statements & Evaluating Sources |	|
@@ -92,10 +94,10 @@ The following dates are approximate, and dates are subject to change. The last d
 |	Friday, Feb 6th	|	Structuring your research paper |	|
 |	Monday, Feb 9th	|	Irish Phonology: Consonants | MI: Chapter 4, pp. 82-104	|
 |	Wednesday, Feb 11th	|	Irish Phonology: Names & Placenames | See discussion notes on canvas<br>**Irish Puzzle 4 due**	|
-|	Friday, Feb 13th	| Writing your literature review	|	|
+|	Friday, Feb 13th	| Writing your literature review	| H chapter 6 (Structure)	|
 |	Monday, Feb 16th	| Group discussion of project ideas	|	|
 |	Wednesday, Feb 18th	| Peer review: project proposal drafts	|	**Project 1: Proposal due** |
-|	Friday, Feb 20th	|	Introductions & Conclusions |	|
+|	Friday, Feb 20th	|	Introductions & Conclusions | [Anderson & Jaworski, 2015](https://www.ulster.ac.uk/__data/assets/pdf_file/0004/942502/0716.pdf); McCarthy 2008, chapter 3	|
 |	Monday, Feb 23rd	|	Irish Morphology | MI: Chapter 5 & 6 pp. 111-125	|
 |	Wednesday, Feb 25th	|	Quarto: Publication quality typesetting | [Hello, Quarto](https://quarto.org/docs/get-started/hello/rstudio.html)	|
 |	Friday, Feb 27th	| Quarto: Working with templates	| [Quarto templates](https://quarto.org/docs/journals/templates.html)	|
