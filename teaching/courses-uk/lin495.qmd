@@ -1,0 +1,74 @@
+---
+layout: course
+title:  "Lin 495 - Linguistics Capstone"
+date:   2025-11-03 17:35:16
+categories: teaching research undergraduate
+---
+
+Linguistics Capstone is a common Capstone experience shared by all
+Linguistics majors. It is designed to provide an opportunity for
+majors to develop a personalized research project and to gain
+valuable organizational and research experience. This course allows
+majors to explore the various content areas and scholarly approaches
+represented in Linguistics, in order to enhance their understanding
+of the value of work across subdisciplines. Students will also
+explore the typical conventions used in linguistics and, driven by
+interest, in particular subfields. This course satisfies the
+Graduation Composition and Communication Requirement (GCCR). Typically
+this course will be taken by juniors and seniors looking to refine
+their research techniques and their writing and presentation skills
+in Linguistics.
+
+**Prereq**: LIN 221, LIN 300, LIN 305; completion of UK Core Composition & Communication Requirement.
+
+## Tentative Schedule
+
+| Date | Topic | Reading/Due |
+|------|-------|-------------|
+|	Monday, Jan 12th	|	|	|
+|	Wednesday, Jan 14th	|	|	|
+|	Friday, Jan 16th	|	|	|
+|	Monday, Jan 19th	| MLK (NO CLASS)	|	|
+|	Wednesday, Jan 21st	|	|	|
+|	Friday, Jan 23rd	|	|	|
+|	Monday, Jan 26th	|	|	|
+|	Wednesday, Jan 28th	|	|	|
+|	Friday, Jan 30th	|	|	|
+|	Monday, Feb 2nd	|	|	|
+|	Wednesday, Feb 4th	|	|	|
+|	Friday, Feb 6th	|	|	|
+|	Monday, Feb 9th	|	|	|
+|	Wednesday, Feb 11th	|	|	|
+|	Friday, Feb 13th	|	|	|
+|	Monday, Feb 16th	|	|	|
+|	Wednesday, Feb 18th	|	|	|
+|	Friday, Feb 20th	|	|	|
+|	Monday, Feb 23rd	|	|	|
+|	Wednesday, Feb 25th	|	|	|
+|	Friday, Feb 27th	|	|	|
+|	Monday, Mar 2nd	|	|	|
+|	Wednesday, Mar 4th	|	|	|
+|	Friday, Mar 6th	|	|	|
+|	Monday, Mar 9th	|	|	|
+|	Wednesday, Mar 11th	|	|	|
+|	Friday, Mar 13th	|	|	|
+|	Monday, Mar 16th	| Spring break (NO CLASS)	|	|
+|	Wednesday, Mar 18th	| Spring break (NO CLASS)	|	|
+|	Friday, Mar 20th	| Spring break (NO CLASS)	|	|
+|	Monday, Mar 23rd	|	|	|
+|	Wednesday, Mar 25th	|	|	|
+|	Friday, Mar 27th	|	|	|
+|	Monday, Mar 30th	|	|	|
+|	Wednesday, Apr 1st	|	|	|
+|	Friday, Apr 3rd	|	|	|
+|	Monday, Apr 6th	|	|	|
+|	Wednesday, Apr 8th	|	|	|
+|	Friday, Apr 10th	|	|	|
+|	Monday, Apr 13th	|	|	|
+|	Wednesday, Apr 15th	|	|	|
+|	Friday, Apr 17th	|	|	|
+|	Monday, Apr 20th	|	|	|
+|	Wednesday, Apr 22nd	|	|	|
+|	Friday, Apr 24th	|	|	|
+|	Monday, Apr 27th	|	|	|
+|	Wednesday, Apr 29th	|	|	|

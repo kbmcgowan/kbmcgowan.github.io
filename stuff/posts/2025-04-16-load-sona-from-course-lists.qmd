@@ -1,0 +1,25 @@
+---
+title:  "Loading UK Linguistics Sona from course rosters"
+date:   2025-04-16 20:52:44
+categories: [sona, python]
+image: images/sona.png
+---
+
+Every semester we need to load linguistics students from participating Ling classes into the SONA system so that experimenters can recruit for studies, students can sign up and get credit for participating, and faculty can get reports of who participated (for credit, extra credit, etc.).  Here is how to do that:
+
+Get rosterFix.py from the [UK Phonetics sonaPrep github](https://github.com/uk-phonetics/sonaPrep).
+
+rosterFix.py is a simple python script for taking roster data from http://myuk.uky.edu/ class rolls (downloadable as tab-delimited ".xls" files), fixing some ugliness in the data, and preparing them for upload to sona ( https://uky-linguistics.sona-systems.com/ ) as a batch, multiple course input.
+
+1. Download each of the course rosters for the classes you want to upload and put them in the same folder as sonaPrep.py. Save the files as, e.g. 200-001.xls (courseNumber-sectionNumber.xls) so it's easy to map them to courses later
+2. Make sure each course exists on sona and has the correct instructor(s) listed 3a. maybe pip install natsort openpyxl 3b. run sonaPrep.py to create the workbook sonaImport.xlsx
+3. Go to Sona > View and Edit Users > Batch User Import (as an administrator)
+4. Choose "Participant (Student) Multiple Course Import"
+5. The default column order should be fine (but check the stdout from sonaPrep to make sure, it will tell you
+6. Only check "Definitive List" if you're sure you want to scrub all previous participant data (e.g. this is the first upload of a new semester)
+7. Map sheets to the correct course-numbers.
+8. sona will show you each roster. Please quickly check these against MyUk to make sure nothing got remapped. It's annoying to fix later if this is wrong.
+9. Go ahead and "import all" if any rows are yellow, it just means the student is in more than on Ling class (yay!)
+10. DO NOT send login credentials to all students. Do NOT, please. Please.
+
+That's it! Researchers should now be able to recruit participants from specific classes and make sure they end up getting credit.
