@@ -1,7 +1,7 @@
 ---
 layout: course
-title:  "Lin 495 - Linguistics Capstone"
-date:   2025-11-03 17:35:16
+title:  "Lin 495 - Linguistics Capstone (Structure of Irish)"
+date:   2025-11-04 10:36:16
 categories: teaching research undergraduate
 ---
 
@@ -21,54 +21,105 @@ in Linguistics.
 
 **Prereq**: LIN 221, LIN 300, LIN 305; completion of UK Core Composition & Communication Requirement.
 
+## Spring 2026 Special Focus: The Structure of Irish
+
+To celebrate and explore all of your exciting new linguistics knowledge, this semester we will be digging-into a particular language to practice everything you've learned (and maybe fill in some gaps you've missed). The emphasis will be on seeing how all of the (apparently discrete) knowledges you've acquired in your linguistics degree fit together when studying a particular language and not on learning the langauge (but hopefully some of it will stick anyway!)
+
+## Required Text
+
+- Mícheál Ó Siadhail (1989) Modern Irish: Grammatical structure and dialectal variation. Cambridge [England] ; New York : Cambridge University Press ISBN: 0-521-42519-0
+
+The book is older, but it shouldn't be difficult to find an affordable used copy, a digital copy, or I have several I'm happy to loan out for the semester if needs be.
+
+## Student Learning Outcomes
+
+In this course, students will:
+
+-	Choose or develop an original research topic from one of the subfields of linguistics (phonetics, phonology, syntax, semantics, morphology, historical linguistics, sociolinguistics, computational linguistics, or another approved research area);
+-	Learn to use library and online resources to produce a thorough review of the available literature on this research topic;
+-	Provide an original analysis of an appropriate data set. Data may come from something that already exists (e.g., data from the Linguistic Atlas Project, the published grammar of a language, an existing corpus, examples from a previously published paper or papers, etc.) or, with permission of the instructor, may represent a small, original experiment, survey, or computational project;
+-	Learn style conventions in Linguistics and a subdiscipline of choice;
+-	Learn to typeset Linguistics papers;
+-	Participate in frequent discussions and workshops as you and your peers develop your capstone projects;
+-	Produce, through a series of multiple submissions and revisions, a substantial final paper of 4,500 to 6,000 words (roughly 15 - 20 double-spaced pages);
+-	Communicate, at the end of the semester, the outcome of your project to your peers and faculty in a brief research presentation with media and style appropriate to the chosen subfield.
+
+**Note on Graduate Composition and Communication Requirement**: To satisfy the requirements of the GCCR, students must earn an average grade of C or better on the designated Composition and Communication (C&C) assignments in this course. The requirements for all GCCR courses include:
+
+1. one or more written assignments in English that total to at least 4,500 words (the equivalent of 15 pages of double-spaced, typewritten text);
+2. either an oral assignment in English, in which students must give a formal presentation at least 10 minutes long, or a visual assignment, in which students create at least one significant visual/electronic artifact (e.g., a web site or video presentation);
+3. an assignment in English that requires the student to demonstrate information literacy in the discipline.
+
+In this course, students will work on an original research project throughout the course, and they will present their findings to their peers. The final paper must be at least 4,500 words long (approximately 15 pages total). Throughout the course, students will produce multiple drafts and receive feedback from both peers and the instructor.
+
+## Formative vs Summative and Late Grading Types
+
+My goal is to reward intellectual exploration and play and to minimize the inhibitory fear of grading/grades. For this reason, there are two types of grading:
+
+-   **Formative** assignments will receive 85% of full credit simply by being an earnest effort that is handed-in on time. An additional 15% may be awarded for work that is also correct. *Any formative assignment that does not receive full credit may be revised and resubmitted for re-evaluation.* The only way to receive less than 85% on formative work is to not do it or to cheat (e.g. using LLMs or other generative AI in any way, see below)
+-   **Summative** assignments are graded when they are due and may not typically be revised and resubmitted without extenuating circumstances (e.g. excused illness)
+-   **Late Work** Whether formative or summative, late work will lose 5% of its maximum potential grade for each full week the assignment is late.
+
+## Course Requirements
+
+| Assignment              | Weight | Type      |
+|-------------------------|--------|-----------|
+| ✓ Reading Questions (x 15)              | 50%    | formative |
+| ✓ Project 1: Design a character & voice | 20%    | formative |
+| ✓ Project 2: Design puppet | 20%    | formative |
+| ✓ Final Presentation | 10%    | summative |
+
 ## Tentative Schedule
+
+The following dates are approximate, and dates are subject to change. The last day to add a class is Friday, January 17. Midterm grades are due by Monday, March 17. The final exam for this class is scheduled for Wednesday, May 7 from 10:30am-12:30pm. We will not have a final exam, but we may use this time to finish presentations. A detailed schedule is in Canvas. (MI refers to the Míchaél Ó Siadhail book)
+
 
 | Date | Topic | Reading/Due |
 |------|-------|-------------|
-|	Monday, Jan 12th	|	|	|
-|	Wednesday, Jan 14th	|	|	|
-|	Friday, Jan 16th	|	|	|
+|	Monday, Jan 12th	|	Get to know each other & Syllabus | This Syllabus	|
+|	Wednesday, Jan 14th	|	Irish Historical Linguistics & Dialectology | MI: General Introduction, [Stifter](https://mural.maynoothuniversity.ie/id/eprint/12890/1/Stifter%20Encyc.pdf)	|
+|	Friday, Jan 16th	| Library Skills	| [Annotated Bibliography Guide](https://guides.library.cornell.edu/annotatedbibliography)	|
 |	Monday, Jan 19th	| MLK (NO CLASS)	|	|
-|	Wednesday, Jan 21st	|	|	|
-|	Friday, Jan 23rd	|	|	|
-|	Monday, Jan 26th	|	|	|
-|	Wednesday, Jan 28th	|	|	|
-|	Friday, Jan 30th	|	|	|
-|	Monday, Feb 2nd	|	|	|
-|	Wednesday, Feb 4th	|	|	|
-|	Friday, Feb 6th	|	|	|
-|	Monday, Feb 9th	|	|	|
-|	Wednesday, Feb 11th	|	|	|
-|	Friday, Feb 13th	|	|	|
-|	Monday, Feb 16th	|	|	|
-|	Wednesday, Feb 18th	|	|	|
-|	Friday, Feb 20th	|	|	|
-|	Monday, Feb 23rd	|	|	|
-|	Wednesday, Feb 25th	|	|	|
-|	Friday, Feb 27th	|	|	|
-|	Monday, Mar 2nd	|	|	|
+|	Wednesday, Jan 21st	| The Phonetics of Irish | [Ní Chasaide, 1977](https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/part-2-illustrations-of-the-ipa/42EDC001DBB96C627ACF2E1F5D8C635F)|
+|	Friday, Jan 23rd	|	Your thesis Statements & Evaluating Sources |	|
+|	Monday, Jan 26th	|	Irish Phonology: Major & Minor Rules | MI: Chapter 1	|
+|	Wednesday, Jan 28th	| Irish Phonology: Syllables	|	MI: Chapter 2 |
+|	Friday, Jan 30th	|	Using a reference manager  | [zotero](https://www.zotero.org/)	|
+|	Monday, Feb 2nd	| Irish Phonology: Vowels	| MI: Chapter 3	|
+|	Wednesday, Feb 4th	| Irish Phonology: Semi-vowel Consonants	| MI: Chapter 4, pp. 67-82	|
+|	Friday, Feb 6th	|	Structuring your research paper |	|
+|	Monday, Feb 9th	|	Irish Phonology: Consonants | MI: Chapter 4, pp. 82-104	|
+|	Wednesday, Feb 11th	|	Irish Phonology: Names & Placenames | See discussion notes on canvas	|
+|	Friday, Feb 13th	| Writing your literature review	|	|
+|	Monday, Feb 16th	| Group discussion of project ideas	|	|
+|	Wednesday, Feb 18th	| Peer review: project proposal drafts	|	**project proposal due** |
+|	Friday, Feb 20th	|	Introductions & Conclusions |	|
+|	Monday, Feb 23rd	|	Irish Morphology | MI: Chapter 5 & 6 pp. 111-125	|
+|	Wednesday, Feb 25th	|	Quarto: Publication quality typesetting | [Hello, Quarto](https://quarto.org/docs/get-started/hello/rstudio.html)	|
+|	Friday, Feb 27th	| Quarto: Working with templates	| [Quarto templates](https://quarto.org/docs/journals/templates.html)	|
+|	Monday, Mar 2nd	|	Irish Morphology | MI: Chapter 6, pp. 125-141	|
 |	Wednesday, Mar 4th	|	|	|
-|	Friday, Mar 6th	|	|	|
-|	Monday, Mar 9th	|	|	|
-|	Wednesday, Mar 11th	|	|	|
-|	Friday, Mar 13th	|	|	|
+|	Friday, Mar 6th	| Project Check-In	|	|
+|	Monday, Mar 9th	| Irish Morphology: Nouns	| MI: Chapter 7	|
+|	Wednesday, Mar 11th	|	 |	|
+|	Friday, Mar 13th	|	Peer review | **outline due**	|
 |	Monday, Mar 16th	| Spring break (NO CLASS)	|	|
 |	Wednesday, Mar 18th	| Spring break (NO CLASS)	|	|
 |	Friday, Mar 20th	| Spring break (NO CLASS)	|	|
-|	Monday, Mar 23rd	|	|	|
+|	Monday, Mar 23rd	|	Irish Morphosyntax: Verbs I | MI: Chapter 8, pp. 169-185	|
 |	Wednesday, Mar 25th	|	|	|
-|	Friday, Mar 27th	|	|	|
-|	Monday, Mar 30th	|	|	|
+|	Friday, Mar 27th	|	Peer review |	|
+|	Monday, Mar 30th	| Irish Morphosyntax: Verbs II | MI: Chapter 8, pp. 185-201	|
 |	Wednesday, Apr 1st	|	|	|
-|	Friday, Apr 3rd	|	|	|
-|	Monday, Apr 6th	|	|	|
+|	Friday, Apr 3rd	|	Making publication quality figures: spectrograms | **draft due**	|
+|	Monday, Apr 6th	|	Irish Syntax: Introduction | MI: Chapter 9	|
 |	Wednesday, Apr 8th	|	|	|
-|	Friday, Apr 10th	|	|	|
-|	Monday, Apr 13th	|	|	|
+|	Friday, Apr 10th	|	Making publication quality figures: syntax trees |	|
+|	Monday, Apr 13th	|	Irish Syntax: the Copula | MI: Chapter 10	|
 |	Wednesday, Apr 15th	|	|	|
-|	Friday, Apr 17th	|	|	|
-|	Monday, Apr 20th	|	|	|
+|	Friday, Apr 17th	|	Presenting like a linguist | [LSA Presentation Guidelines], [Poster guidelines]	|
+|	Monday, Apr 20th	|	Irish Sociolinguistics  | Ó Catháin, 2016 & Hickey 2023	|
 |	Wednesday, Apr 22nd	|	|	|
 |	Friday, Apr 24th	|	|	|
-|	Monday, Apr 27th	|	|	|
-|	Wednesday, Apr 29th	|	|	|
+|	Monday, Apr 27th	|	Student Presentations |	|
+|	Wednesday, Apr 29th	| Student Presentations	|	|
