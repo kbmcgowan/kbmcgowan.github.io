@@ -248,6 +248,8 @@ Undergraduate Research Assistant, Professor Richard W. Bailey, Department of Eng
 <div class="post">
     <h2 class="subtitle">Invited Talks &amp; Colloquia</h2>
     <dl>
+    <dt>2024</dt> <dd>Northwestern University &mdash; The listener as a source of Invariance </dd>
+    <dt>2024</dt> <dd>Georgetown University &mdash; The listener as a source of sound change </dd>
     <dt>2019</dt> <dd>University of Tennessee, Knoxville &mdash; Social expectation and speech perception: mismatch and alignment</dd>
     <dt>2016</dt> <dd>University of Michigan &mdash; &ldquo;Subcategorical mismatches can be mismatches of phonetic, phonological, lexical, and social context&rdquo;</dd>
     <dt>2016</dt> <dd>North Carolina State University &mdash; &ldquo;Socially informed speech perception: context, congruency, and complications&rdquo;</dd>
