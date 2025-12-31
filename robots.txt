@@ -1,1 +1,4 @@
-Sitemap: https://vowel.space/sitemap.xml
+User-agent: *
+Disallow: 
+Disallow: /publications/ewaa-3e/
+Disallow: /silhouettes/
