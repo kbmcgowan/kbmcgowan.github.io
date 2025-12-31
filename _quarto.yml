@@ -18,6 +18,8 @@ website:
 resources:
   - "things/*"
   - "research/OUP-Hall-Lew-Nycz-ch4/*"
+  - "robots.txt"
+  - "publications/ewaa-3e/*"
   
 execute:
   freeze: auto
