@@ -1,5 +1,5 @@
 ---
-title: "Curriculum vitae"
+title: "Curriculum Vitae"
 format:
     html:
       css: simple.css
@@ -234,6 +234,16 @@ Undergraduate Research Assistant, Professor Richard W. Bailey, Department of Eng
 </div>
 ::::
 
+
+## Current Projects
+
+- **Dynamic vowel perception, social information, and normalization**: Listeners do not need F1/F2 vowel centers to perceive vowel quality (Strange et al., 1983) or regional identity (Takvoryan and McGowan, in press) in CVC stimuli. In the current phase of this project, we are revisiting empirical demonstrations and models of intrinsic vowel normalization in light of this flexibility of human speech perception to even fairly dramatic reductions in vowel information available to the listener.
+
+- **Gender perception in voices**: A consistent finding in our lab is that the speech percept is comprised of both a linguistic and a social aspect and that these aspects need not agree at any point in processing for perception to succeed. Building upon work from McGowan & Babel (2020) and Laycock & McGowan (2025), our lab is exploring this dual nature of the percept by manipulating both low (e.g. lexical, phonemic) and high (e.g. ideological, regard) aspects of stimuli and testing listener perceptions using an auditory Stroop task.
+
+- **Integration and Assessment of large scale Automatic Speech Recognition in linguistics research**: ASR systems (e.g. HTK, Kaldi) have been essential tools in phonetics and related fields for nearly two decades but forced alignment using these tools still requires time-consuming word-level transcriptions. Semi-supervised ASR systems trained on large scale speech data (e.g. OpenAI's whisper, Otter.ai) have become useful tools for automatic generation of captions and speech transcription. We are building tutorials and scripts for adding these transcription tools to established workflows with a particular emphasis on the patterns of errors researchers can expect to encounter and best practices for minimizing the accumulation of errors across the pipeline.
+
+- **Sound change actuation, coarticulation, and regional accent**: Southern US varieties of English differ strikingly from other varieties in their systematic use of vowel internal spectral change (monophthongization of diphthongs, diphthongization or triphthongization of monophthongs). We are pursuing a hypothesis that this dynamism may interact with the perception of nasalized vowels (Beddor & Krakow, 1999) to offer a coarticulatory explanation (Beddor 2009) for why high front lax and mid front lax vowels might be more prone to have merged in these varieties and not others.
 
 ## Publications
 
