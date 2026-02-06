@@ -35,7 +35,7 @@ citeproc: true
 csl: "cv.csl"
 bibliography: references.bib
 nocite: |
-  @babel2021niveles, @babel2025introduction, @baese2020perception, @beddorcoetzeestylermcgowanboland2018, @beddormcgowanbolandcoetzeebrasher2013, @coetzee2008allophonic, @EWAA3e, @LaycockMcGowan2025, @mcgowan2009aerodynamic, @McGowan2011, @mcgowan2015, @mcgowan2016sounding, @mcgowan2019acoustic, @McGowan2026a, @mcgowanBabel2020, @medeiros2021ceiling, @NamboodiripadEtAl2026, @sumner2014socially, @TakvoryanMcGowaninpress
+  @babel2021niveles, @babel2025introduction, @baese2020perception, @beddorcoetzeestylermcgowanboland2018, @beddormcgowanbolandcoetzeebrasher2013, @coetzee2008allophonic, @EWAA3e, @LaycockMcGowan2025, @mcgowan2009aerodynamic, @McGowan2011, @mcgowan2015, @mcgowan2016sounding, @mcgowan2019acoustic, @McGowan2026a, @mcgowanBabel2020, @medeiros2021ceiling, @NamboodiripadEtAl2026, @sumner2014socially, @TakvoryanMcGowaninpress, @mcgowanPerceptionLinguisticFeaturesinpress
 ---
 
 ------------------------------------------------------------------------
@@ -308,21 +308,30 @@ Undergraduate Research Assistant, Professor Richard W. Bailey, Department of Eng
     <h2 class="title">Teaching</h2>
     <dl>
     <h3 class="subtitle">University of Kentucky</h3>
+ 
+     <dt class="class">Senior Capstone</dt>
+    <dd> <br />Linguistics 495<br />
+    <br /> Spring 2026</dd>
+    
     <dt class="class">Phonetics</dt>
     <dd> <br />Linguistics 500<br />
-    <br /> Fall 2015&mdash;2017</dd>
+    <br /> Fall 2015&mdash;2026</dd>
 
+    <dt class="class">Speech Perception</dt>
+    <dd> <br />Linguistics 517<br />
+    <br /> Fall 2026</dd>
+    
     <dt class="class">Computational Linguistics</dt>
     <dd> <br />Linguistics 511<br />
-    <br /> Fall 2017</dd>
+    <br /> Fall 2017&mdash;2021 </dd>
 
     <dt class="class">Language in U.S. Society</dt>
     <dd> <br />Linguistics 331<br />
-    <br /> Spring 2016&mdash;2017</dd>
+    <br /> Spring 2016&mdash;2026</dd>
 
     <dt class="class">Phonology</dt>
     <dd> <br />Linguistics 515<br />
-    <br /> Spring 2017</dd>
+    <br /> Spring 2017&mdash;2019</dd>
 
     <dt class="class">Introduction to R</dt>
     <dd> <br />Arts &amp; Sciences 500<br />
@@ -330,7 +339,7 @@ Undergraduate Research Assistant, Professor Richard W. Bailey, Department of Eng
 
     <dt class="class">Sociophonetics</dt>
     <dd> <br />Linguistics 617<br />
-    <br /> Spring 2016</dd>
+    <br /> Spring 2016, Fall 2025</dd>
 
     <dt class="class">Introduction to Linguistics</dt>
     <dd> <br />Linguistics 221<br />
