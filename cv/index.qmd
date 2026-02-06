@@ -35,7 +35,7 @@ citeproc: true
 csl: "cv.csl"
 bibliography: references.bib
 nocite: |
-  @babel2021niveles, @babel2025introduction, @baese2020perception, @beddorcoetzeestylermcgowanboland2018, @beddormcgowanbolandcoetzeebrasher2013, @coetzee2008allophonic, @EWAA3e, @LaycockMcGowan2025, @mcgowan2009aerodynamic, @McGowan2011, @mcgowan2015, @mcgowan2016sounding, @mcgowan2019acoustic, @McGowan2026a, @mcgowanBabel2020, @medeiros2021ceiling, @NamboodiripadEtAl2026, @sumner2014socially, @TakvoryanMcGowaninpress, @mcgowanPerceptionLinguisticFeaturesinpress
+  @babel2021niveles, @babel2025introduction, @baese2020perception, @beddorcoetzeestylermcgowanboland2018, @beddormcgowanbolandcoetzeebrasher2013, @EWAA3e, @LaycockMcGowan2025, @mcgowan2009aerodynamic, @McGowan2011, @mcgowan2015, @mcgowan2016sounding, @mcgowan2019acoustic, @McGowan2026a, @mcgowanBabel2020, @medeiros2021ceiling, @NamboodiripadEtAl2026, @sumner2014socially, @TakvoryanMcGowaninpress, @mcgowanPerceptionLinguisticFeaturesinpress
 ---
 
 ------------------------------------------------------------------------
@@ -234,6 +234,7 @@ Undergraduate Research Assistant, Professor Richard W. Bailey, Department of Eng
 </div>
 ::::
 
+
 ## Publications
 
 ::: {#refs}
@@ -247,8 +248,14 @@ Undergraduate Research Assistant, Professor Richard W. Bailey, Department of Eng
 
 <div class="post">
     <h2 class="subtitle">Invited Talks &amp; Colloquia</h2>
+      <dt>2026</dt> <dd>Language, Conflict and Peace-Building Symposium at the Annual Meeting of the Linguistics Society of America &mdash; The Myth of Misperception: the quixotic quest for invariance in speech perception</dd>
+    <dt>2025</dt> <dd>Central Kentucky Linguistics Conference &mdash; American Speech: Non-Traditional Data Sources for Sociolinguistic Inquiry with Julien Carrier, Jennifer Cramer, and Paul Reed</dd>
+
     <dt>2024</dt> <dd>Northwestern University &mdash; The listener as a source of Invariance </dd>
     <dt>2024</dt> <dd>Georgetown University &mdash; The listener as a source of sound change </dd>
+    <dt>2023</dt> <dd>UK College of Health Sciences Diversity, Equity, and Inclusion
+Committee's "Third Tuesdays" series with Rusty Barrett and Jennifer Cramer</dd>
+
     <dt>2022</dt> <dd>The Unversity of Kentucky &mdash; Some ways I've been wrong about speech perception (and how it's great, actually)</dd>
     <dt>2019</dt> <dd>University of Tennessee, Knoxville &mdash; Social expectation and speech perception: mismatch and alignment</dd>
     <dt>2016</dt> <dd>University of Michigan &mdash; &ldquo;Subcategorical mismatches can be mismatches of phonetic, phonological, lexical, and social context&rdquo;</dd>
@@ -266,10 +273,15 @@ Undergraduate Research Assistant, Professor Richard W. Bailey, Department of Eng
 <div class="post">
     <h3 class="subtitle">Presentations</h3>
     <dl>
-      <dl>2025</dt> <dd>McGowan, K.B. <emph>The Heterogenous Speaker-Listener: On the Paradox of Non-convergence in Social Speech Perception</emph> 2025 Society for Linguistic Anthropology meeting, University of Chicago</dd>
-      <dt>2024</dt> <dd>McGowan, K.B. and Takvoryan, S. <emph>Listeners do not need an F1/F2 target to perceive vowel quality or regional accentedness</emph> MidPhon 30, Indiana University</dd>
+      <dt>2026</dt> <dd>Takvoryan, S. and McGowan, K.B. <emph>Listeners can perceive regionally-accented vowels (with or without vowel centers)</emph> Poster at the Annual Meeting of the Linguistics Society of America</dd>
+      <dt>2025</dt> <dd>McGowan, K.B. <emph>The Heterogenous Speaker-Listener: On the Paradox of Non-convergence in Social Speech Perception</emph> 2025 Society for Linguistic Anthropology meeting, University of Chicago</dd>
+      <dt>2025</dt> <dd>McGowan, K.B. and Takvoryan, S. <emph>Listeners do not need an F1/F2 target to perceive vowel quality or regional accentedness</emph> MidPhon 30, Indiana University</dd>
       <dt>2023</dt> <dd>Laycock, K.B. and McGowan K.B. <emph>We're worrying about the wrong thing: the matched guise technique and social speech perception</emph> MidPhon 28, Purdue University
       <dt>2022</dt> <dd>McGowan, K.B. <emph>The Limits of Perception</emph>  17<sup>th</sup> International Conference on Methods in Dialectology</dd>
+      
+      <dt>2020</dt> <dd> McGowan, K.B. and Jennifer Cramer <emph>Wildcat Voices: Capturing Linguistic Variation at UK</emph> 4<sup>th</sup> annual Commonwealth
+Computational Summit (CCS), Faculty Lightning Talks</dd>
+
       <dt>2019</dt> <dd>McGowan, K.B., Johnson, M.T., Combs, A., and Soleymanpoor, M. <emph>Acoustic, non-invasive measurement of velopharyngeal aperture using a high frequency tone.</emph> 19<sup>th</sup> International Congress of Phonetic Sciences.</dd>
       <dt>2019</dt> <dd>McGowan, K.B., Johnson, M.T., Combs, A., and Soleymanpoor, M. <emph>Acoustic, non-invasive measurement of velopharyngeal aperture using a high frequency tone.</emph> Poster, 177<sup>th</sup> Meeting of the Acoustical Society of America</dd>
       <dt>2019</dt> <dd>McGowan, K.B. and Johnson, M.T. Apparatus and procedure for ultrasound investigation of velopharyngeal port aperture.  University of Kentucky, Igniting Research Collaborations Symposium</dd>
@@ -400,7 +412,6 @@ Undergraduate Research Assistant, Professor Richard W. Bailey, Department of Eng
 <div class="post">
                     <h2 class="title">Fellowships and Awards</h2>
     <dl>
-        <dt>March 2016</dt> <dd>Confucius Institute Faculty China Curriculum Development Grant</dd>
     <dt>2010 - 2011</dt> <dd>Horace H. Rackham Predoctoral Fellowship, Horace H. Rackham School of Graduate Studies, University of Michigan</dd>
     <dt>2010</dt> <dd>Humanities Candidacy Fellowship, University of Michigan</dd>
     <dt>2008</dt> <dd>National Science Foundation, Honorable Mention, Graduate Research Fellowship</dd>
@@ -411,6 +422,35 @@ Undergraduate Research Assistant, Professor Richard W. Bailey, Department of Eng
     </dl>
 </div>
 ```
+
+## Grants
+
+:::: {layout="[20,80]"}
+(submitted)\
+
+<div>
+<b>Dialects of Care: Human-Centered AI Design in Rural Health Contexts</b> Mellon Concepts in Higher Learning with Jennifer Cramer, Dmitry Strakovsky, Chad Eby, and Caleb Williams submitted to 
+</div>
+
+
+2019 - 2020\
+
+<div>
+<b>Wildcate Voices software development</b> UK Vice President for Research, Research and Creative Activities Grant – $3,360 with Jennifer Cramer
+</div>
+
+2018 - 2019\
+
+<div><b>Method and device for acoustic, non-invasive measurement of velopharyngeal aperture using a high frequency tone</b> Igniting Research Collaborations grant, University of Kentucky OVPR, - $27,726 with Michael Johnson, Electrical and Computer Engineering
+</div>
+
+2016\
+<div>Confucius Institute Faculty China Curriculum Development Grant
+ - $1,000
+</div>
+        
+::::
+
 
 ## Advising & Supervision
 
