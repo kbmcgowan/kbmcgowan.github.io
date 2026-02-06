@@ -35,7 +35,7 @@ citeproc: true
 csl: "cv.csl"
 bibliography: references.bib
 nocite: |
-  @mcgowan2019acoustic; @McGowan2011; @mcgowan2015; @mcgowan2016sounding; @mcgowanBabel2020; @beddormcgowanbolandcoetzeebrasher2013; @beddorcoetzeestylermcgowanboland2018; @BabelCampbell-KiblerMcGowan2025; @sumner2014; @baese-berk2020; @laycock2025; @barrett2023; @medeiros2021ceiling; @TakvoryanMcGowaninpress; @McGowanTakvoryaninpress; @McGowan2012; @BabelMcGowanDuque2021; @mcgowan2026;@namboodiripad2026
+  @babel2021niveles, @babel2025introduction, @baese2020perception, @beddorcoetzeestylermcgowanboland2018, @beddormcgowanbolandcoetzeebrasher2013, @coetzee2008allophonic, @EWAA3e, @LaycockMcGowan2025, @mcgowan2009aerodynamic, @McGowan2011, @mcgowan2015, @mcgowan2016sounding, @mcgowan2019acoustic, @McGowan2026a, @mcgowanBabel2020, @medeiros2021ceiling, @NamboodiripadEtAl2026, @sumner2014socially, @TakvoryanMcGowaninpress
 ---
 
 ------------------------------------------------------------------------
