@@ -479,9 +479,10 @@ Computational Summit (CCS), Faculty Lightning Talks</dd>
 :::
 :::::
 
-## Service to the field
+## Committees and Service
 
-- Language, Conflict, and Peacebuilding
+- LSA Ad Hoc Committee on Language, Conflict, and Peacebuilding, chair (2026), member (2025)
+
 ## Selected Software Projects
 
 ::::: {layout="[20,80]"}
