@@ -479,6 +479,7 @@ Computational Summit (CCS), Faculty Lightning Talks</dd>
 
 ## Committees and Service
 
+- Co-editor, Proceedings of the Linguistic Society of America with Anne-Michelle Tessier and David Medeiros (2026--)
 - LSA Ad Hoc Committee on Language, Conflict, and Peacebuilding, chair (2026), member (2025)
 
 ## Selected Software Projects
