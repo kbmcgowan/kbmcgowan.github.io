@@ -7,9 +7,6 @@ about:
   image-title: "This may not be the Kevin McGowan you are looking for"
   image-alt: "A photo of a Kevin McGowan (right) and a corvid-shaped object"
   links:
-    - icon: twitter
-      text: bluesky
-      href: https://bsky.app/profile/kbmcgowan.bsky.social
     - icon: github
       text: Github
       href: https://github.com/kbmcgowan

@@ -35,10 +35,8 @@ citeproc: true
 csl: "cv.csl"
 bibliography: references.bib
 nocite: |
-  @babel2021niveles, @babel2025introduction, @baese2020perception, @beddorcoetzeestylermcgowanboland2018, @beddormcgowanbolandcoetzeebrasher2013, @EWAA3e, @LaycockMcGowan2025, @mcgowan2009aerodynamic, @McGowan2011, @mcgowan2015, @mcgowan2016sounding, @mcgowan2019acoustic, @McGowan2026a, @mcgowanBabel2020, @medeiros2021ceiling, @NamboodiripadEtAl2026, @sumner2014socially, @TakvoryanMcGowaninpress, @mcgowanPerceptionLinguisticFeaturesinpress
+  @*
 ---
-
-------------------------------------------------------------------------
 
 # Kevin B. McGowan
 
