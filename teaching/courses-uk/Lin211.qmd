@@ -1,7 +1,7 @@
 ---
 layout: course
 title: "Lin 211: Introduction to the Study of Language"
-date:   2024-07-30 10:55:16
+date:   2026-07-30 10:55:16
 format: html
 editor: source
 categories: teaching introduction
