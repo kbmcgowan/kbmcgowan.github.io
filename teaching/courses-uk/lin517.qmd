@@ -2,7 +2,7 @@
 layout: course
 title:  "Lin 517 - Speech Perception"
 date:   2025-08-22 17:21:16
-categories: teaching phonetics psycholinguistics
+categories: phonetics perception psycholinguistics
 bibliography: references.bib
 csl: apa.csl
 nocite: |

@@ -4,7 +4,7 @@ title: "Lin 211: Introduction to the Study of Language"
 date:   2026-07-30 10:55:16
 format: html
 editor: source
-categories: teaching introduction
+categories: introduction
 ---
 
 Fall 2026\
@@ -132,7 +132,7 @@ The following dates are approximate, and dates are subject to change. **Pullum**
 |	Monday, Oct 5th	| Where do dialects come from?	|	|
 |	Wednesday, Oct 7th	| What is the prettiest language?	|	Canvas: Perceptual Dialectology |
 | **Language in the world** | | (weeks 8 - 13) |
-|	Monday, Oct 12th	| SPOTLIGHT LECTURE: What methods and ethics of inquiry are used?	|	|
+|	Monday, Oct 12th	| Spotlight lecture: What methods and ethics of inquiry are used?	|	|
 |	Wednesday, Oct 14th	| How do kids learn to talk?	| Canvas: Nine Ideas	|
 |	Monday, Oct 19th	| How does bilingualism work?	|	|
 |	Wednesday, Oct 21st	| Why is it hard to learn other languages? | Canvas: Bilingual Brain	|
@@ -143,7 +143,7 @@ The following dates are approximate, and dates are subject to change. **Pullum**
 |	Monday, Nov 9th	| How do computers help with language?	|	|
 |	Wednesday, Nov 11th	|	Are chatbots real? | Canvas: Bender |
 |	Monday, Nov 16th	|	|	|
-|	Wednesday, Nov 18th	| SPOTLIGHT LECTURE: How do we find relevant linguistics sources?	| 	|
+|	Wednesday, Nov 18th	| Spotlight lecture: How do we find relevant linguistics sources?	| 	|
 | **Language & culture** | | (weeks 14 - 15) |
 |	Monday, Nov 23rd	| Are actors good at dialects?	|	Canvas: Interview with a dialect coach |
 |	Wednesday, Nov 25th	| Thanksgiving	| (no class)	|

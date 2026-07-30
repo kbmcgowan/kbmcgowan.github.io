@@ -2,7 +2,7 @@
 layout: course
 title:  "Lin 300 - Speech Sounds"
 date:   2024-04-15 17:21:16
-categories: teaching phonetics phonology
+categories: phonetics phonology
 ---
 
 This course provides students with the practical skills and the theoretical frameworks needed to pursue more advanced study in phonetics and phonology. You will learn how linguists study production, perception, and the mental representations of speech sounds. You will also learn how linguists develop theoretical models to understand how these speech sounds are organized in phonological grammars. The concepts learned in LIN 300 will provide a solid foundation for Linguistics and will allow the student to enroll in a variety of courses at the 500- and 600-level in Linguistics.

@@ -2,7 +2,7 @@
 layout: course
 title:  "Lin 331 - Language in the United States"
 date:   2025-11-03 17:16:16
-categories: teaching sociolinguistics
+categories: sociolinguistics sociophonetics discrimination
 ---
 
 This course is an introduction to the linguistic diversity of the United States and the role of language in the production and negotiation of various forms of social difference (e.g., ethnicity, gender, region, etc.). The course examines the ways in which language serves to construct social categories and the relationship between language and identity, emphasizing the ways in which individuals use language to present themselves as a specific type of person. The course also outlines linguistic and social implications of non-standard English dialects and multilingualism in American society. Emphasis will be given to questions of power and resistance related to language use in the contexts of government, education, and business. Students will learn how to collect information about language use and analyze it to develop informed opinions about situations in which linguistic differences have implications for issues of social equality and justice.

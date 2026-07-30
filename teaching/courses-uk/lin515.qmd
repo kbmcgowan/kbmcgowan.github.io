@@ -2,7 +2,7 @@
 layout: course
 title:  "Lin 515 - Phonology"
 date:   2024-04-15 17:21:16
-categories: teaching phonology
+categories: phonology
 ---
 
 This Introduction to Phonology course is designed to do two things:

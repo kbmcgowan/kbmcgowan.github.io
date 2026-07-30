@@ -2,7 +2,7 @@
 layout: course
 title:  "Lin 495 - Linguistics Capstone (Structure of Irish)"
 date:   2025-11-04 10:36:16
-categories: teaching research undergraduate
+categories: research undergraduate
 ---
 
 Linguistics Capstone is a common Capstone experience shared by all

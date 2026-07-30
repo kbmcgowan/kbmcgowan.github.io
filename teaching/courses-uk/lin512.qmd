@@ -2,7 +2,7 @@
 layout: course
 title:  "Lin 512 - Introduction to Syntactic Theory"
 date:   2022-03-17 17:21:16
-categories: teaching syntax
+categories: syntax
 ---
 
 This course provides students with the practical skills and the theoretical frameworks needed to understand current research in syntax. You will learn how linguists study the structure of sentences in the languages of the world, including English. You will learn how linguists develop theoretical models to understand the human capacity for language and be introduced to some of these models. You will learn to conduct data analysis, how to evaluate formal hypotheses, and how to provide support for and against these hypotheses.
