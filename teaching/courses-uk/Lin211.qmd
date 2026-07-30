@@ -159,16 +159,16 @@ The following dates are approximate, and dates are subject to change. **Pullum**
 | Date | Activity/Assignment |
 |------|-------|
 |       Friday, Aug 28th        | Meet your TA    |
-|       Friday, Sep 4th |       | Quiz 1          |       
+|       Friday, Sep 4th        | Quiz 1          |       
 |       Friday, Sep 11th        | Quiz 2          |
 |       Friday, Sep 18th        | Quiz 3          |
 |       Friday, Sep 25th        | Quiz 4          |
-|       Friday, Oct 2nd |       | Quiz 5          |
-|       Friday, Oct 9th |       | Quiz 6          |
+|       Friday, Oct 2nd        | Quiz 5          |
+|       Friday, Oct 9th        | Quiz 6          |
 |       Friday, Oct 16th        | Quiz 7          |
 |       Friday, Oct 23rd        | Data Collection |
 |       Friday, Oct 30th        | Quiz 8          |
-|       Friday, Nov 6th |       | Quiz 9          |       
+|       Friday, Nov 6th        | Quiz 9          |       
 |       Friday, Nov 13th        | Quiz 10         |
 |       Friday, Nov 20th        | Quiz 11         |
 |       Friday, Nov 27th        | Thanksgiving (no class) |
