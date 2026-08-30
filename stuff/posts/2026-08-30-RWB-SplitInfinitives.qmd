@@ -6,8 +6,6 @@ categories: [linguistics, prescriptivism]
 image: images/enterprise.jpeg
 ---
 
-![](images/enterprise.jpeg){fig-alt="to boldly split English infinitives"}
-
 ::: {.callout-note}
 
 This is a re-post of the article "Talking about words: Split Infinitives" which was written by my undergraduate mentor, Richard W. Bailey, for publication on the website "Michigan Today".  Sadly, the original article has disappeared from the internet.  Dick was a philologist and his article is important for the observation that there is little historical evidence for the often-repeated claim that the prescriptivist prohibition on split infinitives in English is due to the impossibility of such constructions in Latin.
