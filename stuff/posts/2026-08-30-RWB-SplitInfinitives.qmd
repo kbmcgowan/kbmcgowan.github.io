@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "Richard W. Bailey on Split Infinitives"
+date:   2026-08-30 10:47:16
+categories: [linguistics, prescriptivism]
+image: images/enterprise.jpeg
+---
+
+![](images/enterprise.jpeg){fig-alt="to boldly split English infinitives"}
+
+::: {.callout-note}
+
+This is a re-post of the article "Talking about words: Split Infinitives" which was written by my undergraduate mentor, Richard W. Bailey, for publication on the website "Michigan Today".  Sadly, the original article has disappeared from the internet.  Dick was a philologist and his article is important for the observation that there is little historical evidence for the often-repeated claim that the prescriptivist prohibition on split infinitives in English is due to the impossibility of such constructions in Latin.
+
+I keep trying to rewrite that last sentence and can't get it any clearer which, I guess, is yet another piece of evidence for Dick's claim (January 1994, said to my face) that "[laughing] no, no, Kevin, I am a **much** better writer than you are!" And a very good reason to just read what he had to say about it:
+
+:::
+
+# Talking about words: Split Infinitives
+
+## by Richard W. Bailey, June 2006
+
+
+
+Lots of people know that there's something wrong with a split infinitive. Far fewer can say exactly what it is.
+
+Such prejudices are part of the folklore of correctness. People know that they are supposed to dislike mistakes. Inquiring minds want to know, and (when I searched in May, 2006) you can find more than 87,000 sites where the split infinitive is discussed.
+
+Infinitives are the verb forms you look up in the dictionary. Take this sentence: "Enid polymerized the resin."  If we're not quite certain what polymerized might mean, we'd go to the dictionary and look it up under the infinitive. Polymerize is the infinitive.
+
+Usually people think of the infinitive as something with to in front of it:  "Enid wanted Seamus to polymerize the resin."  And when we have the sentence "Enid wanted Seamus to carefully polymerize the resin," we have a split infinitive. Something comes between to and polymerize. Yikes!
+
+Many people who ought to know better—"authorities" on English—declare that the objection to separating to from the infinitive verb that follows is based on Latin (or some other language) where infinitives are single words. If some purist has made such a comparison, I can find no record of it. Henry Alford (The Queen's English [1866]) thinks the to and the verb are "inseparable" but he does not mention foreign languages (p. 227). This idea is part of the folklore of linguistics.
+
+Putting words between to and an infinitive verb has been around a long time. Here's one from a letter written in 1458: "Oure Lord, to whom I biseche to ever have yow in his blissed proteccion and kepyng." ("Our Lord, to whom I beseech to ever have you in his blessed protection and keeping.")  The split comes in the insertion of ever between to and have.
+
+The first person known to me to have complained about this structure was a reviewer in 1834 in the New-England Magazine. He called it a "fault" and said that to was the "prefix" to the infinitive, and he disliked the usage "to fully understand."  This anonymous writer spawned an aversion to the usage among the purists.
+
+Grumbling about the split infinitive erupted in diplomacy in an effort to settle the Alabama Claims, an attempt by our government to recover damages from England for its complicity in building warships for the confederate states. The negotiations were important, involving statecraft and money. But the British government was willing to settle with conditions: "in the treaty it would under no circumstances endure the insertion of an adverb between the preposition to and the verb."
+
+For all the grousing and grumbling, there was no name for the offending structure. In 1897, someone came up with the term split infinitive, and the usage writers fell to explaining how the usage wasn't an error at all. A leading figure in the field, Henry Watson Fowler, said that those who were anxious about (or censorious of) the usage were "deaf to the normal rhythm of English sentences."
+
+In 1909 the humorist Ambrose Bierce got it right:  "Condemnation of the split infinitive is now pretty general, but it is only recently that anyone seems to have thought of it."
+
+It is, in fact, difficult to find a modern authority who unequivocally denounces the split infinitive. Among the most conservative of recent usage writers, Bryan Garner devotes a section of his analysis to "justified splits."  Most authorities counsel caution on the grounds that somebody somewhere might identify and despise the usage.
+
+Those who know a little about the split infinitive promptly offer an example from the opening voice-over from Star Trek:  to boldly go where no one has gone before. Sticking boldly between to and go was an act of marketing genius. The "error" was bound to provoke conversation around the water cooler and in the classroom, and it did.
+
+Here's what the latest usage book from American Heritage has to say:  "… it's hard to see what exactly is wrong with saying to boldly go. Its meaning is clear. It has a strong rhythm that reinforces the meaning. And rearranging the phrase only makes it less effective."
+
+Hating the split infinitive is, for many, a sign of erudition. Back in 1927, a famous professor at Northwestern was quoted in the national press as being tolerant of them. He received, he wrote, a "veritable flood" of letters. "Most of these letters were abusive."  All his examples of excellent sentences written by admirable writers did little to change minds.
+
+No amount of wise counsel is likely to change the conviction that the split infinitive is a bad thing to be rooted out and extirpated. Anxiety about the split infinitive may be hooey, but it's powerful and enduring hooey.
+
