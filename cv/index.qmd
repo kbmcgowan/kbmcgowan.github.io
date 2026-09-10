@@ -1,13 +1,26 @@
 ---
-title: "Curriculum Vitae"
+title: "Kevin B. McGowan"
+author: Kevin B. McGowan
+date: 09/10/2026
+lang: en
 format:
     html:
       css: simple.css
+      template: html.template
     typst:
+      output-file: McGowanCV.pdf
+      pdf-standard: ua-1
+      template-partials:
+        - typst-show.typ
+        - typst-template.typ
       mainfont: "Roboto"
       toc: false
       columns: 1
       number-sections: false
+format-links:
+    - html
+    - format: typst
+      text: McGowanCV.pdf
 listing: 
   - id: advising
     template:  advisees.ejs
@@ -37,8 +50,6 @@ bibliography: references.bib
 nocite: |
   @*
 ---
-
-# Kevin B. McGowan
 
 :::::: {#address layout-ncol="2"}
 <div>
