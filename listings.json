@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/cv/advisees.html",
+    "listing": "/cv/index.html",
     "items": [
       "/teaching/advisees/Takvoryan.html",
       "/teaching/advisees/Young.html",
@@ -11,7 +11,6 @@
       "/teaching/advisees/Laycock.html",
       "/teaching/advisees/Combs.html",
       "/teaching/advisees/Bell.html",
-      "/teaching/advisees/Gibson.html",
       "/teaching/advisees/Sheeley.html",
       "/teaching/advisees/Taylor.html",
       "/teaching/advisees/Barnett.html",
@@ -20,14 +19,15 @@
       "/teaching/advisees/Wright.html",
       "/teaching/advisees/Lee.html",
       "/teaching/advisees/Mackby.html",
-      "/teaching/advisees/Gnevsheva.html",
       "/teaching/advisees/Galindo.html",
       "/teaching/advisees/Howe.html",
       "/teaching/advisees/Hizazi.html",
       "/teaching/advisees/Ma.html",
       "/teaching/advisees/Mallah.html",
       "/teaching/advisees/Nwabueze.html",
-      "/teaching/advisees/Peckham.html"
+      "/teaching/advisees/Peckham.html",
+      "/teaching/advisees/Gibson.html",
+      "/teaching/advisees/Gnevsheva.html"
     ]
   },
   {
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "listing": "/cv/index.html",
+    "listing": "/cv/advisees.html",
     "items": [
       "/teaching/advisees/Takvoryan.html",
       "/teaching/advisees/Young.html",
@@ -71,6 +71,7 @@
       "/teaching/advisees/Laycock.html",
       "/teaching/advisees/Combs.html",
       "/teaching/advisees/Bell.html",
+      "/teaching/advisees/Gibson.html",
       "/teaching/advisees/Sheeley.html",
       "/teaching/advisees/Taylor.html",
       "/teaching/advisees/Barnett.html",
@@ -79,15 +80,14 @@
       "/teaching/advisees/Wright.html",
       "/teaching/advisees/Lee.html",
       "/teaching/advisees/Mackby.html",
+      "/teaching/advisees/Gnevsheva.html",
       "/teaching/advisees/Galindo.html",
       "/teaching/advisees/Howe.html",
       "/teaching/advisees/Hizazi.html",
       "/teaching/advisees/Ma.html",
       "/teaching/advisees/Mallah.html",
       "/teaching/advisees/Nwabueze.html",
-      "/teaching/advisees/Peckham.html",
-      "/teaching/advisees/Gibson.html",
-      "/teaching/advisees/Gnevsheva.html"
+      "/teaching/advisees/Peckham.html"
     ]
   },
   {
