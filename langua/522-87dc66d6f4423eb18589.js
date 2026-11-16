@@ -1,0 +1,1 @@
+(self.webpackChunklangua=self.webpackChunklangua||[]).push([[522],{8522:function(){}}]);
